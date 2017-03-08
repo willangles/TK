@@ -1,0 +1,157 @@
+@import 'base';
+@import 'colors';
+@import 'sizing';
+@import 'frontpage';
+@import 'elements/buttons';
+@import 'elements/header';
+@import 'elements/nav';  
+@import 'elements/footer';
+@import 'pages/product';
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700 !important;
+	letter-spacing: 0.5px;
+	font-family: @slab;
+}
+ 
+p {
+	color: @black;
+}
+
+.upcase { text-transform: uppercase; }
+.history-font { 
+	font-family: @pt;
+	opacity: 0.7;
+	font-style: italic;
+}
+
+#front-page-stacks {   
+	.row {
+		margin-bottom: 0px;
+	}
+	section { 
+	}
+	#fpSplash {
+		background: url('http://dev/wp-content/uploads/2017/02/header-img-e1487664988236.jpg') no-repeat center center; 
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+
+	    .row { min-height: 500px !important; }
+
+	    h2 {
+	    	color: @white;
+	    	margin-top:1.5em;
+	    	font-size: 3em;
+
+	    	@media screen and (max-width: 960px) {
+				& { margin-top: 0; }
+			}
+	    }
+	    p { color: @white; }   
+	    a.button {
+	    	display: block; 
+	    	max-width: 271px; 
+	    	min-width: 270px; 
+	    	line-height: 45px;
+	    	font-weight: 700;
+	    	font-size: 20px;
+	    }
+	}
+	#fpIconRow {
+		background: @yellow;
+		padding-top: @em/2;
+		
+		img, h3, p { text-align: center; }
+		img {
+			display: block;
+			margin: 0 auto;
+
+		}
+		h3 {
+			color: @white;
+			font-size: @em/1.2;
+			font-family: @slab; 
+			.upcase;
+			
+		}
+		p {
+			color: @white;
+			font-size: @em/1.7;
+		}
+	} 
+	#fpPromo {
+		background: @white;
+		background-image: url('http://dev/wp-content/uploads/2017/02/promobg.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 100%;
+
+
+		h2 { color: @red; font-size: 2.5em; }
+		p { font-weight: 400; font-size: 1.2em; }
+		
+	}
+	#fpHistory {
+		//padding:@em*@em;
+		background: url('http://dev/wp-content/uploads/2017/02/truck.jpg') no-repeat center center fixed; 
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    
+	    .row {
+	    	padding: 1em;
+	    	.col {
+	    		p { 
+			    	color: @white;
+			    	.history-font;
+			    	
+			    }
+			    div {
+			    	align-self:flex-end;
+			    	img {
+			    		opacity: 0.5;
+			    	}
+				}
+	    	}
+	    }
+
+	    
+	}
+	#fpFeatured {
+		//padding: @em/@em @em*@em;
+		h3 {
+			color: @white;
+			margin:0;
+			//font-size: @em*@em;
+			font-size: @em;
+			.upcase;
+		}
+		article {
+			margin: 0;
+			padding: @em/@em @em;
+			background-color: @yellow;
+
+		}
+		p {
+			font-size: @em/1.5;
+			margin: 10px @em;
+			color: @white;
+
+		}
+		div.col {
+			min-height: @fp-section-max-height;
+			padding:0;
+			.background-cover(inherit);
+		}
+		div.col {}
+		div.col:first-child {
+			h3 { color: @red; }
+			article { background: rgba(255,255,255,0.8); }
+		}
+	}
+} 
+

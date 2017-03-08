@@ -1,0 +1,74 @@
+@import '../colors';
+
+@nav-height: 45px;
+@nav-mobile: 100% !important;
+
+.nav-primary {
+	background: @red; 
+	margin: 0 auto;
+    height: 100%; 
+    .wrap {
+    	height: @nav-height;
+    	ul.genesis-nav-menu {
+    		height: @nav-height;
+    		margin: 0 auto;
+    		max-width: 768px;
+    		li { 
+    			height: @nav-height; 
+    			a {
+    				padding-top: 16px;
+    				text-transform: uppercase;
+    				font-size: 0.8em;
+    				font-family: Roboto, sans-serif;
+    				letter-spacing:0.02em;
+    				height: @nav-height;
+    				color: @white;
+                    text-decoration: none;
+
+                    span {
+                        color: @white;
+                        text-decoration: none;
+                    }
+
+    				&:hover {
+    					text-decoration: none;
+    					color: @yellow;
+                        background: rgba(255,255,255,0);
+    				}
+    			}
+                &.current-menu-item {
+                    color: @yellow;
+                    a {
+                        color: @yellow !important;
+                        span { color: @yellow !important; }
+                    }
+                }
+                &:hover { 
+                    background: rgba(255,255,255,0);
+                }
+                &:active {
+                    border: 0px solid transparent;
+                }
+    		}
+    	}
+    }
+}
+@media screen and ( max-width: 768px ) {
+    .nav-primary {
+        .wrap { 
+            height: @nav-mobile;
+            ul.genesis-nav-menu {
+                height: @nav-mobile;
+                li {
+                    height: @nav-mobile;
+                    a {
+                        height: @nav-mobile;
+                        span {
+                            height: @nav-mobile;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

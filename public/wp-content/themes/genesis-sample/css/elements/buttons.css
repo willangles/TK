@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+.gradient-black {
+  background: #000000;
+}
+.button {
+  display: block !important;
+  background: #dc2c00 !important;
+  color: #f7b827 !important;
+  font-family: Roboto Slab, sans-serif;
+  height: 45px !important;
+  padding: 0 1.125rem !important;
+}
+.button i {
+  font-size: 1.8em !important;
+}
+.price-box button {
+  width: 200px;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  padding: 0 0.875rem !important;
+}
+.price-box button.deposit {
+  background: #f7b827 !important;
+  color: #000000 !important;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+.gradient-black {
+  background: #000000;
+}
+.nav-primary {
+  background: #dc2c00;
+  margin: 0 auto;
+  height: 100%;
+}
+.nav-primary .wrap {
+  height: 45px;
+}
+.nav-primary .wrap ul.genesis-nav-menu {
+  height: 45px;
+  margin: 0 auto;
+  max-width: 768px;
+}
+.nav-primary .wrap ul.genesis-nav-menu li {
+  height: 45px;
+}
+.nav-primary .wrap ul.genesis-nav-menu li a {
+  padding-top: 16px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  height: 45px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-primary .wrap ul.genesis-nav-menu li a span {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-primary .wrap ul.genesis-nav-menu li a:hover {
+  text-decoration: none;
+  color: #f7b827;
+  background: rgba(255, 255, 255, 0);
+}
+.nav-primary .wrap ul.genesis-nav-menu li.current-menu-item {
+  color: #f7b827;
+}
+.nav-primary .wrap ul.genesis-nav-menu li.current-menu-item a {
+  color: #f7b827 !important;
+}
+.nav-primary .wrap ul.genesis-nav-menu li.current-menu-item a span {
+  color: #f7b827 !important;
+}
+.nav-primary .wrap ul.genesis-nav-menu li:hover {
+  background: rgba(255, 255, 255, 0);
+}
+.nav-primary .wrap ul.genesis-nav-menu li:active {
+  border: 0px solid transparent;
+}
+@media screen and (max-width: 768px) {
+  .nav-primary .wrap {
+    height: 100%;
+  }
+  .nav-primary .wrap ul.genesis-nav-menu {
+    height: 100%;
+  }
+  .nav-primary .wrap ul.genesis-nav-menu li {
+    height: 100%;
+  }
+  .nav-primary .wrap ul.genesis-nav-menu li a {
+    height: 100%;
+  }
+  .nav-primary .wrap ul.genesis-nav-menu li a span {
+    height: 100%;
+  }
+}

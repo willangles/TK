@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+}
+.site-inner {
+  max-width: 100%;
+  padding-top: 0px;
+}
+@media only screen and (min-width: 1201px) {
+  .max {
+    max-width: 1152px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .max {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .max {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .max {
+    max-width: 100%;
+  }
+}
+#front-page-stacks #fpSplash {
+  min-height: 500px;
+}
+@media only screen and (min-width: 1201px) {
+  #front-page-stacks #fpSplash .row {
+    max-width: 1152px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #front-page-stacks #fpSplash .row {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #front-page-stacks #fpSplash .row {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #front-page-stacks #fpSplash .row {
+    max-width: 100%;
+  }
+}
+#front-page-stacks #fpIconRow {
+  min-height: 250px;
+}
+@media only screen and (min-width: 1201px) {
+  #front-page-stacks #fpIconRow .row {
+    max-width: 1152px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #front-page-stacks #fpIconRow .row {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #front-page-stacks #fpIconRow .row {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #front-page-stacks #fpIconRow .row {
+    max-width: 100%;
+  }
+}
+#front-page-stacks #fpPromo,
+#front-page-stacks #fpPromo .col {
+  min-height: 500px;
+}
+@media only screen and (min-width: 1201px) {
+  #front-page-stacks #fpPromo .row,
+  #front-page-stacks #fpPromo .col .row {
+    max-width: 1152px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #front-page-stacks #fpPromo .row,
+  #front-page-stacks #fpPromo .col .row {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #front-page-stacks #fpPromo .row,
+  #front-page-stacks #fpPromo .col .row {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #front-page-stacks #fpPromo .row,
+  #front-page-stacks #fpPromo .col .row {
+    max-width: 100%;
+  }
+}
+#front-page-stacks #fpHistory,
+#front-page-stacks #fpHistory .col {
+  min-height: 650px;
+}
+@media only screen and (min-width: 1201px) {
+  #front-page-stacks #fpHistory .row,
+  #front-page-stacks #fpHistory .col .row {
+    max-width: 1152px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #front-page-stacks #fpHistory .row,
+  #front-page-stacks #fpHistory .col .row {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #front-page-stacks #fpHistory .row,
+  #front-page-stacks #fpHistory .col .row {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #front-page-stacks #fpHistory .row,
+  #front-page-stacks #fpHistory .col .row {
+    max-width: 100%;
+  }
+}
+#front-page-stacks #fpFeatured {
+  min-height: 500px;
+}
+@media only screen and (min-width: 1201px) {
+  #front-page-stacks #fpFeatured .row {
+    max-width: 1152px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #front-page-stacks #fpFeatured .row {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #front-page-stacks #fpFeatured .row {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #front-page-stacks #fpFeatured .row {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .responsive(1200px) .max {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .max {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .max {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .max {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .max {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  #front-page-stacks #fpHistory .col {
+    min-height: 100%;
+  }
+}
+.gradient-black {
+  background: #000000;
+}
+@keyframes zoom-anim {
+  
+}
+@-moz-keyframes zoom-anim {
+  
+}
+@-webkit-keyframes zoom-anim {
+  
+}
+@-o-keyframes zoom-anim {
+  
+}
+@-ms-keyframes zoom-anim {
+  
+}

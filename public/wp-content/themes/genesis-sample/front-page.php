@@ -3,24 +3,85 @@
  * This file adds the Front Page Template to any Genesis Child Theme.
  */
  
-add_action('genesis_entry_content', 'service_posts');
-function service_posts(){
-	 $loop = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => -1, 'category_name' => 'Services' ) );
-		while ( $loop->have_posts() ) : $loop->the_post();
-		$thumb_id = get_post_thumbnail_id();
-		$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'thumbnail-size', true);
-		$thumb_url = $thumb_url_array[0];
-		echo	'<div class="service-container">';
-		echo '<div class="service-img" style="background: url('. $thumb_url .'); background-size: cover;"></div>';
-		echo '<div class="service-content">';
-		echo '<h3 class="service-title">';
-		echo the_title();
-		echo '</h3>';
-		echo the_content();
-		echo '</div>';
-		echo '</div>';
-		endwhile; wp_reset_query();
-}
- 
- 
-genesis();
+remove_action( 'genesis_loop', 'genesis_do_loop' );
+add_action( 'genesis_loop', 'my_custom_loop' );
+function my_custom_loop () {
+?>
+ <div id="front-page-stacks">
+  	<section id="fpSplash">
+  		<div class="row valign-wrapper">
+  			<div class="valign">
+	  			<h2>Built like a tank</h2>
+	  			<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+	  			<a class="waves-effect waves-light btn button">See it in action<i class="material-icons right">play_arrow</i></a>
+  			</div>
+  		</div>
+  	</section>
+	<section id="fpIconRow">
+		<div class="row">
+			<div class="col l3 m6">
+				<img src="/wp-content/uploads/2017/02/measure.png">
+				<h3>Built to Last</h3>
+				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+			<div class="col l3 m6">
+				<img src="/wp-content/uploads/2017/02/hammer.png">
+				<h3>Craftsmanship</h3>
+				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+			<div class="col l3 m6">
+				<img src="/wp-content/uploads/2017/02/teamwork.png">
+				<h3>Strongest Warranty</h3>
+				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+			<div class="col l3 m6">
+				<img src="/wp-content/uploads/2017/02/time.png">
+				<h3>Tradition</h3>
+				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+		</div>
+	</section>
+	<section id="fpPromo">
+		<div class="row">
+			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
+				<img src="wp-content/uploads/2017/02/header-product-img.png" class="responsive-img valign" >
+			</div>
+			<div class="col m6 s12 valign-wrapper">
+				<div class="valign">
+					<h2>Solid-Welded 4 Post Head</h2>
+					<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="fpHistory">
+		<div class="row">
+			<div class="col s12 m6 valign-wrapper">
+				<p class="valign">Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+			<div class="col s12 m6 valign-wrapper">
+				<div class="valign"><img src="/wp-content/uploads/2017/02/history-img.png"></div>
+			</div>
+		</div>
+	</section>
+	<section id="fpFeatured">
+		<div class="row">
+			<div class="col s12 m6" style="background-image:url(/wp-content/uploads/2017/02/measure.jpg);">
+				<article>
+					<h3>Lorem Ipsum</h3>
+				</article>
+				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+			<div class="col s12 m6" style="background-image:url(/wp-content/uploads/2017/02/lumber.jpg);">
+				<article>
+					<h3>Lorem Ipsum</h3>
+				</article>
+				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+		</div>
+	</section>
+ </div> <!-- end main container -->
+<?php } ?>
+
+
+<?php genesis(); ?>

@@ -1,0 +1,226 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Short description.
+msgid "This plugin creates a new Genesis settings page that allows you to insert code (HTML, Shortcodes, and PHP), and attach it to any of the 50+ action hoo"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin creates a new Genesis settings page that allows you to insert code (HTML, Shortcodes, and PHP), and attach it to any of the 50+ action hooks throughout the Genesis Theme Framework, from StudioPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Instead of the sometimes tedious and unfamiliar process of creating functions in your theme files, this plugin gives you an attractive, easy to use interface for modifying your Genesis theme via the hook system. The plugin accepts HTML, Shortcodes, and PHP and gives you access to all 50+ hooks built into the Genesis theme, and a few built-in WordPress hooks as well."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the entire <code>genesis-simple-hooks</code> folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "DO NOT change the name of the <code>genesis-simple-hooks</code> folder"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Find a hook that you'd like to use (they're grouped together logically)"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Insert the code you'd like to execute on that hook"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Choose whether or not to execute Shortcodes and PHP on that hook"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Save the changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load textdomain"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add plugin header i18n"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Generate POT file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased requirement to Genesis 2.1.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Site title and description hooks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed outdated hook descriptions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Genesis 2.0 favicon unhook location fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated to use new entry hooks in Genesis 2.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unused boxes.php file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed yet another fatal error but for people using less than Genesis 1.8.0. It should now deactivate gracefully."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed an unnecessary version compare check that was causing some fatal errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased requirement to Genesis 1.8.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switched over to the Genesis 1.8 admin menu class to build admin menu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased requirement to Genesis 1.7.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed display issues in the admin screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new hooks to the defaults array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Whitespace, standards, and documentation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased requirement to Genesis 1.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with things not unhooking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased requirement to Genesis 1.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined index bug in functions.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reduce requirement to Genesis 1.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increase requirement to WordPress 3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bump to match Genesis version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Require Genesis 1.3.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new unhook options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with foreign language compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Require Genesis 1.2.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update hooks for Genesis 1.2.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add new hooks, remove deprecated hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix textarea bug with HTML entities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bump to pre-release 0.9 branch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial Release"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are Shortcodes?"
+msgstr ""
+
+#. Found in faq header.
+msgid "My PHP isn't working"
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin won't activate"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Check out the <a href=\"http://codex.wordpress.org/Shortcode_API\">Shortcodes API</a> for an explanation."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Make sure the checkbox that says \"Execute PHP on this hook\" is checked."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If so, be sure to wrap any PHP code in <code>&lt;?php ?&gt;</code> tags. That's how the system recognizes code that needs to be executed as PHP."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You must have Genesis or a Genesis child theme installed and activated on your site."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Code Snippets"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "The most common request from Genesis users is how to properly modify their footer, post-info, and post-meta text. Here are some code snippets that might prove helpful in doing this:"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<strong>Modifying the post-info</strong>"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<strong>Modifying the post-meta</strong>"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<strong>Modifying the Footer</strong>"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "<em>Note: You must have the <code>Execute PHP on this hook</code> option selected in order to use template tags</em>"
+msgstr ""
