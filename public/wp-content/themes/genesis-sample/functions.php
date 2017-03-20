@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700', array(), CHILD_THEME_VERSION );
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/icon?family=Material+Icons', array(), CHILD_THEME_VERSION ); 
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/icon?family=Material+Icons', array(), CHILD_THEME_VERSION );  
 }
 
 //* Add HTML5 markup structure
@@ -71,12 +71,12 @@ add_action( 'genesis_footer', 'sp_custom_footer' );
 function sp_custom_footer() {
 	?>
 
-    <div class="row">
-    	<div class="col l2 m4 s12">
-    		<img src="/wp-content/uploads/2017/02/footer-logo.png">
+    <div class="row top-footer">
+    	<div class="col l2 m4 s12 footer-logo top-footer">
+    		<img src="http://willangles.com/tk/wp-content/uploads/footer-logo.png">
     	</div>
-    	<div class="col l2 m4 s12 offset-l8">
-    		<h5>800-942-4406</h5>
+    	<div class="col l2 m4 s12 offset-l8 top-footer">
+    		<h5 style="line-height: 75px;">800-942-4406</h5>
     	</div>
     </div>
     <div class="row">
@@ -105,11 +105,15 @@ function sp_custom_footer() {
     		<h5>Contact</h5>
     	</div>
     </div>
-    <div class="row">
+    <div class="row site-credits">
     	<div class="col s12 m6">
     		<p>2016 TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
     	</div>
-    	<div class="col s12 m6 offset-m6"></div>
+    	<div class="col s12 m6 offset-m6 social-media-icons ">
+			<a href="#"><img src="http://willangles.com/tk/wp-content/uploads/1.png"></a>
+			<a href="#"><img src="http://willangles.com/tk/wp-content/uploads/2.png"></a>
+			<a href="#"><img src="http://willangles.com/tk/wp-content/uploads/3.png"></a>
+    	</div>
     </div>
 
 	<?php

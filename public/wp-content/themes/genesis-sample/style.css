@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 @import 'css/materialize.css';
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v21/2fcrYFNaTjcS6g4U3t-Y5StnKWgpfO2iSkLzTz-AABg.ttf) format('truetype');
-}
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-}
 /* # Genesis Sample Child Theme
 Theme Name: Genesis Sample Theme
 Theme URI: http://my.studiopress.com/themes/genesis/
@@ -1978,68 +1959,6 @@ header.site-header .wrap .title-area h1.site-title a {
     height: 100%;
   }
 }
-.site-footer {
-  padding: 0;
-  font-size: 12px;
-  background: #000000;
-}
-@media only screen and (min-width: 1201px) {
-  .site-footer .row {
-    max-width: 1152px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .site-footer .row {
-    max-width: 960px;
-  }
-}
-@media only screen and (max-width: 960px) {
-  .site-footer .row {
-    max-width: 768px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .site-footer .row {
-    max-width: 100%;
-  }
-}
-.site-footer .row .col.footer-logo {
-  border-bottom: 1px solid white;
-}
-.site-footer .row .col.footer-logo img {
-  float: left;
-  max-height: 45px;
-  margin-top: 35px;
-  margin-bottom: 10px;
-}
-.site-footer .row .col h5 {
-  color: #ffffff;
-  font-size: 14px;
-  font-family: 'PT Sans', sans-serif;
-  text-transform: uppercase;
-}
-.site-footer .row .col ul li {
-  color: #ffffff;
-  font-size: 12px;
-}
-.site-footer .row .col ul li a {
-  color: #ffffff;
-}
-.site-footer .row.site-credits p {
-  float: left;
-  color: #bdbdbd;
-  text-align: left;
-}
-.site-footer .row.site-credits p a {
-  color: #666;
-}
-.site-footer .row.site-credits .social-media-icons img {
-  float: right;
-  display: inline;
-  height: 20px;
-  width: 20px;
-  margin-left: 8px;
-}
 .tk-product .product-master-wrapper .product-main-wrapper .product-image-background {
   padding-top: 30px;
 }
@@ -2162,6 +2081,9 @@ h6 {
   letter-spacing: 0.5px;
   font-family: 'Roboto Slab', serif;
 }
+a:active {
+  outline: #ccc 0px solid !important;
+}
 p {
   color: #000000;
 }
@@ -2177,7 +2099,7 @@ p {
   margin-bottom: 0px;
 }
 #front-page-stacks #fpSplash {
-  background: url('http://dev/wp-content/uploads/2017/02/header-img-e1487664988236.jpg') no-repeat center center;
+  background: url('http://willangles.com/tk/wp-content/uploads/header-img-1-e1488998272992.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2201,9 +2123,10 @@ p {
 }
 #front-page-stacks #fpSplash a.button {
   display: block;
-  max-width: 250px;
+  max-width: 271px;
+  min-width: 270px;
   line-height: 45px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 20px;
 }
 #front-page-stacks #fpIconRow {
@@ -2231,7 +2154,7 @@ p {
 }
 #front-page-stacks #fpPromo {
   background: #ffffff;
-  background-image: url('http://dev/wp-content/uploads/2017/02/promobg.png');
+  background-image: url('http://willangles.com/tk/wp-content/uploads/promobg.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100%;
@@ -2245,7 +2168,7 @@ p {
   font-size: 1.2em;
 }
 #front-page-stacks #fpHistory {
-  background: url('http://dev/wp-content/uploads/2017/02/truck.jpg') no-repeat center center fixed;
+  background: url('http://willangles.com/tk/wp-content/uploads/truck.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2297,33 +2220,72 @@ p {
 #front-page-stacks #fpFeatured div.col:first-child article {
   background: rgba(255, 255, 255, 0.8);
 }
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Thin), url("fonts/roboto/Roboto-Thin.eot");
-  src: url("fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("fonts/roboto/Roboto-Thin.woff") format("woff"), url("fonts/roboto/Roboto-Thin.ttf") format("truetype");
-  font-weight: 200;
+.top-footer {
+  height: 75px;
 }
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Light), url("fonts/roboto/Roboto-Light.eot");
-  src: url("fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Light.woff2") format("woff2"), url("fonts/roboto/Roboto-Light.woff") format("woff"), url("fonts/roboto/Roboto-Light.ttf") format("truetype");
-  font-weight: 300;
+.top-footer h5 {
+  line-height: 75px;
 }
-@font-face {
-  font-family: "Roboto";
-  src: local(Roboto Regular), url("fonts/roboto/Roboto-Regular.eot");
-  src: url("fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("fonts/roboto/Roboto-Regular.woff") format("woff"), url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
+.site-footer {
+  padding: 0;
+  font-size: 12px;
+  background: #000000;
 }
-@font-face {
-  font-family: "Roboto";
-  src: url("fonts/roboto/Roboto-Medium.eot");
-  src: url("fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("fonts/roboto/Roboto-Medium.woff") format("woff"), url("fonts/roboto/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
+@media only screen and (min-width: 1201px) {
+  .site-footer .row {
+    max-width: 1152px;
+  }
 }
-@font-face {
-  font-family: "Roboto";
-  src: url("fonts/roboto/Roboto-Bold.eot");
-  src: url("fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("fonts/roboto/Roboto-Bold.woff") format("woff"), url("fonts/roboto/Roboto-Bold.ttf") format("truetype");
-  font-weight: 700;
+@media only screen and (max-width: 1200px) {
+  .site-footer .row {
+    max-width: 960px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .site-footer .row {
+    max-width: 768px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .site-footer .row {
+    max-width: 100%;
+  }
+}
+.site-footer .row .footer-logo {
+  border-bottom: 1px solid white;
+}
+.site-footer .row .footer-logo img {
+  float: left;
+  max-height: 45px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.site-footer .row .col h5 {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+}
+.site-footer .row .col ul li {
+  color: #ffffff;
+  font-size: 12px;
+}
+.site-footer .row .col ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.site-footer .row.site-credits p {
+  float: left;
+  color: #bdbdbd;
+  text-align: left;
+}
+.site-footer .row.site-credits p a {
+  color: #666;
+}
+.site-footer .row.site-credits .social-media-icons img {
+  float: right;
+  display: inline;
+  height: 20px;
+  width: 20px;
+  margin-left: 8px;
 }

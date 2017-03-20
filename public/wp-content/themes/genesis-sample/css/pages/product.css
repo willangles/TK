@@ -56,14 +56,15 @@
   text-align: center;
   padding: 0.25em 0 0.75em;
 }
-.tk-product .product-master-wrapper .product-info-wrapper ul.product-info-nav li {
+.tk-product .product-master-wrapper .product-info-wrapper ul.product-info-nav li.info-panel {
   display: inline;
   margin-left: 8px;
   font-size: 14px;
   text-transform: uppercase;
 }
-.tk-product .product-master-wrapper .product-info-wrapper ul.product-info-nav li a {
-  color: white;
+.tk-product .product-master-wrapper .product-info-wrapper ul.product-info-nav li.info-panel a {
+  color: #ffffff;
+  text-decoration: none;
   padding: 0.25em 0.75em;
 }
 .tk-product .product-master-wrapper .product-info-wrapper .row .col .product-video-wrap {

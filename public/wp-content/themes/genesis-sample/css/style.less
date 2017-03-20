@@ -5,16 +5,18 @@
 @import 'elements/buttons';
 @import 'elements/header';
 @import 'elements/nav';  
-@import 'elements/footer';
 @import 'pages/product';
 
+@top-footer-height: 75px;
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700 !important;
 	letter-spacing: 0.5px;
 	font-family: @slab;
 }
- 
+a:active {
+	outline: #ccc 0px solid !important;
+}
 p {
 	color: @black;
 }
@@ -33,7 +35,7 @@ p {
 	section { 
 	}
 	#fpSplash {
-		background: url('http://dev/wp-content/uploads/2017/02/header-img-e1487664988236.jpg') no-repeat center center; 
+		background: url('http://willangles.com/tk/wp-content/uploads/header-img-1-e1488998272992.jpg') no-repeat center center; 
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -84,7 +86,7 @@ p {
 	} 
 	#fpPromo {
 		background: @white;
-		background-image: url('http://dev/wp-content/uploads/2017/02/promobg.png');
+		background-image: url('http://willangles.com/tk/wp-content/uploads/promobg.png');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 100%;
@@ -96,7 +98,7 @@ p {
 	}
 	#fpHistory {
 		//padding:@em*@em;
-		background: url('http://dev/wp-content/uploads/2017/02/truck.jpg') no-repeat center center fixed; 
+		background: url('http://willangles.com/tk/wp-content/uploads/truck.jpg') no-repeat center center fixed; 
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -154,4 +156,66 @@ p {
 		}
 	}
 } 
+
+.top-footer {
+	height: @top-footer-height;
+
+	h5 {
+		line-height: @top-footer-height;
+	}
+}
+
+.site-footer { 
+	padding: 0;
+	font-size: 12px; 
+	.gradient-black;
+		.row {
+			.max;
+
+			.footer-logo {
+				border-bottom: 1px solid white;
+				img {
+					float: left;
+					max-height: 45px;
+					margin-top: 35px;
+					margin-bottom: 10px;
+				}
+			}
+			.col {
+				h5 {
+					color: @white;
+					font-size: 14px;
+					font-family: 'PT Sans', sans-serif;
+					text-transform: uppercase;
+				}
+				ul {
+					li {
+						color: @white;
+						font-size: 12px;
+						a {
+							color: @white; 
+							text-decoration: none;  
+						} 
+					}
+				}
+			}
+		}
+	.row.site-credits { 
+		p { 
+			float: left; 
+			color: @lightgray;
+			text-align: left;
+			a { color: #666; }
+		}
+		.social-media-icons {
+			img { 
+				float: right; 
+				display: inline;
+				height: 20px;
+				width: 20px;
+				margin-left: 8px;
+			}
+		}
+	} 
+}
 
