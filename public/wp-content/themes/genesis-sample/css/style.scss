@@ -7,23 +7,23 @@
 @import 'elements/nav';  
 @import 'pages/product';
 
-@top-footer-height: 75px;
+$top-footer-height: 75px; 
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700 !important;
-	letter-spacing: 0.5px;
-	font-family: @slab;
+	font-weight: 700 !important; 
+	letter-spacing: 0.5px; 
+	font-family: $slab;
 }
 a:active {
 	outline: #ccc 0px solid !important;
 }
-p {
-	color: @black;
+p { 
+	color: $black;
 }
 
-.upcase { text-transform: uppercase; }
-.history-font { 
-	font-family: @pt;
+@mixin upcase { text-transform: uppercase; }
+@mixin history-font { 
+	font-family: $pt;
 	opacity: 0.7;
 	font-style: italic;
 }
@@ -44,7 +44,7 @@ p {
 	    .row { min-height: 500px !important; }
 
 	    h2 {
-	    	color: @white;
+	    	color: $white;
 	    	margin-top:1.5em;
 	    	font-size: 3em;
 
@@ -52,7 +52,7 @@ p {
 				& { margin-top: 0; }
 			}
 	    }
-	    p { color: @white; }   
+	    p { color: $white; }   
 	    a.button {
 	    	display: block; 
 	    	max-width: 271px; 
@@ -63,8 +63,8 @@ p {
 	    }
 	}
 	#fpIconRow {
-		background: @yellow;
-		padding-top: @em/2;
+		background: $yellow;
+		padding-top: $em/2;
 		
 		img, h3, p { text-align: center; }
 		img {
@@ -73,31 +73,31 @@ p {
 
 		}
 		h3 {
-			color: @white;
-			font-size: @em/1.2;
-			font-family: @slab; 
-			.upcase;
+			color: $white;
+			font-size: $em/1.2;
+			font-family: $slab; 
+			@include upcase;
 			
 		}
 		p {
-			color: @white;
-			font-size: @em/1.7;
+			color: $white;
+			font-size: $em/1.7;
 		}
 	} 
 	#fpPromo {
-		background: @white;
+		background: $white;
 		background-image: url('http://willangles.com/tk/wp-content/uploads/promobg.png');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 100%;
 
 
-		h2 { color: @red; font-size: 2.5em; }
+		h2 { color: $red; font-size: 2.5em; }
 		p { font-weight: 400; font-size: 1.2em; }
 		
 	}
 	#fpHistory {
-		//padding:@em*@em;
+		//padding:$em*$em;
 		background: url('http://willangles.com/tk/wp-content/uploads/truck.jpg') no-repeat center center fixed; 
 		-webkit-background-size: cover;
 	    -moz-background-size: cover;
@@ -108,8 +108,8 @@ p {
 	    	padding: 1em;
 	    	.col {
 	    		p { 
-			    	color: @white;
-			    	.history-font;
+			    	color: $white;
+			    	@include history-font;
 			    	
 			    }
 			    div {
@@ -124,53 +124,53 @@ p {
 	    
 	}
 	#fpFeatured {
-		//padding: @em/@em @em*@em;
+		//padding: $em/$em $em*$em;
 		h3 {
-			color: @white;
+			color: $white;
 			margin:0;
-			//font-size: @em*@em;
-			font-size: @em;
-			.upcase;
+			//font-size: $em*$em;
+			font-size: $em;
+			@include upcase;
 		}
 		article {
 			margin: 0;
-			padding: @em/@em @em;
-			background-color: @yellow;
+			padding: $em/$em $em;
+			background-color: $yellow;
 
 		}
 		p {
-			font-size: @em/1.5;
-			margin: 10px @em;
-			color: @white;
+			font-size: $em/1.5;
+			margin: 10px $em;
+			color: $white;
 
 		}
 		div.col {
-			min-height: @fp-section-max-height;
+			min-height: $fp-section-max-height;
 			padding:0;
-			.background-cover(inherit);
+			@include background-cover(inherit);
 		}
 		div.col {}
 		div.col:first-child {
-			h3 { color: @red; }
+			h3 { color: $red; }
 			article { background: rgba(255,255,255,0.8); }
 		}
 	}
 } 
 
 .top-footer {
-	height: @top-footer-height;
+	height: $top-footer-height;
 
 	h5 {
-		line-height: @top-footer-height;
+		line-height: $top-footer-height;
 	}
 }
 
 .site-footer { 
 	padding: 0;
 	font-size: 12px; 
-	.gradient-black;
+	@include gradient-black;
 		.row {
-			.max;
+			@include max;
 
 			.footer-logo {
 				border-bottom: 1px solid white;
@@ -183,17 +183,17 @@ p {
 			}
 			.col {
 				h5 {
-					color: @white;
+					color: $white;
 					font-size: 14px;
 					font-family: 'PT Sans', sans-serif;
 					text-transform: uppercase;
 				}
 				ul {
 					li {
-						color: @white;
+						color: $white;
 						font-size: 12px;
 						a {
-							color: @white; 
+							color: $white; 
 							text-decoration: none;  
 						} 
 					}
@@ -203,7 +203,7 @@ p {
 	.row.site-credits { 
 		p { 
 			float: left; 
-			color: @lightgray;
+			color: $lightgray;
 			text-align: left;
 			a { color: #666; }
 		}

@@ -1,24 +1,19 @@
-@yellow: #f7b827;
-@red: #dc2c00;
-@lightgray: #bdbdbd;
-@black: #000000;
-@white: #FFFFFF;
-@em: 1.2em;
-@pt: PT Serif, serif;
-@pts: PT Sans, sans-serif;
-@slab: 'Roboto Slab', serif;
+$yellow: #f7b827;
+$red: #dc2c00;
+$lightgray: #bdbdbd;
+$black: #000000;
+$white: #FFFFFF;
+$em: 1.2em;
+$pt: PT Serif, serif;
+$pts: PT Sans, sans-serif;
+$slab: 'Roboto Slab', serif;
 
 .tk-product {
 	.hidden-mobile { }
 	.product-master-wrapper {
 		.product-main-wrapper {
 			.product-image-background {
-				// min-height: 450px;
-				// @media screen and (min-width: 1201px) { min-height: 650px; }
-				// @media screen and (max-width: 1200px) { min-height: 450px; }
-				// @media screen and (max-width: 768px) {
-
-				// }
+				
 				padding-top:30px;	
 			}
 			.row {
@@ -30,7 +25,7 @@
 					
 					h3 {
 						text-align: center;
-						color: @red;
+						color: $red;
 					}
 					div.product-content-box {
 						background: rgba(155,155,155,0.5);
@@ -48,10 +43,10 @@
 					}
 					.price-box {
 						margin:0;
-						padding: @em;
+						padding: $em;
 
 						.col {
-							margin-bottom: @em/2;
+							margin-bottom: $em/2;
 
 							h4 {
 								display: inline;
@@ -76,8 +71,8 @@
 				}
 				
 				
-				h4.tk-product-price { color: @yellow; }
-				h4.tk-product-deposit { color: @black; }
+				h4.tk-product-price { color: $yellow; }
+				h4.tk-product-deposit { color: $black; }
 			}
 			.featured-extra-images {
 				text-align: center;
@@ -87,7 +82,7 @@
 		.product-info-wrapper {
 			ul.product-info-nav {
 				display: block;
-				background: @red;
+				background: $red;
 				text-align: center;
 				padding: 0.25em 0 0.75em;
 
@@ -97,7 +92,7 @@
 					font-size: 14px;
 					text-transform: uppercase;
 					a {
-						color: @white; 
+						color: $white; 
 						text-decoration: none;
 						padding: 0.25em 0.75em;
 					}
@@ -107,7 +102,7 @@
 			.row {
 				.col {
 					.product-video-wrap {
-						padding: @em*1.1 @em;
+						padding: $em*1.1 $em;
 					}
 					.info-panel-to-show {
 						display: none;
@@ -118,10 +113,10 @@
 							
 							strong {
 								float: left;
-								font-family: @slab;
+								font-family: $slab;
 								font-weight: 900;
 							}
-							span {
+							span { 
 								float: right; 
 							}
 						}
@@ -158,5 +153,5 @@
 	float:none !important;
 	font-weight: 900;
 	font-size: 1.5em;
-	color: @red !important;
+	color: $red !important;
 }

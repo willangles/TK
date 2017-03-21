@@ -1,8 +1,8 @@
-@em: 1.2em;
-@fp-section-max-height: 400px;
+$em: 1.2em;
+$fp-section-max-height: 400px;
 
-.section-sizing(@h){ 
-	min-height: @h;
+@mixin section-sizing($h){  
+	min-height: $h; 
 }
 
 .masthead {
@@ -20,57 +20,59 @@
 	}
 }
 
-.background-cover(@f) {
-	background: no-repeat center center @f; 
+@mixin background-cover($f) {
+	background: no-repeat center center $f; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
 }
 
-.responsive(@maxWidth; @rules) {
-    @media only screen and (max-width: @maxWidth) {
-        @rules();
+@mixin responsive($maxWidth, $rules) {
+    @media only screen and (max-width: $maxWidth) {
+        max-width: $maxWidth;
+        min-width: $rules;
     }
 }
-.responsivemin(@maxWidth; @rules) {
-    @media only screen and (min-width: @maxWidth) {
-        @rules();
+@mixin responsivemin($maxWidth, $rules) {
+    @media only screen and (min-width: $maxWidth) {
+         max-width: $maxWidth;
+        min-width: $rules;
     }
 }
-.max {
-	.responsivemin(1201px, {max-width: 1152px;});
-	.responsive(1200px, {max-width: 960px;});
-	.responsive(960px, {max-width: 768px;});
-	.responsive(768px, {max-width: 100%; });
+@mixin max {
+	@include responsivemin(1201px, 1152px);
+	@include responsive(1200px, 960px);
+	@include responsive(960px, 768px);
+	@include responsive(768px, 100%);
 }
 
 #front-page-stacks {
 	#fpSplash {
-		.row { .max; }
-		.section-sizing(500px); 
+		.row { @include max; }
+		@include section-sizing(500px); 
 	}
 	#fpIconRow { 
-		.row { .max; }
-		.section-sizing(250px); 
+		.row { @include max; }
+		@include section-sizing(250px); 
 	}
 	#fpPromo, #fpPromo .col { 
-		.row { .max; }
-		.section-sizing(500px); 
+		.row { @include max; }
+		@include section-sizing(500px); 
 	}
 	#fpHistory, #fpHistory .col { 
-		.row { .max; }
-		.section-sizing(650px); 
+		.row { @include max; }
+		@include section-sizing(650px); 
 	}
 	#fpFeatured { 
-		.row { .max; }
-		.section-sizing(500px); 
+		.row { @include max; }
+		@include section-sizing(500px); 
 	}
 
 }
 
 @media screen and (min-width: 1440px ) {
-	.responsive(1200px)
+	@include responsive(1200px, 1140);
 	.max {
 		max-width: 1200px;
 	}

@@ -1,7 +1,7 @@
 @import '../colors';
 
 header.site-header {
-	background: @red;
+	background: $red;
 	text-align: center;
 	min-height: 120px;
 	.wrap {
