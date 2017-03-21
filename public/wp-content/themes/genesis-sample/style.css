@@ -3811,11 +3811,6 @@ p {
     width: 20px;
     margin-left: 8px; }
 
-.wc-custom-wrapper .wc-price-box:after, .wc-custom-wrapper .wc-thumbnail-wrapper:after {
-  content: "";
-  display: table;
-  clear: both; }
-
 .wc-custom-wrapper {
   margin: 0 auto;
   max-width: 1200px; }
@@ -3908,5 +3903,10 @@ p {
       text-align: center;
       font-size: 2rem;
       line-height: 2.5rem; }
+
+.wc-custom-wrapper .wc-price-box:after, .wc-custom-wrapper .wc-thumbnail-wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 /*# sourceMappingURL=style.css.map */
