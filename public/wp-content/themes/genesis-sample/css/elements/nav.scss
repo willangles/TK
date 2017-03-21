@@ -4,7 +4,7 @@
 $nav-height: 45px;
 $nav-mobile: 100% !important;
 
-$nav-black: black;
+$nav-black: rgba(0,0,0,0.8);
 $nav-black2: rgba(0,0,0,.5);
 $sub-nav-height: 200px;
 
@@ -57,25 +57,34 @@ $sub-nav-height: 200px;
                 ul.sub-menu {
                     background: $nav-black !important;
                     width: 100%;
-                    margin: 0 auto;
+                    margin: -2px auto 0 auto;
                     // position:absolute;
                     left:0; right:0;
                     height: $sub-nav-height;
                     text-align: center;
                     li.menu-item {
-                        background: $nav-black;
+                        background: transparent;
                         height: $sub-nav-height;
+                        overflow: hidden;
                         text-align: center;
+                        margin:0;
                         float:none;
                         border: 0px solid transparent;
                         a {
                             color: white;
+                            margin:0;
                             border: 0px solid transparent;
-                            background: $nav-black;
+                            background: transparent;
                             height: $sub-nav-height;
 
-                            p {
-                                color: $yellow;
+                            p { 
+                                color: $yellow; 
+                                font-weight: bold;
+                            }
+                            span { 
+                                color: white;
+                                font-size:2em;
+                                font-weight: 900;
                             }
                         }
 

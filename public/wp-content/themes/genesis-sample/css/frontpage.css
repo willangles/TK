@@ -1,72 +1,115 @@
-/*
-Error: Invalid CSS after "	$media ": expected ":", was "screen and (max..."
-        on line 18 of /Users/will/work/TimberKing/scotch-box/public/wp-content/themes/genesis-sample/css/sizing.scss
-        from line 1 of /Users/will/work/TimberKing/scotch-box/public/wp-content/themes/genesis-sample/css/frontpage.scss
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999; }
 
-13: 
-14: .site-inner {
-15: 	max-width: 100%;
-16: 	//padding-top: 130px; 
-17: 	padding-top:0px;
-18: 	$media screen and (max-width: 800px){
-19: 		//padding-top:230px;
-20: 	}
-21: }
-22: 
-23: .background-cover($f) {
+.site-inner {
+  max-width: 100%;
+  padding-top: 0px; }
+  @media screen and (max-width: 800px) {
+    .site-inner {
+      padding: 0; }
+      .site-inner #front-page-stacks section {
+        padding: 0em 1em; } }
 
-Backtrace:
-/Users/will/work/TimberKing/scotch-box/public/wp-content/themes/genesis-sample/css/sizing.scss:18
-/Users/will/work/TimberKing/scotch-box/public/wp-content/themes/genesis-sample/css/frontpage.scss:1
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:605:in `variable'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	$media \": expected \":\", was \"screen and (max...\"\A         on line 18 of /Users/will/work/TimberKing/scotch-box/public/wp-content/themes/genesis-sample/css/sizing.scss\A         from line 1 of /Users/will/work/TimberKing/scotch-box/public/wp-content/themes/genesis-sample/css/frontpage.scss\A \A 13: \A 14: .site-inner {\A 15: 	max-width: 100%;\A 16: 	//padding-top: 130px; \A 17: 	padding-top:0px;\A 18: 	$media screen and (max-width: 800px){\A 19: 		//padding-top:230px;\A 20: 	}\A 21: }\A 22: \A 23: .background-cover($f) {"; }
+#front-page-stacks #fpSplash {
+  min-height: 500px; }
+  @media only screen and (min-width: 1201px) {
+    #front-page-stacks #fpSplash .row {
+      max-width: 1152px; } }
+  @media only screen and (max-width: 1200px) {
+    #front-page-stacks #fpSplash .row {
+      max-width: 960px; } }
+  @media only screen and (max-width: 960px) {
+    #front-page-stacks #fpSplash .row {
+      max-width: 768px; } }
+  @media only screen and (max-width: 768px) {
+    #front-page-stacks #fpSplash .row {
+      max-width: 100%; } }
+#front-page-stacks #fpIconRow {
+  min-height: 250px; }
+  @media only screen and (min-width: 1201px) {
+    #front-page-stacks #fpIconRow .row {
+      max-width: 1152px; } }
+  @media only screen and (max-width: 1200px) {
+    #front-page-stacks #fpIconRow .row {
+      max-width: 960px; } }
+  @media only screen and (max-width: 960px) {
+    #front-page-stacks #fpIconRow .row {
+      max-width: 768px; } }
+  @media only screen and (max-width: 768px) {
+    #front-page-stacks #fpIconRow .row {
+      max-width: 100%; } }
+#front-page-stacks #fpPromo, #front-page-stacks #fpPromo .col {
+  min-height: 500px; }
+  @media only screen and (min-width: 1201px) {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
+      max-width: 1152px; } }
+  @media only screen and (max-width: 1200px) {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
+      max-width: 960px; } }
+  @media only screen and (max-width: 960px) {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
+      max-width: 768px; } }
+  @media only screen and (max-width: 768px) {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
+      max-width: 100%; } }
+#front-page-stacks #fpHistory, #front-page-stacks #fpHistory .col {
+  min-height: 650px; }
+  @media only screen and (min-width: 1201px) {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
+      max-width: 1152px; } }
+  @media only screen and (max-width: 1200px) {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
+      max-width: 960px; } }
+  @media only screen and (max-width: 960px) {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
+      max-width: 768px; } }
+  @media only screen and (max-width: 768px) {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
+      max-width: 100%; } }
+#front-page-stacks #fpFeatured {
+  min-height: 500px; }
+  @media only screen and (min-width: 1201px) {
+    #front-page-stacks #fpFeatured .row {
+      max-width: 1152px; } }
+  @media only screen and (max-width: 1200px) {
+    #front-page-stacks #fpFeatured .row {
+      max-width: 960px; } }
+  @media only screen and (max-width: 960px) {
+    #front-page-stacks #fpFeatured .row {
+      max-width: 768px; } }
+  @media only screen and (max-width: 768px) {
+    #front-page-stacks #fpFeatured .row {
+      max-width: 100%; } }
+
+@media only screen and (min-width: 1440px) and (max-width: 1200px) {
+  max-width: 1140; }
+@media screen and (min-width: 1440px) {
+  .max {
+    max-width: 1200px; } }
+@media screen and (max-width: 1439px) {
+  .max {
+    max-width: 1024px; } }
+@media screen and (max-width: 1200px) {
+  .max {
+    max-width: 960px; } }
+@media screen and (max-width: 960px) {
+  .max {
+    max-width: 768px; } }
+@media screen and (max-width: 768px) {
+  .max {
+    max-width: 90%;
+    margin: 0 auto; } }
+@media screen and (max-width: 800px) {
+  #front-page-stacks #fpHistory .col {
+    min-height: 100%; } }
+@-moz-keyframes zoom-anim {}
+@-webkit-keyframes zoom-anim {}
+@-o-keyframes zoom-anim {}
+@-ms-keyframes zoom-anim {}
+
+/*# sourceMappingURL=frontpage.css.map */

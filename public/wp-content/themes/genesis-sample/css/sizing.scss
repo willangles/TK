@@ -16,7 +16,12 @@ $fp-section-max-height: 400px;
 	//padding-top: 130px; 
 	padding-top:0px;
 	@media screen and (max-width: 800px){
-		//padding-top:230px;
+		padding:0;
+		#front-page-stacks {
+			section {
+				padding: 0em 1em;
+			}
+		}
 	}
 }
 
@@ -30,14 +35,14 @@ $fp-section-max-height: 400px;
 
 @mixin responsive($maxWidth, $rules) {
     @media only screen and (max-width: $maxWidth) {
-        max-width: $maxWidth;
-        min-width: $rules;
+        // max-width: $maxWidth;
+        max-width: $rules;
     }
 }
 @mixin responsivemin($maxWidth, $rules) {
     @media only screen and (min-width: $maxWidth) {
-         max-width: $maxWidth;
-        min-width: $rules;
+         // max-width: $maxWidth;
+        max-width: $rules;
     }
 }
 @mixin max {

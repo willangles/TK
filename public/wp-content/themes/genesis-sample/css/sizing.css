@@ -8,101 +8,85 @@
 .site-inner {
   max-width: 100%;
   padding-top: 0px; }
+  @media screen and (max-width: 800px) {
+    .site-inner {
+      padding: 0; }
+      .site-inner #front-page-stacks section {
+        padding: 0em 1em; } }
 
 #front-page-stacks #fpSplash {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
     #front-page-stacks #fpSplash .row {
-      max-width: 1201px;
-      min-width: 1152px; } }
+      max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
     #front-page-stacks #fpSplash .row {
-      max-width: 1200px;
-      min-width: 960px; } }
+      max-width: 960px; } }
   @media only screen and (max-width: 960px) {
     #front-page-stacks #fpSplash .row {
-      max-width: 960px;
-      min-width: 768px; } }
+      max-width: 768px; } }
   @media only screen and (max-width: 768px) {
     #front-page-stacks #fpSplash .row {
-      max-width: 768px;
-      min-width: 100%; } }
+      max-width: 100%; } }
 #front-page-stacks #fpIconRow {
   min-height: 250px; }
   @media only screen and (min-width: 1201px) {
     #front-page-stacks #fpIconRow .row {
-      max-width: 1201px;
-      min-width: 1152px; } }
+      max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
     #front-page-stacks #fpIconRow .row {
-      max-width: 1200px;
-      min-width: 960px; } }
+      max-width: 960px; } }
   @media only screen and (max-width: 960px) {
     #front-page-stacks #fpIconRow .row {
-      max-width: 960px;
-      min-width: 768px; } }
+      max-width: 768px; } }
   @media only screen and (max-width: 768px) {
     #front-page-stacks #fpIconRow .row {
-      max-width: 768px;
-      min-width: 100%; } }
+      max-width: 100%; } }
 #front-page-stacks #fpPromo, #front-page-stacks #fpPromo .col {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
     #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
-      max-width: 1201px;
-      min-width: 1152px; } }
+      max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
     #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
-      max-width: 1200px;
-      min-width: 960px; } }
+      max-width: 960px; } }
   @media only screen and (max-width: 960px) {
     #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
-      max-width: 960px;
-      min-width: 768px; } }
+      max-width: 768px; } }
   @media only screen and (max-width: 768px) {
     #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .col .row {
-      max-width: 768px;
-      min-width: 100%; } }
+      max-width: 100%; } }
 #front-page-stacks #fpHistory, #front-page-stacks #fpHistory .col {
   min-height: 650px; }
   @media only screen and (min-width: 1201px) {
     #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
-      max-width: 1201px;
-      min-width: 1152px; } }
+      max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
     #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
-      max-width: 1200px;
-      min-width: 960px; } }
+      max-width: 960px; } }
   @media only screen and (max-width: 960px) {
     #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
-      max-width: 960px;
-      min-width: 768px; } }
+      max-width: 768px; } }
   @media only screen and (max-width: 768px) {
     #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .col .row {
-      max-width: 768px;
-      min-width: 100%; } }
+      max-width: 100%; } }
 #front-page-stacks #fpFeatured {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
     #front-page-stacks #fpFeatured .row {
-      max-width: 1201px;
-      min-width: 1152px; } }
+      max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
     #front-page-stacks #fpFeatured .row {
-      max-width: 1200px;
-      min-width: 960px; } }
+      max-width: 960px; } }
   @media only screen and (max-width: 960px) {
     #front-page-stacks #fpFeatured .row {
-      max-width: 960px;
-      min-width: 768px; } }
+      max-width: 768px; } }
   @media only screen and (max-width: 768px) {
     #front-page-stacks #fpFeatured .row {
-      max-width: 768px;
-      min-width: 100%; } }
+      max-width: 100%; } }
 
 @media only screen and (min-width: 1440px) and (max-width: 1200px) {
-  max-width: 1200px;
-  min-width: 1140; }
+  max-width: 1140; }
 @media screen and (min-width: 1440px) {
   .max {
     max-width: 1200px; } }

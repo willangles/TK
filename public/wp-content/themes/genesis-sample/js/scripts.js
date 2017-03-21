@@ -36,3 +36,8 @@ jQuery(document).ready(function(){
 		jQuery('icon-trigger').addClass('hidden');
 	});
 });
+
+jQuery(document).ready(function(){
+	jQuery('.materialboxed').materialbox();
+	jQuery('.modal').modal();
+});

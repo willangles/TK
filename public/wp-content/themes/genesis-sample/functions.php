@@ -91,12 +91,20 @@ function sp_custom_footer() {
     	<div class="col l2 m2 s6">
     		<h5>Portable Saw Mills</h5>
     		<ul>
-    			<li><a href="#">2500</a></li>
-    			<li><a href="#">2200</a></li>
-    			<li><a href="#">2000</a></li>
-    			<li><a href="#">1600</a></li>
-    			<li><a href="#">1400</a></li>
-    			<li><a href="#">1220</a></li>
+                <div class="row">
+                    <div class="col l4 m6">
+                        <li><a href="#">2500</a></li>
+                        <li><a href="#">2200</a></li>
+                    </div>
+                    <div class="col l4 m6">
+                        <li><a href="#">2000</a></li>
+                        <li><a href="#">1600</a></li>
+                    </div>
+                    <div class="col l4 m6">
+                        <li><a href="#">1400</a></li>
+                        <li><a href="#">1220</a></li>
+                    </div>
+                </div>
     		</ul>
     	</div>
     	<div class="col l2 m2 s6">
@@ -114,12 +122,12 @@ function sp_custom_footer() {
     </div>
     <div class="row site-credits">
     	<div class="col s12 m6">
-    		<p>2016 TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
+    		<p>2017 TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
-			<a href="#"><img src="http://willangles.com/tk/wp-content/uploads/1.png"></a>
-			<a href="#"><img src="http://willangles.com/tk/wp-content/uploads/2.png"></a>
-			<a href="#"><img src="http://willangles.com/tk/wp-content/uploads/3.png"></a>
+			<a href="#" target="_blank"><img src="http://willangles.com/tk/wp-content/uploads/1.png"></a>
+			<a href="#" target="_blank"><img src="http://willangles.com/tk/wp-content/uploads/2.png"></a>
+			<a href="#" target="_blank"><img src="http://willangles.com/tk/wp-content/uploads/3.png"></a>
     	</div>
     </div>
 
