@@ -3999,6 +3999,8 @@ p {
       text-align: center;
       font-size: 2rem;
       line-height: 2.5rem; }
+  .wc-custom-wrapper .wc-product-video {
+    margin: 1rem 0; }
 
 .wc-custom-wrapper .wc-price-box:after, .wc-custom-wrapper .wc-thumbnail-wrapper:after {
   content: "";
