@@ -4,4 +4,35 @@
 @import 'css/materialize.css';
 @import 'css/style';
 
- 
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+ .wc-custom-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+ }
+ .wc-product-img {
+
+ }
+ .wc-thumbnail-wrapper {
+    @extend %clearfix;
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+ }
+ .wc-product-title {
+    text-align: center;
+    color: #dc2c00;
+ }
+ .wc-product-description {
+    background: rgba(155, 155, 155, 0.5);
+    border: 2px solid #333;
+    padding: 1.5em 1.25em;
+    font-size: 16px;
+ }
+
