@@ -4,73 +4,42 @@
 			<div class="col s12 m12 l8">
 				<div id="overview" class="info-panel-to-show info-panel-show">
 					<h2>Overview</h2>
-					<p class="overview-item"><strong>Cutting Head</strong><span>4-Post</span></p>
-					<p class="overview-item"><strong>Cutting Deck</strong><span> Twin-Beam, Solid Welded</span></p>
-					<p class="overview-item"><strong>Standard Motor</strong><span> 23.5 HP Kohler V-Twin</span></p>
-					<p class="overview-item"><strong>Machine Weight</strong><span> 2,800 lbs.</span></p>
-					<p class="overview-item"><strong>Max Log Diameter</strong><span> 34"</span></p>
-					<p class="overview-item"><strong>Max Cut Length</strong><span> 20'</span></p>
-					<p class="overview-item"><strong>Max Width of Cut</strong><span> 29"</span></p>
-					<p class="overview-item"><strong>Clearance Above Blade</strong><span> 16"</span></p>
-					<p class="overview-item"><strong>Machine Width</strong><span> 6' 10"</span></p>
-					<p class="overview-item"><strong>Machine Length</strong><span> 29'</span></p>
-					<p class="overview-item"><strong>Blade Clutch</strong><span> Standard</span></p>
-					<p class="overview-item"><strong>Moveable Guide Roller</strong><span> Manual</span></p>
-					<p class="overview-item"><strong>Command Post</strong><span> Walk-Along</span></p>
-					<p class="overview-item"><strong>Direct-Action Hydraulics</strong><span> Standard on 1400H</span></p>
-					<p class="overview-item"><strong>Feed System</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
-					<p class="overview-item"><strong>Blade Up/Down</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
-					<p class="overview-item"><strong>Bi-Directional Chain Log Turner</strong><span> Manual</span></p>
-					<p class="overview-item"><strong>Log Stops</strong><span> Manual Mechanical (4)</span></p>
-					<p class="overview-item"><strong>Log Clamp</strong><span> Manual</span></p>
-					<p class="overview-item"><strong>Highway Transport</strong><span> Package Standard</span></p>
-					<p class="overview-item"><strong>Fine Adjust Outriggers</strong><span> Standard</span></p>
-					<p class="overview-item"><strong>Money-Back Guarantee</strong><span> 30-Day, No Questions</span></p>
-					<p class="overview-item"><strong>Warranty</strong><span> 2 Year Limited</span></p>
-					<p class="overview-item"><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p>
+					<p><?php the_field('overview'); ?></p>
 				</div>
 				<div id="features" class="info-panel-to-show">
-					<img src="http://willangles.com/tk/wp-content/uploads/head.gif" class="responsive-img">
+					<!--<img src="http://willangles.com/tk/wp-content/uploads/head.gif" class="responsive-img">-->
+					<h2>Features</h2>
+					<p><?php the_field('features'); ?></p>
 				</div>
 				<div id="specs" class="info-panel-to-show">
 					<h2>Specifications</h2>
-					<p class="spec-item"><strong>Cutting Head</strong><span>4-Post</span></p>
-					<p class="spec-item"><strong>Cutting Deck</strong><span> Twin-Beam, Solid Welded</span></p>
-					<p class="spec-item"><strong>Standard Motor</strong><span> 23.5 HP Kohler V-Twin</span></p>
-					<p class="spec-item"><strong>Machine Weight</strong><span> 2,800 lbs.</span></p>
-					<p class="spec-item"><strong>Max Log Diameter</strong><span> 34"</span></p>
-					<p class="spec-item"><strong>Max Cut Length</strong><span> 20'</span></p>
-					<p class="spec-item"><strong>Max Width of Cut</strong><span> 29"</span></p>
-					<p class="spec-item"><strong>Clearance Above Blade</strong><span> 16"</span></p>
-					<p class="spec-item"><strong>Machine Width</strong><span> 6' 10"</span></p>
-					<p class="spec-item"><strong>Machine Length</strong><span> 29'</span></p>
-					<p class="spec-item"><strong>Blade Clutch</strong><span> Standard</span></p>
-					<p class="spec-item"><strong>Moveable Guide Roller</strong><span> Manual</span></p>
-					<p class="spec-item"><strong>Command Post</strong><span> Walk-Along</span></p>
-					<p class="spec-item"><strong>Direct-Action Hydraulics</strong><span> Standard on 1400H</span></p>
-					<p class="spec-item"><strong>Feed System</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
-					<p class="spec-item"><strong>Blade Up/Down</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
-					<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span> Manual</span></p>
-					<p class="spec-item"><strong>Log Stops</strong><span> Manual Mechanical (4)</span></p>
-					<p class="spec-item"><strong>Log Clamp</strong><span> Manual</span></p>
-					<p class="spec-item"><strong>Highway Transport</strong><span> Package Standard</span></p>
-					<p class="spec-item"><strong>Fine Adjust Outriggers</strong><span> Standard</span></p>
-					<p class="spec-item"><strong>Money-Back Guarantee</strong><span> 30-Day, No Questions</span></p>
-					<p class="spec-item"><strong>Warranty</strong><span> 2 Year Limited</span></p>
-					<p class="spec-item"><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p>
+					<p class="spec-item"><strong>Cutting Head</strong><span><?php the_field('cutting_head'); ?></span></p>
+					<p class="spec-item"><strong>Cutting Deck</strong><span><?php the_field('cutting_deck'); ?></span></p>
+					<p class="spec-item"><strong>Standard Motor</strong><span><?php the_field('standard_motor'); ?></span></p>
+					<p class="spec-item"><strong>Machine Weight</strong><span><?php the_field('machine_weight'); ?></span></p>
+					<p class="spec-item"><strong>Max Log Diameter</strong><span><?php the_field('max_log_diameter'); ?></span></p>
+					<p class="spec-item"><strong>Max Cut Length</strong><span><?php the_field('max_cut_length'); ?></span></p>
+					<p class="spec-item"><strong>Max Width of Cut</strong><span><?php the_field('max_width_of_cut'); ?></span></p>
+					<p class="spec-item"><strong>Clearance Above Blade</strong><span><?php the_field('clearance_above_blade'); ?></span></p>
+					<p class="spec-item"><strong>Machine Width</strong><span><?php the_field('machine_width'); ?></span></p>
+					<p class="spec-item"><strong>Machine Length</strong><span><?php the_field('machine_length'); ?></span></p>
+					<p class="spec-item"><strong>Blade Clutch</strong><span><?php the_field('blade_clutch'); ?></span></p>
+					<p class="spec-item"><strong>Moveable Guide Roller</strong><span><?php the_field('moveable_guide_roller'); ?></span></p>
+					<p class="spec-item"><strong>Command Post</strong><span><?php the_field('command_post'); ?></span></p>
+					<p class="spec-item"><strong>Direct-Action Hydraulics</strong><span><?php the_field('direct-action_hydraulics'); ?></span></p>
+					<p class="spec-item"><strong>Feed System</strong><span><?php the_field('feed_system'); ?></span></p>
+					<p class="spec-item"><strong>Blade Up/Down</strong><span><?php the_field('blade_up/down'); ?></span></p>
+					<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span><?php the_field('chain_log'); ?></span></p>
+					<p class="spec-item"><strong>Log Stomps</strong><span><?php the_field('log_stomps'); ?> </span></p>
+					<p class="spec-item"><strong>Log Clamp</strong><span><?php the_field('log_clamp'); ?></span></p>
+					<p class="spec-item"><strong>Highway Transport</strong><span><?php the_field('highway_transport'); ?></span></p>
+					<p class="spec-item"><strong>Fine Adjust Outriggers</strong><span><?php the_field('fine_adjust_outriggers'); ?></span></p>
+					<p class="spec-item"><strong>Money-Back Guarantee</strong><span><?php the_field('money-back_guarantee'); ?></span></p>
+					<p class="spec-item"><strong>Warranty</strong><span><?php the_field('warranty'); ?></span></p>
+					<p class="spec-item"><strong>Cutting Deck Warranty</strong><span><?php the_field('cutting_deck_warranty'); ?></p>
 				</div>
 				<div id="warranty" class="info-panel-to-show">
-					<h2>Warranty</h2>
-
-					<p>Lorem ipsum dolor sit amet, pri prompta alienum senserit ei, nec ne tritani alienum contentiones. Facer erant ius in. Dictas regione urbanitas vel ne, eum at sumo ocurreret, in utroque efficiendi eam. Cu sea nostro feugiat sapientem, modo nostrum eam ei, at vim fugit omittam voluptatibus. Pro an audiam option delenit, duo iriure docendi eloquentiam eu. Has no dictas utamur. Mel ne purto dicat honestatis, atqui dictas in sea, nam id impetus oblique.</p>
-
-					<p>Eu facer salutandi adversarium est, ius adhuc sensibus cu. Eros primis id eum. Dico probatus tacimates pri id, ad has oblique nostrud partiendo, at eum debitis delicata. Id natum nulla referrentur eos. Option dolores complectitur at pro. Nec an propriae ocurreret.</p>
-
-					<p>Nihil qualisque no duo, nobis scripta mediocrem ad vel, his viderer deserunt te. Ei his graeco nonumes, agam putent te sea. Pri in facilisi praesent. Summo mollis aperiri eum ei, id mei epicurei molestiae evertitur. Erat harum principes sed et, ut sea fierent scribentur. No vim quaeque legimus moderatius, nam ut graeci iudicabit honestatis. Ius at choro vitae euripidis.</p>
-
-					<p>Sea altera splendide ei. Usu essent quaerendum suscipiantur in, his te sumo fabellas, et usu soluta noster atomorum. Pro in lorem decore. Meis nobis vel ex, id vis equidem delicata adolescens. Congue repudiare in ius, vis affert possit ex.</p>
-
-					<p>In eius nominati vix. Ea discere singulis nam, sea commodo accusam omittantur ne, qui ad option menandri. Et usu habemus ocurreret. Pro ex tempor instructior, in vel debet integre. Cum at inani virtute, pro id habeo corpora delicata.</p>
+					<p><?php the_field('warranty-text'); ?></p>
 				</div>
 				<div id="qa" class="info-panel-to-show qa">
 
@@ -95,12 +64,7 @@
 			</div>
 			<div class="col s12 m12 l4">
 				<div class="product-video-wrap">
-					<div>
-						<img src="http://willangles.com/tk/wp-content/uploads/Screen-Shot-2017-02-23-at-10.47.51-PM.png">
-					</div>
-					<div>
-						<img src="http://willangles.com/tk/wp-content/uploads/Screen-Shot-2017-02-23-at-10.48.04-PM.png">
-					</div>
+					<?php wc_get_template( 'single-product/product-videos.php' ); ?>
 				</div>
 			</div>
 		</div>

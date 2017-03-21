@@ -1100,8 +1100,14 @@ td.acf_input-wrap {
 *	
 *-------------------------------------------------------------------------*/
 
+/*
 .acf-tab_group-show {
 	display: block;
+} */
+.acf-tab_group-show.field_type-text {
+    display: inline-block;
+    width: 100%;
+    max-width: 45%;
 }
 tr.acf-tab_group-show {
 	display: table-row;
