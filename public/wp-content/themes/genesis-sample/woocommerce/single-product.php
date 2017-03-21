@@ -41,7 +41,7 @@ get_header( 'shop' ); ?>
 				<!-- Main image and short description-->
 				<div class="row">
 					<div class="wc-product-img col s12 m12 l6">
-						<?php wc_get_template( 'single-product/product-image.php' ); ?>
+						<?php the_post_thumbnail( 'full' ); ?>
 					</div>
 					<div class="wc-description-wrapper col s12 m12 l6">
 						<?php the_title( '<h1 itemprop="name" class="wc-product-title product_title entry-title">', '</h1>' ); ?>
