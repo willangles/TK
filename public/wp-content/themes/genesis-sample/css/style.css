@@ -2086,7 +2086,8 @@ p {
     font-size: 20px; }
 #front-page-stacks #fpIconRow {
   background: #f7b827;
-  padding-top: 0.6em; }
+  padding-top: 0.6em;
+  cursor: pointer; }
   #front-page-stacks #fpIconRow img, #front-page-stacks #fpIconRow h3, #front-page-stacks #fpIconRow p {
     text-align: center; }
   #front-page-stacks #fpIconRow img {
@@ -2100,6 +2101,16 @@ p {
   #front-page-stacks #fpIconRow p {
     color: #FFFFFF;
     font-size: 0.70588em; }
+  #front-page-stacks #fpIconRow .row .hidden {
+    display: none; }
+  #front-page-stacks #fpIconRow .row .icon-trigger .row {
+    min-height: 200px; }
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col img {
+      width: 100%; }
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3, #front-page-stacks #fpIconRow .row .icon-trigger .row .col p {
+      text-align: left; }
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3 {
+      font-size: 3em; }
 #front-page-stacks #fpPromo {
   background: #FFFFFF;
   background-image: url("http://willangles.com/tk/wp-content/uploads/promobg.png");
