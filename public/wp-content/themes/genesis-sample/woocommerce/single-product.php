@@ -40,10 +40,10 @@ get_header( 'shop' ); ?>
 			<div class="wc-custom-wrapper">
 				<!-- Main image and short description-->
 				<div class="row">
-					<div class="wc-product-img col s6">
+					<div class="wc-product-img col s12 m12 l6">
 						<?php wc_get_template( 'single-product/product-image.php' ); ?>
 					</div>
-					<div class="col s6">
+					<div class="wc-description-wrapper col s12 m12 l6">
 						<?php the_title( '<h1 itemprop="name" class="wc-product-title product_title entry-title">', '</h1>' ); ?>
 						<div class="wc-product-description">
 							<?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
@@ -55,6 +55,22 @@ get_header( 'shop' ); ?>
 					<div class="wc-thumbnail-wrapper">
 						<?php wc_get_template( 'single-product/product-thumbnails.php' ); ?>
 					</div>
+				</div>
+			</div>
+			<div class="wc-custom-wrapper extended">
+				<div class="row">
+					<ul class="product-info-nav">
+						<li class="info-panel"><a id="tk-product-overview">Overview</a></li>
+						<li class="info-panel"><a id="tk-product-features">Features</a></li>
+						<li class="info-panel"><a id="tk-product-specs">Specifications</a></li>
+						<li class="info-panel"><a id="tk-product-warranty">Warranty</a></li>
+						<li class="info-panel"><a id="tk-product-qa">Q&amp;A</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="wc-custom-wrapper">
+				<div class="row">
+					<?php wc_get_template( 'single-product/product-info.php' ); ?>
 				</div>
 			</div>
 
@@ -79,3 +95,39 @@ get_header( 'shop' ); ?>
 	?>
 
 <?php get_footer( 'shop' ); ?>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<script>
+	$(document).ready(function(){ 
+		$('#tk-product-overview').click(function(){
+			$('ul.product-info-nav > li > a').removeClass('active');
+			$('.info-panel-to-show').hide(200);
+			$('#overview').show(600);
+			$(this).addClass('active');
+		});
+		$('#tk-product-features').click(function(){
+			$('ul.product-info-nav > li > a').removeClass('active');
+			$('.info-panel-to-show').hide(200);
+			$('#features').show(600);
+			$(this).addClass('active');
+		});
+		$('#tk-product-specs').click(function(){
+			$('ul.product-info-nav > li > a').removeClass('active');
+			$('.info-panel-to-show').hide(200);
+			$('#specs').show(600);
+			$(this).addClass('active');
+		});
+		$('#tk-product-warranty').click(function(){
+			$('ul.product-info-nav > li > a').removeClass('active');
+			$('.info-panel-to-show').hide(200);
+			$('#warranty').show(600);
+			$(this).addClass('active');
+		});
+		$('#tk-product-qa').click(function(){
+			$('ul.product-info-nav > li > a').removeClass('active');
+			$('.info-panel-to-show').hide(200);
+			$('#qa').show(600);
+			$(this).addClass('active');
+		});
+	});
+	</script>

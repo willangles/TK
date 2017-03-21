@@ -16,6 +16,27 @@
     margin: 0 auto;
     max-width: 1200px;
  }
+ .wc-custom-wrapper.extended {
+    margin: 0 auto;
+    max-width: 100%;
+ }
+ .wc-custom-wrapper .product-info-nav {
+    display: block;
+    background: #dc2c00;
+    text-align: center;
+    padding: 0.25em 0 0.75em;
+ }
+ .wc-custom-wrapper .info-panel {
+    display: inline;
+    margin-left: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 0.25em 0.75em;
+    }
+ }
  .wc-product-img {
 
  }
@@ -28,8 +49,17 @@
  .wc-product-title {
     text-align: center;
     color: #dc2c00;
+    font-size: 2.5rem;
+ }
+ .wc-description-wrapper {
+    max-width: 500px;
  }
  .wc-product-description {
+     h2 {
+         text-align: center;
+         font-size: 2rem;
+         line-height: 2.5rem;
+     }
     background: rgba(155, 155, 155, 0.5);
     border: 2px solid #333;
     padding: 1.5em 1.25em;
