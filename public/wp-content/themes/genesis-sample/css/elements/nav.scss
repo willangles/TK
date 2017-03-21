@@ -1,7 +1,12 @@
 @import '../colors';
 
+
 $nav-height: 45px;
 $nav-mobile: 100% !important;
+
+$nav-black: black;
+$nav-black2: rgba(0,0,0,.5);
+$sub-nav-height: 200px;
 
 .nav-primary {
 	background: $red; 
@@ -44,10 +49,41 @@ $nav-mobile: 100% !important;
                     }
                 }
                 &:hover { 
-                    background: rgba(255,255,255,0);
+                    //background: rgba(255,255,255,0);
                 }
                 &:active {
                     border: 0px solid transparent;
+                }
+                ul.sub-menu {
+                    background: $nav-black !important;
+                    width: 100%;
+                    margin: 0 auto;
+                    // position:absolute;
+                    left:0; right:0;
+                    height: $sub-nav-height;
+                    text-align: center;
+                    li.menu-item {
+                        background: $nav-black;
+                        height: $sub-nav-height;
+                        text-align: center;
+                        float:none;
+                        border: 0px solid transparent;
+                        a {
+                            color: white;
+                            border: 0px solid transparent;
+                            background: $nav-black;
+                            height: $sub-nav-height;
+
+                            p {
+                                color: $yellow;
+                            }
+                        }
+
+                        &:hover {
+                            background: $nav-black2;
+                        }
+                        &:active {}
+                    }
                 }
     		}
     	}

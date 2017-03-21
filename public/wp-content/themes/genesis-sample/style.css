@@ -3512,10 +3512,31 @@ header.site-header {
             color: #f7b827 !important; }
             .nav-primary .wrap ul.genesis-nav-menu li.current-menu-item a span {
               color: #f7b827 !important; }
-        .nav-primary .wrap ul.genesis-nav-menu li:hover {
-          background: rgba(255, 255, 255, 0); }
         .nav-primary .wrap ul.genesis-nav-menu li:active {
           border: 0px solid transparent; }
+        .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu {
+          background: black !important;
+          width: 100%;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          height: 200px;
+          text-align: center; }
+          .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item {
+            background: black;
+            height: 200px;
+            text-align: center;
+            float: none;
+            border: 0px solid transparent; }
+            .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item a {
+              color: white;
+              border: 0px solid transparent;
+              background: black;
+              height: 200px; }
+              .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item a p {
+                color: #f7b827; }
+            .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item:hover {
+              background: rgba(0, 0, 0, 0.5); }
 
 @media screen and (max-width: 768px) {
   .nav-primary .wrap {
