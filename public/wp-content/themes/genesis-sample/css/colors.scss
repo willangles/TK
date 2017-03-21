@@ -17,3 +17,10 @@ $slab: 'Roboto Slab', serif;
 	background: linear-gradient(359deg, #000000 0%, #2E2E2E 100%); /* w3c */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2E2E', endColorstr='#000000',GradientType=0 ); /* ie6-9 */
 }
+
+@mixin placeholder($color){
+	::-webkit-input-placeholder { color: $color; }
+	::-moz-placeholder { color: $color; }
+	:-ms-input-placeholder { color: $color; }
+	:-moz-placeholder { color: $color; } 
+}

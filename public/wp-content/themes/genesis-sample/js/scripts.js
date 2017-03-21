@@ -5,6 +5,7 @@ jQuery(document).ready(function(){
 	jQuery('#menu-item-112 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Massive Mid-size 27HP Mill with basic hydraulics</p>');
 	jQuery('#menu-item-113 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Fully Portable Mill with essential hydraulics</p>');
 	jQuery('#menu-item-114 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>World\'s toughest personal mill</p>');
+	jQuery('form.woocommerce-product-search').append('<i class="material-icons">search</i>');
 });
 
 jQuery(document).ready(function(){
