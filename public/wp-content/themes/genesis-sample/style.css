@@ -3928,12 +3928,14 @@ p {
       text-decoration: none;
       padding: 0.25em 0.75em; }
   .wc-custom-wrapper .info-panel-to-show {
-    display: none; }
+    display: none;
+    font-size: 1.5rem; }
+    .wc-custom-wrapper .info-panel-to-show p {
+      margin: .5rem 0; }
   .wc-custom-wrapper .info-panel-to-show.info-panel-show {
     display: block; }
   .wc-custom-wrapper .overview-item,
   .wc-custom-wrapper .spec-item {
-    font-size: 1.5rem;
     clear: both;
     border-bottom: 1px solid #ccc; }
     .wc-custom-wrapper .overview-item strong,

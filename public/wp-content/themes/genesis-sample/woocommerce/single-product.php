@@ -23,6 +23,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 remove_action( 'woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20 );
 
+if(get_field('product_type') == 'Product'){
+	$isProductType = true;
+}
 
 get_header( 'shop' ); ?>
 
@@ -40,13 +43,15 @@ get_header( 'shop' ); ?>
 			<div class="wc-custom-wrapper">
 				<?php wc_get_template( 'single-product/product-layout.php' ); ?>
 			</div>
+			<?php if($isProductType){ ?>
 			<div class="wc-custom-wrapper extended">
 				<?php wc_get_template( 'single-product/product-info-nav.php' ); ?>
 			</div>
+
 			<div class="wc-custom-wrapper">
 				<?php wc_get_template( 'single-product/product-info.php' ); ?>
 			</div>
-
+			<?php } ?>
 		<?php endwhile; // end of the loop. ?>
 
 	<?php
