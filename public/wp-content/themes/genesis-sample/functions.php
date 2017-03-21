@@ -7,6 +7,8 @@ define( 'CHILD_THEME_NAME', 'Genesis Sample Theme' );
 define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
 define( 'CHILD_THEME_VERSION', '2.2.2' );
 
+
+
 //* Enqueue Google Fonts
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
@@ -59,6 +61,21 @@ add_theme_support( 'genesis-menus' , array( 'primary' => __( 'After Header Menu'
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 add_action( 'genesis_footer', 'genesis_do_subnav', 5 );
 
+// Register Header Widgets
+genesis_register_sidebar( array(
+    'id'          => 'utility-bar-left',
+    'name'        => __( 'Utility Bar Left', 'theme-prefix' ),
+    'description' => __( 'This is the left utility bar above the header.', 'theme-prefix' ),
+) );
+
+genesis_register_sidebar( array(
+    'id' => 'utility-bar-right',
+    'name' => __( 'Utility Bar Right', 'theme-prefix' ),
+    'description' => __( 'This is the right utility bar above the header.', 'theme-prefix' ),
+) );
+
+
+
 //* Reduce the secondary navigation menu to one level depth
 add_filter( 'wp_nav_menu_args', 'genesis_sample_secondary_menu_args' );
 function genesis_sample_secondary_menu_args( $args ) {
@@ -72,6 +89,33 @@ function genesis_sample_secondary_menu_args( $args ) {
 	return $args;
 
 }
+
+add_action( 'genesis_before_header', 'utility_bar' );
+/**
+* Add utility bar above header.
+*
+* @author Carrie Dils
+* @copyright Copyright (c) 2013, Carrie Dils
+* @license GPL-2.0+
+*/
+function utility_bar() {
+ 
+    echo '<div class="utility-bar"><div class="wrap">';
+ 
+    genesis_widget_area( 'utility-bar-left', array(
+        'before' => '<div class="utility-bar-left">',
+        'after' => '</div>',
+    ) );
+ 
+    genesis_widget_area( 'utility-bar-right', array(
+        'before' => '<div class="utility-bar-right">',
+        'after' => '</div>',
+    ) );
+ 
+    echo '</div></div>';
+ 
+}
+
 
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'sp_custom_footer' );

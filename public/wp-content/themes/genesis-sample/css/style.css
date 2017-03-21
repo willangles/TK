@@ -73,6 +73,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -2195,6 +2196,81 @@ header.site-header {
   font-weight: 900;
   font-size: 1.5em;
   color: #dc2c00 !important; }
+
+.utility-bar {
+  color: #000000;
+  font-size: 15px;
+  font-size: 1.5rem;
+  padding: 5px 0px 0px 0px;
+  background: #dc2c00;
+  height: 30px;
+  margin-bottom: 0; }
+
+.utility-bar a {
+  color: #000000;
+  text-decoration: none; }
+
+.utility-bar a:hover {
+  text-decoration: underline; }
+
+.utility-bar-left,
+.utility-bar-right {
+  width: 50%;
+  height: 30px; }
+
+.utility-bar-left .textwidget,
+.utility-bar-right p {
+  margin-bottom: 0;
+  font-weight: bold; }
+
+.utility-bar-left {
+  float: left; }
+
+.utility-bar-right {
+  float: right;
+  text-align: right; }
+  .utility-bar-right section {
+    float: right; }
+  .utility-bar-right .widget_product_search {
+    margin-right: 10px;
+    width: 50%;
+    font-size: 1em; }
+    .utility-bar-right .widget_product_search input[type="search"], .utility-bar-right .widget_product_search input[type="submit"] {
+      height: 30px; }
+    .utility-bar-right .widget_product_search input[type="search"] {
+      border-radius: 30px;
+      color: #000000;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding-left: 0.6em;
+      background: rgba(0, 0, 0, 0.2);
+      border: 0px solid transparent; }
+      .utility-bar-right .widget_product_search input[type="search"] ::-webkit-input-placeholder {
+        color: transparent; }
+      .utility-bar-right .widget_product_search input[type="search"] ::-moz-placeholder {
+        color: transparent; }
+      .utility-bar-right .widget_product_search input[type="search"] :-ms-input-placeholder {
+        color: transparent; }
+      .utility-bar-right .widget_product_search input[type="search"] :-moz-placeholder {
+        color: transparent; }
+      .utility-bar-right .widget_product_search input[type="search"]:focus {
+        border: 0px solid transparent; }
+    .utility-bar-right .widget_product_search input[type="submit"] {
+      float: right;
+      display: none; }
+    .utility-bar-right .widget_product_search i.material-icons {
+      float: right;
+      position: absolute;
+      top: 8px;
+      margin-left: -33px; }
+    .utility-bar-right .widget_product_search input::-webkit-input-placeholder {
+      color: transparent !important; }
+    .utility-bar-right .widget_product_search input:-moz-placeholder {
+      color: transparent !important; }
+    .utility-bar-right .widget_product_search input::-moz-placeholder {
+      color: transparent !important; }
+    .utility-bar-right .widget_product_search input:-ms-input-placeholder {
+      color: transparent !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700 !important;
