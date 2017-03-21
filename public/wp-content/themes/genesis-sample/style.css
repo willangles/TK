@@ -3838,7 +3838,7 @@ p {
       padding: 0.25em 0.75em; }
   .wc-custom-wrapper .info-panel-to-show {
     display: none; }
-  .wc-custom-wrapper .info-panel-to.show.info-panel-show {
+  .wc-custom-wrapper .info-panel-to-show.info-panel-show {
     display: block; }
   .wc-custom-wrapper .overview-item,
   .wc-custom-wrapper .spec-item {
