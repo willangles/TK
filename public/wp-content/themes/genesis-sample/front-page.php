@@ -19,25 +19,71 @@ function my_custom_loop () {
   	</section>
 	<section id="fpIconRow">
 		<div class="row">
-			<div class="col l3 m6">
+			<div id="icon-one" class="col l3 m6 icon-row-icon">
 				<img src="http://willangles.com/tk/wp-content/uploads/measure.png">
 				<h3>Built to Last</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
-			<div class="col l3 m6">
+			<div id="icon-two" class="col l3 m6 icon-row-icon">
 				<img src="http://willangles.com/tk/wp-content/uploads/hammer.png">
 				<h3>Craftsmanship</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
-			<div class="col l3 m6">
+			<div id="icon-three" class="col l3 m6 icon-row-icon">
 				<img src="http://willangles.com/tk/wp-content/uploads/teamwork.png">
 				<h3>Strongest Warranty</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
-			<div class="col l3 m6">
+			<div id="icon-four" class="col l3 m6 icon-row-icon">
 				<img src="http://willangles.com/tk/wp-content/uploads/time.png">
 				<h3>Tradition</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+			</div>
+ 
+ 			<!-- Triggered Icon Boxes -->
+			<div id="icon-one-trigger" class="s12 hidden icon-trigger">
+				<div class="row valign-wrapper">
+					<div class="col s12 m3 valign">
+						<img src="http://willangles.com/tk/wp-content/uploads/measure.png" class="responsive-img">
+					</div>
+					<div class="col s12 m9 valign">
+						<h3>Built to Last</h3>
+						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+					</div>
+				</div>				
+			</div>
+			<div id="icon-two-trigger" class="s12 hidden icon-trigger">
+				<div class="row valign-wrapper">
+					<div class="col s12 m3 valign">
+						<img src="http://willangles.com/tk/wp-content/uploads/hammer.png" class="responsive-img">
+					</div>
+					<div class="col s12 m9 valign">
+						<h3>Craftsmanship</h3>
+						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+					</div>
+				</div>		
+			</div>
+			<div id="icon-three-trigger" class="s12 hidden icon-trigger">
+				<div class="row valign-wrapper">
+					<div class="col s12 m3 valign">
+						<img src="http://willangles.com/tk/wp-content/uploads/teamwork.png" class="responsive-img">
+					</div>
+					<div class="col s12 m9 valign">
+						<h3>Strongest Warranty</h3>
+						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+					</div>
+				</div>
+			</div>
+			<div id="icon-four-trigger" class="s12 hidden icon-trigger">
+				<div class="row valign-wrapper">
+					<div class="col s12 m3 valign">
+						<img src="http://willangles.com/tk/wp-content/uploads/time.png" class="responsive-img">
+					</div>
+					<div class="col s12 m9 valign">
+						<h3>Tradition</h3>
+						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -81,22 +127,6 @@ function my_custom_loop () {
 		</div>
 	</section>
  </div> <!-- end main container -->
-
-
-<!-- THIS WILL CHANGE IN FUTURE AS WE FINALIZE HOW MENU WILL BE SET UP -->
-<script>
-
-jQuery(document).ready(function(){
-	jQuery('#menu-item-87 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Jumbo Super-Pro 59HP Mill with maxed hydraulics</p>');
-	jQuery('#menu-item-110 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>XL Super-Pro 49HP Mill with full hydraulics</p>');
-	jQuery('#menu-item-111 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Heavy Industrial 38HP Mill with full hydraulics</p>');
-	jQuery('#menu-item-112 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Massive Mid-size 27HP Mill with basic hydraulics</p>');
-	jQuery('#menu-item-113 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Fully Portable Mill with essential hydraulics</p>');
-	jQuery('#menu-item-114 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>World\'s toughest personal mill</p>');
-});
-
-
-</script>
 
 <?php } ?>
 
