@@ -3,60 +3,60 @@
 				<div class="col s12 m12 l8">
 					<div id="overview" class="info-panel-to-show info-panel-show">
 						<h2>Overview</h2>
-						<p class="overview-item"><strong>Cutting Head</strong><span>4-Post</span></p><hr>
-						<p class="overview-item"><strong>Cutting Deck</strong><span> Twin-Beam, Solid Welded</span></p><hr>
-						<p class="overview-item"><strong>Standard Motor</strong><span> 23.5 HP Kohler V-Twin</span></p><hr>
-						<p class="overview-item"><strong>Machine Weight</strong><span> 2,800 lbs.</span></p><hr>
-						<p class="overview-item"><strong>Max Log Diameter</strong><span> 34"</span></p><hr>
-						<p class="overview-item"><strong>Max Cut Length</strong><span> 20'</span></p><hr>
-						<p class="overview-itm"><strong>Max Width of Cut</strong><span> 29"</span></p><hr>
-						<p class="overview-itm"><strong>Clearance Above Blade</strong><span> 16"</span></p><hr>
-						<p class="overview-itm"><strong>Machine Width</strong><span> 6' 10"</span></p><hr>
-						<p class="overview-itm"><strong>Machine Length</strong><span> 29'</span></p><hr>
-						<p class="overview-itm"><strong>Blade Clutch</strong><span> Standard</span></p><hr>
-						<p class="overview-itm"><strong>Moveable Guide Roller</strong><span> Manual</span></p><hr>
-						<p class="overview-itm"><strong>Command Post</strong><span> Walk-Along</span></p><hr>
-						<p class="overview-itm"><strong>Direct-Action Hydraulics</strong><span> Standard on 1400H</span></p><hr>
-						<p class="overview-itm"><strong>Feed System</strong><span> 1400M: Manual 1400H: Hydraulic</span></p><hr>
-						<p class="overview-itm"><strong>Blade Up/Down</strong><span> 1400M: Manual 1400H: Hydraulic</span></p><hr>
-						<p class="overview-itm"><strong>Bi-Directional Chain Log Turner</strong><span> Manual</span></p><hr>
-						<p class="overview-itm"><strong>Log Stops</strong><span> Manual Mechanical (4)</span></p><hr>
-						<p class="overview-itm"><strong>Log Clamp</strong><span> Manual</span></p><hr>
-						<p class="overview-itm"><strong>Highway Transport</strong><span> Package Standard</span></p><hr>
-						<p class="overview-itm"><strong>Fine Adjust Outriggers</strong><span> Standard</span></p><hr>
-						<p class="overview-itm"><strong>Money-Back Guarantee</strong><span> 30-Day, No Questions</span></p><hr>
-						<p class="overview-itm"><strong>Warranty</strong><span> 2 Year Limited</span></p><hr>
-						<p class="overview-itm"><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p><hr>
+						<p class="overview-item"><strong>Cutting Head</strong><span>4-Post</span></p>
+						<p class="overview-item"><strong>Cutting Deck</strong><span> Twin-Beam, Solid Welded</span></p>
+						<p class="overview-item"><strong>Standard Motor</strong><span> 23.5 HP Kohler V-Twin</span></p>
+						<p class="overview-item"><strong>Machine Weight</strong><span> 2,800 lbs.</span></p>
+						<p class="overview-item"><strong>Max Log Diameter</strong><span> 34"</span></p>
+						<p class="overview-item"><strong>Max Cut Length</strong><span> 20'</span></p>
+						<p class="overview-item"><strong>Max Width of Cut</strong><span> 29"</span></p>
+						<p class="overview-item"><strong>Clearance Above Blade</strong><span> 16"</span></p>
+						<p class="overview-item"><strong>Machine Width</strong><span> 6' 10"</span></p>
+						<p class="overview-item"><strong>Machine Length</strong><span> 29'</span></p>
+						<p class="overview-item"><strong>Blade Clutch</strong><span> Standard</span></p>
+						<p class="overview-item"><strong>Moveable Guide Roller</strong><span> Manual</span></p>
+						<p class="overview-item"><strong>Command Post</strong><span> Walk-Along</span></p>
+						<p class="overview-item"><strong>Direct-Action Hydraulics</strong><span> Standard on 1400H</span></p>
+						<p class="overview-item"><strong>Feed System</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
+						<p class="overview-item"><strong>Blade Up/Down</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
+						<p class="overview-item"><strong>Bi-Directional Chain Log Turner</strong><span> Manual</span></p>
+						<p class="overview-item"><strong>Log Stops</strong><span> Manual Mechanical (4)</span></p>
+						<p class="overview-item"><strong>Log Clamp</strong><span> Manual</span></p>
+						<p class="overview-item"><strong>Highway Transport</strong><span> Package Standard</span></p>
+						<p class="overview-item"><strong>Fine Adjust Outriggers</strong><span> Standard</span></p>
+						<p class="overview-item"><strong>Money-Back Guarantee</strong><span> 30-Day, No Questions</span></p>
+						<p class="overview-item"><strong>Warranty</strong><span> 2 Year Limited</span></p>
+						<p class="overview-item"><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p>
 					</div>
 					<div id="features" class="info-panel-to-show">
 						<img src="http://willangles.com/tk/wp-content/uploads/head.gif" class="responsive-img">
 					</div>
 					<div id="specs" class="info-panel-to-show">
 						<h2>Specifications</h2>
-						<p><strong>Cutting Head</strong><span>4-Post</span></p><hr>
-						<p><strong>Cutting Deck</strong><span> Twin-Beam, Solid Welded</span></p><hr>
-						<p><strong>Standard Motor</strong><span> 23.5 HP Kohler V-Twin</span></p><hr>
-						<p><strong>Machine Weight</strong><span> 2,800 lbs.</span></p><hr>
-						<p><strong>Max Log Diameter</strong><span> 34"</span></p><hr>
-						<p><strong>Max Cut Length</strong><span> 20'</span></p><hr>
-						<p><strong>Max Width of Cut</strong><span> 29"</span></p><hr>
-						<p><strong>Clearance Above Blade</strong><span> 16"</span></p><hr>
-						<p><strong>Machine Width</strong><span> 6' 10"</span></p><hr>
-						<p><strong>Machine Length</strong><span> 29'</span></p><hr>
-						<p><strong>Blade Clutch</strong><span> Standard</span></p><hr>
-						<p><strong>Moveable Guide Roller</strong><span> Manual</span></p><hr>
-						<p><strong>Command Post</strong><span> Walk-Along</span></p><hr>
-						<p><strong>Direct-Action Hydraulics</strong><span> Standard on 1400H</span></p><hr>
-						<p><strong>Feed System</strong><span> 1400M: Manual 1400H: Hydraulic</span></p><hr>
-						<p><strong>Blade Up/Down</strong><span> 1400M: Manual 1400H: Hydraulic</span></p><hr>
-						<p><strong>Bi-Directional Chain Log Turner</strong><span> Manual</span></p><hr>
-						<p><strong>Log Stops</strong><span> Manual Mechanical (4)</span></p><hr>
-						<p><strong>Log Clamp</strong><span> Manual</span></p><hr>
-						<p><strong>Highway Transport</strong><span> Package Standard</span></p><hr>
-						<p><strong>Fine Adjust Outriggers</strong><span> Standard</span></p><hr>
-						<p><strong>Money-Back Guarantee</strong><span> 30-Day, No Questions</span></p><hr>
-						<p><strong>Warranty</strong><span> 2 Year Limited</span></p><hr>
-						<p><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p><hr>
+						<p class="spec-item"><strong>Cutting Head</strong><span>4-Post</span></p>
+						<p class="spec-item"><strong>Cutting Deck</strong><span> Twin-Beam, Solid Welded</span></p>
+						<p class="spec-item"><strong>Standard Motor</strong><span> 23.5 HP Kohler V-Twin</span></p>
+						<p class="spec-item"><strong>Machine Weight</strong><span> 2,800 lbs.</span></p>
+						<p class="spec-item"><strong>Max Log Diameter</strong><span> 34"</span></p>
+						<p class="spec-item"><strong>Max Cut Length</strong><span> 20'</span></p>
+						<p class="spec-item"><strong>Max Width of Cut</strong><span> 29"</span></p>
+						<p class="spec-item"><strong>Clearance Above Blade</strong><span> 16"</span></p>
+						<p class="spec-item"><strong>Machine Width</strong><span> 6' 10"</span></p>
+						<p class="spec-item"><strong>Machine Length</strong><span> 29'</span></p>
+						<p class="spec-item"><strong>Blade Clutch</strong><span> Standard</span></p>
+						<p class="spec-item"><strong>Moveable Guide Roller</strong><span> Manual</span></p>
+						<p class="spec-item"><strong>Command Post</strong><span> Walk-Along</span></p>
+						<p class="spec-item"><strong>Direct-Action Hydraulics</strong><span> Standard on 1400H</span></p>
+						<p class="spec-item"><strong>Feed System</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
+						<p class="spec-item"><strong>Blade Up/Down</strong><span> 1400M: Manual 1400H: Hydraulic</span></p>
+						<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span> Manual</span></p>
+						<p class="spec-item"><strong>Log Stops</strong><span> Manual Mechanical (4)</span></p>
+						<p class="spec-item"><strong>Log Clamp</strong><span> Manual</span></p>
+						<p class="spec-item"><strong>Highway Transport</strong><span> Package Standard</span></p>
+						<p class="spec-item"><strong>Fine Adjust Outriggers</strong><span> Standard</span></p>
+						<p class="spec-item"><strong>Money-Back Guarantee</strong><span> 30-Day, No Questions</span></p>
+						<p class="spec-item"><strong>Warranty</strong><span> 2 Year Limited</span></p>
+						<p class="spec-item"><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p>
 					</div>
 					<div id="warranty" class="info-panel-to-show">
 						<h2>Warranty</h2>

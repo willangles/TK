@@ -3834,6 +3834,22 @@ p {
   .wc-custom-wrapper .info-panel-to-show.info-panel-show {
     display: block; }
 
+.wc-custom-wrapper .overview-item,
+.wc-custom-wrapper .spec-item {
+  font-size: 1.5rem;
+  clear: both;
+  border-bottom: 1px solid #ccc; }
+  .wc-custom-wrapper .overview-item strong,
+  .wc-custom-wrapper .spec-item strong {
+    float: left; }
+  .wc-custom-wrapper .overview-item span,
+  .wc-custom-wrapper .spec-item span {
+    float: right; }
+  .wc-custom-wrapper .overview-item strong, .wc-custom-wrapper .overview-item span,
+  .wc-custom-wrapper .spec-item strong,
+  .wc-custom-wrapper .spec-item span {
+    padding: .5rem 0; }
+
 .wc-price-box {
   clear: both;
   margin: 1rem 0;

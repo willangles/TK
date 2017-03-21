@@ -43,6 +43,21 @@
          display: block;
      }
  }
+ .wc-custom-wrapper .overview-item,
+  .wc-custom-wrapper .spec-item {
+     font-size: 1.5rem;
+     clear: both;
+     border-bottom: 1px solid #ccc;
+     strong {
+         float: left;
+     }
+     span {
+         float: right;
+     }
+     strong, span {
+        padding: .5rem 0;
+     }
+ }
  .wc-price-box {
      clear: both;
      margin: 1rem 0;
@@ -58,7 +73,7 @@
         }
      }
       button.wc-custom-btn {
-         float: right;
+        float: right;
         font-family: Roboto Slab, sans-serif;
         width: 100%;
         max-width: 200px;
