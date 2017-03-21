@@ -38,48 +38,13 @@ get_header( 'shop' ); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="wc-custom-wrapper">
-				<!-- Main image and short description-->
-				<div class="row">
-					<div class="wc-product-img col s12 m12 l6">
-						<?php the_post_thumbnail( 'full' ); ?>
-					</div>
-					<div class="wc-description-wrapper col s12 m12 l6">
-						<?php the_title( '<h1 itemprop="name" class="wc-product-title product_title entry-title">', '</h1>' ); ?>
-						<div class="wc-product-description">
-							<?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
-						</div>
-						<div class="wc-price-box">
-							<span class="price-label highlight">$8,100</span>
-							<button class="wc-custom-btn buy waves-effect waves-light btn"><i class="material-icons right">play_arrow</i>BUY NOW</button>
-						</div>
-						<div class="wc-price-box">
-							<span class="price-label">$1,000</span>
-							<button class="wc-custom-btn deposit waves-effect waves-light btn"><i class="material-icons right">play_arrow</i>DEPOSIT</button>
-						</div>
-					</div>
-				</div>
-				<!-- Thumbnails-->
-				<div class="row">
-					<div class="wc-thumbnail-wrapper">
-						<?php wc_get_template( 'single-product/product-thumbnails.php' ); ?>
-					</div>
-				</div>
+				<?php wc_get_template( 'single-product/product-layout.php' ); ?>
 			</div>
 			<div class="wc-custom-wrapper extended">
-				<div class="row">
-					<ul class="product-info-nav">
-						<li class="info-panel"><a id="tk-product-overview">Overview</a></li>
-						<li class="info-panel"><a id="tk-product-features">Features</a></li>
-						<li class="info-panel"><a id="tk-product-specs">Specifications</a></li>
-						<li class="info-panel"><a id="tk-product-warranty">Warranty</a></li>
-						<li class="info-panel"><a id="tk-product-qa">Q&amp;A</a></li>
-					</ul>
-				</div>
+				<?php wc_get_template( 'single-product/product-info-nav.php' ); ?>
 			</div>
 			<div class="wc-custom-wrapper">
-				<div class="row">
-					<?php wc_get_template( 'single-product/product-info.php' ); ?>
-				</div>
+				<?php wc_get_template( 'single-product/product-info.php' ); ?>
 			</div>
 
 		<?php endwhile; // end of the loop. ?>
@@ -102,7 +67,7 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_sidebar' );
 	?>
 
-<?php get_footer( 'shop' ); ?>
+<?php get_footer( ); ?>
 
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 	<script>
