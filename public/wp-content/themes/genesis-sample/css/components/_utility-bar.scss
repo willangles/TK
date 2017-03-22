@@ -88,8 +88,7 @@ $utility-height: 30px;
 	}
 }
 
-// .utility-bar input[type="search"] {
-// 	background: inherit;
-// 	padding: 10px 0 0;
-// 	padding: 1.0rem 0 0;
-// }
+@media screen and (max-width: 768px){
+	.utility-bar-left { display: none; }
+	.utility-bar-right { width: 100%; }
+}
