@@ -3861,6 +3861,12 @@ header.site-header {
     .utility-bar-right .widget_product_search input:-ms-input-placeholder {
       color: transparent !important; }
 
+@media screen and (max-width: 768px) {
+  .utility-bar-left {
+    display: none; }
+
+  .utility-bar-right {
+    width: 100%; } }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700 !important;
   letter-spacing: 0.5px;
@@ -3964,7 +3970,7 @@ p {
   text-transform: uppercase; }
 #front-page-stacks #fpFeatured article {
   margin: 0;
-  padding: 1 1.2em;
+  padding: 1.2em;
   background-color: #f7b827; }
 #front-page-stacks #fpFeatured p {
   font-size: 0.8em;
