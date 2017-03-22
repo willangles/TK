@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-	jQuery('#menu-item-87 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Jumbo Super-Pro 59HP Mill with maxed hydraulics</p>');
+	jQuery('#menu-item-124 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Jumbo Super-Pro 59HP Mill with maxed hydraulics</p>');
 	jQuery('#menu-item-110 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>XL Super-Pro 49HP Mill with full hydraulics</p>');
 	jQuery('#menu-item-111 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Heavy Industrial 38HP Mill with full hydraulics</p>');
 	jQuery('#menu-item-112 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Massive Mid-size 27HP Mill with basic hydraulics</p>');

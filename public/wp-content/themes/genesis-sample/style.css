@@ -77,6 +77,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -4085,6 +4086,25 @@ p {
       line-height: 2.5rem; }
   .wc-custom-wrapper .wc-product-video {
     margin: 1rem 0; }
+
+.woocommerce main.content {
+  padding: 1em 2em; }
+.woocommerce ul.products {
+  width: 100%;
+  padding: 0 2em !important; }
+  .woocommerce ul.products li {
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease-out box-shadow; }
+    .woocommerce ul.products li:hover {
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+      transition: 0.2s ease-out box-shadow; }
+    .woocommerce ul.products li a {
+      text-align: center; }
+      .woocommerce ul.products li a span.price span {
+        color: #dc2c00;
+        font-weight: bold; }
+    .woocommerce ul.products li a.add_to_cart_button {
+      line-height: 45px; }
 
 .wc-custom-wrapper .wc-price-box:after, .wc-custom-wrapper .wc-thumbnail-wrapper:after {
   content: "";

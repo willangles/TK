@@ -2,3 +2,6 @@
 # echo Setting up database..
 # mysql -u root -p"root" -e "DROP DATABASE IF EXISTS scotchbox ; CREATE DATABASE scotchbox;"
 # mysql -u root -p"root" -h localhost scotchbox < ../../var/www/will.sql;
+
+echo Setting up database..
+mysqldump -u root -p"root" -h localhost scotchbox > ../../var/www/willdb.sql;
