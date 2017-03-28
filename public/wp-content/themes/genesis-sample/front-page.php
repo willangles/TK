@@ -13,21 +13,7 @@ function my_custom_loop () {
   			<div class="valign">
 	  			<h2>Built like a tank</h2>
 	  			<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
-	  			<a class="waves-effect waves-light btn button" href="#fp-modal">See it in action<i class="material-icons right">play_arrow</i></a>
-	  			
-	  			<div id="fp-modal" class="modal">
-				    <div class="modal-content">
-				    	<div class="video-container">
-					      	<iframe 
-						      	width="560" 
-						      	height="315" 
-						      	src="https://www.youtube.com/embed/7xxIGme03Sk" 
-						      	frameborder="0" 
-						      	allowfullscreen>
-					      	</iframe>
-					  	</div>
-				    </div>
-				</div>
+	  			<a class="waves-effect waves-light btn button" href="#">See it in action<i class="material-icons right">play_arrow</i></a>
 
   			</div>
   		</div>
