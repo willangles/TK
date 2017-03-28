@@ -4033,11 +4033,10 @@ p {
       padding: .5rem 0; }
   .wc-custom-wrapper .wc-price-box {
     clear: both;
-    margin: 1rem 0;
-    padding: 0 3rem; }
+    text-align: center; }
     .wc-custom-wrapper .wc-price-box .price-label {
-      display: inline-block;
-      font-size: 2rem;
+      display: block;
+      font-size: 4rem;
       font-weight: bold;
       margin-top: 6px; }
       .wc-custom-wrapper .wc-price-box .price-label.highlight {
@@ -4048,14 +4047,15 @@ p {
       position: relative;
       left: 1rem; }
   .wc-custom-wrapper .wc-price-box .wc-custom-btn {
-    float: right;
+    display: block;
+    margin: 2rem auto;
     font-family: Roboto Slab, sans-serif;
     width: 100%;
     max-width: 200px;
     font-size: 2rem;
     font-weight: 900;
     height: 4.5rem;
-    text-align: left;
+    text-align: center;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
     .wc-custom-wrapper .wc-price-box .wc-custom-btn.buy {
       background: #dc2c00;
@@ -4075,8 +4075,6 @@ p {
   .wc-custom-wrapper .wc-description-wrapper {
     max-width: 500px; }
   .wc-custom-wrapper .wc-product-description {
-    background: rgba(155, 155, 155, 0.5);
-    border: 2px solid #333;
     padding: 1.5em 1.25em;
     font-size: 16px;
     margin-bottom: 3rem; }
