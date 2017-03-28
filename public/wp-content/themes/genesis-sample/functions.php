@@ -20,7 +20,7 @@ function genesis_sample_google_fonts() {
 //* Custom Scripts
 add_action('genesis_after_footer', 'bottom_scripts');
 function bottom_scripts() {
-      wp_register_script( 'bottom-scripts', 'http://dev/wp-content/themes/genesis-sample/js/scripts.js', false, null);
+      wp_register_script( 'bottom-scripts', 'http://timberking.msaavedra.com/wp-content/themes/genesis-sample/js/scripts.js', false, null);
       wp_enqueue_script( 'bottom-scripts');
 }
 
@@ -124,7 +124,7 @@ function sp_custom_footer() {
 
     <div class="row top-footer">
     	<div class="col l2 m4 s12 footer-logo top-footer">
-    		<img src="http://willangles.com/tk/wp-content/uploads/footer-logo.png">
+    		<img src="http://timberking.msaavedra.com/wp-content/uploads/footer-logo.png">
     	</div>
     	<div class="col l2 m4 s12 offset-l8 top-footer">
     		<h5 style="line-height: 75px;">800-942-4406</h5>
@@ -169,9 +169,9 @@ function sp_custom_footer() {
     		<p>2017 TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
-			<a href="#" target="_blank"><img src="http://willangles.com/tk/wp-content/uploads/1.png"></a>
-			<a href="#" target="_blank"><img src="http://willangles.com/tk/wp-content/uploads/2.png"></a>
-			<a href="#" target="_blank"><img src="http://willangles.com/tk/wp-content/uploads/3.png"></a>
+			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/1.png"></a>
+			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/2.png"></a>
+			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/3.png"></a>
     	</div>
     </div>
 

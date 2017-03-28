@@ -23,10 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
 remove_action( 'woocommerce_product_thumbnails', 'woocommerce_show_product_thumbnails', 20 );
 
-if(get_field('product_type') == 'Product'){
-	$isProductType = true;
-}
-
+$type = get_field('product_type');
 get_header( 'shop' ); ?>
 
 	<?php
@@ -43,15 +40,21 @@ get_header( 'shop' ); ?>
 			<div class="wc-custom-wrapper">
 				<?php wc_get_template( 'single-product/product-layout.php' ); ?>
 			</div>
-			<?php if($isProductType){ ?>
-			<div class="wc-custom-wrapper extended">
-				<?php wc_get_template( 'single-product/product-info-nav.php' ); ?>
-			</div>
 
-			<div class="wc-custom-wrapper">
-				<?php wc_get_template( 'single-product/product-info.php' ); ?>
-			</div>
-			<?php } ?>
+			<?php if($type == 'Product'): ?>
+				<div class="wc-custom-wrapper extended">
+					<?php wc_get_template( 'single-product/product-info-nav.php' ); ?>
+				</div>
+				<div class="wc-custom-wrapper">
+					<?php wc_get_template( 'single-product/product-info.php' ); ?>
+				</div>
+			<?php endif; ?>
+
+			<?php if($type == 'Talon900' || 'Talon-R'): ?>
+				<div class="wc-custom-wrapper extended">
+					<?php wc_get_template( 'single-product/product-info-variation.php' ); ?>
+				</div>
+			<?php endif; ?>
 		<?php endwhile; // end of the loop. ?>
 
 	<?php

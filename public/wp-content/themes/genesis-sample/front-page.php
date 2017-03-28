@@ -35,22 +35,22 @@ function my_custom_loop () {
 	<section id="fpIconRow">
 		<div class="row">
 			<div id="icon-one" class="col l3 m6 icon-row-icon">
-				<img src="http://willangles.com/tk/wp-content/uploads/measure.png">
+				<img src="http://timberking.msaavedra.com/wp-content/uploads/measure.png">
 				<h3>Built to Last</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
 			<div id="icon-two" class="col l3 m6 icon-row-icon">
-				<img src="http://willangles.com/tk/wp-content/uploads/hammer.png">
+				<img src="http://timberking.msaavedra.com/wp-content/uploads/hammer.png">
 				<h3>Craftsmanship</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
 			<div id="icon-three" class="col l3 m6 icon-row-icon">
-				<img src="http://willangles.com/tk/wp-content/uploads/teamwork.png">
+				<img src="http://timberking.msaavedra.com/wp-content/uploads/teamwork.png">
 				<h3>Strongest Warranty</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
 			<div id="icon-four" class="col l3 m6 icon-row-icon">
-				<img src="http://willangles.com/tk/wp-content/uploads/time.png">
+				<img src="http://timberking.msaavedra.com/wp-content/uploads/time.png">
 				<h3>Tradition</h3>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
@@ -59,7 +59,7 @@ function my_custom_loop () {
 			<div id="icon-one-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://willangles.com/tk/wp-content/uploads/measure.png" class="responsive-img">
+						<img src="http://timberking.msaavedra.com/wp-content/uploads/measure.png" class="responsive-img">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3>Built to Last</h3>
@@ -70,7 +70,7 @@ function my_custom_loop () {
 			<div id="icon-two-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://willangles.com/tk/wp-content/uploads/hammer.png" class="responsive-img">
+						<img src="http://timberking.msaavedra.com/wp-content/uploads/hammer.png" class="responsive-img">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3>Craftsmanship</h3>
@@ -81,7 +81,7 @@ function my_custom_loop () {
 			<div id="icon-three-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://willangles.com/tk/wp-content/uploads/teamwork.png" class="responsive-img">
+						<img src="http://timberking.msaavedra.com/wp-content/uploads/teamwork.png" class="responsive-img">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3>Strongest Warranty</h3>
@@ -92,7 +92,7 @@ function my_custom_loop () {
 			<div id="icon-four-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://willangles.com/tk/wp-content/uploads/time.png" class="responsive-img">
+						<img src="http://timberking.msaavedra.com/wp-content/uploads/time.png" class="responsive-img">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3>Tradition</h3>
@@ -105,7 +105,7 @@ function my_custom_loop () {
 	<section id="fpPromo">
 		<div class="row">
 			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
-				<img src="http://willangles.com/tk/wp-content/uploads//header-product-img.png" class="responsive-img valign" >
+				<img src="http://timberking.msaavedra.com/wp-content/uploads//header-product-img.png" class="responsive-img valign" >
 			</div>
 			<div class="col m6 s12 valign-wrapper">
 				<div class="valign">
@@ -121,19 +121,19 @@ function my_custom_loop () {
 				<p class="valign">Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
 			<div class="col s12 m6 valign-wrapper">
-				<div class="valign"><img src="http://willangles.com/tk/wp-content/uploads/history-img.png"></div>
+				<div class="valign"><img src="http://timberking.msaavedra.com/wp-content/uploads/history-img.png"></div>
 			</div>
 		</div>
 	</section>
 	<section id="fpFeatured">
 		<div class="row">
-			<div class="col s12 m6" style="background-image:url(http://willangles.com/tk/wp-content/uploads/measure.jpg);">
+			<div class="col s12 m6" style="background-image:url(http://timberking.msaavedra.com/wp-content/uploads/measure.jpg);">
 				<article>
 					<h3>Lorem Ipsum</h3>
 				</article>
 				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
 			</div>
-			<div class="col s12 m6" style="background-image:url(http://willangles.com/tk/wp-content/uploads/lumber.jpg);">
+			<div class="col s12 m6" style="background-image:url(http://timberking.msaavedra.com/wp-content/uploads/lumber.jpg);">
 				<article>
 					<h3>Lorem Ipsum</h3>
 				</article>
