@@ -1,18 +1,19 @@
 <?php
 /**
- * This file adds the Front Page Template to any Genesis Child Theme.
- */
+* Template Name: TimberKing Front Page Template
+* Description: Used as a page template for front page
+*/
  
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'my_custom_loop' );
 function my_custom_loop () {
 ?>
  <div id="front-page-stacks">
-  	<section id="fpSplash">
+  	<section id="fpSplash" style="background-image:url('<?php the_field("splash_image"); ?>');">
   		<div class="row valign-wrapper">
   			<div class="valign">
-	  			<h2>Built like a tank</h2>
-	  			<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+	  			<h2><?php the_field('splash_image_headline'); ?></h2>
+	  			<p><?php the_field('splash_image_text'); ?></p>
 	  			<a class="waves-effect waves-light btn button" href="#">See it in action<i class="material-icons right">play_arrow</i></a>
 
   			</div>
@@ -21,68 +22,68 @@ function my_custom_loop () {
 	<section id="fpIconRow">
 		<div class="row">
 			<div id="icon-one" class="col l3 m6 icon-row-icon">
-				<img src="http://timberking.msaavedra.com/wp-content/uploads/measure.png">
-				<h3>Built to Last</h3>
-				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<img src="<?php the_field('icon_1_icon'); ?>">
+				<h3><?php the_field('icon_1_title'); ?></h3>
+				<p><?php the_field('icon_1_copy'); ?></p>
 			</div>
 			<div id="icon-two" class="col l3 m6 icon-row-icon">
-				<img src="http://timberking.msaavedra.com/wp-content/uploads/hammer.png">
-				<h3>Craftsmanship</h3>
-				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<img src="<?php the_field('icon_2_icon'); ?>">
+				<h3><?php the_field('icon_2_title'); ?></h3>
+				<p><?php the_field('icon_2_copy'); ?></p>
 			</div>
 			<div id="icon-three" class="col l3 m6 icon-row-icon">
-				<img src="http://timberking.msaavedra.com/wp-content/uploads/teamwork.png">
-				<h3>Strongest Warranty</h3>
-				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<img src="<?php the_field('icon_3_icon'); ?>">
+				<h3><?php the_field('icon_3_title'); ?></h3>
+				<p><?php the_field('icon_3_copy'); ?></p>
 			</div>
 			<div id="icon-four" class="col l3 m6 icon-row-icon">
-				<img src="http://timberking.msaavedra.com/wp-content/uploads/time.png">
-				<h3>Tradition</h3>
-				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<img src="<?php the_field('icon_4_icon'); ?>">
+				<h3><?php the_field('icon_4_title'); ?></h3>
+				<p><?php the_field('icon_4_copy'); ?></p>
 			</div>
  
  			<!-- Triggered Icon Boxes -->
 			<div id="icon-one-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://timberking.msaavedra.com/wp-content/uploads/measure.png" class="responsive-img">
+						<img src="<?php the_field('icon_1_icon'); ?>">
 					</div>
 					<div class="col s12 m9 valign">
-						<h3>Built to Last</h3>
-						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+						<h3><?php the_field('icon_1_title'); ?></h3>
+						<p><?php the_field('icon_1_copy_expanded'); ?></p>
 					</div>
 				</div>				
 			</div>
 			<div id="icon-two-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://timberking.msaavedra.com/wp-content/uploads/hammer.png" class="responsive-img">
+						<img src="<?php the_field('icon_2_icon'); ?>">
 					</div>
 					<div class="col s12 m9 valign">
-						<h3>Craftsmanship</h3>
-						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+						<h3><?php the_field('icon_2_title'); ?></h3>
+						<p><?php the_field('icon_2_copy_expanded'); ?></p>
 					</div>
 				</div>		
 			</div>
 			<div id="icon-three-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://timberking.msaavedra.com/wp-content/uploads/teamwork.png" class="responsive-img">
+						<img src="<?php the_field('icon_3_icon'); ?>">
 					</div>
 					<div class="col s12 m9 valign">
-						<h3>Strongest Warranty</h3>
-						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+						<h3><?php the_field('icon_3_title'); ?></h3>
+						<p><?php the_field('icon_3_copy_expanded'); ?></p>
 					</div>
 				</div>
 			</div>
 			<div id="icon-four-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="http://timberking.msaavedra.com/wp-content/uploads/time.png" class="responsive-img">
+						<img src="<?php the_field('icon_4_icon'); ?>">
 					</div>
 					<div class="col s12 m9 valign">
-						<h3>Tradition</h3>
-						<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+						<h3><?php the_field('icon_4_title'); ?></h3>
+						<p><?php the_field('icon_4_copy_expanded'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -91,12 +92,12 @@ function my_custom_loop () {
 	<section id="fpPromo">
 		<div class="row">
 			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
-				<img src="http://timberking.msaavedra.com/wp-content/uploads//header-product-img.png" class="responsive-img valign" >
+				<img src="<?php the_field('promo_image'); ?>" class="responsive-img valign" >
 			</div>
 			<div class="col m6 s12 valign-wrapper">
 				<div class="valign">
-					<h2>Solid-Welded 4 Post Head</h2>
-					<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+					<h2><?php the_field('promo_title'); ?></h2>
+					<p><?php the_field('promo_copy'); ?></p>
 				</div>
 			</div>
 		</div>
@@ -104,7 +105,7 @@ function my_custom_loop () {
 	<section id="fpHistory">
 		<div class="row">
 			<div class="col s12 m6 valign-wrapper">
-				<p class="valign">Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare. Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<p class="valign"><?php the_field('history_copy'); ?></p>
 			</div>
 			<div class="col s12 m6 valign-wrapper">
 				<div class="valign"><img src="http://timberking.msaavedra.com/wp-content/uploads/history-img.png"></div>
@@ -113,17 +114,17 @@ function my_custom_loop () {
 	</section>
 	<section id="fpFeatured">
 		<div class="row">
-			<div class="col s12 m6" style="background-image:url(http://timberking.msaavedra.com/wp-content/uploads/measure.jpg);">
+			<div class="col s12 m6" style="background-image:url(<?php the_field('featured_image_1'); ?>);">
 				<article>
-					<h3>Lorem Ipsum</h3>
+					<h3><?php the_field('featured_title_1'); ?></h3>
 				</article>
-				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<p><?php the_field('featured_copy_1'); ?></p>
 			</div>
-			<div class="col s12 m6" style="background-image:url(http://timberking.msaavedra.com/wp-content/uploads/lumber.jpg);">
+			<div class="col s12 m6" style="background-image:url(<?php the_field('featured_image_2'); ?>);">
 				<article>
-					<h3>Lorem Ipsum</h3>
+					<h3><?php the_field('featured_title_2'); ?></h3>
 				</article>
-				<p>Lorem ipsum dolor sit amet, ferri suavitate in sea, et posse fuisset tractatos ius, cum cu causae mnesarchum accommodare.</p>
+				<p><?php the_field('featured_copy_2'); ?></p>
 			</div>
 		</div>
 	</section>
