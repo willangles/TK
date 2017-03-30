@@ -2110,6 +2110,10 @@ header.site-header {
     width: 20px;
     margin-left: 8px; }
 
+.tk-footer-link a {
+  color: #fff;
+  text-decoration: none; }
+
 .tk-product .product-master-wrapper .product-main-wrapper .product-image-background {
   padding-top: 30px; }
 .tk-product .product-master-wrapper .product-main-wrapper .row div.product-image {

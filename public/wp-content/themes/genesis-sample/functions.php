@@ -152,16 +152,16 @@ function sp_custom_footer() {
     		</ul>
     	</div>
     	<div class="col l2 m2 s6">
-    		<h5>Resources</h5>
+    		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
     	</div>
     	<div class="col l2 m2 s6">
-    		<h5>News</h5>
+    		<h5 class="tk-footer-link"><a href="/news">News</a></h5>
     	</div>
     	<div class="col l2 m2 s6">
-    		<h5>Dealers</h5>
+    		<h5 class="tk-footer-link"><a href="/dealers">Dealers</a></h5>
     	</div>
     	<div class="col l2 m2 s6">
-    		<h5>Contact</h5>
+    		<h5 class="tk-footer-link"><a href="/contact">Contact</a></h5>
     	</div>
     </div>
     <div class="row site-credits">
