@@ -4582,11 +4582,54 @@ header.site-header {
   min-height: 300px;
   max-height: 300px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000316}}
-  .page-template-mill-types #mill-types-header h3 {
+  .page-template-mill-types #mill-types-header h2 {
     text-align: center;
     margin: 0 auto;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000323}}
+.page-template-mill-types #mill-focus,
+.page-template-mill-types #mill-types {
+  max-width: 1200px;
+  margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000329}}
+.page-template-mill-types #mill-focus article.focus-item {
+  padding: 5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000331}}
+  .page-template-mill-types #mill-focus article.focus-item h3 {
+    color: #dc2c00; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000338}}
+.page-template-mill-types #mill-types div.mill-type img {
+  max-height: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000345}}
+.page-template-mill-types #mill-types h3.mill-type {
+  text-align: center;
+  color: #dc2c00;
+  font-size: 3rem; }
 
+@media screen and (max-width: 1140px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000354}}
+  #mill-focus,
+  #mill-types {
+    max-width: 960px; } }
+@media screen and (max-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000361}}
+  #mill-focus,
+  #mill-types {
+    max-width: 800px; } }
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000368}}
+  #mill-focus,
+  #mill-types {
+    max-width: 600px; } }
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/pages\/_mill-types\.scss}line{font-family:\0000375}}
+  #mill-focus,
+  #mill-types {
+    max-width: 560px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/will\/work\/TimberKing\/scotch-box\/public\/wp-content\/themes\/genesis-sample\/css\/components\/_utility-bar\.scss}line{font-family:\000036}}
 .utility-bar {
   color: #000000;
