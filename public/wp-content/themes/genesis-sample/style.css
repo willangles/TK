@@ -3788,6 +3788,25 @@ header.site-header {
   font-size: 1.5em;
   color: #dc2c00 !important; }
 
+.purchase-contact {
+  text-align: center;
+  padding: 2rem 0; }
+  .purchase-contact p {
+    margin: 0; }
+
+.purchase-contact-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 4rem; }
+
+.purchase-contact-action {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem; }
+
+.purchase-contact-icon i {
+  font-size: 3rem; }
+
 .page-template-mill-types section {
   margin-bottom: 3rem; }
 .page-template-mill-types article.hidden {
