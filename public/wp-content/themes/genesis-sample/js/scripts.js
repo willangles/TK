@@ -44,8 +44,19 @@ jQuery(document).ready(function() {
 });
 
 jQuery(document).ready(function() {
+    var player;
+
+    function onYouTubePlayerAPIReady() { player = new YT.Player('player'); }
+
     jQuery('.materialboxed').materialbox();
-    jQuery('.modal').modal();
+    jQuery('.modal').modal({
+        complete: function() {
+            //jQuery('.video-container').get(0).stopVideo();
+            //callPlayer('yt-player', 'stopVideo');
+            jQuery("#tkPlayer iframe").attr("src", jQuery("#tkPlayer iframe").attr("src"));
+
+        }
+    });
 });
 
 // Saw Mill Category Page
