@@ -12,7 +12,7 @@ function my_custom_loop () {
 <div class="purchase-page">
 
 	<div class="product-cart-container">
-		<p class="product-cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat voluptatibus vel dolorem temporibus neque quam voluptates, odit. Maxime inventore repellendus consequuntur ex placeat dicta amet impedit autem, nostrum quo!<button class="waves-effect waves-light btn button">Continue to Cart</button></p>
+		<p class="product-cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat voluptatibus vel dolorem temporibus neque quam voluptates, odit. Maxime inventore repellendus consequuntur ex placeat dicta amet impedit autem, nostrum quo!<button class="waves-effect waves-light btn button">Learn More</button></p>
 	</div>
 <div class="container">
 	<div class="row">
@@ -32,6 +32,7 @@ function my_custom_loop () {
 			<p class="purchase-options-title">Payment Options:</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, minima libero velit similique, animi explicabo quaerat quod et temporibus quidem accusantium voluptatem modi odit eos tempora? Qui eligendi vero dicta.</p>
 		</div>
+		<button class="purchase-cart-btn waves-effect waves-light btn button">Continue To Cart</button>
 	</div> 
 	</div>
  </div>

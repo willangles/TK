@@ -63,12 +63,15 @@
         color: $red;
     }
     .purchase-options {
-        margin-top: 4rem;
+        margin: 4rem 0;
     }
     .purchase-options-title {
         text-transform: capitalize;
         font-weight: 900;
         font-size: 2rem;
         margin: 1rem 0;
+    }
+    .purchase-cart-btn {
+        margin: 2rem 0;
     }
 }

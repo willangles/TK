@@ -3840,12 +3840,14 @@ header.site-header {
   font-size: 3.5rem;
   color: #dc2c00; }
 .purchase-page .purchase-options {
-  margin-top: 4rem; }
+  margin: 4rem 0; }
 .purchase-page .purchase-options-title {
   text-transform: capitalize;
   font-weight: 900;
   font-size: 2rem;
   margin: 1rem 0; }
+.purchase-page .purchase-cart-btn {
+  margin: 2rem 0; }
 
 .page-template-mill-types section {
   margin-bottom: 3rem; }
