@@ -4105,6 +4105,8 @@ ul.side-nav {
       margin: 0 auto; } }
   .post-type-archive-product .site-inner .woocommerce-breadcrumb {
     padding-left: 0 !important; }
+  .post-type-archive-product .site-inner .woocommerce main#genesis-content {
+    padding: 0 !important; }
   .post-type-archive-product .site-inner .custom-products {
     max-width: 70vw;
     margin: 0 auto; }
@@ -4117,6 +4119,9 @@ ul.side-nav {
     margin: 1rem;
     max-width: 200px;
     text-align: center; }
+    .post-type-archive-product .site-inner ul.products li.product h3 {
+      font-family: 'Roboto', sans-serif;
+      text-transform: capitalize; }
   .post-type-archive-product .site-inner ul.products {
     display: flex;
     flex-wrap: wrap;

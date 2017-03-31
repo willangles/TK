@@ -7,6 +7,9 @@
     .woocommerce-breadcrumb {
         padding-left: 0 !important;
     }
+    .woocommerce main#genesis-content {
+        padding: 0 !important;
+    }
     .custom-products {
         max-width: 70vw;
         margin: 0 auto;
@@ -20,6 +23,10 @@
         margin: 1rem;
         max-width: 200px;
         text-align: center;
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+        }
     }
     ul.products {
         display: flex;
