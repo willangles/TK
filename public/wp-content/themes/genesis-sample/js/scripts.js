@@ -49,6 +49,7 @@ jQuery(document).ready(function() {
     function onYouTubePlayerAPIReady() { player = new YT.Player('player'); }
 
     jQuery('.materialboxed').materialbox();
+    jQuery(".button-collapse").sideNav();
     jQuery('.modal').modal({
         complete: function() {
             //jQuery('.video-container').get(0).stopVideo();
