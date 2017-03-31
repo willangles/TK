@@ -119,7 +119,7 @@ function utility_bar() {
  
 }
 
-
+add_filter('sp_custom_footer', 'do_shortcode');
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'sp_custom_footer' );
 function sp_custom_footer() {
@@ -169,7 +169,7 @@ function sp_custom_footer() {
     </div>
     <div class="row site-credits">
     	<div class="col s12 m6">
-    		<p>2017 TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
+    		<p>&copy;  <?php echo do_shortcode('[year]'); ?>  TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
 			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/1.png"></a>
@@ -203,3 +203,10 @@ function add_third_nav_genesis() {
 	wp_nav_menu( array( 'theme_location' => 'third-menu', 'container_class' => 'genesis-nav-menu' ) );
 	echo '</div>';
 }
+
+// Year Shortcode
+function year_shortcode() {
+  $year = date('Y');
+  return $year;
+}
+add_shortcode('year', 'year_shortcode');
