@@ -5407,6 +5407,26 @@ p {
     .woocommerce ul.products li a.add_to_cart_button {
       line-height: 45px; }
 
+.question {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.5rem; }
+  .question:before {
+    display: inline-block;
+    content: "Q: ";
+    font-weight: 900;
+    font-size: 1.3em;
+    color: #dc2c00;
+    margin-right: 3px; }
+
+.answer:before {
+  display: inline-block;
+  content: "A: ";
+  font-weight: 900;
+  font-size: 1.3em;
+  color: #dc2c00;
+  margin-right: 3px; }
+
 .wc-custom-wrapper .wc-price-box:after, .wc-custom-wrapper .wc-thumbnail-wrapper:after {
   content: "";
   display: table;

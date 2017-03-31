@@ -34,3 +34,27 @@
 		}
 	}
 }
+
+.question {
+	color: #000;
+	font-weight: 900;
+	font-size: 1.5rem;
+	&:before {
+		display: inline-block;
+		content: "Q: ";
+		font-weight: 900;
+		font-size: 1.3em;
+		color: #dc2c00;
+		margin-right: 3px;
+	}
+}
+.answer {
+	&:before {
+		display: inline-block;
+		content: "A: ";
+		font-weight: 900;
+		font-size: 1.3em;
+		color: #dc2c00;
+		margin-right: 3px;
+	}
+}
