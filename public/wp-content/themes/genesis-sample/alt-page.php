@@ -16,25 +16,17 @@ add_action( 'genesis_loop', 'alt_page' );
 
 
 function alt_page() { ?>
-	<div class="alt-page-master-wrapper">
-		<div class="row" style="padding-top:1em;">
-
+	<div class="alt-wrapper">
+		<div class="row">
 			<div class="col s12 m6">
-
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
-					echo '<h2>';
-					echo the_title();
-					echo '</h2>';
-					the_content();
-					endwhile; else: ?>
-					<p>Sorry, no posts matched your criteria.</p>
-				<?php endif; ?>
-
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+					<h1 class="alt-title"><?php the_title(); ?></h1>
+					<div class="alt-content">
+						<p><?php the_content(); ?></p>
+					</div>
+					<?php endwhile; endif; ?>
 			</div>
-			<div class="col s12 m6">
-				<?php echo genesis_get_image( array( 'size' => 'page-featured-image' ) ); ?>
-			</div>
-
+			<div class="alt-image" style="background: url(<?php the_post_thumbnail_url(); ?>); background-size: cover;"></div>
 		</div>
 	</div>
 
