@@ -3570,7 +3570,9 @@ header.site-header {
       opacity: 0.8; }
     header.site-header .wrap .title-area {
       text-align: center;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      float: none;
+      margin: 0 auto; }
       header.site-header .wrap .title-area h1.site-title {
         text-align: center;
         min-height: 83px;
@@ -3580,9 +3582,13 @@ header.site-header {
           min-height: 83px;
           width: 404px;
           float: left; }
+    header.site-header .wrap .textwidget {
+      text-align: center !important; }
 
 .nav-primary {
   background: #dc2c00;
+  margin: 0 auto;
+  height: 100%;
   margin: 0 auto;
   height: 100%;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
@@ -3626,11 +3632,11 @@ header.site-header {
           margin: -2px auto 0 auto;
           left: 0;
           right: 0;
-          height: 200px;
+          height: 125px;
           text-align: center; }
           .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item {
             background: transparent;
-            height: 200px;
+            height: 125px;
             overflow: hidden;
             text-align: center;
             margin: 0;
@@ -3641,7 +3647,7 @@ header.site-header {
               margin: 0;
               border: 0px solid transparent;
               background: transparent;
-              height: 200px; }
+              height: 125px; }
               .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item a p {
                 color: #f7b827;
                 font-weight: bold; }
@@ -3663,6 +3669,39 @@ header.site-header {
           height: 100% !important; }
           .nav-primary .wrap ul.genesis-nav-menu li a span {
             height: 100% !important; } }
+ul.side-nav {
+  background: #f7b827;
+  background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  ul.side-nav .genesis-nav-menu ul.menu {
+    padding-top: 4rem; }
+    ul.side-nav .genesis-nav-menu ul.menu li {
+      display: block;
+      border: 0px solid transparent;
+      transition: 0.2s ease-in-out all; }
+      ul.side-nav .genesis-nav-menu ul.menu li a {
+        font-size: 2.5rem;
+        font-family: "Roboto Slab", serif;
+        text-decoration: none;
+        line-height: 0.5rem;
+        border: 0px solid transparent;
+        transition: 0.1s ease-in-out all; }
+      ul.side-nav .genesis-nav-menu ul.menu li:hover {
+        background: rgba(255, 255, 255, 0.3);
+        border: 0px solid transparent;
+        transition: 0.1s ease-in-out all; }
+      ul.side-nav .genesis-nav-menu ul.menu li:active {
+        background: #dc2c00;
+        border: 0px solid transparent;
+        transition: 0.1s ease-in-out all; }
+        ul.side-nav .genesis-nav-menu ul.menu li:active a {
+          color: #FFFFFF;
+          transition: 0.1s ease-in-out all; }
+      ul.side-nav .genesis-nav-menu ul.menu li:focus {
+        border: 0px solid transparent;
+        outline-color: transparent !important; }
+
 .masthead {
   position: fixed;
   top: 0;
@@ -3790,10 +3829,7 @@ header.site-header {
   /* opera 11.10+ */
   background: -ms-linear-gradient(91deg, #000000 0%, #2E2E2E 100%);
   /* ie10+ */
-  background: linear-gradient(359deg, #000000 0%, #2E2E2E 100%);
-  /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2E2E', endColorstr='#000000',GradientType=0 );
-  /* ie6-9 */ }
+  background: linear-gradient(359deg, #000000 0%, #2E2E2E 100%); }
   @media only screen and (min-width: 1201px) {
     .site-footer .row {
       max-width: 1152px; } }
