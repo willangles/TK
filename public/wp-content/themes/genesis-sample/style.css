@@ -3669,38 +3669,40 @@ header.site-header {
           height: 100% !important; }
           .nav-primary .wrap ul.genesis-nav-menu li a span {
             height: 100% !important; } }
-ul.side-nav {
+.side-nav {
   background: #f7b827;
   background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
-  ul.side-nav .genesis-nav-menu ul.menu {
-    padding-top: 4rem; }
-    ul.side-nav .genesis-nav-menu ul.menu li {
-      display: block;
+  .side-nav .menu ul li {
+    display: block;
+    border: 0px solid transparent;
+    transition: 0.2s ease-in-out all; }
+    .side-nav .menu ul li a {
+      font-size: 2rem;
+      font-family: "Roboto Slab", serif;
+      text-decoration: none;
+      line-height: 2rem;
+      height: 4rem;
       border: 0px solid transparent;
-      transition: 0.2s ease-in-out all; }
-      ul.side-nav .genesis-nav-menu ul.menu li a {
-        font-size: 2.5rem;
-        font-family: "Roboto Slab", serif;
-        text-decoration: none;
-        line-height: 0.5rem;
-        border: 0px solid transparent;
+      padding: 1rem 2rem;
+      transition: 0.1s ease-in-out all; }
+      .side-nav .menu ul li a:hover {
+        background: transparent; }
+    .side-nav .menu ul li:hover {
+      background: rgba(255, 255, 255, 0.3);
+      border: 0px solid transparent;
+      transition: 0.1s ease-in-out all; }
+    .side-nav .menu ul li:active {
+      background: #dc2c00;
+      border: 0px solid transparent;
+      transition: 0.1s ease-in-out all; }
+      .side-nav .menu ul li:active a {
+        color: #FFFFFF;
         transition: 0.1s ease-in-out all; }
-      ul.side-nav .genesis-nav-menu ul.menu li:hover {
-        background: rgba(255, 255, 255, 0.3);
-        border: 0px solid transparent;
-        transition: 0.1s ease-in-out all; }
-      ul.side-nav .genesis-nav-menu ul.menu li:active {
-        background: #dc2c00;
-        border: 0px solid transparent;
-        transition: 0.1s ease-in-out all; }
-        ul.side-nav .genesis-nav-menu ul.menu li:active a {
-          color: #FFFFFF;
-          transition: 0.1s ease-in-out all; }
-      ul.side-nav .genesis-nav-menu ul.menu li:focus {
-        border: 0px solid transparent;
-        outline-color: transparent !important; }
+    .side-nav .menu ul li:focus {
+      border: 0px solid transparent;
+      outline-color: transparent !important; }
 
 .masthead {
   position: fixed;

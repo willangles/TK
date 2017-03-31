@@ -119,25 +119,30 @@ $sub-nav-height: 125px;
     }
 }
 
-ul.side-nav {
+.side-nav {
     background: $yellow;
     background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    .genesis-nav-menu {
-        ul.menu {
-            padding-top: 4rem;
+    .menu {
+        ul {
+            //padding-top: 4rem;
             li {
                 display: block;
                 border: 0px solid transparent;
                 @include t(0.2s);
                 a {
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     font-family: $slab;
                     text-decoration: none;
-                    line-height: 0.5rem;
+                    line-height: 2rem;
+                    height: 4rem;
                     border: 0px solid transparent;
+                    padding: 1rem 2rem;
                     @include t(0.1s);
+                    &:hover {
+                        background: transparent;
+                    }
                 }
                 &:hover {
                     background: rgba(255, 255, 255, 0.3);

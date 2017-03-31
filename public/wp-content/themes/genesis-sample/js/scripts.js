@@ -44,10 +44,6 @@ jQuery(document).ready(function() {
 });
 
 jQuery(document).ready(function() {
-    var player;
-
-    function onYouTubePlayerAPIReady() { player = new YT.Player('player'); }
-
     jQuery('.materialboxed').materialbox();
     jQuery(".button-collapse").sideNav();
     jQuery('.modal').modal({

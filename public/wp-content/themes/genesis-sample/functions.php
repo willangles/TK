@@ -188,3 +188,18 @@ function woocommerce_template_loop_product_thumbnail(){ ?>
   <div class="woo-product-img" style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></div>
   <?php
 }
+
+function register_additional_menu() {
+  
+	register_nav_menu( 'third-menu' ,__( 'Third Navigation Menu' ));
+     
+}
+add_action( 'init', 'register_additional_menu' );
+
+add_action( 'genesis_after_header', 'add_third_nav_genesis' ); 
+
+function add_third_nav_genesis() { 
+	echo '<div class="side-nav" id="mobile-demo">';
+	wp_nav_menu( array( 'theme_location' => 'third-menu', 'container_class' => 'genesis-nav-menu' ) );
+	echo '</div>';
+}
