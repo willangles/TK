@@ -4106,20 +4106,30 @@ header.site-header {
 .page-template-alt-page .site-inner {
   position: relative; }
 
-.post-type-archive-product .site-inner {
+.post-type-archive-product .site-inner,
+.archive.tax-product_cat .site-inner {
   position: relative; }
   @media (min-width: 64em) {
-    .post-type-archive-product .site-inner {
+    .post-type-archive-product .site-inner,
+    .archive.tax-product_cat .site-inner {
       max-width: 85vw;
       margin: 0 auto; } }
-  .post-type-archive-product .site-inner .woocommerce-breadcrumb {
+  .post-type-archive-product .site-inner .archive-description, .post-type-archive-product .site-inner .author-box,
+  .archive.tax-product_cat .site-inner .archive-description,
+  .archive.tax-product_cat .site-inner .author-box {
+    background-color: transparent; }
+  .post-type-archive-product .site-inner .woocommerce-breadcrumb,
+  .archive.tax-product_cat .site-inner .woocommerce-breadcrumb {
     padding-left: 0 !important; }
-  .post-type-archive-product .site-inner .woocommerce main#genesis-content {
+  .post-type-archive-product .site-inner .woocommerce main#genesis-content,
+  .archive.tax-product_cat .site-inner .woocommerce main#genesis-content {
     padding: 0 !important; }
-  .post-type-archive-product .site-inner .custom-products {
+  .post-type-archive-product .site-inner .custom-products,
+  .archive.tax-product_cat .site-inner .custom-products {
     max-width: 70vw;
     margin: 0 auto; }
-  .post-type-archive-product .site-inner ul.products li.product {
+  .post-type-archive-product .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products li.product {
     background: transparent;
     box-shadow: none;
     flex: 1;
@@ -4128,10 +4138,12 @@ header.site-header {
     margin: 1rem;
     max-width: 200px;
     text-align: center; }
-    .post-type-archive-product .site-inner ul.products li.product h3 {
+    .post-type-archive-product .site-inner ul.products li.product h3,
+    .archive.tax-product_cat .site-inner ul.products li.product h3 {
       font-family: 'Roboto', sans-serif;
       text-transform: capitalize; }
-  .post-type-archive-product .site-inner ul.products {
+  .post-type-archive-product .site-inner ul.products,
+  .archive.tax-product_cat .site-inner ul.products {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0 !important;

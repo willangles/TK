@@ -1,8 +1,12 @@
-.post-type-archive-product .site-inner {
+.post-type-archive-product .site-inner,
+.archive.tax-product_cat .site-inner {
     position: relative;
     @include bp(lg){
         max-width: 85vw;
         margin: 0 auto;
+    }
+    .archive-description, .author-box {
+        background-color: transparent;
     }
     .woocommerce-breadcrumb {
         padding-left: 0 !important;
