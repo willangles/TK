@@ -1,0 +1,35 @@
+.post-type-archive-product .site-inner {
+    position: relative;
+    @include bp(lg){
+        max-width: 85vw;
+    }
+    @include bp(xs){
+        .content {
+            width: 100%;
+        }
+    }
+    ul.products li.product {
+        background: transparent;
+        box-shadow: none;
+        flex: 1;
+        position: relative;
+        float: none;
+        margin: 1rem;
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+        .button {
+
+        }
+    }
+    ul.products {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 12rem;
+    }
+}
+.woo-product-img {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}

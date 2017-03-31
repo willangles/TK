@@ -183,3 +183,8 @@ function sp_custom_footer() {
 
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
+
+function woocommerce_template_loop_product_thumbnail(){ ?>
+  <div class="woo-product-img" style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size: 100%; background-position: center center; background-repeat: no-repeat;"></div>
+  <?php
+}

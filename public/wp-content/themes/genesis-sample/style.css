@@ -4061,6 +4061,34 @@ header.site-header {
 .page-template-alt-page .site-inner {
   position: relative; }
 
+.post-type-archive-product .site-inner {
+  position: relative; }
+  @media (min-width: 64em) {
+    .post-type-archive-product .site-inner {
+      max-width: 85vw; } }
+  @media (max-width: 37.5em) {
+    .post-type-archive-product .site-inner .content {
+      width: 100%; } }
+  .post-type-archive-product .site-inner ul.products li.product {
+    background: transparent;
+    box-shadow: none;
+    flex: 1;
+    position: relative;
+    float: none;
+    margin: 1rem;
+    width: 100%;
+    max-width: 200px;
+    text-align: center; }
+  .post-type-archive-product .site-inner ul.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12rem; }
+
+.woo-product-img {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto; }
+
 .page-template-mill-types section {
   margin-bottom: 3rem; }
 .page-template-mill-types article.hidden {
