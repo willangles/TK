@@ -18,11 +18,13 @@ function genesis_sample_google_fonts() {
 }
 
 //* Custom Scripts
-add_action('genesis_after_footer', 'bottom_scripts');
-function bottom_scripts() {
-      wp_register_script( 'bottom-scripts', 'http://timberking.msaavedra.com/wp-content/themes/genesis-sample/js/scripts.js', false, null);
-      wp_enqueue_script( 'bottom-scripts');
+function theme_js() {
+    wp_enqueue_script( 'sweetalert', get_stylesheet_directory_uri() . '/vendor/sweetalert/dist/sweetalert.min.js', true);
+	wp_enqueue_script( 'sweetalert', get_stylesheet_directory_uri() . '/js/scripts.js', true);
 }
+add_action('wp_enqueue_scripts', 'theme_js');
+
+
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
