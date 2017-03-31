@@ -3839,6 +3839,13 @@ header.site-header {
   background: -ms-linear-gradient(91deg, #000000 0%, #2E2E2E 100%);
   /* ie10+ */
   background: linear-gradient(359deg, #000000 0%, #2E2E2E 100%); }
+  .site-footer p {
+    line-height: 1.5; }
+  .site-footer a {
+    text-decoration: none;
+    color: #FFFFFF; }
+    .site-footer a:hover {
+      color: #dc2c00; }
   @media only screen and (min-width: 1201px) {
     .site-footer .row {
       max-width: 1152px; } }
@@ -3859,6 +3866,7 @@ header.site-header {
   .site-footer .row .col h5 {
     color: #FFFFFF;
     font-size: 14px;
+    font-size: 1.4rem;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase; }
   .site-footer .row .col ul li {
@@ -3872,7 +3880,8 @@ header.site-header {
     color: #bdbdbd;
     text-align: left; }
     .site-footer .row.site-credits p a {
-      color: #666; }
+      color: #666;
+      text-decoration: none; }
   .site-footer .row.site-credits .social-media-icons img {
     float: right;
     display: inline;
