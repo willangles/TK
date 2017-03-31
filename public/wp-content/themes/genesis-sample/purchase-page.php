@@ -7,30 +7,32 @@
 
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_loop', 'my_custom_loop' );
+
+
 function my_custom_loop () {
 ?>
 <div class="purchase-page">
 
 	<div class="product-cart-container">
-		<p class="product-cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat voluptatibus vel dolorem temporibus neque quam voluptates, odit. Maxime inventore repellendus consequuntur ex placeat dicta amet impedit autem, nostrum quo!<a href="#options" class="waves-effect waves-light btn button">Learn More</a></p>
+		<p class="product-cart-text"><?php the_field('content'); ?><a href="#options" class="waves-effect waves-light btn button">Learn More</a></p>
 	</div>
 <div class="container">
 	<div class="row">
 		<div class="purchase-contact col s6">
 			<p class="purchase-contact-icon"><i class="material-icons dp48">email</i></p>
 			<p class="purchase-contact-title">Contact Us</p>
-			<p class="purchase-contact-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<p class="purchase-contact-action">Send an Email</p>
+			<p class="purchase-contact-caption"><?php the_field('email_caption')?></p>
+			<a class="purchase-contact-action email">Send an Email</a>
 		</div>
 		<div class="purchase-contact col s6">
 			<p class="purchase-contact-icon"><i class="material-icons dp48">phonelink_ring</i></p>
 			<p class="purchase-contact-title">Give Us A Call</p>
-			<p class="purchase-contact-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<p class="purchase-contact-action">1-800-000</p>
+			<p class="purchase-contact-caption"><?php the_field('phone_caption')?></p>
+			<p class="purchase-contact-action"><?php the_field('phone_number')?></p>
 		</div>
 		<div class="purchase-options col s12" id="options">
 			<p class="purchase-options-title">Payment Options:</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, minima libero velit similique, animi explicabo quaerat quod et temporibus quidem accusantium voluptatem modi odit eos tempora? Qui eligendi vero dicta.</p>
+			<p><?php the_field('payment_options')?></p>
 		</div>
 		<a href="/cart/" class="purchase-cart-btn waves-effect waves-light btn button">Continue To Cart</a>
 	</div> 

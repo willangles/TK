@@ -3838,6 +3838,9 @@ header.site-header {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 2rem; }
+  .purchase-page .purchase-contact-action.email {
+    color: #000;
+    text-decoration: none; }
 .purchase-page .purchase-contact-icon i {
   font-size: 3.5rem;
   color: #dc2c00; }
