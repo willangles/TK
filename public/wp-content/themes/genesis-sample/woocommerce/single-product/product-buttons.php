@@ -12,8 +12,8 @@ global $product; ?>
 <script>
     function addToCart(event){
         var el = event.target;
-        var id = $(el).data('id');
-        var type = $(el).data('type');
+        var id = jQuery(el).data('id');
+        var type = jQuery(el).data('type');
         var url = "/?add-to-cart=" + id;
 
         function openDialog(){
@@ -37,7 +37,7 @@ global $product; ?>
         function redirect(){
             window.location = "/purchase-page/";
         }
-        $.ajax({
+        jQuery.ajax({
             url: url,
         }).done(function() {
             if( type !== 'Accessory'){

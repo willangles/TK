@@ -3812,7 +3812,9 @@ header.site-header {
   position: relative;
   z-index: 100; }
   .purchase-page .product-cart-text .button {
-    margin: 2rem auto; }
+    margin: 2rem auto;
+    line-height: 4.25rem;
+    max-width: 250px; }
 .purchase-page .purchase-contact {
   text-align: center;
   padding: 6rem 0;
@@ -3840,14 +3842,16 @@ header.site-header {
   font-size: 3.5rem;
   color: #dc2c00; }
 .purchase-page .purchase-options {
-  margin: 4rem 0; }
+  margin: 3rem 0; }
 .purchase-page .purchase-options-title {
   text-transform: capitalize;
   font-weight: 900;
   font-size: 2rem;
   margin: 1rem 0; }
 .purchase-page .purchase-cart-btn {
-  margin: 2rem 0; }
+  margin: 2rem 0;
+  max-width: 250px;
+  line-height: 4.5rem; }
 
 .page-template-mill-types section {
   margin-bottom: 3rem; }

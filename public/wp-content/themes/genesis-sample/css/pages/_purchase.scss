@@ -26,6 +26,8 @@
         z-index: 100;
         .button {
             margin: 2rem auto;
+            line-height: 4.25rem;
+            max-width: 250px;
         }
     }
     .purchase-contact {
@@ -63,7 +65,7 @@
         color: $red;
     }
     .purchase-options {
-        margin: 4rem 0;
+        margin: 3rem 0;
     }
     .purchase-options-title {
         text-transform: capitalize;
@@ -73,5 +75,7 @@
     }
     .purchase-cart-btn {
         margin: 2rem 0;
+        max-width: 250px;
+        line-height: 4.5rem;
     }
 }

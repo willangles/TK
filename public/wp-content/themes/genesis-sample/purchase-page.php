@@ -12,7 +12,7 @@ function my_custom_loop () {
 <div class="purchase-page">
 
 	<div class="product-cart-container">
-		<p class="product-cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat voluptatibus vel dolorem temporibus neque quam voluptates, odit. Maxime inventore repellendus consequuntur ex placeat dicta amet impedit autem, nostrum quo!<button class="waves-effect waves-light btn button">Learn More</button></p>
+		<p class="product-cart-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugiat voluptatibus vel dolorem temporibus neque quam voluptates, odit. Maxime inventore repellendus consequuntur ex placeat dicta amet impedit autem, nostrum quo!<a href="#options" class="waves-effect waves-light btn button">Learn More</a></p>
 	</div>
 <div class="container">
 	<div class="row">
@@ -28,15 +28,31 @@ function my_custom_loop () {
 			<p class="purchase-contact-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			<p class="purchase-contact-action">1-800-000</p>
 		</div>
-		<div class="purchase-options col s12">
+		<div class="purchase-options col s12" id="options">
 			<p class="purchase-options-title">Payment Options:</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, minima libero velit similique, animi explicabo quaerat quod et temporibus quidem accusantium voluptatem modi odit eos tempora? Qui eligendi vero dicta.</p>
 		</div>
-		<button class="purchase-cart-btn waves-effect waves-light btn button">Continue To Cart</button>
+		<a href="/cart/" class="purchase-cart-btn waves-effect waves-light btn button">Continue To Cart</a>
 	</div> 
 	</div>
  </div>
+<script>
+	jQuery(document).ready(function(){
+		jQuery('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = jQuery(this.hash);
+			target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				jQuery('html, body').animate({
+				scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
+			}
+		});
+});
 
+</script>
 
 <?php } ?>
 
