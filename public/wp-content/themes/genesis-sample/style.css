@@ -4065,10 +4065,13 @@ header.site-header {
   position: relative; }
   @media (min-width: 64em) {
     .post-type-archive-product .site-inner {
-      max-width: 85vw; } }
-  @media (max-width: 37.5em) {
-    .post-type-archive-product .site-inner .content {
-      width: 100%; } }
+      max-width: 85vw;
+      margin: 0 auto; } }
+  .post-type-archive-product .site-inner .woocommerce-breadcrumb {
+    padding-left: 0 !important; }
+  .post-type-archive-product .site-inner .custom-products {
+    max-width: 70vw;
+    margin: 0 auto; }
   .post-type-archive-product .site-inner ul.products li.product {
     background: transparent;
     box-shadow: none;
@@ -4076,12 +4079,13 @@ header.site-header {
     position: relative;
     float: none;
     margin: 1rem;
-    width: 100%;
     max-width: 200px;
     text-align: center; }
   .post-type-archive-product .site-inner ul.products {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     margin-bottom: 12rem; }
 
 .woo-product-img {

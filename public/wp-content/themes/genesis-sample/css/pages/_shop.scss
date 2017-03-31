@@ -2,11 +2,14 @@
     position: relative;
     @include bp(lg){
         max-width: 85vw;
+        margin: 0 auto;
     }
-    @include bp(xs){
-        .content {
-            width: 100%;
-        }
+    .woocommerce-breadcrumb {
+        padding-left: 0 !important;
+    }
+    .custom-products {
+        max-width: 70vw;
+        margin: 0 auto;
     }
     ul.products li.product {
         background: transparent;
@@ -15,16 +18,14 @@
         position: relative;
         float: none;
         margin: 1rem;
-        width: 100%;
         max-width: 200px;
         text-align: center;
-        .button {
-
-        }
     }
     ul.products {
         display: flex;
         flex-wrap: wrap;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         margin-bottom: 12rem;
     }
 }
