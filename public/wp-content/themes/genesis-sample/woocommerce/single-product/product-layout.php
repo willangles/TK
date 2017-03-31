@@ -7,6 +7,7 @@
         <?php wc_get_template( 'single-product/title.php' ); ?>
         <!-- Buy Now and Deposit Buttons -->
         <?php wc_get_template( 'single-product/product-buttons.php' ); ?>
+       
         <!-- Product Description-->
         <?php wc_get_template( 'single-product/short-description.php' ); ?>
     </div>
