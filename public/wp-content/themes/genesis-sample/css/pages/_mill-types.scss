@@ -30,6 +30,20 @@
             padding: 5rem;
             h3 {
                 color: $red;
+                font-size: 3.75rem;
+                text-align: center;
+            }
+            p a.btn {
+                font-family: $slab;
+                font-weight: bold;
+                color: $black;
+                background-color: $yellow;
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                &:hover {
+                    color: $white;
+                    background-color: $red;
+                    box-shadow: 3px 0 10px 0 rgba(0, 0, 0, 0.5);
+                }
             }
         }
     }
