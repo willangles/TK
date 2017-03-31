@@ -1,57 +1,55 @@
 @import '../colors';
-
-
 $nav-height: 45px;
 $nav-mobile: 100% !important;
-
-$nav-black: rgba(0,0,0,0.8);
-$nav-black2: rgba(0,0,0,.5);
-$sub-nav-height: 200px;
-
+$nav-black: rgba(0, 0, 0, 0.8);
+$nav-black2: rgba(0, 0, 0, .5);
+$sub-nav-height: 125px;
 .nav-primary {
-	background: $red; 
-	margin: 0 auto;
-    height: 100%; 
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+    background: $red;
+    margin: 0 auto;
+    height: 100%;
+    margin: 0 auto;
+    height: 100%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
     z-index: 9999;
     position: relative;
     .wrap {
-    	height: $nav-height;
-    	ul.genesis-nav-menu {
-    		height: $nav-height; 
-    		margin: 0 auto;
-    		max-width: 768px;
-    		li { 
-    			height: $nav-height; 
-    			a {
-    				padding-top: 16px;
-    				text-transform: uppercase;
-    				font-size: 0.8em;
-    				font-family: Roboto, sans-serif;
-    				letter-spacing:0.02em;
-    				height: $nav-height;
-    				color: $white;
+        height: $nav-height;
+        ul.genesis-nav-menu {
+            height: $nav-height;
+            margin: 0 auto;
+            max-width: 768px;
+            li {
+                height: $nav-height;
+                a {
+                    padding-top: 16px;
+                    text-transform: uppercase;
+                    font-size: 0.8em;
+                    font-family: Roboto, sans-serif;
+                    letter-spacing: 0.02em;
+                    height: $nav-height;
+                    color: $white;
                     text-decoration: none;
-
                     span {
                         color: $white;
                         text-decoration: none;
                     }
-
-    				&:hover {
-    					text-decoration: none;
-    					color: $yellow;
-                        background: rgba(255,255,255,0);
-    				}
-    			}
+                    &:hover {
+                        text-decoration: none;
+                        color: $yellow;
+                        background: rgba(255, 255, 255, 0);
+                    }
+                }
                 &.current-menu-item {
                     color: $yellow;
                     a {
                         color: $yellow !important;
-                        span { color: $yellow !important; }
+                        span {
+                            color: $yellow !important;
+                        }
                     }
                 }
-                &:hover { 
+                &:hover {
                     //background: rgba(255,255,255,0);
                 }
                 &:active {
@@ -62,7 +60,8 @@ $sub-nav-height: 200px;
                     width: 100%;
                     margin: -2px auto 0 auto;
                     // position:absolute;
-                    left:0; right:0;
+                    left: 0;
+                    right: 0;
                     height: $sub-nav-height;
                     text-align: center;
                     li.menu-item {
@@ -70,40 +69,39 @@ $sub-nav-height: 200px;
                         height: $sub-nav-height;
                         overflow: hidden;
                         text-align: center;
-                        margin:0;
-                        float:none;
+                        margin: 0;
+                        float: none;
                         border: 0px solid transparent;
                         a {
                             color: white;
-                            margin:0;
+                            margin: 0;
                             border: 0px solid transparent;
                             background: transparent;
                             height: $sub-nav-height;
-
-                            p { 
-                                color: $yellow; 
+                            p {
+                                color: $yellow;
                                 font-weight: bold;
                             }
-                            span { 
+                            span {
                                 color: white;
-                                font-size:2em;
+                                font-size: 2em;
                                 font-weight: 900;
                             }
                         }
-
                         &:hover {
                             background: $nav-black2;
                         }
                         &:active {}
                     }
                 }
-    		}
-    	}
+            }
+        }
     }
 }
-@media screen and ( max-width: 768px ) {
+
+@media screen and ( max-width: 768px) {
     .nav-primary {
-        .wrap { 
+        .wrap {
             height: $nav-mobile;
             ul.genesis-nav-menu {
                 height: $nav-mobile;
@@ -115,6 +113,49 @@ $sub-nav-height: 200px;
                             height: $nav-mobile;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+ul.side-nav {
+    background: $yellow;
+    background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .genesis-nav-menu {
+        ul.menu {
+            padding-top: 4rem;
+            li {
+                display: block;
+                border: 0px solid transparent;
+                @include t(0.2s);
+                a {
+                    font-size: 2.5rem;
+                    font-family: $slab;
+                    text-decoration: none;
+                    line-height: 0.5rem;
+                    border: 0px solid transparent;
+                    @include t(0.1s);
+                }
+                &:hover {
+                    background: rgba(255, 255, 255, 0.3);
+                    border: 0px solid transparent;
+                    @include t(0.1s);
+                }
+                &:active {
+                    background: $red;
+                    border: 0px solid transparent;
+                    @include t(0.1s);
+                    a {
+                        color: $white;
+                        @include t(0.1s);
+                    }
+                }
+                &:focus {
+                    border: 0px solid transparent;
+                    outline-color: transparent !important;
                 }
             }
         }

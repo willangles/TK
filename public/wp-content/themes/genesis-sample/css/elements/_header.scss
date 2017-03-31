@@ -1,42 +1,44 @@
 @import '../colors';
-
 header.site-header {
-	background: $red;
-	text-align: center;
-	min-height: 120px;
-	.wrap {
-		//max-width: 100%;
-		padding: 0;
-		.row {
-			margin-bottom:0;
-
-			p { 
-				margin-bottom: 0; 
-				font-size:0.6em;
-				font-weight: bold;
-			}
-		}
-		hr {
-			margin:0 auto;
-			max-width: 70%;
-			opacity: 0.8;
-		}
-		.title-area {
-			text-align: center;
-			border-bottom: 1px solid rgba(255,255,255,0.4);
-			h1.site-title {
-				text-align: center;
-				min-height: 83px;
-					width: 404px;
-					margin:0 auto;
-				a {
-					min-height: 83px;
-					width: 404px;
-					float: left;
-
-				}
-			}
-			h2.site-description {}
-		}
-	}
+    background: $red;
+    text-align: center;
+    min-height: 120px;
+    .wrap {
+        //max-width: 100%;
+        padding: 0;
+        .row {
+            margin-bottom: 0;
+            p {
+                margin-bottom: 0;
+                font-size: 0.6em;
+                font-weight: bold;
+            }
+        }
+        hr {
+            margin: 0 auto;
+            max-width: 70%;
+            opacity: 0.8;
+        }
+        .title-area {
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            float: none;
+            margin: 0 auto;
+            h1.site-title {
+                text-align: center;
+                min-height: 83px;
+                width: 404px;
+                margin: 0 auto;
+                a {
+                    min-height: 83px;
+                    width: 404px;
+                    float: left;
+                }
+            }
+            h2.site-description {}
+        }
+        .textwidget {
+            text-align: center !important;
+        }
+    }
 }
