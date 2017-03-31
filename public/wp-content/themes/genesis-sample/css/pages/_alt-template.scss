@@ -5,7 +5,7 @@
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         border-left: 1rem solid #333;
-        max-width: 70%;
+        max-width: 100%;
         padding: 1px;
         padding-left: 2rem;
         line-height: 4rem;
@@ -13,11 +13,19 @@
         margin-top: 8rem;
         margin-bottom: 4rem;
         font-weight: 400 !important;
+        @include bp(sm){
+            max-width: 75%;
+        }
     }
     .alt-content {
         margin-bottom: 8rem;
     }
     .alt-image {
+    display: block;
+    width: 100%;
+    height: 350px;
+    clear: both;
+    @include bp(sm){
         position: absolute;
         top: 0;
         right: 0;
@@ -38,8 +46,8 @@
             background: -webkit-linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
             background: linear-gradient(45deg,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
         }
+    }
     }
 }
 .page-template-alt-page .content {
