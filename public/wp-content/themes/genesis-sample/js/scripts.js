@@ -109,3 +109,9 @@ jQuery(document).ready(function() {
         console.log('2500');
     });
 });
+
+// Add Class to Navigation
+jQuery(document).ready(function() {
+    jQuery('.nav-primary').addClass('hide-on-med-and-down');
+
+});

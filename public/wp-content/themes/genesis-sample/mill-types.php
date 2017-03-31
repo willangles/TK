@@ -81,7 +81,6 @@ function my_custom_loop () {
         </div>
     </article>
 </section>
-
  <section id="mill-types">
   	<div class="row">
       <div class="col m4 s6 ">
