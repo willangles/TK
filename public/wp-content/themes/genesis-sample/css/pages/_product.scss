@@ -1,0 +1,157 @@
+$yellow: #f7b827;
+$red: #dc2c00;
+$lightgray: #bdbdbd;
+$black: #000000;
+$white: #FFFFFF;
+$em: 1.2em;
+$pt: PT Serif,
+serif;
+$pts: PT Sans,
+sans-serif;
+$slab: 'Roboto Slab',
+serif;
+.tk-product {
+    .hidden-mobile {}
+    .product-master-wrapper {
+        .product-main-wrapper {
+            .product-image-background {
+                padding-top: 30px;
+            }
+            .row {
+                div.product-image {
+                    padding-top: 4em;
+                }
+                div.product-content {
+                    @media screen and (min-width: 1201px) {
+                        max-width: 500px;
+                    }
+                    h3 {
+                        text-align: center;
+                        color: $red;
+                    }
+                    div.product-content-box {
+                        background: rgba(155, 155, 155, 0.5);
+                        border: 2px solid #333;
+                        padding: 1.5em 1.25em;
+                        font-size: 16px;
+                        p {
+                            margin-bottom: 5px;
+                            strong {
+                                font-size: 22px;
+                                line-height: 16px;
+                            }
+                        }
+                    }
+                    .price-box {
+                        margin: 0;
+                        padding: $em;
+                        .col {
+                            margin-bottom: $em/2;
+                            h4 {
+                                display: inline;
+                            }
+                            button {
+                                float: right;
+                                display: inline;
+                            }
+                            @media screen and (max-width: 960px) {
+                                h4 {
+                                    // display: block;
+                                    // font-size: 3rem;
+                                    // text-align: center; 
+                                }
+                                button {
+                                    // float: none;
+                                    // margin: 0 auto;
+                                }
+                            }
+                        }
+                    }
+                }
+                h4.tk-product-price {
+                    color: $yellow;
+                }
+                h4.tk-product-deposit {
+                    color: $black;
+                }
+            }
+            .featured-extra-images {
+                text-align: center;
+                max-width: 768px;
+            }
+        }
+        .product-info-wrapper {
+            ul.product-info-nav {
+                display: block;
+                background: $red;
+                text-align: center;
+                padding: 0.25em 0 0.75em;
+                li.info-panel {
+                    display: inline;
+                    margin-left: 8px;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    a {
+                        color: $white;
+                        text-decoration: none;
+                        padding: 0.25em 0.75em;
+                    }
+                }
+            }
+            .row {
+                .col {
+                    .product-video-wrap {
+                        padding: $em*1.1 $em;
+                    }
+                    .info-panel-to-show {
+                        display: none;
+                        //padding-top:30px;
+                        p {
+                            font-size: 14px;
+                            margin: 3px;
+                            strong {
+                                float: left;
+                                font-family: $slab;
+                                font-weight: 900;
+                            }
+                            span {
+                                float: right;
+                            }
+                        }
+                        hr {
+                            margin-bottom: 4px;
+                        }
+                    }
+                    .info-panel-show {
+                        display: block;
+                    }
+                    .notice {
+                        font-size: 14px;
+                        margin: 1em auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.active {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.qa {
+    p {
+        margin: 0 0 28px;
+        strong {
+            clear: right;
+            float: none !important;
+        }
+    }
+}
+
+.tk-red {
+    float: none !important;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: $red !important;
+}

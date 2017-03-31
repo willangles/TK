@@ -1,0 +1,207 @@
+@import 'base';
+@import 'colors';
+@import 'sizing';
+@import 'frontpage';
+@import 'elements/buttons';
+@import 'elements/header';
+@import 'elements/nav';
+@import 'elements/footer';
+@import 'pages/product';
+@import 'pages/mill-types';
+@import 'components/utility-bar';
+.sidebar-primary {
+    .widget {
+        background: transparent !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+    font-family: $slab;
+}
+
+a:active {
+    outline: #ccc 0px solid !important;
+}
+
+p {
+    color: $black;
+}
+
+.modal {
+    // For front page modal
+    height: 80% !important;
+}
+
+@mixin upcase {
+    text-transform: uppercase;
+}
+
+@mixin history-font {
+    font-family: $pt;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+#front-page-stacks {
+    .row {
+        margin-bottom: 0px;
+    }
+    section {}
+    #fpSplash {
+        background: url('http://timberking.msaavedra.com/wp-content/uploads/header-img-1-e1488998272992.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        .row {
+            min-height: 500px !important;
+        }
+        h2 {
+            color: $white;
+            margin-top: 1.5em;
+            font-size: 3em;
+            @media screen and (max-width: 960px) {
+                & {
+                    margin-top: 0;
+                }
+            }
+        }
+        p {
+            color: $white;
+        }
+        a.button {
+            display: block;
+            max-width: 271px;
+            min-width: 270px;
+            line-height: 45px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+    #fpIconRow {
+        background: $yellow;
+        padding-top: $em/2;
+        cursor: pointer;
+        img,
+        h3,
+        p {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        h3 {
+            color: $white;
+            font-size: $em/1.2;
+            font-family: $slab;
+            @include upcase;
+        }
+        p {
+            color: $white;
+            font-size: $em/1.7;
+        }
+        .row {
+            .hidden {
+                display: none;
+            }
+            .icon-trigger {
+                .row {
+                    min-height: 200px;
+                    .col {
+                        img {
+                            width: 100%;
+                        }
+                        h3,
+                        p {
+                            text-align: left;
+                        }
+                        h3 {
+                            font-size: 3em;
+                        }
+                        p {}
+                    }
+                }
+            }
+        }
+    }
+    #fpPromo {
+        background: $white;
+        background-image: url('http://timberking.msaavedra.com/wp-content/uploads/promobg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        h2 {
+            color: $red;
+            font-size: 2.5em;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+    }
+    #fpHistory {
+        //padding:$em*$em;
+        background: url('http://timberking.msaavedra.com/wp-content/uploads/truck.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        .row {
+            padding: 1em;
+            .col {
+                p {
+                    color: $white;
+                    @include history-font;
+                }
+                div {
+                    align-self: flex-end;
+                    img {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+    }
+    #fpFeatured {
+        //padding: $em/$em $em*$em;
+        h3 {
+            color: $white;
+            margin: 0;
+            //font-size: $em*$em;
+            font-size: $em;
+            @include upcase;
+        }
+        article {
+            margin: 0;
+            padding: 1.2em;
+            background-color: $yellow;
+        }
+        p {
+            font-size: $em/1.5;
+            margin: 10px $em;
+            color: $white;
+        }
+        div.col {
+            min-height: $fp-section-max-height;
+            padding: 0;
+            @include background-cover(inherit);
+        }
+        div.col {}
+        div.col:first-child {
+            h3 {
+                color: $red;
+            }
+            article {
+                background: rgba(255, 255, 255, 0.8);
+            }
+        }
+    }
+}
