@@ -28,22 +28,22 @@ function my_custom_loop () {
   	</section>
 	<section id="fpIconRow">
 		<div class="row">
-			<div id="icon-one" class="col l3 m6 icon-row-icon">
+			<div id="icon-one" class="col l3 m6 s6 icon-row-icon">
 				<img src="<?php the_field('icon_1_icon'); ?>">
 				<h3><?php the_field('icon_1_title'); ?></h3>
 				<p><?php the_field('icon_1_copy'); ?></p>
 			</div>
-			<div id="icon-two" class="col l3 m6 icon-row-icon">
+			<div id="icon-two" class="col l3 m6 s6 icon-row-icon">
 				<img src="<?php the_field('icon_2_icon'); ?>">
 				<h3><?php the_field('icon_2_title'); ?></h3>
 				<p><?php the_field('icon_2_copy'); ?></p>
 			</div>
-			<div id="icon-three" class="col l3 m6 icon-row-icon">
+			<div id="icon-three" class="col l3 m6 s6 icon-row-icon">
 				<img src="<?php the_field('icon_3_icon'); ?>">
 				<h3><?php the_field('icon_3_title'); ?></h3>
 				<p><?php the_field('icon_3_copy'); ?></p>
 			</div>
-			<div id="icon-four" class="col l3 m6 icon-row-icon">
+			<div id="icon-four" class="col l3 m6 s6 icon-row-icon">
 				<img src="<?php the_field('icon_4_icon'); ?>">
 				<h3><?php the_field('icon_4_title'); ?></h3>
 				<p><?php the_field('icon_4_copy'); ?></p>
