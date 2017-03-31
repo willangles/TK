@@ -130,26 +130,24 @@ function sp_custom_footer() {
     		<img src="http://timberking.msaavedra.com/wp-content/uploads/footer-logo.png">
     	</div>
     	<div class="col l2 m4 s12 offset-l8 top-footer">
-    		<h5 style="line-height: 75px;">800-942-4406</h5>
+    		<h5 style="line-height: 75px;"><a href="tel:8009424406">800-942-4406</a></h5>
     	</div>
     </div>
     <div class="row">
     	<div class="col l2 m4 s12 hide-on-small"></div>
     	<div class="col l2 m2 s6">
-    		<h5>Portable Saw Mills</h5>
+    		<h5><a href="http://timberking.msaavedra.com/timberking-portable-saw-mills/">Portable Saw Mills</a></h5>
     		<ul>
                 <div class="row">
                     <div class="col l4 m6">
-                        <li><a href="#">2500</a></li>
-                        <li><a href="#">2200</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-2500/">2500</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-2200/">2200</a></li>
+						<li><a href="http://timberking.msaavedra.com/product/timberking-2000/">2000</a></li>
                     </div>
                     <div class="col l4 m6">
-                        <li><a href="#">2000</a></li>
-                        <li><a href="#">1600</a></li>
-                    </div>
-                    <div class="col l4 m6">
-                        <li><a href="#">1400</a></li>
-                        <li><a href="#">1220</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-1600/">1600</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-1400/">1400</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-1220/">1220</a></li>
                     </div>
                 </div>
     		</ul>
