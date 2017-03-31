@@ -3398,6 +3398,141 @@ li.comment {
 @media screen and (max-width: 800px) {
   #front-page-stacks #fpHistory .col {
     min-height: 100%; } }
+#front-page-stacks .modal {
+  background: #f7b827; }
+  #front-page-stacks .modal h4 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem; }
+#front-page-stacks .row {
+  margin-bottom: 0px; }
+#front-page-stacks #fpSplash {
+  background: url("http://timberking.msaavedra.com/wp-content/uploads/header-img-1-e1488998272992.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #front-page-stacks #fpSplash .row {
+    min-height: 500px !important; }
+  #front-page-stacks #fpSplash h2 {
+    color: #FFFFFF;
+    margin-top: 1.5em;
+    font-size: 3em; }
+    @media screen and (max-width: 960px) {
+      #front-page-stacks #fpSplash h2 {
+        margin-top: 0; } }
+  #front-page-stacks #fpSplash p {
+    color: #FFFFFF; }
+  #front-page-stacks #fpSplash a.button {
+    display: block;
+    max-width: 271px;
+    min-width: 270px;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 20px; }
+#front-page-stacks #fpIconRow {
+  background: #f7b827;
+  padding-top: 0.6em;
+  cursor: pointer; }
+  #front-page-stacks #fpIconRow img,
+  #front-page-stacks #fpIconRow h3,
+  #front-page-stacks #fpIconRow p {
+    text-align: center; }
+  #front-page-stacks #fpIconRow img {
+    display: block;
+    margin: 0 auto; }
+  #front-page-stacks #fpIconRow h3 {
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase; }
+  #front-page-stacks #fpIconRow p {
+    color: #FFFFFF;
+    font-size: 0.70588em; }
+  #front-page-stacks #fpIconRow .row .hidden {
+    display: none; }
+  #front-page-stacks #fpIconRow .row .icon-trigger .row {
+    min-height: 200px; }
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col img {
+      width: 100%; }
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3,
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col p {
+      text-align: left; }
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3 {
+      font-size: 3em; }
+#front-page-stacks #fpPromo {
+  background: #FFFFFF;
+  background-image: url("http://timberking.msaavedra.com/wp-content/uploads/promobg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%; }
+  #front-page-stacks #fpPromo h2 {
+    color: #dc2c00;
+    font-size: 2.5em; }
+  #front-page-stacks #fpPromo p {
+    font-weight: 400;
+    font-size: 1.2em; }
+#front-page-stacks #fpHistory {
+  background: url("http://timberking.msaavedra.com/wp-content/uploads/truck.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #front-page-stacks #fpHistory .row {
+    padding: 1em; }
+    #front-page-stacks #fpHistory .row .col p {
+      color: #FFFFFF;
+      font-family: PT Serif, serif;
+      opacity: 0.7;
+      font-style: italic; }
+    #front-page-stacks #fpHistory .row .col div {
+      align-self: flex-end; }
+      #front-page-stacks #fpHistory .row .col div img {
+        opacity: 0.5; }
+#front-page-stacks #fpFeatured h3 {
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 1.2em;
+  z-index: 5;
+  position: relative;
+  text-transform: uppercase; }
+#front-page-stacks #fpFeatured article {
+  margin: 0;
+  padding: 1.2em;
+  background-color: #f7b827;
+  z-index: 5;
+  position: relative; }
+#front-page-stacks #fpFeatured p {
+  font-size: 1.09091em;
+  margin: 10px 1.2em;
+  color: #FFFFFF;
+  z-index: 5;
+  position: relative; }
+#front-page-stacks #fpFeatured div.col {
+  z-index: 2;
+  min-height: 400px;
+  padding: 0;
+  position: relative;
+  background: no-repeat center center inherit;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #front-page-stacks #fpFeatured div.col:before {
+    z-index: 1;
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+#front-page-stacks #fpFeatured div.col:first-child h3 {
+  color: #dc2c00; }
+#front-page-stacks #fpFeatured div.col:first-child article {
+  background: rgba(255, 255, 255, 0.8); }
+
 .button {
   display: block !important;
   background: #dc2c00 !important;
@@ -5045,117 +5180,6 @@ p {
 
 .modal {
   height: 80% !important; }
-
-#front-page-stacks .row {
-  margin-bottom: 0px; }
-#front-page-stacks #fpSplash {
-  background: url("http://timberking.msaavedra.com/wp-content/uploads/header-img-1-e1488998272992.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  #front-page-stacks #fpSplash .row {
-    min-height: 500px !important; }
-  #front-page-stacks #fpSplash h2 {
-    color: #FFFFFF;
-    margin-top: 1.5em;
-    font-size: 3em; }
-    @media screen and (max-width: 960px) {
-      #front-page-stacks #fpSplash h2 {
-        margin-top: 0; } }
-  #front-page-stacks #fpSplash p {
-    color: #FFFFFF; }
-  #front-page-stacks #fpSplash a.button {
-    display: block;
-    max-width: 271px;
-    min-width: 270px;
-    line-height: 45px;
-    font-weight: 700;
-    font-size: 20px; }
-#front-page-stacks #fpIconRow {
-  background: #f7b827;
-  padding-top: 0.6em;
-  cursor: pointer; }
-  #front-page-stacks #fpIconRow img,
-  #front-page-stacks #fpIconRow h3,
-  #front-page-stacks #fpIconRow p {
-    text-align: center; }
-  #front-page-stacks #fpIconRow img {
-    display: block;
-    margin: 0 auto; }
-  #front-page-stacks #fpIconRow h3 {
-    color: #FFFFFF;
-    font-size: 1em;
-    font-family: "Roboto Slab", serif;
-    text-transform: uppercase; }
-  #front-page-stacks #fpIconRow p {
-    color: #FFFFFF;
-    font-size: 0.70588em; }
-  #front-page-stacks #fpIconRow .row .hidden {
-    display: none; }
-  #front-page-stacks #fpIconRow .row .icon-trigger .row {
-    min-height: 200px; }
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col img {
-      width: 100%; }
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3,
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col p {
-      text-align: left; }
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3 {
-      font-size: 3em; }
-#front-page-stacks #fpPromo {
-  background: #FFFFFF;
-  background-image: url("http://timberking.msaavedra.com/wp-content/uploads/promobg.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 100%; }
-  #front-page-stacks #fpPromo h2 {
-    color: #dc2c00;
-    font-size: 2.5em; }
-  #front-page-stacks #fpPromo p {
-    font-weight: 400;
-    font-size: 1.2em; }
-#front-page-stacks #fpHistory {
-  background: url("http://timberking.msaavedra.com/wp-content/uploads/truck.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  #front-page-stacks #fpHistory .row {
-    padding: 1em; }
-    #front-page-stacks #fpHistory .row .col p {
-      color: #FFFFFF;
-      font-family: PT Serif, serif;
-      opacity: 0.7;
-      font-style: italic; }
-    #front-page-stacks #fpHistory .row .col div {
-      align-self: flex-end; }
-      #front-page-stacks #fpHistory .row .col div img {
-        opacity: 0.5; }
-#front-page-stacks #fpFeatured h3 {
-  color: #FFFFFF;
-  margin: 0;
-  font-size: 1.2em;
-  text-transform: uppercase; }
-#front-page-stacks #fpFeatured article {
-  margin: 0;
-  padding: 1.2em;
-  background-color: #f7b827; }
-#front-page-stacks #fpFeatured p {
-  font-size: 0.8em;
-  margin: 10px 1.2em;
-  color: #FFFFFF; }
-#front-page-stacks #fpFeatured div.col {
-  min-height: 400px;
-  padding: 0;
-  background: no-repeat center center inherit;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-#front-page-stacks #fpFeatured div.col:first-child h3 {
-  color: #dc2c00; }
-#front-page-stacks #fpFeatured div.col:first-child article {
-  background: rgba(255, 255, 255, 0.8); }
 
 .wc-custom-wrapper {
   margin: 0 auto;

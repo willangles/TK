@@ -14,8 +14,15 @@ function my_custom_loop () {
   			<div class="valign">
 	  			<h2><?php the_field('splash_image_headline'); ?></h2>
 	  			<p><?php the_field('splash_image_text'); ?></p>
-	  			<a class="waves-effect waves-light btn button" href="#">See it in action<i class="material-icons right">play_arrow</i></a>
-
+	  			<a class="waves-effect waves-light btn button" href="#videoModal">See it in action<i class="material-icons right">play_arrow</i></a>
+				  <div id="videoModal" class="modal">
+					<div class="modal-content">
+						<h4><?php the_field('video_modal_title'); ?></h4>
+						<div id="tkPlayer" class="video-container">
+							<iframe width="853" height="480" src="<?php the_field('video_modal_link'); ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
   			</div>
   		</div>
   	</section>
@@ -129,6 +136,7 @@ function my_custom_loop () {
 		</div>
 	</section>
  </div> <!-- end main container -->
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
 
 <?php } ?>
 
