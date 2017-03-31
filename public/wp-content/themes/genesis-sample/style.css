@@ -3799,11 +3799,57 @@ header.site-header {
   height: 100%;
   min-height: 300px;
   max-height: 300px; }
-  .page-template-mill-types #mill-types-header h3 {
+  .page-template-mill-types #mill-types-header h2 {
     text-align: center;
     margin: 0 auto;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 5rem; }
+.page-template-mill-types #mill-focus,
+.page-template-mill-types #mill-types {
+  max-width: 1200px;
+  margin: 0 auto; }
+.page-template-mill-types #mill-focus article.focus-item {
+  padding: 5rem; }
+  .page-template-mill-types #mill-focus article.focus-item h3 {
+    color: #dc2c00;
+    font-size: 3.75rem;
+    text-align: center; }
+  .page-template-mill-types #mill-focus article.focus-item p a.btn {
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f7b827;
+    box-shadow: 0 0 0 0 transparent; }
+    .page-template-mill-types #mill-focus article.focus-item p a.btn:hover {
+      color: #FFFFFF;
+      background-color: #dc2c00;
+      box-shadow: 3px 0 10px 0 rgba(0, 0, 0, 0.5); }
+.page-template-mill-types #mill-types div.mill-type img {
+  max-height: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2rem; }
+.page-template-mill-types #mill-types h3.mill-type {
+  text-align: center;
+  color: #dc2c00;
+  font-size: 3rem; }
 
+@media screen and (max-width: 1140px) {
+  #mill-focus,
+  #mill-types {
+    max-width: 960px; } }
+@media screen and (max-width: 960px) {
+  #mill-focus,
+  #mill-types {
+    max-width: 800px; } }
+@media screen and (max-width: 800px) {
+  #mill-focus,
+  #mill-types {
+    max-width: 600px; } }
+@media screen and (max-width: 600px) {
+  #mill-focus,
+  #mill-types {
+    max-width: 560px; } }
 .utility-bar {
   color: #000000;
   font-size: 15px;
