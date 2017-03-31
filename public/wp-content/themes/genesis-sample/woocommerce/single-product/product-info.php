@@ -2,14 +2,9 @@
 	<div class="product-info-wrapper">
 		<div class="row wrap">
 			<div class="col s12 m12 l8">
-				<div id="overview" class="info-panel-to-show info-panel-show">
-					<h2>Overview</h2>
-					<p><?php the_field('overview'); ?></p>
-				</div>
-				<div id="features" class="info-panel-to-show">
-					<!--<img src="http://timberking.msaavedra.com/wp-content/uploads/head.gif" class="responsive-img">-->
+				<div id="features" class="info-panel-to-show info-panel-show">
 					<h2>Features</h2>
-					<p><?php the_field('features'); ?></p>
+					<p><?php the_field('overview'); ?></p>
 				</div>
 				<div id="specs" class="info-panel-to-show">
 				<?php if(get_field('product_type') == 'Product'): ?>

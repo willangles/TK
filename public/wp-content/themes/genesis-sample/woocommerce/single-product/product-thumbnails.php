@@ -32,7 +32,7 @@ if ( $attachment_ids ) {
 
 		foreach ( $attachment_ids as $attachment_id ) {
 
-			$classes = array( 'col s3' );
+			$classes = array( 'col s2' );
 
 			$image_class = implode( ' ', $classes );
 			$props       = wc_get_product_attachment_props( $attachment_id, $post );
