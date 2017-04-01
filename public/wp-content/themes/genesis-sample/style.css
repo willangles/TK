@@ -5342,6 +5342,12 @@ p {
       font-size: 4rem;
       font-weight: bold;
       margin-top: 6px; }
+      .wc-custom-wrapper .wc-price-box .price-label del {
+        font-size: 2rem;
+        vertical-align: middle;
+        color: #ccc; }
+      .wc-custom-wrapper .wc-price-box .price-label ins {
+        text-decoration: none; }
       .wc-custom-wrapper .wc-price-box .price-label.highlight {
         color: #f7b827; }
     .wc-custom-wrapper .wc-price-box i.material-icons {
