@@ -82,38 +82,37 @@ get_header( 'shop' ); ?>
 
 <?php get_footer( ); ?>
 
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 	<script>
-	$(document).ready(function(){ 
-		$('#tk-product-overview').click(function(){
-			$('ul.product-info-nav > li > a').removeClass('active');
-			$('.info-panel-to-show').hide(200);
-			$('#overview').show(600);
-			$(this).addClass('active');
+	jQuery(document).ready(function(){ 
+		jQuery('#tk-product-overview').click(function(){
+			jQuery('ul.product-info-nav > li > a').removeClass('active');
+			jQuery('.info-panel-to-show').hide(200);
+			jQuery('#overview').show(600);
+			jQuery(this).addClass('active');
 		});
-		$('#tk-product-features').click(function(){
-			$('ul.product-info-nav > li > a').removeClass('active');
-			$('.info-panel-to-show').hide(200);
-			$('#features').show(600);
-			$(this).addClass('active');
+		jQuery('#tk-product-features').click(function(){
+			jQuery('ul.product-info-nav > li > a').removeClass('active');
+			jQuery('.info-panel-to-show').hide(200);
+			jQuery('#features').show(600);
+			jQuery(this).addClass('active');
 		});
-		$('#tk-product-specs').click(function(){
-			$('ul.product-info-nav > li > a').removeClass('active');
-			$('.info-panel-to-show').hide(200);
-			$('#specs').show(600);
-			$(this).addClass('active');
+		jQuery('#tk-product-specs').click(function(){
+			jQuery('ul.product-info-nav > li > a').removeClass('active');
+			jQuery('.info-panel-to-show').hide(200);
+			jQuery('#specs').show(600);
+			jQuery(this).addClass('active');
 		});
-		$('#tk-product-warranty').click(function(){
-			$('ul.product-info-nav > li > a').removeClass('active');
-			$('.info-panel-to-show').hide(200);
-			$('#warranty').show(600);
-			$(this).addClass('active');
+		jQuery('#tk-product-warranty').click(function(){
+			jQuery('ul.product-info-nav > li > a').removeClass('active');
+			jQuery('.info-panel-to-show').hide(200);
+			jQuery('#warranty').show(600);
+			jQuery(this).addClass('active');
 		});
-		$('#tk-product-qa').click(function(){
-			$('ul.product-info-nav > li > a').removeClass('active');
-			$('.info-panel-to-show').hide(200);
-			$('#qa').show(600);
-			$(this).addClass('active');
+		jQuery('#tk-product-qa').click(function(){
+			jQuery('ul.product-info-nav > li > a').removeClass('active');
+			jQuery('.info-panel-to-show').hide(200);
+			jQuery('#qa').show(600);
+			jQuery(this).addClass('active');
 		});
 	});
 	</script>
