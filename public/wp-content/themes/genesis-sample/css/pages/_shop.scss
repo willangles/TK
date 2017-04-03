@@ -51,3 +51,26 @@
     width: 150px;
     margin: 0 auto;
 }
+a.checkout-button.button.alt.wc-forward {
+    line-height: 4rem;
+}
+.shop_table.shop_table_responsive.cart {
+    border: 0;
+}
+.woocommerce .quantity .qty {
+    font-size: 1.5rem;
+}
+.woocommerce table.shop_table td {
+    border-top: 0 !important;
+}
+.woocommerce-page table.cart td.actions .coupon {
+    margin-right: 1rem;
+}
+input#coupon_code {
+    font-size: 2rem;
+    height: 4.5rem;
+    width: 18rem;
+}
+td.actions {
+    padding-top: 4rem !important;
+}
