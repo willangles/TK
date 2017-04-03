@@ -159,6 +159,7 @@ function sp_custom_footer() {
     	</div>
     	<div class="col l2 m2 s6">
     		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
+			<?php wp_nav_menu( array( 'theme_location' => 'footer-resources-menu', 'container_class' => 'footer-resources-menu' ) ); ?>
     	</div>
     	<div class="col l2 m2 s6">
     		<h5 class="tk-footer-link"><a href="/news">News</a></h5>
@@ -195,10 +196,10 @@ function woocommerce_template_loop_product_thumbnail(){ ?>
 function register_additional_menu() {
   
 	register_nav_menu( 'third-menu' ,__( 'Third Navigation Menu' ));
+	register_nav_menu( 'footer-resources-menu' ,__( 'Footer Resources Menu' ));
      
 }
 add_action( 'init', 'register_additional_menu' );
-
 add_action( 'genesis_after_header', 'add_third_nav_genesis' ); 
 
 function add_third_nav_genesis() { 
