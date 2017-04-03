@@ -126,18 +126,22 @@ function my_custom_loop () {
 	</section>
 	<section id="fpFeatured">
 		<div class="row">
+			<a href="<?php the_field('featured_link_1'); ?>">
 			<div class="col s12 m6 feature-box" style="background-image:url(<?php the_field('featured_image_1'); ?>);">
 				<article>
 					<h3><?php the_field('featured_title_1'); ?></h3>
 				</article>
 				<p><?php the_field('featured_copy_1'); ?></p>
 			</div>
+			</a>
+			<a href="<?php the_field('featured_link_2'); ?>">
 			<div class="col s12 m6 feature-box" style="background-image:url(<?php the_field('featured_image_2'); ?>);">
 				<article>
 					<h3><?php the_field('featured_title_2'); ?></h3>
 				</article>
 				<p><?php the_field('featured_copy_2'); ?></p>
 			</div>
+			</a>
 		</div>
 	</section>
  </div> <!-- end main container -->
