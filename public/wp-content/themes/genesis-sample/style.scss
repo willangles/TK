@@ -37,6 +37,12 @@
 }
 
 .woocommerce {
+    .woocommerce-info {
+        border-top-color: $red;
+        &:before {
+            color: $red;
+        }
+    }
     nav.woocommerce-pagination {
         background: $red;
         ul {
