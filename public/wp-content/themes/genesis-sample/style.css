@@ -5311,7 +5311,8 @@ p {
   color: #000000; }
 
 .modal {
-  height: 80% !important; }
+  height: 80% !important;
+  z-index: 9999 !important; }
 
 .wc-custom-wrapper {
   margin: 0 auto;
