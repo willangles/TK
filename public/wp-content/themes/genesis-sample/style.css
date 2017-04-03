@@ -3719,8 +3719,7 @@ header.site-header {
   width: 100%;
   top: 0;
   z-index: 100;
-  max-height: 6rem;
-  padding: 1rem 0; }
+  max-height: 6rem; }
   .header-container-scrolled .site-header .wrap .title-area h1.site-title a {
     float: left;
     width: 20rem;
