@@ -110,5 +110,17 @@ jQuery(document).ready(function() {
 // Add Class to Navigation
 jQuery(document).ready(function() {
     jQuery('.nav-primary').addClass('hide-on-med-and-down');
+    
+    var mn = jQuery(".nav-primary");
+        mns = "nav-primary-scrolled";
+        hdr = jQuery('.site-header').height();
+
+    jQuery(window).scroll(function() {
+    if( jQuery(this).scrollTop() > hdr ) {
+        mn.addClass(mns);
+    } else {
+        mn.removeClass(mns);
+    }
+    });
 
 });
