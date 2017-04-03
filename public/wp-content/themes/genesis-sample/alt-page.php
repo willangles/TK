@@ -25,11 +25,11 @@ function alt_page() { ?>
 						<p><?php the_content(); ?></p>
 					</div>
 					<?php endwhile; endif; ?>
+					<?php include('faqs.php'); ?>
 			</div>
 			<div class="alt-image" style="background: url(<?php the_post_thumbnail_url(); ?>); background-size: cover;"></div>
 		</div>
 	</div>
-
 <?php }
 
 genesis();
