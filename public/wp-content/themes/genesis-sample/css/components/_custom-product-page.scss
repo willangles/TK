@@ -1,5 +1,4 @@
-
- .wc-custom-wrapper {
+.wc-custom-wrapper {
     margin: 0 auto;
     max-width: 1200px;
     &.extended {
@@ -133,4 +132,9 @@
 .woocommerce nav.woocommerce-pagination ul li a,
 .woocommerce nav.woocommerce-pagination ul li span {
     color: #000;
+}
+.single-product {
+    .sidebar.sidebar-primary.widget-area {
+        display: none;
+    }
 }

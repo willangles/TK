@@ -5435,6 +5435,9 @@ p {
 .woocommerce nav.woocommerce-pagination ul li span {
   color: #000; }
 
+.single-product .sidebar.sidebar-primary.widget-area {
+  display: none; }
+
 .woocommerce main.content {
   padding: 1em 2em; }
 .woocommerce ul.products {
