@@ -39,14 +39,14 @@ jQuery(document).ready(function() {
         jQuery('.icon-row-icon').first().show("fast", function showNext() {
             jQuery(this).next(".icon-row-icon").show("fast", showNext);
         });
-        jQuery('icon-trigger').addClass('hidden');
+        jQuery('.icon-trigger').addClass('hidden');
     });
 });
 
 jQuery(document).ready(function() {
     jQuery('.materialboxed').materialbox();
     jQuery(".button-collapse").sideNav();
-    jQuery('#tk-modal').on('click', function(){
+    jQuery('#tk-modal').on('click', function() {
         jQuery('.modal').modal({
             complete: function() {
                 //jQuery('.video-container').get(0).stopVideo();
@@ -112,17 +112,17 @@ jQuery(document).ready(function() {
 // Add Class to Navigation
 jQuery(document).ready(function() {
     jQuery('.nav-primary').addClass('hide-on-med-and-down');
-    
+
     var mn = jQuery(".header-container");
-        mns = "header-container-scrolled";
-        hdr = jQuery('.site-header').height();
+    mns = "header-container-scrolled";
+    hdr = jQuery('.site-header').height();
 
     jQuery(window).scroll(function() {
-    if( jQuery(this).scrollTop() > hdr ) {
-        mn.addClass(mns);
-    } else {
-        mn.removeClass(mns);
-    }
+        if (jQuery(this).scrollTop() > hdr) {
+            mn.addClass(mns);
+        } else {
+            mn.removeClass(mns);
+        }
     });
 
 });
