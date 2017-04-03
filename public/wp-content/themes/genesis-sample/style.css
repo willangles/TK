@@ -3674,18 +3674,24 @@ header.site-header {
           height: 100% !important; }
           .nav-primary .wrap ul.genesis-nav-menu li a span {
             height: 100% !important; } }
+.button-collapse i {
+  color: #FFFFFF; }
+
 .side-nav {
   background: #f7b827;
   background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
-  .side-nav .menu ul {
+  .side-nav .menu ul,
+  .side-nav .genesis-nav-menu ul {
     padding-top: 6rem; }
-    .side-nav .menu ul li {
+    .side-nav .menu ul li,
+    .side-nav .genesis-nav-menu ul li {
       display: block;
       border: 0px solid transparent;
       transition: 0.2s ease-in-out all; }
-      .side-nav .menu ul li a {
+      .side-nav .menu ul li a,
+      .side-nav .genesis-nav-menu ul li a {
         font-size: 2rem;
         font-family: "Roboto Slab", serif;
         text-decoration: none;
@@ -3694,20 +3700,25 @@ header.site-header {
         border: 0px solid transparent;
         padding: 1rem 2rem;
         transition: 0.1s ease-in-out all; }
-        .side-nav .menu ul li a:hover {
+        .side-nav .menu ul li a:hover,
+        .side-nav .genesis-nav-menu ul li a:hover {
           background: transparent; }
-      .side-nav .menu ul li:hover {
+      .side-nav .menu ul li:hover,
+      .side-nav .genesis-nav-menu ul li:hover {
         background: rgba(255, 255, 255, 0.3);
         border: 0px solid transparent;
         transition: 0.1s ease-in-out all; }
-      .side-nav .menu ul li:active {
+      .side-nav .menu ul li:active,
+      .side-nav .genesis-nav-menu ul li:active {
         background: #dc2c00;
         border: 0px solid transparent;
         transition: 0.1s ease-in-out all; }
-        .side-nav .menu ul li:active a {
+        .side-nav .menu ul li:active a,
+        .side-nav .genesis-nav-menu ul li:active a {
           color: #FFFFFF;
           transition: 0.1s ease-in-out all; }
-      .side-nav .menu ul li:focus {
+      .side-nav .menu ul li:focus,
+      .side-nav .genesis-nav-menu ul li:focus {
         border: 0px solid transparent;
         outline-color: transparent !important; }
 
@@ -5415,6 +5426,14 @@ p {
       line-height: 2.5rem; }
   .wc-custom-wrapper .wc-product-video {
     margin: 1rem 0; }
+
+.woocommerce nav.woocommerce-pagination {
+  background: transparent !important;
+  box-shadow: none; }
+
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+  color: #000; }
 
 .woocommerce main.content {
   padding: 1em 2em; }

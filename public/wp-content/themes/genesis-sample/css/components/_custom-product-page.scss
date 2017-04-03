@@ -126,3 +126,11 @@
     }
  }
 
+.woocommerce nav.woocommerce-pagination {
+    background: transparent !important;
+    box-shadow: none;
+}
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+    color: #000;
+}
