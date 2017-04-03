@@ -13,33 +13,4 @@
 @import 'pages/mill-types';
 @import 'components/utility-bar';
 @import 'vendor/sweetalert';
-.sidebar-primary {
-    .widget {
-        background: transparent !important;
-    }
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700 !important;
-    letter-spacing: 0.5px;
-    font-family: $slab;
-}
-
-a:active {
-    outline: #ccc 0px solid !important;
-}
-
-p {
-    color: $black;
-}
-
-.modal {
-    // For front page modal
-    height: 80% !important;
-    z-index: 9999 !important;
-}

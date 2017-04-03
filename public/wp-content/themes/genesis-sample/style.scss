@@ -1,10 +1,25 @@
 @import url('//fonts.googleapis.com/icon?family=Material+Icons');
 @import 'css/base';
 @import 'css/colors';
-@import 'css/materialize.css';
-@import 'css/style';
+@import 'css/vendor/materialize';
 @import 'css/components/custom-product-page';
 @import 'css/components/product-page';
+@import 'css/base';
+@import 'css/colors';
+@import 'css/sizing';
+@import 'css/frontpage';
+@import 'css/elements/buttons';
+@import 'css/elements/header';
+@import 'css/elements/nav';
+@import 'css/elements/footer';
+@import 'css/pages/product';
+@import 'css/pages/purchase';
+@import 'css/pages/alt-template';
+@import 'css/pages/shop';
+@import 'css/pages/mill-types';
+@import 'css/components/utility-bar';
+@import 'css/vendor/sweetalert';
+
 %clearfix {
     &:after {
         content: "";
@@ -60,4 +75,30 @@ div.breadcrumb {
     span {
         color: $black;
     }
+}
+
+.sidebar-primary {
+    .widget {
+        background: transparent !important;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+    letter-spacing: 0.5px;
+    font-family: $slab;
+}
+
+a:active {
+    outline: #ccc 0px solid !important;
+}
+
+p {
+    color: $black;
+}
+
+.modal {
+    // For front page modal
+    height: 80% !important;
+    z-index: 9999 !important;
 }
