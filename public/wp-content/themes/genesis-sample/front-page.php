@@ -19,7 +19,12 @@ function my_custom_loop () {
 					<div class="modal-content">
 						<h4><?php the_field('video_modal_title'); ?></h4>
 						<div id="tkPlayer" class="video-container">
-							<iframe width="853" height="480" src="<?php the_field('video_modal_link'); ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+						<?php $video_url = get_field('video_modal_link', false, false); 
+							  $re = '/[^=]+$/';
+							  preg_match($re, $video_url, $video_id);
+							  echo $video_id[0];
+						?>
+							<iframe width="853" height="480" src="https://www.youtube.com/embed/<?php echo $video_id[0]; ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
