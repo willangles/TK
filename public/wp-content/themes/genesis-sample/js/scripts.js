@@ -46,13 +46,15 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.materialboxed').materialbox();
     jQuery(".button-collapse").sideNav();
-    jQuery('.modal').modal({
-        complete: function() {
-            //jQuery('.video-container').get(0).stopVideo();
-            //callPlayer('yt-player', 'stopVideo');
-            jQuery("#tkPlayer iframe").attr("src", jQuery("#tkPlayer iframe").attr("src"));
+    jQuery('#tk-modal').on('click', function(){
+        jQuery('.modal').modal({
+            complete: function() {
+                //jQuery('.video-container').get(0).stopVideo();
+                //callPlayer('yt-player', 'stopVideo');
+                jQuery("#tkPlayer iframe").attr("src", jQuery("#tkPlayer iframe").attr("src"));
 
-        }
+            }
+        });
     });
 });
 
