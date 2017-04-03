@@ -3983,7 +3983,7 @@ header.site-header {
   display: block; }
 .tk-product .product-master-wrapper .product-info-wrapper .row .col .notice {
   font-size: 14px;
-  margin: 1em auto; }
+  margin: 4rem auto 0 auto; }
 
 .active {
   border: 1px solid rgba(255, 255, 255, 0.5); }
@@ -5466,5 +5466,30 @@ p {
   background: transparent;
   padding-left: 5rem !important;
   box-shadow: none; }
+
+.woocommerce nav.woocommerce-pagination {
+  background: #dc2c00; }
+  .woocommerce nav.woocommerce-pagination ul {
+    border: 0px solid transparent; }
+    .woocommerce nav.woocommerce-pagination ul li {
+      border: 0px solid transparent; }
+.woocommerce span.onsale {
+  height: 3.236em;
+  width: 3.236em;
+  /* padding: .202em; */
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  line-height: 3.236;
+  top: -.5em;
+  left: -.5em;
+  margin: 0;
+  border-radius: 100%;
+  background-color: #f7b827;
+  color: #000000;
+  font-size: .857em;
+  -webkit-font-smoothing: antialiased; }
+.woocommerce ul.products li.product .price {
+  color: #666; }
 
 /*# sourceMappingURL=style.css.map */
