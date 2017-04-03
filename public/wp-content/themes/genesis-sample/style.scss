@@ -5,20 +5,29 @@
 @import 'css/style';
 @import 'css/components/custom-product-page';
 @import 'css/components/product-page';
-
 %clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 }
 
 .woocommerce .woocommerce-breadcrumb {
-  margin: 0 0 1em;
-  font-size: .92em;
-  color: #777;
-  background: transparent;
-  padding-left: 5rem !important;
-  box-shadow: none;
+    margin: 0 0 1em;
+    font-size: .92em;
+    color: #777;
+    background: transparent;
+    padding-left: 5rem !important;
+    box-shadow: none;
+}
+
+.woocommerce nav.woocommerce-pagination {
+    background: $red;
+    ul {
+        border: 0px solid transparent;
+        li {
+            border: 0px solid transparent;
+        }
+    }
 }
