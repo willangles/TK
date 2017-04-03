@@ -26,6 +26,7 @@
         width: 100%;
         height: 350px;
         clear: both;
+        background-attachment: fixed;
         @include bp(sm) {
             position: absolute;
             top: 0;
