@@ -53,3 +53,11 @@
         color: #666;
     }
 }
+
+div.breadcrumb {
+    color: $black;
+    padding: 1rem;
+    span {
+        color: $black;
+    }
+}
