@@ -13,14 +13,18 @@ $sub-nav-height: 125px;
     z-index: 9999;
     box-shadow: none;
     position: relative;
+    @include t(0.2s);
     .wrap {
         height: $nav-height;
+        @include t(0.2s);
         ul.genesis-nav-menu {
             height: $nav-height;
             margin: 0 auto;
             max-width: 768px;
+            @include t(0.2s);
             li {
                 height: $nav-height;
+                @include t(0.2s);
                 a {
                     padding-top: 16px;
                     text-transform: uppercase;
@@ -30,30 +34,38 @@ $sub-nav-height: 125px;
                     height: $nav-height;
                     color: $white;
                     text-decoration: none;
+                    @include t(0.2s);
                     span {
                         color: $white;
                         text-decoration: none;
+                        @include t(0.2s);
                     }
                     &:hover {
                         text-decoration: none;
                         color: $yellow;
                         background: rgba(255, 255, 255, 0);
+                        @include t(0.2s);
                     }
                 }
                 &.current-menu-item {
                     color: $yellow;
+                    @include t(0.2s);
                     a {
                         color: $yellow !important;
+                        @include t(0.2s);
                         span {
                             color: $yellow !important;
+                            @include t(0.2s);
                         }
                     }
                 }
                 &:hover {
                     //background: rgba(255,255,255,0);
+                    @include t(0.2s);
                 }
                 &:active {
                     border: 0px solid transparent;
+                    @include t(0.2s);
                 }
                 ul.sub-menu {
                     background: $nav-black !important;
@@ -64,6 +76,7 @@ $sub-nav-height: 125px;
                     right: 0;
                     height: $sub-nav-height;
                     text-align: center;
+                    @include t(0.2s);
                     li.menu-item {
                         background: transparent;
                         height: $sub-nav-height;
@@ -72,26 +85,33 @@ $sub-nav-height: 125px;
                         margin: 0;
                         float: none;
                         border: 0px solid transparent;
+                        @include t(0.2s);
                         a {
                             color: white;
                             margin: 0;
                             border: 0px solid transparent;
                             background: transparent;
                             height: $sub-nav-height;
+                            @include t(0.2s);
                             p {
                                 color: $yellow;
                                 font-weight: bold;
+                                @include t(0.2s);
                             }
                             span {
                                 color: white;
                                 font-size: 2em;
                                 font-weight: 900;
+                                @include t(0.2s);
                             }
                         }
                         &:hover {
                             background: $nav-black2;
+                            @include t(0.2s);
                         }
-                        &:active {}
+                        &:active {
+                            @include t(0.2s);
+                        }
                     }
                 }
             }
@@ -122,6 +142,7 @@ $sub-nav-height: 125px;
 .button-collapse {
     i {
         color: $white;
+        @include t(0.2s);
     }
 }
 
@@ -130,10 +151,13 @@ $sub-nav-height: 125px;
     background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    @include t(0.2s);
     .menu,
     .genesis-nav-menu {
+        @include t(0.2s);
         ul {
             padding-top: 6rem;
+            @include t(0.2s);
             li {
                 display: block;
                 border: 0px solid transparent;
@@ -168,6 +192,7 @@ $sub-nav-height: 125px;
                 &:focus {
                     border: 0px solid transparent;
                     outline-color: transparent !important;
+                    @include t(0.2s);
                 }
             }
         }
@@ -178,6 +203,7 @@ $sub-nav-height: 125px;
 {
     position: relative;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    @include t(0.2s);
 }
 
 .header-container-scrolled {
@@ -186,17 +212,21 @@ $sub-nav-height: 125px;
     top: 0;
     z-index: 100;
     max-height: 6rem;
+    @include t(0.2s);
     .site-header .wrap .title-area h1.site-title a {
         float: left;
         width: 20rem;
         min-height: 0;
         background-size: contain !important;
+        @include t(0.2s);
     }
     header.site-header {
         min-height: 0;
+        @include t(0.2s);
     }
     header.site-header .wrap .title-area h1.site-title {
         min-height: 2rem;
         width: 18rem;
+        @include t(0.2s);
     }
 }
