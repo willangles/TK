@@ -3459,7 +3459,7 @@ li.comment {
     #front-page-stacks #fpIconRow .row .icon-trigger .row .col p {
       text-align: left; }
     #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3 {
-      font-size: 3em; }
+      font-size: 2em; }
 #front-page-stacks #fpPromo {
   background: #FFFFFF;
   background-image: url("http://timberking.msaavedra.com/wp-content/uploads/promobg.png");
@@ -4186,7 +4186,11 @@ header.site-header {
   .post-type-archive-product .site-inner ul.products,
   .archive.tax-product_cat .site-inner ul.products {
     display: flex;
+    display: -webkit-flex;
+    -webkit-flex: 1;
+    flex: 1;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin-bottom: 12rem; }
@@ -5514,5 +5518,11 @@ p {
   -webkit-font-smoothing: antialiased; }
 .woocommerce ul.products li.product .price {
   color: #666; }
+
+div.breadcrumb {
+  color: #000000;
+  padding: 1rem; }
+  div.breadcrumb span {
+    color: #000000; }
 
 /*# sourceMappingURL=style.css.map */
