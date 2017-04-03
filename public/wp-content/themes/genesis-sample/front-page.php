@@ -14,7 +14,7 @@ function my_custom_loop () {
   			<div class="valign">
 	  			<h2><?php the_field('splash_image_headline'); ?></h2>
 	  			<p><?php the_field('splash_image_text'); ?></p>
-	  			<a class="waves-effect waves-light btn button" id="tk-modal" href="#videoModal">See it in action<i class="material-icons right">play_arrow</i></a>
+	  			<button class="waves-effect waves-light btn button" id="tk-modal" data-target="videoModal">See it in action<i class="material-icons right">play_arrow</i></button>
 				  <div id="videoModal" class="modal">
 					<div class="modal-content">
 						<h4><?php the_field('video_modal_title'); ?></h4>
