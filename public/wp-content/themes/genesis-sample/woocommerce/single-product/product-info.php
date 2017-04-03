@@ -26,8 +26,10 @@
 					<p class="spec-item"><strong>Feed System</strong><span><?php the_field('feed_system'); ?></span></p>
 					<p class="spec-item"><strong>Blade Up/Down</strong><span><?php the_field('blade_up/down'); ?></span></p>
 					<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span><?php the_field('log_turner'); ?></span></p>
-					<p class="spec-item"><strong>Log Stomps</strong><span><?php the_field('log_stops'); ?> </span></p>
+					<p class="spec-item"><strong>Log Stops</strong><span><?php the_field('log_stops'); ?> </span></p>
 					<p class="spec-item"><strong>Log Clamp</strong><span><?php the_field('log_clamp'); ?></span></p>
+					<p class="spec-item"><strong>Log Deck Rails</strong><span><?php the_field('log_deck_rails'); ?></span></p>
+					<p class="spec-item"><strong>Log Deck Cross Beams</strong><span><?php the_field('log_deck_cross_beams'); ?></span></p>
 					<p class="spec-item"><strong>Highway Transport</strong><span><?php the_field('highway_transport'); ?></span></p>
 					<p class="spec-item"><strong>Fine Adjust Outriggers</strong><span><?php the_field('fine_adjust_outriggers'); ?></span></p>
 					<p class="spec-item"><strong>Money-Back Guarantee</strong><span><?php the_field('money-back_guarantee'); ?></span></p>
