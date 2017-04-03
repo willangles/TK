@@ -11,6 +11,7 @@ $sub-nav-height: 125px;
     margin: 0 auto;
     height: 100%;
     z-index: 9999;
+    box-shadow: none;
     position: relative;
     .wrap {
         height: $nav-height;
@@ -168,6 +169,8 @@ $sub-nav-height: 125px;
 
 .header-container, {
   position: relative; 
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    
 }
 
 .header-container-scrolled {
