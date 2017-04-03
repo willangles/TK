@@ -111,8 +111,8 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.nav-primary').addClass('hide-on-med-and-down');
     
-    var mn = jQuery(".nav-primary");
-        mns = "nav-primary-scrolled";
+    var mn = jQuery(".header-container");
+        mns = "header-container-scrolled";
         hdr = jQuery('.site-header').height();
 
     jQuery(window).scroll(function() {

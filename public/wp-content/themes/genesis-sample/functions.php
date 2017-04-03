@@ -102,7 +102,7 @@ add_action( 'genesis_before_header', 'utility_bar' );
 * @license GPL-2.0+
 */
 function utility_bar() {
- 
+	echo '<div class="header-container">';
     echo '<div class="utility-bar"><div class="wrap">';
  
     genesis_widget_area( 'utility-bar-left', array(
@@ -118,6 +118,11 @@ function utility_bar() {
     echo '</div></div>';
  
 }
+add_action( 'genesis_after_header', 'closeWrap' );
+function closeWrap(){
+	echo '</div>';
+}
+
 
 add_filter('sp_custom_footer', 'do_shortcode');
 remove_action( 'genesis_footer', 'genesis_do_footer' );

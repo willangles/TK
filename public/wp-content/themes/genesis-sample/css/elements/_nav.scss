@@ -167,15 +167,29 @@ $sub-nav-height: 125px;
     }
 }
 
-.nav-primary, {
+.header-container, {
   position: relative; 
 }
 
-.nav-primary-scrolled {
+.header-container-scrolled {
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 100;
   max-height: 6rem;
   padding: 1rem 0;
+  .site-header .wrap .title-area h1.site-title a {
+    float: left;
+    width: 20rem;
+    min-height: 0;
+    background-size: contain !important;
+  }
+    header.site-header {
+        min-height: 0;
+    }
+   header.site-header .wrap .title-area h1.site-title {
+        min-height: 2rem;
+        width: 18rem;
+   }
 }
+
