@@ -27,7 +27,7 @@ function alt_page() { ?>
 					<?php endwhile; endif; ?>
 					<?php include('faqs.php'); ?>
 			</div>
-			<div class="alt-image" style="background: url(<?php the_post_thumbnail_url(); ?>); background-size: cover;"></div>
+			<div class="alt-image" style="background: url(<?php the_post_thumbnail_url(); ?>); background-size: cover; background-position: <?php the_field('position');?>"></div>
 		</div>
 	</div>
 <?php }

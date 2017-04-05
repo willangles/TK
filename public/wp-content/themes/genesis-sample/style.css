@@ -9560,10 +9560,12 @@ li.comment {
   z-index: 99999; }
 
 .site-inner {
-  max-width: 100%; }
+  max-width: 100%;
+  padding-top: 7em; }
   @media screen and (max-width: 800px) {
     .site-inner {
-      padding: 0; }
+      padding: 0;
+      padding-top: 7em; }
       .site-inner #front-page-stacks section {
         padding: 0em 1em; } }
 
@@ -9677,10 +9679,12 @@ li.comment {
   z-index: 99999; }
 
 .site-inner {
-  max-width: 100%; }
+  max-width: 100%;
+  padding-top: 7em; }
   @media screen and (max-width: 800px) {
     .site-inner {
-      padding: 0; }
+      padding: 0;
+      padding-top: 7em; }
       .site-inner #front-page-stacks section {
         padding: 0em 1em; } }
 
@@ -10119,6 +10123,7 @@ header.site-header {
   background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 9999;
   transition: 0.2s ease-in-out all; }
   .side-nav .menu,
   .side-nav .genesis-nav-menu {
@@ -10173,10 +10178,12 @@ header.site-header {
   z-index: 99999; }
 
 .site-inner {
-  max-width: 100%; }
+  max-width: 100%;
+  padding-top: 7em; }
   @media screen and (max-width: 800px) {
     .site-inner {
-      padding: 0; }
+      padding: 0;
+      padding-top: 7em; }
       .site-inner #front-page-stacks section {
         padding: 0em 1em; } }
 
@@ -10291,6 +10298,8 @@ header.site-header {
 .site-footer {
   padding: 0;
   font-size: 12px;
+  z-index: 9999;
+  position: relative;
   background: -moz-linear-gradient(91deg, #000000 0%, #2E2E2E 100%);
   /* ff3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2E2E2E), color-stop(100%, #000000));
@@ -10548,12 +10557,12 @@ header.site-header {
     background-attachment: fixed; }
     @media (min-width: 37.5em) {
       .alt-wrapper .alt-image {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
         width: 42vw;
-        height: 100%;
+        height: 100vh;
         box-shadow: inset 0 6px 10px 0 rgba(0, 0, 0, 0.14), inset 0 1px 18px 0 rgba(0, 0, 0, 0.12), inset 0 3px 5px -1px rgba(0, 0, 0, 0.5); }
         .alt-wrapper .alt-image:after {
           position: absolute;

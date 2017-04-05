@@ -12,6 +12,8 @@ $top-footer-height: 75px;
 .site-footer {
     padding: 0;
     font-size: 12px;
+    z-index: 9999;
+    position: relative;
     @include gradient-black;
     p {
         line-height: 1.5;
