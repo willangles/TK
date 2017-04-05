@@ -11807,6 +11807,9 @@ body.stop-scrolling {
   padding-left: 5rem !important;
   box-shadow: none; }
 
+.woocommerce .woocommerce a.button {
+  line-height: 3;
+  margin: 0 0 1em 0; }
 .woocommerce .woocommerce-info {
   border-top-color: #dc2c00; }
   .woocommerce .woocommerce-info:before {
@@ -11835,6 +11838,15 @@ body.stop-scrolling {
   -webkit-font-smoothing: antialiased; }
 .woocommerce ul.products li.product .price {
   color: #666; }
+
+.site-inner ul.products li.product {
+  height: 350px; }
+
+.woocommerce ul.products li.product .button {
+  margin-top: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 div.breadcrumb {
   color: #000000;
@@ -11881,5 +11893,3 @@ p {
 
 #mill-types-header {
   display: none !important; }
-
-/*# sourceMappingURL=style.css.map */
