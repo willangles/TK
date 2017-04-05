@@ -169,37 +169,37 @@ function my_custom_loop () {
 
     t1220.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:500},400);
+        jQuery('html,body').animate({scrollTop:200},400);
         f1220.show(400);
         console.log('1220');
     });
     t1400.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:500},400);
+        jQuery('html,body').animate({scrollTop:200},400);
         f1400.show(400);
         console.log('1400');
     });
     t1600.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:500},400);
+        jQuery('html,body').animate({scrollTop:200},400);
         f1600.show(400);
         console.log('1600');
     });
     t2000.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:500},400);
+        jQuery('html,body').animate({scrollTop:200},400);
         f2000.show(400);
         console.log('2000');
     });
     t2200.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:500},400);
+        jQuery('html,body').animate({scrollTop:200},400);
         f2200.show(400);
         console.log('2200');
     });
     t2500.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:500},400);
+        jQuery('html,body').animate({scrollTop:200},400);
         f2500.show(400);
         console.log('2500');
     });

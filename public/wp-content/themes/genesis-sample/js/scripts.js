@@ -83,34 +83,28 @@ jQuery(document).ready(function() {
         t2500 = jQuery('#type-2500');
 
     t1220.click(function() {
-        focus.hide(200);
-        f1220.show(400);
-        console.log('1220');
+        focus.hide(200).then(f1220.show(400).then(scrollTo('#genesis-content')));
+
     });
     t1400.click(function() {
-        focus.hide(200);
-        f1400.show(400);
-        console.log('1400');
+        focus.hide(200).then(f1400.show(400).then(scrollTo('#genesis-content')));
+
     });
     t1600.click(function() {
-        focus.hide(200);
-        f1600.show(400);
-        console.log('1600');
+        focus.hide(200).then(f1600.show(400).then(scrollTo('#genesis-content')));
+
     });
     t2000.click(function() {
-        focus.hide(200);
-        f2000.show(400);
-        console.log('2000');
+        focus.hide(200).then(f2000.show(400).then(scrollTo('#genesis-content')));
+
     });
     t2200.click(function() {
-        focus.hide(200);
-        f2200.show(400);
-        console.log('2200');
+        focus.hide(200).then(f2200.show(400).then(scrollTo('#genesis-content')));
+
     });
     t2500.click(function() {
-        focus.hide(200);
-        f2500.show(400);
-        console.log('2500');
+        focus.hide(200).then(f2500.show(400).then(scrollTo('#genesis-content')));
+
     });
 });
 

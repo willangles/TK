@@ -141,7 +141,7 @@ function sp_custom_footer() {
     <div class="row">
     	<div class="col l2 m4 s12 hide-on-small"></div>
     	<div class="col l2 m2 s6">
-    		<h5><a href="http://timberking.msaavedra.com/timberking-portable-saw-mills/">Portable Saw Mills</a></h5>
+    		<h5><a href="http://timberking.msaavedra.com/timberking-portable-saw-mills/">Portable Sawmills</a></h5>
     		<ul>
                 <div class="row">
                     <div class="col l4 m6">

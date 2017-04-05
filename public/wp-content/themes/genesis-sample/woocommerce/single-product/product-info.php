@@ -22,10 +22,10 @@
 					<p class="spec-item"><strong>Blade Clutch</strong><span><?php the_field('blade_clutch'); ?></span></p>
 					<p class="spec-item"><strong>Moveable Guide Roller</strong><span><?php the_field('moveable_guide_roller'); ?></span></p>
 					<p class="spec-item"><strong>Command Post</strong><span><?php the_field('command_post'); ?></span></p>
-					<p class="spec-item"><strong>Direct-Action Hydraulics</strong><span><?php the_field('direct-action_hydraulics'); ?></span></p>
+					<p class="spec-item"><strong>Direct-Action Hydraulic System</strong><span><?php the_field('direct-action_hydraulics'); ?></span></p>
 					<p class="spec-item"><strong>Feed System</strong><span><?php the_field('feed_system'); ?></span></p>
 					<p class="spec-item"><strong>Blade Up/Down</strong><span><?php the_field('blade_up/down'); ?></span></p>
-					<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span><?php the_field('log_turner'); ?></span></p>
+					<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span><?php the_field('chain_log'); ?></span></p>
 					<p class="spec-item"><strong>Log Stops</strong><span><?php the_field('log_stops'); ?> </span></p>
 					<p class="spec-item"><strong>Log Clamp</strong><span><?php the_field('log_clamp'); ?></span></p>
 					<p class="spec-item"><strong>Log Deck Rails</strong><span><?php the_field('log_deck_rails'); ?></span></p>
