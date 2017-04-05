@@ -152,6 +152,7 @@ $sub-nav-height: 125px;
     background-image: url(http://timberking.msaavedra.com/wp-content/uploads/woodbg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 9999;
     @include t(0.2s);
     .menu,
     .genesis-nav-menu {
