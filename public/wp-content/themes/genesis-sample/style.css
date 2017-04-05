@@ -10312,7 +10312,7 @@ li.comment {
     font-weight: 400;
     font-size: 1.2em; }
 #front-page-stacks #fpHistory {
-  background: url("http://timberking.msaavedra.com/wp-content/uploads/truck.jpg") no-repeat center center fixed;
+  background: url("http://timberking.msaavedra.com/wp-content/uploads/history.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12320,5 +12320,3 @@ p {
 
 #front-page-stacks #fpHistory {
   background-image: url(http://timberking.msaavedra.com/wp-content/uploads/tktruck-1.jpg) !important; }
-
-/*# sourceMappingURL=style.css.map */
