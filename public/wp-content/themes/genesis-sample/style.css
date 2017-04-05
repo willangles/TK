@@ -10742,7 +10742,7 @@ td.actions {
   #mill-types {
     max-width: 560px; } }
 div.col.mill-content {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   padding: 3rem; }
 
 .utility-bar {
@@ -11893,3 +11893,5 @@ p {
 
 #mill-types-header {
   display: none !important; }
+
+/*# sourceMappingURL=style.css.map */
