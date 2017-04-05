@@ -176,9 +176,7 @@ function sp_custom_footer() {
     		<p>&copy;  <?php echo do_shortcode('[year]'); ?>  TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
-			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/1.png"></a>
-			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/2.png"></a>
-			<a href="#" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/3.png"></a>
+			<a href="https://www.facebook.com/TimberKingSawmills" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/2.png"></a>
     	</div>
     </div>
 

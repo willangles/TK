@@ -187,18 +187,18 @@ $white: #FFFFFF;
         }
         a div.col {
             article {
-                @include background-color($yellow,
-                0.8);
+                background: rgba(255, 255, 255, 0.8);
                 h3 {
-                    color: $black;
+                    color: $red;
                 }
             }
         }
         a:first-child div.col {
             article {
-                background: rgba(255, 255, 255, 0.8);
+                @include background-color($yellow,
+                0.8);
                 h3 {
-                    color: $red;
+                    color: $black;
                 }
             }
         }
