@@ -11822,9 +11822,6 @@ div.breadcrumb {
 .sidebar-primary .widget {
   background: transparent !important; }
 
-body {
-  padding-top: 10vh; }
-
 h1,
 h2,
 h3,
@@ -11862,5 +11859,4 @@ p {
 #mill-types-header {
   display: none !important; }
 
-#front-page-stacks #fpHistory {
-  background-image: url(http://timberking.msaavedra.com/wp-content/uploads/tktruck-1.jpg) !important; }
+/*# sourceMappingURL=style.css.map */
