@@ -35,6 +35,7 @@
 					<p class="spec-item"><strong>Money-Back Guarantee</strong><span><?php the_field('money-back_guarantee'); ?></span></p>
 					<p class="spec-item"><strong>Warranty</strong><span><?php the_field('warranty'); ?></span></p>
 					<p class="spec-item"><strong>Cutting Deck Warranty</strong><span><?php the_field('cutting_deck_warranty'); ?></p>
+					<div><p class="notice">Specifications refer to standard configuration mills and are subject to change without notice.</p></div>
 					<?php endif; ?>
 				<?php if(get_field('product_type') == 'Talon900'): ?>
 					<h2>Specifications</h2>
@@ -51,6 +52,7 @@
 					<p class="spec-item"><strong>Conveyor Length (infeed)</strong><span><?php the_field('t9_conveyor_length_in'); ?></span></p>
 					<p class="spec-item"><strong>Conveyor Length (outfeed)</strong><span><?php the_field('t9_conveyor_length_out'); ?></span></p>
 					<p class="spec-item"><strong>Weight</strong><span><?php the_field('t9_weight'); ?></span></p>
+					<div><p class="notice">Specifications refer to standard configuration mills and are subject to change without notice.</p></div>
 					<?php endif; ?>
 				<?php if(get_field('product_type') == 'Talon-R'): ?>
 					<h2>Specifications</h2>
@@ -67,6 +69,7 @@
 					<p class="spec-item"><strong>Material Length</strong><span><?php the_field('tr_material_length'); ?></span></p>
 					<p class="spec-item"><strong>Material Width</strong><span><?php the_field('tr_material_width'); ?></span></p>
 					<p class="spec-item"><strong>Material Height</strong><span><?php the_field('tr_material_height'); ?></span></p>
+					<div><p class="notice">Specifications refer to standard configuration mills and are subject to change without notice.</p></div>
 					<?php endif; ?>
 				</div>
 				<div id="warranty" class="info-panel-to-show">
@@ -77,7 +80,6 @@
 					<h2>Q &amp; A</h2>
 					<?php the_field('q_and_a'); ?>
 				</div>
-				<p class="notice">Specifications refer to standard configuration mills and are subject to change without notice.</p>
 			</div>
 			<div class="col s12 m12 l4">
 				<div class="product-video-wrap">

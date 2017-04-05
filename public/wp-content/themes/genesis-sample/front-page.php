@@ -14,20 +14,7 @@ function my_custom_loop () {
   			<div class="valign">
 	  			<h2><?php the_field('splash_image_headline'); ?></h2>
 	  			<p><?php the_field('splash_image_text'); ?></p>
-	  			<button class="waves-effect waves-light btn button" id="tk-modal" data-target="videoModal">See it in action<i class="material-icons right">play_arrow</i></button>
-				  <div id="videoModal" class="modal">
-					<div class="modal-content">
-						<h4><?php the_field('video_modal_title'); ?></h4>
-						<div id="tkPlayer" class="video-container">
-						<?php $video_url = get_field('video_modal_link', false, false); 
-							  $re = '/[^=]+$/';
-							  preg_match($re, $video_url, $video_id);
-							  echo $video_id[0];
-						?>
-							<iframe width="853" height="480" src="https://www.youtube.com/embed/<?php echo $video_id[0]; ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</div>
-				</div>
+	  			<a href="<?php the_field('button_link')?>" class="waves-effect waves-light btn button">See it in action<i class="material-icons right">play_arrow</i></a>
   			</div>
   		</div>
   	</section>
@@ -104,7 +91,12 @@ function my_custom_loop () {
 	<section id="fpPromo">
 		<div class="row">
 			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
-				<img src="<?php the_field('promo_image'); ?>" class="responsive-img valign" >
+				<div>
+				<?php $video_url = get_field('video_modal_link', false, false); 
+						$re = '/[^=]+$/';
+						preg_match($re, $video_url, $video_id); ?>
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/<?php echo $video_id[0]; ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 			<div class="col m6 s12 valign-wrapper">
 				<div class="valign">
