@@ -7924,6 +7924,9 @@ button.picker__close:focus {
 .notice {
   clear: both; }
 
+a[id^="tk-product-"] {
+  font-size: 1.6rem; }
+
 .woocommerce main.content {
   padding: 1em 2em; }
 .woocommerce ul.products {
