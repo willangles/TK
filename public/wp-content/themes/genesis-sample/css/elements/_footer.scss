@@ -81,3 +81,16 @@ $top-footer-height: 75px;
         text-decoration: none;
     }
 }
+
+#menu-footer-resources {
+    li {
+        float: left;
+        clear: left;
+        width: 50%;
+        margin: 1px 0;
+    }
+    li:nth-child(even){
+        float: right;
+        clear: right;
+    }
+}

@@ -7925,7 +7925,8 @@ button.picker__close:focus {
   clear: both; }
 
 a[id^="tk-product-"] {
-  font-size: 1.6rem; }
+  font-size: 1.7rem;
+  line-height: 4rem; }
 
 .woocommerce main.content {
   padding: 1em 2em; }
@@ -10354,6 +10355,15 @@ header.site-header {
 .tk-footer-link a {
   color: #fff;
   text-decoration: none; }
+
+#menu-footer-resources li {
+  float: left;
+  clear: left;
+  width: 50%;
+  margin: 1px 0; }
+#menu-footer-resources li:nth-child(even) {
+  float: right;
+  clear: right; }
 
 .tk-product .product-master-wrapper .product-main-wrapper .product-image-background {
   padding-top: 30px; }

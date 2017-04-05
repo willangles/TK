@@ -157,19 +157,14 @@ function sp_custom_footer() {
                 </div>
     		</ul>
     	</div>
-    	<div class="col l2 m2 s6">
+    	<div class="col l4 m2 s6">
     		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
 			<?php wp_nav_menu( array( 'theme_location' => 'footer-resources-menu', 'container_class' => 'footer-resources-menu' ) ); ?>
     	</div>
     	<div class="col l2 m2 s6">
-    		<h5 class="tk-footer-link"><a href="/news">News</a></h5>
-    	</div>
-    	<div class="col l2 m2 s6">
-    		<h5 class="tk-footer-link"><a href="/dealers">Dealers</a></h5>
-    	</div>
-    	<div class="col l2 m2 s6">
     		<h5 class="tk-footer-link"><a href="/contact">Contact</a></h5>
     	</div>
+		<div class="col l2 m4 s12 hide-on-small"></div>
     </div>
     <div class="row site-credits">
     	<div class="col s12 m6">
