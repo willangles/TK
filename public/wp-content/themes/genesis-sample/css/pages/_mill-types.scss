@@ -1,5 +1,6 @@
 @import '../colors';
 .page-template-mill-types {
+    background: #fff;
     section {
         margin-bottom: 3rem;
     }
@@ -89,5 +90,23 @@
     #mill-focus,
     #mill-types {
         max-width: 560px;
+    }
+}
+
+.product-focus-item {
+    position: relative;
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255,255,255,.8);
+    }
+    .col {
+        position: relative;
+        z-index: 100;
     }
 }

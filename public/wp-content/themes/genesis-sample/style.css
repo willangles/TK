@@ -11113,51 +11113,53 @@ input#coupon_code {
 td.actions {
   padding-top: 4rem !important; }
 
-.page-template-mill-types section {
-  margin-bottom: 3rem; }
-.page-template-mill-types article.hidden {
-  display: none; }
-.page-template-mill-types #mill-types-header {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  min-height: 300px;
-  max-height: 300px; }
-  .page-template-mill-types #mill-types-header h2 {
-    text-align: center;
-    margin: 0 auto;
-    color: #FFFFFF;
-    font-size: 5rem; }
-.page-template-mill-types #mill-focus,
-.page-template-mill-types #mill-types {
-  max-width: 1200px;
-  margin: 0 auto; }
-.page-template-mill-types #mill-focus article.focus-item {
-  padding: 5rem; }
-  .page-template-mill-types #mill-focus article.focus-item h3 {
-    color: #dc2c00;
-    font-size: 3.75rem;
-    text-align: center; }
-  .page-template-mill-types #mill-focus article.focus-item p a.btn {
-    font-family: "Roboto Slab", serif;
-    font-weight: bold;
-    color: #000000;
-    background-color: #f7b827;
-    box-shadow: 0 0 0 0 transparent; }
-    .page-template-mill-types #mill-focus article.focus-item p a.btn:hover {
+.page-template-mill-types {
+  background: #fff; }
+  .page-template-mill-types section {
+    margin-bottom: 3rem; }
+  .page-template-mill-types article.hidden {
+    display: none; }
+  .page-template-mill-types #mill-types-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    max-height: 300px; }
+    .page-template-mill-types #mill-types-header h2 {
+      text-align: center;
+      margin: 0 auto;
       color: #FFFFFF;
-      background-color: #dc2c00;
-      box-shadow: 3px 0 10px 0 rgba(0, 0, 0, 0.5); }
-.page-template-mill-types #mill-types div.mill-type img {
-  max-height: 200px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 2rem; }
-.page-template-mill-types #mill-types h3.mill-type {
-  text-align: center;
-  color: #dc2c00;
-  font-size: 3rem; }
+      font-size: 5rem; }
+  .page-template-mill-types #mill-focus,
+  .page-template-mill-types #mill-types {
+    max-width: 1200px;
+    margin: 0 auto; }
+  .page-template-mill-types #mill-focus article.focus-item {
+    padding: 5rem; }
+    .page-template-mill-types #mill-focus article.focus-item h3 {
+      color: #dc2c00;
+      font-size: 3.75rem;
+      text-align: center; }
+    .page-template-mill-types #mill-focus article.focus-item p a.btn {
+      font-family: "Roboto Slab", serif;
+      font-weight: bold;
+      color: #000000;
+      background-color: #f7b827;
+      box-shadow: 0 0 0 0 transparent; }
+      .page-template-mill-types #mill-focus article.focus-item p a.btn:hover {
+        color: #FFFFFF;
+        background-color: #dc2c00;
+        box-shadow: 3px 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .page-template-mill-types #mill-types div.mill-type img {
+    max-height: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 2rem; }
+  .page-template-mill-types #mill-types h3.mill-type {
+    text-align: center;
+    color: #dc2c00;
+    font-size: 3rem; }
 
 @media screen and (max-width: 1140px) {
   #mill-focus,
@@ -11175,6 +11177,21 @@ td.actions {
   #mill-focus,
   #mill-types {
     max-width: 560px; } }
+.product-focus-item {
+  position: relative; }
+  .product-focus-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8); }
+  .product-focus-item .col {
+    position: relative;
+    z-index: 100; }
+
 .utility-bar {
   color: #000000;
   font-size: 15px;
