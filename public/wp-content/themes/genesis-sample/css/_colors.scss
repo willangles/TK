@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:900');
 $yellow: #f7b827;
 $red: #dc2c00;
 $lightgray: #bdbdbd;
@@ -10,6 +11,8 @@ $pts: PT Sans,
 sans-serif;
 $slab: 'Roboto Slab',
 serif;
+$tit: 'Titillium Web',
+sans-serif;
 @mixin gradient-black {
     background: -moz-linear-gradient(91deg, #000000 0%, #2E2E2E 100%);
     /* ff3.6+ */

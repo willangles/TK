@@ -2,7 +2,7 @@
 header.site-header {
     background: $red;
     text-align: center;
-    min-height: 120px;
+    min-height: 100%;
     .wrap {
         //max-width: 100%;
         padding: 0;
@@ -24,21 +24,49 @@ header.site-header {
             border-bottom: 1px solid rgba(255, 255, 255, 0.4);
             float: none;
             margin: 0 auto;
-            h1.site-title {
-                text-align: center;
-                min-height: 83px;
-                width: 404px;
-                margin: 0 auto;
+            width: 80%;
+            .site-title {
                 a {
-                    min-height: 83px;
-                    width: 404px;
-                    float: left;
+                    img {
+                        width: 360px;
+                        height: auto;
+                        position: relative;
+                        z-index: 101;
+                        display: block;
+                        margin: 0 auto;
+                    }
                 }
             }
-            h2.site-description {}
+            h2.site-description {
+                display: none;
+            }
         }
         .textwidget {
             text-align: center !important;
         }
+    }
+}
+
+.header-container {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    @include t(0.2s);
+}
+
+.header-container-scrolled {
+    width: 100%;
+    z-index: 100;
+    @include t(0.2s);
+    .site-header .wrap .title-area .site-title a img {
+        width: 220px;
+        height: auto;
+        @include t(0.2s);
+    }
+    header.site-header {
+        min-height: 0;
+        @include t(0.2s);
     }
 }

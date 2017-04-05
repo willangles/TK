@@ -1,36 +1,38 @@
 $em: 1.2em;
 $fp-section-max-height: 400px;
-
-@mixin section-sizing($h){  
-	min-height: $h; 
+@mixin section-sizing($h) {
+    min-height: $h;
 }
 
 .masthead {
-	position: fixed;
-	top:0;left:0;right:0;
-	z-index: 99999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
 }
 
 .site-inner {
-	max-width: 100%;
-	//padding-top: 130px; 
-	padding-top:0px;
-	@media screen and (max-width: 800px){
-		padding:0;
-		#front-page-stacks {
-			section {
-				padding: 0em 1em;
-			}
-		}
-	}
+    max-width: 100%;
+    //padding-top: 130px; 
+    //padding-top:0px;
+    padding-top: 90px;
+    @media screen and (max-width: 800px) {
+        padding: 0;
+        #front-page-stacks {
+            section {
+                padding: 0em 1em;
+            }
+        }
+    }
 }
 
 @mixin background-cover($f) {
-	background: no-repeat center center $f; 
-	-webkit-background-size: cover;
+    background: no-repeat center center $f;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
 }
 
 @mixin responsive($maxWidth, $rules) {
@@ -39,72 +41,90 @@ $fp-section-max-height: 400px;
         max-width: $rules;
     }
 }
+
 @mixin responsivemin($maxWidth, $rules) {
     @media only screen and (min-width: $maxWidth) {
-         // max-width: $maxWidth;
+        // max-width: $maxWidth;
         max-width: $rules;
     }
 }
+
 @mixin max {
-	@include responsivemin(1201px, 1152px);
-	@include responsive(1200px, 960px);
-	@include responsive(960px, 768px);
-	@include responsive(768px, 100%);
+    @include responsivemin(1201px, 1152px);
+    @include responsive(1200px, 960px);
+    @include responsive(960px, 768px);
+    @include responsive(768px, 100%);
 }
 
 #front-page-stacks {
-	#fpSplash {
-		.row { @include max; }
-		@include section-sizing(500px); 
-	}
-	#fpIconRow { 
-		.row { @include max; }
-		@include section-sizing(250px); 
-	}
-	#fpPromo, #fpPromo .col { 
-		.row { @include max; }
-		@include section-sizing(500px); 
-	}
-	#fpHistory, #fpHistory .col { 
-		.row { @include max; }
-		@include section-sizing(650px); 
-	}
-	#fpFeatured { 
-		.row { @include max; }
-		@include section-sizing(500px); 
-	}
-
+    #fpSplash {
+        .row {
+            @include max;
+        }
+        @include section-sizing(500px);
+    }
+    #fpIconRow {
+        .row {
+            @include max;
+        }
+        @include section-sizing(250px);
+    }
+    #fpPromo,
+    #fpPromo .col {
+        .row {
+            @include max;
+        }
+        @include section-sizing(500px);
+    }
+    #fpHistory,
+    #fpHistory .col {
+        .row {
+            @include max;
+        }
+        @include section-sizing(650px);
+    }
+    #fpFeatured {
+        .row {
+            @include max;
+        }
+        @include section-sizing(500px);
+    }
 }
 
-@media screen and (min-width: 1440px ) {
-	@include responsive(1200px, 1140);
-	.max {
-		max-width: 1200px;
-	}
+@media screen and (min-width: 1440px) {
+    @include responsive(1200px, 1140);
+    .max {
+        max-width: 1200px;
+    }
 }
-@media screen and (max-width: 1439px ) {
-	.max {
-		max-width: 1024px;
-	}
+
+@media screen and (max-width: 1439px) {
+    .max {
+        max-width: 1024px;
+    }
 }
-@media screen and (max-width: 1200px ) {
-	.max {
-		max-width: 960px;
-	}
+
+@media screen and (max-width: 1200px) {
+    .max {
+        max-width: 960px;
+    }
 }
-@media screen and (max-width: 960px ) {
-	.max {
-		max-width: 768px;
-	}
+
+@media screen and (max-width: 960px) {
+    .max {
+        max-width: 768px;
+    }
 }
-@media screen and (max-width: 768px ) {
-	.max {
-		max-width: 90%;
-		margin: 0 auto;
-	}
+
+@media screen and (max-width: 768px) {
+    .max {
+        max-width: 90%;
+        margin: 0 auto;
+    }
 }
+
 @media screen and (max-width: 800px) {
-	#front-page-stacks #fpHistory .col {
-		min-height: 100%;
-	}
+    #front-page-stacks #fpHistory .col {
+        min-height: 100%;
+    }
 }

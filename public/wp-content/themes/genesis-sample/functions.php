@@ -214,3 +214,12 @@ function year_shortcode() {
   return $year;
 }
 add_shortcode('year', 'year_shortcode');
+
+// New Header Image
+remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
+add_action('genesis_site_title','custom_site_title');
+function custom_site_title() {
+	echo '<div class="site-title">';
+	echo '<a href="/"><img src="http://timberking.msaavedra.com/wp-content/uploads/2017/02/logo.png"></a>';
+	echo '</div>';
+}

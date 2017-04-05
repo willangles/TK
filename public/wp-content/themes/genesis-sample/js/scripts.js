@@ -14,24 +14,29 @@ jQuery(document).ready(function() {
 });
 
 jQuery(document).ready(function() {
+    jQuery('#tk-product-features').addClass('active');
     jQuery('#icon-one').click(function() {
-        jQuery('#icon-one-trigger').removeClass('hidden');
         jQuery('.icon-row-icon').hide(200);
+        jQuery('#icon-one-trigger').removeClass('hidden');
+
         jQuery('#icon-one-trigger').show(600);
     });
     jQuery('#icon-two').click(function() {
-        jQuery('#icon-two-trigger').removeClass('hidden');
         jQuery('.icon-row-icon').hide(200);
+        jQuery('#icon-two-trigger').removeClass('hidden');
+
         jQuery('#icon-two-trigger').show(600);
     });
     jQuery('#icon-three').click(function() {
-        jQuery('#icon-three-trigger').removeClass('hidden');
         jQuery('.icon-row-icon').hide(200);
+        jQuery('#icon-three-trigger').removeClass('hidden');
+
         jQuery('#icon-three-trigger').show(600);
     });
     jQuery('#icon-four').click(function() {
-        jQuery('#icon-four-trigger').removeClass('hidden');
         jQuery('.icon-row-icon').hide(200);
+        jQuery('#icon-four-trigger').removeClass('hidden');
+
         jQuery('#icon-four-trigger').show(600);
     });
     jQuery('.icon-trigger').click(function() {

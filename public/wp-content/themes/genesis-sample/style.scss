@@ -112,3 +112,28 @@ p {
     height: 80% !important;
     z-index: 9999 !important;
 }
+
+.product-info-nav {
+    overflow: hidden !important;
+    padding: 0 !important;
+}
+
+.active {
+    background: #f7b827;
+    margin: 0;
+    padding: 1.25rem !important;
+    color: black !important;
+    border: 0px solid transparent;
+}
+
+.page-template-mill-types section {
+    margin-bottom: 0 !important;
+}
+
+#mill-types-header {
+    display: none !important;
+}
+
+#front-page-stacks #fpHistory {
+    background-image: url(http://timberking.msaavedra.com/wp-content/uploads/tktruck-1.jpg) !important;
+}
