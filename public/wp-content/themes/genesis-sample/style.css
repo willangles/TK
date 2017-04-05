@@ -11177,20 +11177,9 @@ td.actions {
   #mill-focus,
   #mill-types {
     max-width: 560px; } }
-.product-focus-item {
-  position: relative; }
-  .product-focus-item:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.8); }
-  .product-focus-item .col {
-    position: relative;
-    z-index: 100; }
+div.col.mill-content {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 3rem; }
 
 .utility-bar {
   color: #000000;
