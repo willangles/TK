@@ -17,7 +17,7 @@ function my_custom_loop () {
     <article id="focus-intro" class="row focus-item">
         <div class="col s12">
             <h3><?php the_field('focus_intro_headline'); ?></h3>
-            <p><?php the_field('focus_intro_content'); ?></p>
+            <p><?php the_field('focus_intro'); ?></p>
         </div>
     </article>
 
