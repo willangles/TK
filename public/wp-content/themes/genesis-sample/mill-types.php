@@ -20,60 +20,50 @@ function my_custom_loop () {
             <p><?php the_field('focus_intro_content'); ?></p>
         </div>
     </article>
-    <article id="focus-1220" class="row hidden focus-item">
-        <div class="col m6 s12">
-            <img src="<?php the_field('focus1220_image'); ?>">
-        </div>
+
+    <article id="focus-1220" class="row hidden focus-item" style="background: url(<?php the_field('focus1220_image'); ?>); background-size: cover; background-position: center;">
+        <div class="col m6 s12"></div>
         <div class="col m6 s12">
             <h3><?php the_field('focus1220_headline'); ?></h3>
             <p><?php the_field('focus1220_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus1220_link'); ?>">Learn More</a></p>
         </div>
     </article>
-    <article id="focus-1400" class="row hidden focus-item">
-        <div class="col m6 s12">
-            <img src="<?php the_field('focus1400_image'); ?>">
-        </div>
+    
+    <article id="focus-1400" class="row hidden focus-item" style="background: url(<?php the_field('focus1400_image'); ?>); background-size: cover; background-position: center;">
+        <div class="col m6 s12"></div>
         <div class="col m6 s12">
             <h3><?php the_field('focus1400_headline'); ?></h3>
             <p><?php the_field('focus1400_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus1400_link'); ?>">Learn More</a></p>
         </div>
     </article>
-    <article id="focus-1600" class="row hidden focus-item">
-        <div class="col m6 s12">
-            <img src="<?php the_field('focus1600_image'); ?>">
-        </div>
+    <article id="focus-1600" class="row hidden focus-item" style="background: url(<?php the_field('focus1600_image'); ?>); background-size: cover; background-position: center;">
+        <div class="col m6 s12"></div>
         <div class="col m6 s12">
             <h3><?php the_field('focus1600_headline'); ?></h3>
             <p><?php the_field('focus1600_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus1600_link'); ?>">Learn More</a></p>
         </div>
     </article>
-    <article id="focus-2000" class="row hidden focus-item">
-        <div class="col m6 s12">
-            <img src="<?php the_field('focus2000_image'); ?>">
-        </div>
+    <article id="focus-2000" class="row hidden focus-item" style="background: url(<?php the_field('focus2000_image'); ?>); background-size: cover; background-position: center;">
+        <div class="col m6 s12"></div>
         <div class="col m6 s12">
             <h3><?php the_field('focus2000_headline'); ?></h3>
             <p><?php the_field('focus2000_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus2000_link'); ?>">Learn More</a></p>
         </div>
     </article>
-    <article id="focus-2200" class="row hidden focus-item">
-        <div class="col m6 s12">
-            <img src="<?php the_field('focus2200_image'); ?>">
-        </div>
+    <article id="focus-2200" class="row hidden focus-item" style="background: url(<?php the_field('focus2200_image'); ?>); background-size: cover; background-position: center;">
+        <div class="col m6 s12"></div>
         <div class="col m6 s12">
             <h3><?php the_field('focus2200_headline'); ?></h3>
             <p><?php the_field('focus2200_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus2200_link'); ?>">Learn More</a></p>
         </div>
     </article>
-    <article id="focus-2500" class="row hidden focus-item">
-        <div class="col m6 s12">
-            <img src="<?php the_field('focus2500_image'); ?>">
-        </div>
+    <article id="focus-2500" class="row hidden focus-item" style="background: url(<?php the_field('focus2500_image'); ?>); background-size: cover; background-position: center;">
+        <div class="col m6 s12"></div>
         <div class="col m6 s12">
             <h3><?php the_field('focus2500_headline'); ?></h3>
             <p><?php the_field('focus2500_content'); ?></p>
