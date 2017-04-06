@@ -4255,7 +4255,9 @@ nav ul a span.badge {
 @media only screen and (min-width: 993px) {
   .container {
     width: 70%; } }
-.container .row {
+.container .row, .container .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner .container ul.products,
+.container .archive.tax-product_cat .site-inner ul.products,
+.archive.tax-product_cat .site-inner .container ul.products {
   margin-left: -0.75rem;
   margin-right: -0.75rem; }
 
@@ -4272,565 +4274,863 @@ nav ul a span.badge {
 .section.no-pad-top {
   padding-top: 0; }
 
-.row {
+.row, .post-type-archive-product .site-inner ul.products,
+.archive.tax-product_cat .site-inner ul.products {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px; }
 
-.row:after {
+.row:after, .post-type-archive-product .site-inner ul.products:after,
+.archive.tax-product_cat .site-inner ul.products:after {
   content: "";
   display: table;
   clear: both; }
 
-.row .col {
+.row .col, .post-type-archive-product .site-inner ul.products .col,
+.archive.tax-product_cat .site-inner ul.products .col, .post-type-archive-product .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products li.product {
   float: left;
   box-sizing: border-box;
   padding: 0 0.75rem;
   min-height: 1px; }
 
-.row .col[class*="push-"],
-.row .col[class*="pull-"] {
+.row .col[class*="push-"], .post-type-archive-product .site-inner ul.products .col[class*="push-"],
+.archive.tax-product_cat .site-inner ul.products .col[class*="push-"], .post-type-archive-product .site-inner ul.products li[class*="push-"].product,
+.archive.tax-product_cat .site-inner ul.products li[class*="push-"].product,
+.row .col[class*="pull-"],
+.post-type-archive-product .site-inner ul.products .col[class*="pull-"],
+.archive.tax-product_cat .site-inner ul.products .col[class*="pull-"],
+.post-type-archive-product .site-inner ul.products li[class*="pull-"].product,
+.archive.tax-product_cat .site-inner ul.products li[class*="pull-"].product {
   position: relative; }
 
-.row .col.s1 {
+.row .col.s1, .post-type-archive-product .site-inner ul.products .col.s1,
+.archive.tax-product_cat .site-inner ul.products .col.s1, .post-type-archive-product .site-inner ul.products li.s1.product,
+.archive.tax-product_cat .site-inner ul.products li.s1.product {
   width: 8.3333333333%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s2 {
+.row .col.s2, .post-type-archive-product .site-inner ul.products .col.s2,
+.archive.tax-product_cat .site-inner ul.products .col.s2, .post-type-archive-product .site-inner ul.products li.s2.product,
+.archive.tax-product_cat .site-inner ul.products li.s2.product {
   width: 16.6666666667%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s3 {
+.row .col.s3, .post-type-archive-product .site-inner ul.products .col.s3,
+.archive.tax-product_cat .site-inner ul.products .col.s3, .post-type-archive-product .site-inner ul.products li.s3.product,
+.archive.tax-product_cat .site-inner ul.products li.s3.product {
   width: 25%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s4 {
+.row .col.s4, .post-type-archive-product .site-inner ul.products .col.s4,
+.archive.tax-product_cat .site-inner ul.products .col.s4, .post-type-archive-product .site-inner ul.products li.s4.product,
+.archive.tax-product_cat .site-inner ul.products li.s4.product {
   width: 33.3333333333%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s5 {
+.row .col.s5, .post-type-archive-product .site-inner ul.products .col.s5,
+.archive.tax-product_cat .site-inner ul.products .col.s5, .post-type-archive-product .site-inner ul.products li.s5.product,
+.archive.tax-product_cat .site-inner ul.products li.s5.product {
   width: 41.6666666667%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s6 {
+.row .col.s6, .post-type-archive-product .site-inner ul.products .col.s6,
+.archive.tax-product_cat .site-inner ul.products .col.s6, .post-type-archive-product .site-inner ul.products li.s6.product,
+.archive.tax-product_cat .site-inner ul.products li.s6.product {
   width: 50%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s7 {
+.row .col.s7, .post-type-archive-product .site-inner ul.products .col.s7,
+.archive.tax-product_cat .site-inner ul.products .col.s7, .post-type-archive-product .site-inner ul.products li.s7.product,
+.archive.tax-product_cat .site-inner ul.products li.s7.product {
   width: 58.3333333333%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s8 {
+.row .col.s8, .post-type-archive-product .site-inner ul.products .col.s8,
+.archive.tax-product_cat .site-inner ul.products .col.s8, .post-type-archive-product .site-inner ul.products li.s8.product,
+.archive.tax-product_cat .site-inner ul.products li.s8.product {
   width: 66.6666666667%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s9 {
+.row .col.s9, .post-type-archive-product .site-inner ul.products .col.s9,
+.archive.tax-product_cat .site-inner ul.products .col.s9, .post-type-archive-product .site-inner ul.products li.s9.product,
+.archive.tax-product_cat .site-inner ul.products li.s9.product {
   width: 75%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s10 {
+.row .col.s10, .post-type-archive-product .site-inner ul.products .col.s10,
+.archive.tax-product_cat .site-inner ul.products .col.s10, .post-type-archive-product .site-inner ul.products li.s10.product,
+.archive.tax-product_cat .site-inner ul.products li.s10.product {
   width: 83.3333333333%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s11 {
+.row .col.s11, .post-type-archive-product .site-inner ul.products .col.s11,
+.archive.tax-product_cat .site-inner ul.products .col.s11, .post-type-archive-product .site-inner ul.products li.s11.product,
+.archive.tax-product_cat .site-inner ul.products li.s11.product {
   width: 91.6666666667%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.s12 {
+.row .col.s12, .post-type-archive-product .site-inner ul.products .col.s12,
+.archive.tax-product_cat .site-inner ul.products .col.s12, .post-type-archive-product .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products li.product {
   width: 100%;
   margin-left: auto;
   left: auto;
   right: auto; }
 
-.row .col.offset-s1 {
+.row .col.offset-s1, .post-type-archive-product .site-inner ul.products .col.offset-s1,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s1, .post-type-archive-product .site-inner ul.products li.offset-s1.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s1.product {
   margin-left: 8.3333333333%; }
 
-.row .col.pull-s1 {
+.row .col.pull-s1, .post-type-archive-product .site-inner ul.products .col.pull-s1,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s1, .post-type-archive-product .site-inner ul.products li.pull-s1.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s1.product {
   right: 8.3333333333%; }
 
-.row .col.push-s1 {
+.row .col.push-s1, .post-type-archive-product .site-inner ul.products .col.push-s1,
+.archive.tax-product_cat .site-inner ul.products .col.push-s1, .post-type-archive-product .site-inner ul.products li.push-s1.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s1.product {
   left: 8.3333333333%; }
 
-.row .col.offset-s2 {
+.row .col.offset-s2, .post-type-archive-product .site-inner ul.products .col.offset-s2,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s2, .post-type-archive-product .site-inner ul.products li.offset-s2.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s2.product {
   margin-left: 16.6666666667%; }
 
-.row .col.pull-s2 {
+.row .col.pull-s2, .post-type-archive-product .site-inner ul.products .col.pull-s2,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s2, .post-type-archive-product .site-inner ul.products li.pull-s2.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s2.product {
   right: 16.6666666667%; }
 
-.row .col.push-s2 {
+.row .col.push-s2, .post-type-archive-product .site-inner ul.products .col.push-s2,
+.archive.tax-product_cat .site-inner ul.products .col.push-s2, .post-type-archive-product .site-inner ul.products li.push-s2.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s2.product {
   left: 16.6666666667%; }
 
-.row .col.offset-s3 {
+.row .col.offset-s3, .post-type-archive-product .site-inner ul.products .col.offset-s3,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s3, .post-type-archive-product .site-inner ul.products li.offset-s3.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s3.product {
   margin-left: 25%; }
 
-.row .col.pull-s3 {
+.row .col.pull-s3, .post-type-archive-product .site-inner ul.products .col.pull-s3,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s3, .post-type-archive-product .site-inner ul.products li.pull-s3.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s3.product {
   right: 25%; }
 
-.row .col.push-s3 {
+.row .col.push-s3, .post-type-archive-product .site-inner ul.products .col.push-s3,
+.archive.tax-product_cat .site-inner ul.products .col.push-s3, .post-type-archive-product .site-inner ul.products li.push-s3.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s3.product {
   left: 25%; }
 
-.row .col.offset-s4 {
+.row .col.offset-s4, .post-type-archive-product .site-inner ul.products .col.offset-s4,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s4, .post-type-archive-product .site-inner ul.products li.offset-s4.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s4.product {
   margin-left: 33.3333333333%; }
 
-.row .col.pull-s4 {
+.row .col.pull-s4, .post-type-archive-product .site-inner ul.products .col.pull-s4,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s4, .post-type-archive-product .site-inner ul.products li.pull-s4.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s4.product {
   right: 33.3333333333%; }
 
-.row .col.push-s4 {
+.row .col.push-s4, .post-type-archive-product .site-inner ul.products .col.push-s4,
+.archive.tax-product_cat .site-inner ul.products .col.push-s4, .post-type-archive-product .site-inner ul.products li.push-s4.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s4.product {
   left: 33.3333333333%; }
 
-.row .col.offset-s5 {
+.row .col.offset-s5, .post-type-archive-product .site-inner ul.products .col.offset-s5,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s5, .post-type-archive-product .site-inner ul.products li.offset-s5.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s5.product {
   margin-left: 41.6666666667%; }
 
-.row .col.pull-s5 {
+.row .col.pull-s5, .post-type-archive-product .site-inner ul.products .col.pull-s5,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s5, .post-type-archive-product .site-inner ul.products li.pull-s5.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s5.product {
   right: 41.6666666667%; }
 
-.row .col.push-s5 {
+.row .col.push-s5, .post-type-archive-product .site-inner ul.products .col.push-s5,
+.archive.tax-product_cat .site-inner ul.products .col.push-s5, .post-type-archive-product .site-inner ul.products li.push-s5.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s5.product {
   left: 41.6666666667%; }
 
-.row .col.offset-s6 {
+.row .col.offset-s6, .post-type-archive-product .site-inner ul.products .col.offset-s6,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s6, .post-type-archive-product .site-inner ul.products li.offset-s6.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s6.product {
   margin-left: 50%; }
 
-.row .col.pull-s6 {
+.row .col.pull-s6, .post-type-archive-product .site-inner ul.products .col.pull-s6,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s6, .post-type-archive-product .site-inner ul.products li.pull-s6.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s6.product {
   right: 50%; }
 
-.row .col.push-s6 {
+.row .col.push-s6, .post-type-archive-product .site-inner ul.products .col.push-s6,
+.archive.tax-product_cat .site-inner ul.products .col.push-s6, .post-type-archive-product .site-inner ul.products li.push-s6.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s6.product {
   left: 50%; }
 
-.row .col.offset-s7 {
+.row .col.offset-s7, .post-type-archive-product .site-inner ul.products .col.offset-s7,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s7, .post-type-archive-product .site-inner ul.products li.offset-s7.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s7.product {
   margin-left: 58.3333333333%; }
 
-.row .col.pull-s7 {
+.row .col.pull-s7, .post-type-archive-product .site-inner ul.products .col.pull-s7,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s7, .post-type-archive-product .site-inner ul.products li.pull-s7.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s7.product {
   right: 58.3333333333%; }
 
-.row .col.push-s7 {
+.row .col.push-s7, .post-type-archive-product .site-inner ul.products .col.push-s7,
+.archive.tax-product_cat .site-inner ul.products .col.push-s7, .post-type-archive-product .site-inner ul.products li.push-s7.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s7.product {
   left: 58.3333333333%; }
 
-.row .col.offset-s8 {
+.row .col.offset-s8, .post-type-archive-product .site-inner ul.products .col.offset-s8,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s8, .post-type-archive-product .site-inner ul.products li.offset-s8.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s8.product {
   margin-left: 66.6666666667%; }
 
-.row .col.pull-s8 {
+.row .col.pull-s8, .post-type-archive-product .site-inner ul.products .col.pull-s8,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s8, .post-type-archive-product .site-inner ul.products li.pull-s8.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s8.product {
   right: 66.6666666667%; }
 
-.row .col.push-s8 {
+.row .col.push-s8, .post-type-archive-product .site-inner ul.products .col.push-s8,
+.archive.tax-product_cat .site-inner ul.products .col.push-s8, .post-type-archive-product .site-inner ul.products li.push-s8.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s8.product {
   left: 66.6666666667%; }
 
-.row .col.offset-s9 {
+.row .col.offset-s9, .post-type-archive-product .site-inner ul.products .col.offset-s9,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s9, .post-type-archive-product .site-inner ul.products li.offset-s9.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s9.product {
   margin-left: 75%; }
 
-.row .col.pull-s9 {
+.row .col.pull-s9, .post-type-archive-product .site-inner ul.products .col.pull-s9,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s9, .post-type-archive-product .site-inner ul.products li.pull-s9.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s9.product {
   right: 75%; }
 
-.row .col.push-s9 {
+.row .col.push-s9, .post-type-archive-product .site-inner ul.products .col.push-s9,
+.archive.tax-product_cat .site-inner ul.products .col.push-s9, .post-type-archive-product .site-inner ul.products li.push-s9.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s9.product {
   left: 75%; }
 
-.row .col.offset-s10 {
+.row .col.offset-s10, .post-type-archive-product .site-inner ul.products .col.offset-s10,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s10, .post-type-archive-product .site-inner ul.products li.offset-s10.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s10.product {
   margin-left: 83.3333333333%; }
 
-.row .col.pull-s10 {
+.row .col.pull-s10, .post-type-archive-product .site-inner ul.products .col.pull-s10,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s10, .post-type-archive-product .site-inner ul.products li.pull-s10.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s10.product {
   right: 83.3333333333%; }
 
-.row .col.push-s10 {
+.row .col.push-s10, .post-type-archive-product .site-inner ul.products .col.push-s10,
+.archive.tax-product_cat .site-inner ul.products .col.push-s10, .post-type-archive-product .site-inner ul.products li.push-s10.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s10.product {
   left: 83.3333333333%; }
 
-.row .col.offset-s11 {
+.row .col.offset-s11, .post-type-archive-product .site-inner ul.products .col.offset-s11,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s11, .post-type-archive-product .site-inner ul.products li.offset-s11.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s11.product {
   margin-left: 91.6666666667%; }
 
-.row .col.pull-s11 {
+.row .col.pull-s11, .post-type-archive-product .site-inner ul.products .col.pull-s11,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s11, .post-type-archive-product .site-inner ul.products li.pull-s11.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s11.product {
   right: 91.6666666667%; }
 
-.row .col.push-s11 {
+.row .col.push-s11, .post-type-archive-product .site-inner ul.products .col.push-s11,
+.archive.tax-product_cat .site-inner ul.products .col.push-s11, .post-type-archive-product .site-inner ul.products li.push-s11.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s11.product {
   left: 91.6666666667%; }
 
-.row .col.offset-s12 {
+.row .col.offset-s12, .post-type-archive-product .site-inner ul.products .col.offset-s12,
+.archive.tax-product_cat .site-inner ul.products .col.offset-s12, .post-type-archive-product .site-inner ul.products li.offset-s12.product,
+.archive.tax-product_cat .site-inner ul.products li.offset-s12.product {
   margin-left: 100%; }
 
-.row .col.pull-s12 {
+.row .col.pull-s12, .post-type-archive-product .site-inner ul.products .col.pull-s12,
+.archive.tax-product_cat .site-inner ul.products .col.pull-s12, .post-type-archive-product .site-inner ul.products li.pull-s12.product,
+.archive.tax-product_cat .site-inner ul.products li.pull-s12.product {
   right: 100%; }
 
-.row .col.push-s12 {
+.row .col.push-s12, .post-type-archive-product .site-inner ul.products .col.push-s12,
+.archive.tax-product_cat .site-inner ul.products .col.push-s12, .post-type-archive-product .site-inner ul.products li.push-s12.product,
+.archive.tax-product_cat .site-inner ul.products li.push-s12.product {
   left: 100%; }
 
 @media only screen and (min-width: 601px) {
-  .row .col.m1 {
+  .row .col.m1, .post-type-archive-product .site-inner ul.products .col.m1,
+  .archive.tax-product_cat .site-inner ul.products .col.m1, .post-type-archive-product .site-inner ul.products li.m1.product,
+  .archive.tax-product_cat .site-inner ul.products li.m1.product {
     width: 8.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m2 {
+  .row .col.m2, .post-type-archive-product .site-inner ul.products .col.m2,
+  .archive.tax-product_cat .site-inner ul.products .col.m2, .post-type-archive-product .site-inner ul.products li.m2.product,
+  .archive.tax-product_cat .site-inner ul.products li.m2.product {
     width: 16.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m3 {
+  .row .col.m3, .post-type-archive-product .site-inner ul.products .col.m3,
+  .archive.tax-product_cat .site-inner ul.products .col.m3, .post-type-archive-product .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products li.product {
     width: 25%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m4 {
+  .row .col.m4, .post-type-archive-product .site-inner ul.products .col.m4,
+  .archive.tax-product_cat .site-inner ul.products .col.m4, .post-type-archive-product .site-inner ul.products li.m4.product,
+  .archive.tax-product_cat .site-inner ul.products li.m4.product {
     width: 33.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m5 {
+  .row .col.m5, .post-type-archive-product .site-inner ul.products .col.m5,
+  .archive.tax-product_cat .site-inner ul.products .col.m5, .post-type-archive-product .site-inner ul.products li.m5.product,
+  .archive.tax-product_cat .site-inner ul.products li.m5.product {
     width: 41.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m6 {
+  .row .col.m6, .post-type-archive-product .site-inner ul.products .col.m6,
+  .archive.tax-product_cat .site-inner ul.products .col.m6, .post-type-archive-product .site-inner ul.products li.m6.product,
+  .archive.tax-product_cat .site-inner ul.products li.m6.product {
     width: 50%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m7 {
+  .row .col.m7, .post-type-archive-product .site-inner ul.products .col.m7,
+  .archive.tax-product_cat .site-inner ul.products .col.m7, .post-type-archive-product .site-inner ul.products li.m7.product,
+  .archive.tax-product_cat .site-inner ul.products li.m7.product {
     width: 58.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m8 {
+  .row .col.m8, .post-type-archive-product .site-inner ul.products .col.m8,
+  .archive.tax-product_cat .site-inner ul.products .col.m8, .post-type-archive-product .site-inner ul.products li.m8.product,
+  .archive.tax-product_cat .site-inner ul.products li.m8.product {
     width: 66.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m9 {
+  .row .col.m9, .post-type-archive-product .site-inner ul.products .col.m9,
+  .archive.tax-product_cat .site-inner ul.products .col.m9, .post-type-archive-product .site-inner ul.products li.m9.product,
+  .archive.tax-product_cat .site-inner ul.products li.m9.product {
     width: 75%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m10 {
+  .row .col.m10, .post-type-archive-product .site-inner ul.products .col.m10,
+  .archive.tax-product_cat .site-inner ul.products .col.m10, .post-type-archive-product .site-inner ul.products li.m10.product,
+  .archive.tax-product_cat .site-inner ul.products li.m10.product {
     width: 83.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m11 {
+  .row .col.m11, .post-type-archive-product .site-inner ul.products .col.m11,
+  .archive.tax-product_cat .site-inner ul.products .col.m11, .post-type-archive-product .site-inner ul.products li.m11.product,
+  .archive.tax-product_cat .site-inner ul.products li.m11.product {
     width: 91.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.m12 {
+  .row .col.m12, .post-type-archive-product .site-inner ul.products .col.m12,
+  .archive.tax-product_cat .site-inner ul.products .col.m12, .post-type-archive-product .site-inner ul.products li.m12.product,
+  .archive.tax-product_cat .site-inner ul.products li.m12.product {
     width: 100%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.offset-m1 {
+  .row .col.offset-m1, .post-type-archive-product .site-inner ul.products .col.offset-m1,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m1, .post-type-archive-product .site-inner ul.products li.offset-m1.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m1.product {
     margin-left: 8.3333333333%; }
 
-  .row .col.pull-m1 {
+  .row .col.pull-m1, .post-type-archive-product .site-inner ul.products .col.pull-m1,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m1, .post-type-archive-product .site-inner ul.products li.pull-m1.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m1.product {
     right: 8.3333333333%; }
 
-  .row .col.push-m1 {
+  .row .col.push-m1, .post-type-archive-product .site-inner ul.products .col.push-m1,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m1, .post-type-archive-product .site-inner ul.products li.push-m1.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m1.product {
     left: 8.3333333333%; }
 
-  .row .col.offset-m2 {
+  .row .col.offset-m2, .post-type-archive-product .site-inner ul.products .col.offset-m2,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m2, .post-type-archive-product .site-inner ul.products li.offset-m2.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m2.product {
     margin-left: 16.6666666667%; }
 
-  .row .col.pull-m2 {
+  .row .col.pull-m2, .post-type-archive-product .site-inner ul.products .col.pull-m2,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m2, .post-type-archive-product .site-inner ul.products li.pull-m2.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m2.product {
     right: 16.6666666667%; }
 
-  .row .col.push-m2 {
+  .row .col.push-m2, .post-type-archive-product .site-inner ul.products .col.push-m2,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m2, .post-type-archive-product .site-inner ul.products li.push-m2.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m2.product {
     left: 16.6666666667%; }
 
-  .row .col.offset-m3 {
+  .row .col.offset-m3, .post-type-archive-product .site-inner ul.products .col.offset-m3,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m3, .post-type-archive-product .site-inner ul.products li.offset-m3.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m3.product {
     margin-left: 25%; }
 
-  .row .col.pull-m3 {
+  .row .col.pull-m3, .post-type-archive-product .site-inner ul.products .col.pull-m3,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m3, .post-type-archive-product .site-inner ul.products li.pull-m3.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m3.product {
     right: 25%; }
 
-  .row .col.push-m3 {
+  .row .col.push-m3, .post-type-archive-product .site-inner ul.products .col.push-m3,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m3, .post-type-archive-product .site-inner ul.products li.push-m3.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m3.product {
     left: 25%; }
 
-  .row .col.offset-m4 {
+  .row .col.offset-m4, .post-type-archive-product .site-inner ul.products .col.offset-m4,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m4, .post-type-archive-product .site-inner ul.products li.offset-m4.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m4.product {
     margin-left: 33.3333333333%; }
 
-  .row .col.pull-m4 {
+  .row .col.pull-m4, .post-type-archive-product .site-inner ul.products .col.pull-m4,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m4, .post-type-archive-product .site-inner ul.products li.pull-m4.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m4.product {
     right: 33.3333333333%; }
 
-  .row .col.push-m4 {
+  .row .col.push-m4, .post-type-archive-product .site-inner ul.products .col.push-m4,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m4, .post-type-archive-product .site-inner ul.products li.push-m4.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m4.product {
     left: 33.3333333333%; }
 
-  .row .col.offset-m5 {
+  .row .col.offset-m5, .post-type-archive-product .site-inner ul.products .col.offset-m5,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m5, .post-type-archive-product .site-inner ul.products li.offset-m5.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m5.product {
     margin-left: 41.6666666667%; }
 
-  .row .col.pull-m5 {
+  .row .col.pull-m5, .post-type-archive-product .site-inner ul.products .col.pull-m5,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m5, .post-type-archive-product .site-inner ul.products li.pull-m5.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m5.product {
     right: 41.6666666667%; }
 
-  .row .col.push-m5 {
+  .row .col.push-m5, .post-type-archive-product .site-inner ul.products .col.push-m5,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m5, .post-type-archive-product .site-inner ul.products li.push-m5.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m5.product {
     left: 41.6666666667%; }
 
-  .row .col.offset-m6 {
+  .row .col.offset-m6, .post-type-archive-product .site-inner ul.products .col.offset-m6,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m6, .post-type-archive-product .site-inner ul.products li.offset-m6.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m6.product {
     margin-left: 50%; }
 
-  .row .col.pull-m6 {
+  .row .col.pull-m6, .post-type-archive-product .site-inner ul.products .col.pull-m6,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m6, .post-type-archive-product .site-inner ul.products li.pull-m6.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m6.product {
     right: 50%; }
 
-  .row .col.push-m6 {
+  .row .col.push-m6, .post-type-archive-product .site-inner ul.products .col.push-m6,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m6, .post-type-archive-product .site-inner ul.products li.push-m6.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m6.product {
     left: 50%; }
 
-  .row .col.offset-m7 {
+  .row .col.offset-m7, .post-type-archive-product .site-inner ul.products .col.offset-m7,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m7, .post-type-archive-product .site-inner ul.products li.offset-m7.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m7.product {
     margin-left: 58.3333333333%; }
 
-  .row .col.pull-m7 {
+  .row .col.pull-m7, .post-type-archive-product .site-inner ul.products .col.pull-m7,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m7, .post-type-archive-product .site-inner ul.products li.pull-m7.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m7.product {
     right: 58.3333333333%; }
 
-  .row .col.push-m7 {
+  .row .col.push-m7, .post-type-archive-product .site-inner ul.products .col.push-m7,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m7, .post-type-archive-product .site-inner ul.products li.push-m7.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m7.product {
     left: 58.3333333333%; }
 
-  .row .col.offset-m8 {
+  .row .col.offset-m8, .post-type-archive-product .site-inner ul.products .col.offset-m8,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m8, .post-type-archive-product .site-inner ul.products li.offset-m8.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m8.product {
     margin-left: 66.6666666667%; }
 
-  .row .col.pull-m8 {
+  .row .col.pull-m8, .post-type-archive-product .site-inner ul.products .col.pull-m8,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m8, .post-type-archive-product .site-inner ul.products li.pull-m8.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m8.product {
     right: 66.6666666667%; }
 
-  .row .col.push-m8 {
+  .row .col.push-m8, .post-type-archive-product .site-inner ul.products .col.push-m8,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m8, .post-type-archive-product .site-inner ul.products li.push-m8.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m8.product {
     left: 66.6666666667%; }
 
-  .row .col.offset-m9 {
+  .row .col.offset-m9, .post-type-archive-product .site-inner ul.products .col.offset-m9,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m9, .post-type-archive-product .site-inner ul.products li.offset-m9.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m9.product {
     margin-left: 75%; }
 
-  .row .col.pull-m9 {
+  .row .col.pull-m9, .post-type-archive-product .site-inner ul.products .col.pull-m9,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m9, .post-type-archive-product .site-inner ul.products li.pull-m9.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m9.product {
     right: 75%; }
 
-  .row .col.push-m9 {
+  .row .col.push-m9, .post-type-archive-product .site-inner ul.products .col.push-m9,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m9, .post-type-archive-product .site-inner ul.products li.push-m9.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m9.product {
     left: 75%; }
 
-  .row .col.offset-m10 {
+  .row .col.offset-m10, .post-type-archive-product .site-inner ul.products .col.offset-m10,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m10, .post-type-archive-product .site-inner ul.products li.offset-m10.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m10.product {
     margin-left: 83.3333333333%; }
 
-  .row .col.pull-m10 {
+  .row .col.pull-m10, .post-type-archive-product .site-inner ul.products .col.pull-m10,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m10, .post-type-archive-product .site-inner ul.products li.pull-m10.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m10.product {
     right: 83.3333333333%; }
 
-  .row .col.push-m10 {
+  .row .col.push-m10, .post-type-archive-product .site-inner ul.products .col.push-m10,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m10, .post-type-archive-product .site-inner ul.products li.push-m10.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m10.product {
     left: 83.3333333333%; }
 
-  .row .col.offset-m11 {
+  .row .col.offset-m11, .post-type-archive-product .site-inner ul.products .col.offset-m11,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m11, .post-type-archive-product .site-inner ul.products li.offset-m11.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m11.product {
     margin-left: 91.6666666667%; }
 
-  .row .col.pull-m11 {
+  .row .col.pull-m11, .post-type-archive-product .site-inner ul.products .col.pull-m11,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m11, .post-type-archive-product .site-inner ul.products li.pull-m11.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m11.product {
     right: 91.6666666667%; }
 
-  .row .col.push-m11 {
+  .row .col.push-m11, .post-type-archive-product .site-inner ul.products .col.push-m11,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m11, .post-type-archive-product .site-inner ul.products li.push-m11.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m11.product {
     left: 91.6666666667%; }
 
-  .row .col.offset-m12 {
+  .row .col.offset-m12, .post-type-archive-product .site-inner ul.products .col.offset-m12,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-m12, .post-type-archive-product .site-inner ul.products li.offset-m12.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-m12.product {
     margin-left: 100%; }
 
-  .row .col.pull-m12 {
+  .row .col.pull-m12, .post-type-archive-product .site-inner ul.products .col.pull-m12,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-m12, .post-type-archive-product .site-inner ul.products li.pull-m12.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-m12.product {
     right: 100%; }
 
-  .row .col.push-m12 {
+  .row .col.push-m12, .post-type-archive-product .site-inner ul.products .col.push-m12,
+  .archive.tax-product_cat .site-inner ul.products .col.push-m12, .post-type-archive-product .site-inner ul.products li.push-m12.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-m12.product {
     left: 100%; } }
 @media only screen and (min-width: 993px) {
-  .row .col.l1 {
+  .row .col.l1, .post-type-archive-product .site-inner ul.products .col.l1,
+  .archive.tax-product_cat .site-inner ul.products .col.l1, .post-type-archive-product .site-inner ul.products li.l1.product,
+  .archive.tax-product_cat .site-inner ul.products li.l1.product {
     width: 8.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l2 {
+  .row .col.l2, .post-type-archive-product .site-inner ul.products .col.l2,
+  .archive.tax-product_cat .site-inner ul.products .col.l2, .post-type-archive-product .site-inner ul.products li.l2.product,
+  .archive.tax-product_cat .site-inner ul.products li.l2.product {
     width: 16.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l3 {
+  .row .col.l3, .post-type-archive-product .site-inner ul.products .col.l3,
+  .archive.tax-product_cat .site-inner ul.products .col.l3, .post-type-archive-product .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products li.product {
     width: 25%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l4 {
+  .row .col.l4, .post-type-archive-product .site-inner ul.products .col.l4,
+  .archive.tax-product_cat .site-inner ul.products .col.l4, .post-type-archive-product .site-inner ul.products li.l4.product,
+  .archive.tax-product_cat .site-inner ul.products li.l4.product {
     width: 33.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l5 {
+  .row .col.l5, .post-type-archive-product .site-inner ul.products .col.l5,
+  .archive.tax-product_cat .site-inner ul.products .col.l5, .post-type-archive-product .site-inner ul.products li.l5.product,
+  .archive.tax-product_cat .site-inner ul.products li.l5.product {
     width: 41.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l6 {
+  .row .col.l6, .post-type-archive-product .site-inner ul.products .col.l6,
+  .archive.tax-product_cat .site-inner ul.products .col.l6, .post-type-archive-product .site-inner ul.products li.l6.product,
+  .archive.tax-product_cat .site-inner ul.products li.l6.product {
     width: 50%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l7 {
+  .row .col.l7, .post-type-archive-product .site-inner ul.products .col.l7,
+  .archive.tax-product_cat .site-inner ul.products .col.l7, .post-type-archive-product .site-inner ul.products li.l7.product,
+  .archive.tax-product_cat .site-inner ul.products li.l7.product {
     width: 58.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l8 {
+  .row .col.l8, .post-type-archive-product .site-inner ul.products .col.l8,
+  .archive.tax-product_cat .site-inner ul.products .col.l8, .post-type-archive-product .site-inner ul.products li.l8.product,
+  .archive.tax-product_cat .site-inner ul.products li.l8.product {
     width: 66.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l9 {
+  .row .col.l9, .post-type-archive-product .site-inner ul.products .col.l9,
+  .archive.tax-product_cat .site-inner ul.products .col.l9, .post-type-archive-product .site-inner ul.products li.l9.product,
+  .archive.tax-product_cat .site-inner ul.products li.l9.product {
     width: 75%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l10 {
+  .row .col.l10, .post-type-archive-product .site-inner ul.products .col.l10,
+  .archive.tax-product_cat .site-inner ul.products .col.l10, .post-type-archive-product .site-inner ul.products li.l10.product,
+  .archive.tax-product_cat .site-inner ul.products li.l10.product {
     width: 83.3333333333%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l11 {
+  .row .col.l11, .post-type-archive-product .site-inner ul.products .col.l11,
+  .archive.tax-product_cat .site-inner ul.products .col.l11, .post-type-archive-product .site-inner ul.products li.l11.product,
+  .archive.tax-product_cat .site-inner ul.products li.l11.product {
     width: 91.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.l12 {
+  .row .col.l12, .post-type-archive-product .site-inner ul.products .col.l12,
+  .archive.tax-product_cat .site-inner ul.products .col.l12, .post-type-archive-product .site-inner ul.products li.l12.product,
+  .archive.tax-product_cat .site-inner ul.products li.l12.product {
     width: 100%;
     margin-left: auto;
     left: auto;
     right: auto; }
 
-  .row .col.offset-l1 {
+  .row .col.offset-l1, .post-type-archive-product .site-inner ul.products .col.offset-l1,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l1, .post-type-archive-product .site-inner ul.products li.offset-l1.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l1.product {
     margin-left: 8.3333333333%; }
 
-  .row .col.pull-l1 {
+  .row .col.pull-l1, .post-type-archive-product .site-inner ul.products .col.pull-l1,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l1, .post-type-archive-product .site-inner ul.products li.pull-l1.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l1.product {
     right: 8.3333333333%; }
 
-  .row .col.push-l1 {
+  .row .col.push-l1, .post-type-archive-product .site-inner ul.products .col.push-l1,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l1, .post-type-archive-product .site-inner ul.products li.push-l1.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l1.product {
     left: 8.3333333333%; }
 
-  .row .col.offset-l2 {
+  .row .col.offset-l2, .post-type-archive-product .site-inner ul.products .col.offset-l2,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l2, .post-type-archive-product .site-inner ul.products li.offset-l2.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l2.product {
     margin-left: 16.6666666667%; }
 
-  .row .col.pull-l2 {
+  .row .col.pull-l2, .post-type-archive-product .site-inner ul.products .col.pull-l2,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l2, .post-type-archive-product .site-inner ul.products li.pull-l2.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l2.product {
     right: 16.6666666667%; }
 
-  .row .col.push-l2 {
+  .row .col.push-l2, .post-type-archive-product .site-inner ul.products .col.push-l2,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l2, .post-type-archive-product .site-inner ul.products li.push-l2.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l2.product {
     left: 16.6666666667%; }
 
-  .row .col.offset-l3 {
+  .row .col.offset-l3, .post-type-archive-product .site-inner ul.products .col.offset-l3,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l3, .post-type-archive-product .site-inner ul.products li.offset-l3.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l3.product {
     margin-left: 25%; }
 
-  .row .col.pull-l3 {
+  .row .col.pull-l3, .post-type-archive-product .site-inner ul.products .col.pull-l3,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l3, .post-type-archive-product .site-inner ul.products li.pull-l3.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l3.product {
     right: 25%; }
 
-  .row .col.push-l3 {
+  .row .col.push-l3, .post-type-archive-product .site-inner ul.products .col.push-l3,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l3, .post-type-archive-product .site-inner ul.products li.push-l3.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l3.product {
     left: 25%; }
 
-  .row .col.offset-l4 {
+  .row .col.offset-l4, .post-type-archive-product .site-inner ul.products .col.offset-l4,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l4, .post-type-archive-product .site-inner ul.products li.offset-l4.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l4.product {
     margin-left: 33.3333333333%; }
 
-  .row .col.pull-l4 {
+  .row .col.pull-l4, .post-type-archive-product .site-inner ul.products .col.pull-l4,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l4, .post-type-archive-product .site-inner ul.products li.pull-l4.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l4.product {
     right: 33.3333333333%; }
 
-  .row .col.push-l4 {
+  .row .col.push-l4, .post-type-archive-product .site-inner ul.products .col.push-l4,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l4, .post-type-archive-product .site-inner ul.products li.push-l4.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l4.product {
     left: 33.3333333333%; }
 
-  .row .col.offset-l5 {
+  .row .col.offset-l5, .post-type-archive-product .site-inner ul.products .col.offset-l5,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l5, .post-type-archive-product .site-inner ul.products li.offset-l5.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l5.product {
     margin-left: 41.6666666667%; }
 
-  .row .col.pull-l5 {
+  .row .col.pull-l5, .post-type-archive-product .site-inner ul.products .col.pull-l5,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l5, .post-type-archive-product .site-inner ul.products li.pull-l5.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l5.product {
     right: 41.6666666667%; }
 
-  .row .col.push-l5 {
+  .row .col.push-l5, .post-type-archive-product .site-inner ul.products .col.push-l5,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l5, .post-type-archive-product .site-inner ul.products li.push-l5.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l5.product {
     left: 41.6666666667%; }
 
-  .row .col.offset-l6 {
+  .row .col.offset-l6, .post-type-archive-product .site-inner ul.products .col.offset-l6,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l6, .post-type-archive-product .site-inner ul.products li.offset-l6.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l6.product {
     margin-left: 50%; }
 
-  .row .col.pull-l6 {
+  .row .col.pull-l6, .post-type-archive-product .site-inner ul.products .col.pull-l6,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l6, .post-type-archive-product .site-inner ul.products li.pull-l6.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l6.product {
     right: 50%; }
 
-  .row .col.push-l6 {
+  .row .col.push-l6, .post-type-archive-product .site-inner ul.products .col.push-l6,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l6, .post-type-archive-product .site-inner ul.products li.push-l6.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l6.product {
     left: 50%; }
 
-  .row .col.offset-l7 {
+  .row .col.offset-l7, .post-type-archive-product .site-inner ul.products .col.offset-l7,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l7, .post-type-archive-product .site-inner ul.products li.offset-l7.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l7.product {
     margin-left: 58.3333333333%; }
 
-  .row .col.pull-l7 {
+  .row .col.pull-l7, .post-type-archive-product .site-inner ul.products .col.pull-l7,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l7, .post-type-archive-product .site-inner ul.products li.pull-l7.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l7.product {
     right: 58.3333333333%; }
 
-  .row .col.push-l7 {
+  .row .col.push-l7, .post-type-archive-product .site-inner ul.products .col.push-l7,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l7, .post-type-archive-product .site-inner ul.products li.push-l7.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l7.product {
     left: 58.3333333333%; }
 
-  .row .col.offset-l8 {
+  .row .col.offset-l8, .post-type-archive-product .site-inner ul.products .col.offset-l8,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l8, .post-type-archive-product .site-inner ul.products li.offset-l8.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l8.product {
     margin-left: 66.6666666667%; }
 
-  .row .col.pull-l8 {
+  .row .col.pull-l8, .post-type-archive-product .site-inner ul.products .col.pull-l8,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l8, .post-type-archive-product .site-inner ul.products li.pull-l8.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l8.product {
     right: 66.6666666667%; }
 
-  .row .col.push-l8 {
+  .row .col.push-l8, .post-type-archive-product .site-inner ul.products .col.push-l8,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l8, .post-type-archive-product .site-inner ul.products li.push-l8.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l8.product {
     left: 66.6666666667%; }
 
-  .row .col.offset-l9 {
+  .row .col.offset-l9, .post-type-archive-product .site-inner ul.products .col.offset-l9,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l9, .post-type-archive-product .site-inner ul.products li.offset-l9.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l9.product {
     margin-left: 75%; }
 
-  .row .col.pull-l9 {
+  .row .col.pull-l9, .post-type-archive-product .site-inner ul.products .col.pull-l9,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l9, .post-type-archive-product .site-inner ul.products li.pull-l9.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l9.product {
     right: 75%; }
 
-  .row .col.push-l9 {
+  .row .col.push-l9, .post-type-archive-product .site-inner ul.products .col.push-l9,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l9, .post-type-archive-product .site-inner ul.products li.push-l9.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l9.product {
     left: 75%; }
 
-  .row .col.offset-l10 {
+  .row .col.offset-l10, .post-type-archive-product .site-inner ul.products .col.offset-l10,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l10, .post-type-archive-product .site-inner ul.products li.offset-l10.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l10.product {
     margin-left: 83.3333333333%; }
 
-  .row .col.pull-l10 {
+  .row .col.pull-l10, .post-type-archive-product .site-inner ul.products .col.pull-l10,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l10, .post-type-archive-product .site-inner ul.products li.pull-l10.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l10.product {
     right: 83.3333333333%; }
 
-  .row .col.push-l10 {
+  .row .col.push-l10, .post-type-archive-product .site-inner ul.products .col.push-l10,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l10, .post-type-archive-product .site-inner ul.products li.push-l10.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l10.product {
     left: 83.3333333333%; }
 
-  .row .col.offset-l11 {
+  .row .col.offset-l11, .post-type-archive-product .site-inner ul.products .col.offset-l11,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l11, .post-type-archive-product .site-inner ul.products li.offset-l11.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l11.product {
     margin-left: 91.6666666667%; }
 
-  .row .col.pull-l11 {
+  .row .col.pull-l11, .post-type-archive-product .site-inner ul.products .col.pull-l11,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l11, .post-type-archive-product .site-inner ul.products li.pull-l11.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l11.product {
     right: 91.6666666667%; }
 
-  .row .col.push-l11 {
+  .row .col.push-l11, .post-type-archive-product .site-inner ul.products .col.push-l11,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l11, .post-type-archive-product .site-inner ul.products li.push-l11.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l11.product {
     left: 91.6666666667%; }
 
-  .row .col.offset-l12 {
+  .row .col.offset-l12, .post-type-archive-product .site-inner ul.products .col.offset-l12,
+  .archive.tax-product_cat .site-inner ul.products .col.offset-l12, .post-type-archive-product .site-inner ul.products li.offset-l12.product,
+  .archive.tax-product_cat .site-inner ul.products li.offset-l12.product {
     margin-left: 100%; }
 
-  .row .col.pull-l12 {
+  .row .col.pull-l12, .post-type-archive-product .site-inner ul.products .col.pull-l12,
+  .archive.tax-product_cat .site-inner ul.products .col.pull-l12, .post-type-archive-product .site-inner ul.products li.pull-l12.product,
+  .archive.tax-product_cat .site-inner ul.products li.pull-l12.product {
     right: 100%; }
 
-  .row .col.push-l12 {
+  .row .col.push-l12, .post-type-archive-product .site-inner ul.products .col.push-l12,
+  .archive.tax-product_cat .site-inner ul.products .col.push-l12, .post-type-archive-product .site-inner ul.products li.push-l12.product,
+  .archive.tax-product_cat .site-inner ul.products li.push-l12.product {
     left: 100%; } }
 nav {
   color: #fff;
@@ -5888,7 +6188,8 @@ button.btn-floating {
   height: inherit;
   line-height: inherit; }
 
-.input-field.col .dropdown-content [type="checkbox"] + label {
+.input-field.col .dropdown-content [type="checkbox"] + label, .post-type-archive-product .site-inner ul.products li.input-field.product .dropdown-content [type="checkbox"] + label,
+.archive.tax-product_cat .site-inner ul.products li.input-field.product .dropdown-content [type="checkbox"] + label {
   top: 1px;
   left: 0;
   height: 18px; }
@@ -9572,82 +9873,226 @@ li.comment {
 #front-page-stacks #fpSplash {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpIconRow {
   min-height: 250px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpPromo,
-#front-page-stacks #fpPromo .col {
+#front-page-stacks #fpPromo .col,
+#front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product,
+.post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product,
+#front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpHistory,
-#front-page-stacks #fpHistory .col {
+#front-page-stacks #fpHistory .col,
+#front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product,
+.post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product,
+#front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product {
   min-height: 650px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpFeatured {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 100%; } }
 
 @media only screen and (min-width: 1440px) and (max-width: 1200px) {
@@ -9669,7 +10114,9 @@ li.comment {
     max-width: 90%;
     margin: 0 auto; } }
 @media screen and (max-width: 800px) {
-  #front-page-stacks #fpHistory .col {
+  #front-page-stacks #fpHistory .col, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product,
+  #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product {
     min-height: 100%; } }
 .masthead {
   position: fixed;
@@ -9691,82 +10138,226 @@ li.comment {
 #front-page-stacks #fpSplash {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpIconRow {
   min-height: 250px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpPromo,
-#front-page-stacks #fpPromo .col {
+#front-page-stacks #fpPromo .col,
+#front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product,
+.post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product,
+#front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpHistory,
-#front-page-stacks #fpHistory .col {
+#front-page-stacks #fpHistory .col,
+#front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product,
+.post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product,
+#front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product {
   min-height: 650px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpFeatured {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 100%; } }
 
 @media only screen and (min-width: 1440px) and (max-width: 1200px) {
@@ -9788,7 +10379,9 @@ li.comment {
     max-width: 90%;
     margin: 0 auto; } }
 @media screen and (max-width: 800px) {
-  #front-page-stacks #fpHistory .col {
+  #front-page-stacks #fpHistory .col, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product,
+  #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product {
     min-height: 100%; } }
 #front-page-stacks .modal {
   background: #f7b827; }
@@ -9796,7 +10389,9 @@ li.comment {
     text-align: center;
     font-size: 3.5rem;
     margin-bottom: 1.5rem; }
-#front-page-stacks .row {
+#front-page-stacks .row, #front-page-stacks .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks ul.products,
+#front-page-stacks .archive.tax-product_cat .site-inner ul.products,
+.archive.tax-product_cat .site-inner #front-page-stacks ul.products {
   margin-bottom: 0px; }
 #front-page-stacks #fpSplash {
   background: url("http://timberking.msaavedra.com/wp-content/uploads/header-img-1-e1488998272992.jpg") no-repeat center center;
@@ -9804,7 +10399,9 @@ li.comment {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #front-page-stacks #fpSplash .row {
+  #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+  #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+  .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
     min-height: 500px !important; }
   #front-page-stacks #fpSplash h2 {
     color: #FFFFFF;
@@ -9841,16 +10438,89 @@ li.comment {
   #front-page-stacks #fpIconRow p {
     color: #FFFFFF;
     font-size: 0.70588em; }
-  #front-page-stacks #fpIconRow .row .hidden {
+  #front-page-stacks #fpIconRow .row .hidden, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .hidden, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .hidden,
+  #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .hidden,
+  .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .hidden {
     display: none; }
-  #front-page-stacks #fpIconRow .row .icon-trigger .row {
+  #front-page-stacks #fpIconRow .row .icon-trigger .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row,
+  #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row,
+  .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products,
+  #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products,
+  .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products,
+  #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products,
+  .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products {
     min-height: 200px; }
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col img {
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col img, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row .col img, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col img,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row .col img,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col img, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products .col img, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col img, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products .col img, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col img,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products .col img,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col img,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products .col img,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col img, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product img, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row li.product img, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product img, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products li.product img, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product img, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products li.product img, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product img,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product img,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row li.product img,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product img,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products li.product img,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product img,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products li.product img,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product img {
       width: 100%; }
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3,
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col p {
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row .col h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row .col h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col h3, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products .col h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products .col h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col h3,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products .col h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products .col h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col h3, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row li.product h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product h3, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products li.product h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products li.product h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product h3,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row li.product h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product h3,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products li.product h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products li.product h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product h3,
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col p,
+    #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row .col p,
+    .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col p,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row .col p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col p,
+    #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products .col p,
+    .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col p,
+    #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products .col p,
+    .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col p,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products .col p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col p,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products .col p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col p,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product p,
+    #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row li.product p,
+    .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product p,
+    #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products li.product p,
+    .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product p,
+    #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products li.product p,
+    .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product p,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product p,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row li.product p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product p,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products li.product p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product p,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products li.product p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product p {
       text-align: left; }
-    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3 {
+    #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row .col h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row .col h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row .col h3, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products .col h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products .col h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col h3,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products .col h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products .col h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products .col h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products .col h3, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger .row li.product h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product h3, #front-page-stacks #fpIconRow .row .icon-trigger .post-type-archive-product .site-inner ul.products li.product h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product h3, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products .icon-trigger ul.products li.product h3, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product h3,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpIconRow .row .icon-trigger .row li.product h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger .row li.product h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger .row li.product h3,
+    #front-page-stacks #fpIconRow .row .icon-trigger .archive.tax-product_cat .site-inner ul.products li.product h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow .row .icon-trigger ul.products li.product h3,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products .icon-trigger ul.products li.product h3,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products .icon-trigger ul.products li.product h3 {
       font-size: 2em; }
 #front-page-stacks #fpPromo {
   background: #FFFFFF;
@@ -9870,16 +10540,33 @@ li.comment {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  #front-page-stacks #fpHistory .row {
+  #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+  #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+  .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products {
     padding: 1em; }
-    #front-page-stacks #fpHistory .row .col p {
+    #front-page-stacks #fpHistory .row .col p, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products .col p, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products .col p,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products .col p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products .col p, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory .row li.product p, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product p, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products li.product p,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory .row li.product p,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product p,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products li.product p {
       color: #FFFFFF;
       font-family: PT Serif, serif;
       opacity: 0.7;
       font-style: italic; }
-    #front-page-stacks #fpHistory .row .col div {
+    #front-page-stacks #fpHistory .row .col div, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products .col div, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products .col div,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products .col div,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products .col div, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory .row li.product div, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product div, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products li.product div,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory .row li.product div,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product div,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products li.product div {
       align-self: flex-end; }
-      #front-page-stacks #fpHistory .row .col div img {
+      #front-page-stacks #fpHistory .row .col div img, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products .col div img, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products .col div img,
+      #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products .col div img,
+      .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products .col div img, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory .row li.product div img, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product div img, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products li.product div img,
+      .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory .row li.product div img,
+      #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product div img,
+      .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products li.product div img {
         opacity: 0.5; }
 #front-page-stacks #fpFeatured h3 {
   color: #FFFFFF;
@@ -9958,9 +10645,13 @@ header.site-header {
   min-height: 100%; }
   header.site-header .wrap {
     padding: 0; }
-    header.site-header .wrap .row {
+    header.site-header .wrap .row, header.site-header .wrap .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner header.site-header .wrap ul.products,
+    header.site-header .wrap .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner header.site-header .wrap ul.products {
       margin-bottom: 0; }
-      header.site-header .wrap .row p {
+      header.site-header .wrap .row p, header.site-header .wrap .post-type-archive-product .site-inner ul.products p, .post-type-archive-product .site-inner header.site-header .wrap ul.products p,
+      header.site-header .wrap .archive.tax-product_cat .site-inner ul.products p,
+      .archive.tax-product_cat .site-inner header.site-header .wrap ul.products p {
         margin-bottom: 0;
         font-size: 0.6em;
         font-weight: bold; }
@@ -10190,82 +10881,226 @@ header.site-header {
 #front-page-stacks #fpSplash {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpSplash .row {
+    #front-page-stacks #fpSplash .row, #front-page-stacks #fpSplash .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpSplash ul.products,
+    #front-page-stacks #fpSplash .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpSplash ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpIconRow {
   min-height: 250px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpIconRow .row {
+    #front-page-stacks #fpIconRow .row, #front-page-stacks #fpIconRow .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpIconRow ul.products,
+    #front-page-stacks #fpIconRow .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpIconRow ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpPromo,
-#front-page-stacks #fpPromo .col {
+#front-page-stacks #fpPromo .col,
+#front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product,
+.post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product,
+#front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpPromo .row,
-    #front-page-stacks #fpPromo .col .row {
+    #front-page-stacks #fpPromo .row, #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo ul.products,
+    #front-page-stacks #fpPromo .col .row,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product .row,
+    #front-page-stacks #fpPromo .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products,
+    #front-page-stacks #fpPromo .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpPromo .col ul.products,
+    #front-page-stacks #fpPromo .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpPromo li.product ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpHistory,
-#front-page-stacks #fpHistory .col {
+#front-page-stacks #fpHistory .col,
+#front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product,
+.post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product,
+#front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product,
+.archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product {
   min-height: 650px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpHistory .row,
-    #front-page-stacks #fpHistory .col .row {
+    #front-page-stacks #fpHistory .row, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory ul.products,
+    #front-page-stacks #fpHistory .col .row,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product .row,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product .row,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product .row,
+    #front-page-stacks #fpHistory .col .post-type-archive-product .site-inner ul.products,
+    .post-type-archive-product .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product ul.products,
+    .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products,
+    #front-page-stacks #fpHistory .col .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpHistory .col ul.products,
+    #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product ul.products,
+    .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product ul.products {
       max-width: 100%; } }
 #front-page-stacks #fpFeatured {
   min-height: 500px; }
   @media only screen and (min-width: 1201px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    #front-page-stacks #fpFeatured .row {
+    #front-page-stacks #fpFeatured .row, #front-page-stacks #fpFeatured .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner #front-page-stacks #fpFeatured ul.products,
+    #front-page-stacks #fpFeatured .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner #front-page-stacks #fpFeatured ul.products {
       max-width: 100%; } }
 
 @media only screen and (min-width: 1440px) and (max-width: 1200px) {
@@ -10287,7 +11122,9 @@ header.site-header {
     max-width: 90%;
     margin: 0 auto; } }
 @media screen and (max-width: 800px) {
-  #front-page-stacks #fpHistory .col {
+  #front-page-stacks #fpHistory .col, #front-page-stacks #fpHistory .post-type-archive-product .site-inner ul.products li.product, .post-type-archive-product .site-inner ul.products #front-page-stacks #fpHistory li.product,
+  #front-page-stacks #fpHistory .archive.tax-product_cat .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products #front-page-stacks #fpHistory li.product {
     min-height: 100%; } }
 .top-footer {
   height: 75px;
@@ -10319,42 +11156,73 @@ header.site-header {
     .site-footer a:hover {
       color: #dc2c00; }
   @media only screen and (min-width: 1201px) {
-    .site-footer .row {
+    .site-footer .row, .site-footer .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner .site-footer ul.products,
+    .site-footer .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner .site-footer ul.products {
       max-width: 1152px; } }
   @media only screen and (max-width: 1200px) {
-    .site-footer .row {
+    .site-footer .row, .site-footer .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner .site-footer ul.products,
+    .site-footer .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner .site-footer ul.products {
       max-width: 960px; } }
   @media only screen and (max-width: 960px) {
-    .site-footer .row {
+    .site-footer .row, .site-footer .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner .site-footer ul.products,
+    .site-footer .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner .site-footer ul.products {
       max-width: 768px; } }
   @media only screen and (max-width: 768px) {
-    .site-footer .row {
+    .site-footer .row, .site-footer .post-type-archive-product .site-inner ul.products, .post-type-archive-product .site-inner .site-footer ul.products,
+    .site-footer .archive.tax-product_cat .site-inner ul.products,
+    .archive.tax-product_cat .site-inner .site-footer ul.products {
       max-width: 100%; } }
-  .site-footer .row .footer-logo img {
+  .site-footer .row .footer-logo img, .site-footer .post-type-archive-product .site-inner ul.products .footer-logo img, .post-type-archive-product .site-inner .site-footer ul.products .footer-logo img,
+  .site-footer .archive.tax-product_cat .site-inner ul.products .footer-logo img,
+  .archive.tax-product_cat .site-inner .site-footer ul.products .footer-logo img {
     float: left;
     max-height: 45px;
     margin-top: 35px;
     margin-bottom: 10px; }
-  .site-footer .row .col h5 {
+  .site-footer .row .col h5, .site-footer .post-type-archive-product .site-inner ul.products .col h5, .post-type-archive-product .site-inner .site-footer ul.products .col h5,
+  .site-footer .archive.tax-product_cat .site-inner ul.products .col h5,
+  .archive.tax-product_cat .site-inner .site-footer ul.products .col h5, .post-type-archive-product .site-inner ul.products .site-footer .row li.product h5, .site-footer .post-type-archive-product .site-inner ul.products li.product h5, .post-type-archive-product .site-inner .site-footer ul.products li.product h5,
+  .archive.tax-product_cat .site-inner ul.products .site-footer .row li.product h5,
+  .site-footer .archive.tax-product_cat .site-inner ul.products li.product h5,
+  .archive.tax-product_cat .site-inner .site-footer ul.products li.product h5 {
     color: #FFFFFF;
     font-size: 14px;
     font-size: 1.4rem;
     font-family: 'PT Sans', sans-serif;
     text-transform: uppercase; }
-  .site-footer .row .col ul li {
+  .site-footer .row .col ul li, .site-footer .post-type-archive-product .site-inner ul.products .col ul li, .post-type-archive-product .site-inner .site-footer ul.products .col ul li,
+  .site-footer .archive.tax-product_cat .site-inner ul.products .col ul li,
+  .archive.tax-product_cat .site-inner .site-footer ul.products .col ul li, .post-type-archive-product .site-inner ul.products .site-footer .row li.product ul li, .site-footer .post-type-archive-product .site-inner ul.products li.product ul li, .post-type-archive-product .site-inner .site-footer ul.products li.product ul li,
+  .archive.tax-product_cat .site-inner ul.products .site-footer .row li.product ul li,
+  .site-footer .archive.tax-product_cat .site-inner ul.products li.product ul li,
+  .archive.tax-product_cat .site-inner .site-footer ul.products li.product ul li {
     color: #FFFFFF;
     font-size: 12px; }
-    .site-footer .row .col ul li a {
+    .site-footer .row .col ul li a, .site-footer .post-type-archive-product .site-inner ul.products .col ul li a, .post-type-archive-product .site-inner .site-footer ul.products .col ul li a,
+    .site-footer .archive.tax-product_cat .site-inner ul.products .col ul li a,
+    .archive.tax-product_cat .site-inner .site-footer ul.products .col ul li a, .post-type-archive-product .site-inner ul.products .site-footer .row li.product ul li a, .site-footer .post-type-archive-product .site-inner ul.products li.product ul li a, .post-type-archive-product .site-inner .site-footer ul.products li.product ul li a,
+    .archive.tax-product_cat .site-inner ul.products .site-footer .row li.product ul li a,
+    .site-footer .archive.tax-product_cat .site-inner ul.products li.product ul li a,
+    .archive.tax-product_cat .site-inner .site-footer ul.products li.product ul li a {
       color: #FFFFFF;
       text-decoration: none; }
-  .site-footer .row.site-credits p {
+  .site-footer .row.site-credits p, .site-footer .post-type-archive-product .site-inner ul.site-credits.products p, .post-type-archive-product .site-inner .site-footer ul.site-credits.products p,
+  .site-footer .archive.tax-product_cat .site-inner ul.site-credits.products p,
+  .archive.tax-product_cat .site-inner .site-footer ul.site-credits.products p {
     float: left;
     color: #bdbdbd;
     text-align: left; }
-    .site-footer .row.site-credits p a {
+    .site-footer .row.site-credits p a, .site-footer .post-type-archive-product .site-inner ul.site-credits.products p a, .post-type-archive-product .site-inner .site-footer ul.site-credits.products p a,
+    .site-footer .archive.tax-product_cat .site-inner ul.site-credits.products p a,
+    .archive.tax-product_cat .site-inner .site-footer ul.site-credits.products p a {
       color: #666;
       text-decoration: none; }
-  .site-footer .row.site-credits .social-media-icons img {
+  .site-footer .row.site-credits .social-media-icons img, .site-footer .post-type-archive-product .site-inner ul.site-credits.products .social-media-icons img, .post-type-archive-product .site-inner .site-footer ul.site-credits.products .social-media-icons img,
+  .site-footer .archive.tax-product_cat .site-inner ul.site-credits.products .social-media-icons img,
+  .archive.tax-product_cat .site-inner .site-footer ul.site-credits.products .social-media-icons img {
     float: right;
     display: inline;
     height: 20px;
@@ -10367,46 +11235,81 @@ header.site-header {
 
 #menu-footer-resources li {
   float: left;
-  clear: left;
-  width: 50%;
-  margin: 1px 0; }
-#menu-footer-resources li:nth-child(even) {
-  float: right;
-  clear: right; }
+  width: 33%;
+  margin: 1px 0;
+  text-align: left; }
+#menu-footer-resources li:nth-child(3n + 3) {
+  float: right; }
 
 .tk-product .product-master-wrapper .product-main-wrapper .product-image-background {
   padding-top: 30px; }
-.tk-product .product-master-wrapper .product-main-wrapper .row div.product-image {
+.tk-product .product-master-wrapper .product-main-wrapper .row div.product-image, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-image, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-image,
+.tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-image,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-image {
   padding-top: 4em; }
 @media screen and (min-width: 1201px) {
-  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content {
+  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content,
+  .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content {
     max-width: 500px; } }
-.tk-product .product-master-wrapper .product-main-wrapper .row div.product-content h3 {
+.tk-product .product-master-wrapper .product-main-wrapper .row div.product-content h3, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content h3, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content h3,
+.tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content h3,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content h3 {
   text-align: center;
   color: #dc2c00; }
-.tk-product .product-master-wrapper .product-main-wrapper .row div.product-content div.product-content-box {
+.tk-product .product-master-wrapper .product-main-wrapper .row div.product-content div.product-content-box, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content div.product-content-box, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content div.product-content-box,
+.tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content div.product-content-box,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content div.product-content-box {
   background: rgba(155, 155, 155, 0.5);
   border: 2px solid #333;
   padding: 1.5em 1.25em;
   font-size: 16px; }
-  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content div.product-content-box p {
+  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content div.product-content-box p, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content div.product-content-box p, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content div.product-content-box p,
+  .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content div.product-content-box p,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content div.product-content-box p {
     margin-bottom: 5px; }
-    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content div.product-content-box p strong {
+    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content div.product-content-box p strong, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content div.product-content-box p strong, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content div.product-content-box p strong,
+    .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content div.product-content-box p strong,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content div.product-content-box p strong {
       font-size: 22px;
       line-height: 16px; }
-.tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box {
+.tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box,
+.tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box {
   margin: 0;
   padding: 1.2em; }
-  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .col {
+  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .col, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box .col, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box .col,
+  .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box .col,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box .col, .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .post-type-archive-product .site-inner ul.products li.product, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box li.product, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box li.product, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box li.product,
+  .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .archive.tax-product_cat .site-inner ul.products li.product,
+  .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box li.product,
+  .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box li.product,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box li.product {
     margin-bottom: 0.6em; }
-    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .col h4 {
+    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .col h4, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box .col h4, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box .col h4,
+    .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box .col h4,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box .col h4, .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .post-type-archive-product .site-inner ul.products li.product h4, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box li.product h4, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box li.product h4, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box li.product h4,
+    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .archive.tax-product_cat .site-inner ul.products li.product h4,
+    .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box li.product h4,
+    .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box li.product h4,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box li.product h4 {
       display: inline; }
-    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .col button {
+    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .col button, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box .col button, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box .col button,
+    .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box .col button,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box .col button, .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .post-type-archive-product .site-inner ul.products li.product button, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box li.product button, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products div.product-content .price-box li.product button, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box li.product button,
+    .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box .archive.tax-product_cat .site-inner ul.products li.product button,
+    .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-main-wrapper .row div.product-content .price-box li.product button,
+    .tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products div.product-content .price-box li.product button,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products div.product-content .price-box li.product button {
       float: right;
       display: inline; }
-.tk-product .product-master-wrapper .product-main-wrapper .row h4.tk-product-price {
+.tk-product .product-master-wrapper .product-main-wrapper .row h4.tk-product-price, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products h4.tk-product-price, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products h4.tk-product-price,
+.tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products h4.tk-product-price,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products h4.tk-product-price {
   color: #f7b827; }
-.tk-product .product-master-wrapper .product-main-wrapper .row h4.tk-product-deposit {
+.tk-product .product-master-wrapper .product-main-wrapper .row h4.tk-product-deposit, .tk-product .product-master-wrapper .product-main-wrapper .post-type-archive-product .site-inner ul.products h4.tk-product-deposit, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products h4.tk-product-deposit,
+.tk-product .product-master-wrapper .product-main-wrapper .archive.tax-product_cat .site-inner ul.products h4.tk-product-deposit,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-main-wrapper ul.products h4.tk-product-deposit {
   color: #000000; }
 .tk-product .product-master-wrapper .product-main-wrapper .featured-extra-images {
   text-align: center;
@@ -10425,24 +11328,64 @@ header.site-header {
       color: #FFFFFF;
       text-decoration: none;
       padding: 0.25em 0.75em; }
-.tk-product .product-master-wrapper .product-info-wrapper .row .col .product-video-wrap {
+.tk-product .product-master-wrapper .product-info-wrapper .row .col .product-video-wrap, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .product-video-wrap, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .product-video-wrap,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .product-video-wrap,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .product-video-wrap, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .product-video-wrap, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .product-video-wrap, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .product-video-wrap,
+.archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .product-video-wrap,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .product-video-wrap,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .product-video-wrap {
   padding: 1.32em 1.2em; }
-.tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show {
+.tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .info-panel-to-show, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .info-panel-to-show,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .info-panel-to-show, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show,
+.archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .info-panel-to-show,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show {
   display: none; }
-  .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show p {
+  .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show p, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .info-panel-to-show p, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show p,
+  .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .info-panel-to-show p,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show p, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show p, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .info-panel-to-show p, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show p,
+  .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show p,
+  .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .info-panel-to-show p,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show p {
     font-size: 14px;
     margin: 3px; }
-    .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show p strong {
+    .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show p strong, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .info-panel-to-show p strong, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show p strong,
+    .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .info-panel-to-show p strong,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show p strong, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show p strong, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .info-panel-to-show p strong, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show p strong,
+    .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show p strong,
+    .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .info-panel-to-show p strong,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show p strong {
       float: left;
       font-family: "Roboto Slab", serif;
       font-weight: 900; }
-    .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show p span {
+    .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show p span, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .info-panel-to-show p span, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show p span,
+    .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .info-panel-to-show p span,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show p span, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show p span, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .info-panel-to-show p span, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show p span,
+    .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show p span,
+    .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .info-panel-to-show p span,
+    .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show p span {
       float: right; }
-  .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show hr {
+  .tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-to-show hr, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .info-panel-to-show hr, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show hr,
+  .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .info-panel-to-show hr,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-to-show hr, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show hr, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .info-panel-to-show hr, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show hr,
+  .archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-to-show hr,
+  .tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .info-panel-to-show hr,
+  .archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-to-show hr {
     margin-bottom: 4px; }
-.tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-show {
+.tk-product .product-master-wrapper .product-info-wrapper .row .col .info-panel-show, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .info-panel-show, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-show,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .info-panel-show,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .info-panel-show, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-show, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .info-panel-show, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-show,
+.archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .info-panel-show,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .info-panel-show,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .info-panel-show {
   display: block; }
-.tk-product .product-master-wrapper .product-info-wrapper .row .col .notice {
+.tk-product .product-master-wrapper .product-info-wrapper .row .col .notice, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products .col .notice, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .notice,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products .col .notice,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products .col .notice, .post-type-archive-product .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .notice, .tk-product .product-master-wrapper .product-info-wrapper .post-type-archive-product .site-inner ul.products li.product .notice, .post-type-archive-product .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .notice,
+.archive.tax-product_cat .site-inner ul.products .tk-product .product-master-wrapper .product-info-wrapper .row li.product .notice,
+.tk-product .product-master-wrapper .product-info-wrapper .archive.tax-product_cat .site-inner ul.products li.product .notice,
+.archive.tax-product_cat .site-inner .tk-product .product-master-wrapper .product-info-wrapper ul.products li.product .notice {
   font-size: 14px;
   margin: 4rem auto 0 auto; }
 
@@ -10599,6 +11542,24 @@ header.site-header {
   border-bottom: 1px solid #bdbdbd;
   background: #FFFFFF; }
 
+.form-template-container {
+  max-width: 85vw;
+  margin: 0 auto; }
+  .form-template-container input,
+  .form-template-container select,
+  .form-template-container textarea {
+    padding: .8rem;
+    background: rgba(255, 255, 255, 0.6);
+    border: 0;
+    margin: 1rem 0; }
+  .form-template-container label {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900; }
+  .form-template-container .form-wrapper {
+    background: #dddddd;
+    padding: 2rem; }
+
 .post-type-archive-product .site-inner,
 .archive.tax-product_cat .site-inner {
   position: relative; }
@@ -10625,29 +11586,12 @@ header.site-header {
   .archive.tax-product_cat .site-inner ul.products li.product {
     background: transparent;
     box-shadow: none;
-    flex: 1;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
     position: relative;
-    float: none;
-    margin: 1rem;
-    max-width: 200px;
     text-align: center; }
     .post-type-archive-product .site-inner ul.products li.product h3,
     .archive.tax-product_cat .site-inner ul.products li.product h3 {
       font-family: 'Roboto', sans-serif;
       text-transform: capitalize; }
-  .post-type-archive-product .site-inner ul.products,
-  .archive.tax-product_cat .site-inner ul.products {
-    display: flex;
-    display: -webkit-flex;
-    -webkit-flex: 1;
-    flex: 1;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-bottom: 12rem; }
 
 .woo-product-img {
   height: 150px;
