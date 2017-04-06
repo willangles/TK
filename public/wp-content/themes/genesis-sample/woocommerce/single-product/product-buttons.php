@@ -4,6 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 global $product; ?>
 
+<<<<<<< HEAD
 <div class="wc-price-box">
     <span class="price-label highlight"><?php echo $product->get_price_html(); ?></span>
     <a href="/get-quote" class="wc-custom-btn buy waves-effect waves-light btn">Get Detailed Quote</a>
@@ -12,6 +13,19 @@ global $product; ?>
     
    
  
+=======
+<div class="wc-price-box row">
+   <div class="col s12">
+        <span class="price-label highlight"><?php echo $product->get_price_html(); ?></span>
+        <a href="/get-quote" class="wc-custom-btn buy waves-effect waves-light btn">Get Detailed Quote</a>
+   </div>
+   <div class="col s12 m6">
+        <a href="/get-financed" class="wc-custom-btn buy waves-effect waves-light btn">Get Financed</a>
+   </div>
+   <div class="col s12 m6">
+        <a onclick="addToCart(event);" data-type="<?php the_field('product_type'); ?>" data-id="<?php echo $product->id ?>" class="wc-custom-btn buy waves-effect waves-light btn"><i class="material-icons right">play_arrow</i>BUY NOW</a>
+   </div>
+>>>>>>> 751a25e5191c220c974b74ed5bc0e18457de7252
 </div>
 
 <script>

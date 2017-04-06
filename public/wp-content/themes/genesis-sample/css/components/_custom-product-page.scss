@@ -20,6 +20,13 @@
             color: #FFFFFF;
             text-decoration: none;
             padding: 0.25em 0.75em;
+            &.active {
+                background: #f7b827;
+                margin: 0;
+                padding: 1.25rem !important;
+                color: black !important;
+                border: 0px solid transparent;
+            }
         }
     }
     .info-panel-to-show {
@@ -28,7 +35,6 @@
         p {
             margin: .5rem 0;
         }
-
     }
     .info-panel-to-show.info-panel-show {
         display: block;
@@ -43,7 +49,8 @@
         span {
             float: right;
         }
-        strong, span {
+        strong,
+        span {
             padding: .5rem 0;
         }
     }
@@ -116,14 +123,34 @@
         text-align: center;
         color: #dc2c00;
         font-size: 2.5rem;
+        background: transparent;
     }
     .wc-description-wrapper {
+        background: transparent;
         max-width: 500px;
     }
     .wc-product-description {
         padding: 1.5em 1.25em;
         font-size: 16px;
         margin-bottom: 3rem;
+        background: rgba(255, 255, 255, 0.7);
+        li {
+            background: transparent;
+            .collapsible-header {
+                background: transparent;
+                border-bottom: 0px solid transparent;
+                h1 {}
+                p {
+                    text-align: center;
+                    color: #666;
+                    font-size: 1.3rem;
+                }
+            }
+            .collapsible-body {
+                background: transparent;
+                border-bottom: 0px solid transparent;
+            }
+        }
         h2 {
             text-align: center;
             font-size: 2rem;
@@ -133,29 +160,34 @@
     .wc-product-video {
         margin: 1rem 0;
     }
- }
+}
 
 .woocommerce nav.woocommerce-pagination {
     background: transparent !important;
     box-shadow: none;
 }
+
 .woocommerce nav.woocommerce-pagination ul li a,
 .woocommerce nav.woocommerce-pagination ul li span {
     color: #000;
 }
+
 .single-product {
     .sidebar.sidebar-primary.widget-area {
         display: none;
     }
 }
+
 .notice {
     clear: both;
 }
+
 a[id^="tk-product-"] {
     font-size: 1.7rem;
     line-height: 4rem;
 }
+
 .archive .archive-title,
-.archive .woocommerce-message  {
+.archive .woocommerce-message {
     display: none;
 }
