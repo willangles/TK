@@ -51,6 +51,7 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.materialboxed').materialbox();
     jQuery(".button-collapse").sideNav();
+    jQuery('.collapsible').collapsible();
     jQuery('#tk-modal').on('click', function() {
         jQuery('.modal').modal({
             complete: function() {
