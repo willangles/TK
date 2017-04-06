@@ -103,9 +103,10 @@ $sub-nav-height: 125px;
                             span {
                                 color: white;
                                 font-family: $slab;
-                                font-size: 2em;
+                                font-size: 1.8em;
+                                line-height: 2rem;
                                 font-weight: 900;
-                                letter-spacing: -0.02rem;
+                                letter-spacing: 0;
                                 @include t(0.2s);
                             }
                         }
