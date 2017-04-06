@@ -7876,7 +7876,7 @@ button.picker__close:focus {
     margin: 2rem auto;
     font-family: Roboto Slab, sans-serif;
     width: 100%;
-    max-width: 200px;
+    max-width: 100%;
     font-size: 2rem;
     font-weight: 900;
     height: 4.5rem;

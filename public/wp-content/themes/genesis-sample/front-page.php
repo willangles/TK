@@ -108,7 +108,7 @@ function my_custom_loop () {
 	</section>
 	<section id="fpHistory">
 		<div class="row">
-			<div class="col s12 m6 valign-wrapper">
+			<div class="col s12 m6 valign-wrapper" style="position: relative; z-index: 50;">
 				<p class="valign"><?php the_field('history_copy'); ?></p>
 			</div>
 			<div class="col s12 m6 valign-wrapper">
