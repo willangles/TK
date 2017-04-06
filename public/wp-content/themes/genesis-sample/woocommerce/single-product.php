@@ -48,7 +48,6 @@ get_header( 'shop' ); ?>
 			<?php if($type == 'Product'): ?>
 				<div class="wc-custom-wrapper extended">
 					<?php wc_get_template( 'single-product/product-info-nav.php' ); ?>
-					 ?>
 				</div>
 				<div class="wc-custom-wrapper">
 					<?php wc_get_template( 'single-product/product-info.php' ); ?>
