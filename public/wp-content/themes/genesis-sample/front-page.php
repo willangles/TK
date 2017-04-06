@@ -14,7 +14,7 @@ function my_custom_loop () {
   			<div class="valign">
 	  			<h2><?php the_field('splash_image_headline'); ?></h2>
 	  			<p><?php the_field('splash_image_text'); ?></p>
-	  			<a href="<?php the_field('button_link')?>" class="waves-effect waves-light btn button">See it in action<i class="material-icons right">play_arrow</i></a>
+	  			<a href="<?php the_field('button_link')?>" class="waves-effect waves-light btn button"><?php the_field('button_copy'); ?><i class="material-icons right">play_arrow</i></a>
   			</div>
   		</div>
   	</section>
