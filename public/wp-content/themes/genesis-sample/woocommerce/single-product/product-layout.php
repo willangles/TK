@@ -13,9 +13,9 @@
         <?php wc_get_template( 'single-product/short-description.php' ); ?>
     </div>
 <?php else: ?>
-<div class="row sawmill-product-image" style="background:url(<?php the_post_thumbnail_url( 'full' ); ?>) center center / cover;">
-    <div class="wc-product-img col s12 m12 l8"></div>
-    <div class="wc-description-wrapper col s12 m12 l4">
+<div class="row sawmill-product-image" style="background:url(<?php the_post_thumbnail_url( 'full' ); ?>);">
+    <div class="wc-product-img col s12 m12 l7"></div>
+    <div class="wc-description-wrapper col s12 m12 l5">
         <!-- Product Title -->
         <?php wc_get_template( 'single-product/title.php' ); ?>
         <!-- Buy Now and Deposit Buttons -->
