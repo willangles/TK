@@ -10439,6 +10439,8 @@ header.site-header {
     .site-footer .row .col ul li a {
       color: #FFFFFF;
       text-decoration: none; }
+      .site-footer .row .col ul li a:hover {
+        color: #dc2c00; }
   .site-footer .row.site-credits p {
     float: left;
     color: #bdbdbd;
@@ -10446,6 +10448,8 @@ header.site-header {
     .site-footer .row.site-credits p a {
       color: #666;
       text-decoration: none; }
+      .site-footer .row.site-credits p a:hover {
+        color: #dc2c00; }
   .site-footer .row.site-credits .social-media-icons img {
     float: right;
     display: inline;
@@ -10456,6 +10460,8 @@ header.site-header {
 .tk-footer-link a {
   color: #fff;
   text-decoration: none; }
+  .tk-footer-link a:hover {
+    color: #dc2c00; }
 
 #menu-footer-resources li {
   float: left;
@@ -12025,5 +12031,3 @@ p {
 
 #mill-types-header {
   display: none !important; }
-
-/*# sourceMappingURL=style.css.map */
