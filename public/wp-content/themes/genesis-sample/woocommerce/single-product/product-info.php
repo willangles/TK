@@ -76,10 +76,10 @@
 					<h2>Warranty</h2>
 					<p><?php the_field('warranty_text'); ?></p>
 				</div>
-				<div id="qa" class="info-panel-to-show qa">
+				<!-- <div id="qa" class="info-panel-to-show qa">
 					<h2>Q &amp; A</h2>
-					<?php the_field('q_and_a'); ?>
-				</div>
+					
+				</div> -->
 			</div>
 			<div class="col s12 m12 l4">
 				<div class="product-video-wrap">
