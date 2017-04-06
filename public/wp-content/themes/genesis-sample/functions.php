@@ -165,7 +165,7 @@ function sp_custom_footer() {
                 </div>
     		</ul>
     	</div>
-    	<div class="col l6 m2 s6">
+    	<div class="col l4 m2 s6">
     		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
 			<?php wp_nav_menu( array( 'theme_location' => 'footer-resources-menu', 'container_class' => 'footer-resources-menu' ) ); ?>
     	</div>

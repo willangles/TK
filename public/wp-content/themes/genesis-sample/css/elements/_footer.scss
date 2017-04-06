@@ -90,12 +90,13 @@ $top-footer-height: 75px;
 #menu-footer-resources {
     li {
         float: left;
-        clear: left;
-        width: 50%;
+        width: 33.3%;
         margin: 1px 0;
     }
-    li:nth-child(even) {
+    li:nth-child(3n + 3) {
         float: right;
-        clear: right;
+    }
+    li:last-child{
+        float: right;
     }
 }
