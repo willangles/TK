@@ -38,6 +38,12 @@
 }
 
 .woocommerce {
+    .sawmill-product-image {
+        .wc-description-wrapper {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 2rem;
+        }
+    }
     .woocommerce a.button {
         line-height: 3;
         margin: 0 0 1em 0;
