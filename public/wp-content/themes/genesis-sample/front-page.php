@@ -91,7 +91,7 @@ function my_custom_loop () {
 	<section id="fpPromo">
 		<div class="row">
 			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
-				<div>
+				<div class="valign">
 				<?php $video_url = get_field('video_modal_link', false, false); 
 						$re = '/[^=]+$/';
 						preg_match($re, $video_url, $video_id); ?>

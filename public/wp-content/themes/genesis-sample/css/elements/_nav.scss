@@ -24,6 +24,7 @@ $sub-nav-height: 125px;
             @include t(0.2s);
             li {
                 height: $nav-height;
+                font-weight: bold;
                 @include t(0.2s);
                 a {
                     padding-top: 16px;
@@ -38,6 +39,7 @@ $sub-nav-height: 125px;
                     @include t(0.2s);
                     span {
                         color: $white;
+                        font-weight: bold;
                         text-decoration: none;
                         @include t(0.2s);
                     }
