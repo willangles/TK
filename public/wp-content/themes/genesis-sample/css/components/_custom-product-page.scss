@@ -113,21 +113,32 @@
         text-align: center;
         color: #dc2c00;
         font-size: 2.5rem;
+        background: transparent;
     }
     .wc-description-wrapper {
+        background: transparent;
         max-width: 500px;
     }
     .wc-product-description {
         padding: 1.5em 1.25em;
         font-size: 16px;
         margin-bottom: 3rem;
+        background: rgba(255, 255, 255, 0.7);
         li {
+            background: transparent;
             .collapsible-header {
-                background: rgba(255, 255, 255, 0.7);
+                background: transparent;
+                border-bottom: 0px solid transparent;
                 h1 {}
+                p {
+                    text-align: center;
+                    color: #666;
+                    font-size: 1.3rem;
+                }
             }
             .collapsible-body {
-                background: rgba(255, 255, 255, 0.7);
+                background: transparent;
+                border-bottom: 0px solid transparent;
             }
         }
         h2 {

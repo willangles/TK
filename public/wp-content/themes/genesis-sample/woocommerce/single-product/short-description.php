@@ -32,6 +32,7 @@ if ( ! $post->post_excerpt ) {
 	<li>
 	<div class="collapsible-header">
 		<?php the_title( '<h1 itemprop="name" class="wc-product-title product_title entry-title">', ' Info</h1>' ); ?>
+		<p>Click to Learn More</p>
 	</div>
 	<div class="collapsible-body">
 		<?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
