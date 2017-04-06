@@ -8229,6 +8229,10 @@ a[id^="tk-product-"] {
   font-size: 1.7rem;
   line-height: 4rem; }
 
+.archive .archive-title,
+.archive .woocommerce-message {
+  display: none; }
+
 .woocommerce main.content {
   padding: 1em 2em; }
 .woocommerce ul.products {
@@ -10715,6 +10719,10 @@ header.site-header {
   .header-container-scrolled header.site-header {
     min-height: 0;
     transition: 0.2s ease-in-out all; }
+
+.nav-cart-icon {
+  font-size: 2rem;
+  vertical-align: middle; }
 
 .nav-primary {
   background: #dc2c00;
