@@ -10122,8 +10122,7 @@ header.site-header {
               .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item a span {
                 color: white;
                 font-family: "Roboto Slab", serif;
-                font-size: 1.8em;
-                line-height: 2rem;
+                font-size: 1.6em;
                 font-weight: 900;
                 letter-spacing: 0;
                 transition: 0.2s ease-in-out all; }
