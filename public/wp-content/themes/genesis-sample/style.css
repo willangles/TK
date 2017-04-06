@@ -7880,6 +7880,7 @@ button.picker__close:focus {
     font-size: 2rem;
     font-weight: 900;
     height: 4.5rem;
+    line-height: 4.5rem;
     text-align: center;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
     .wc-custom-wrapper .wc-price-box .wc-custom-btn.buy {
@@ -7888,6 +7889,13 @@ button.picker__close:focus {
     .wc-custom-wrapper .wc-price-box .wc-custom-btn.deposit {
       background: #f7b827;
       color: #000; }
+    .wc-custom-wrapper .wc-price-box .wc-custom-btn.accent-btn {
+      color: #000;
+      background: #f7b827;
+      max-width: 48%;
+      float: left; }
+      .wc-custom-wrapper .wc-price-box .wc-custom-btn.accent-btn:last-child {
+        float: right; }
   .wc-custom-wrapper .wc-thumbnail-wrapper {
     text-align: center;
     max-width: 768px;
