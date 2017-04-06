@@ -69,8 +69,8 @@
         left: -.5em;
         margin: 0;
         border-radius: 100%;
-        background-color: $yellow;
-        color: $black;
+        background-color: $yellow !important;
+        color: $black !important;
         font-size: .857em;
         -webkit-font-smoothing: antialiased;
     }

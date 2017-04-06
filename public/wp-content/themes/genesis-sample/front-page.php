@@ -14,7 +14,7 @@ function my_custom_loop () {
   			<div class="valign">
 	  			<h2><?php the_field('splash_image_headline'); ?></h2>
 	  			<p><?php the_field('splash_image_text'); ?></p>
-	  			<a href="<?php the_field('button_link')?>" class="waves-effect waves-light btn button">See it in action<i class="material-icons right">play_arrow</i></a>
+	  			<a href="<?php the_field('button_link')?>" class="waves-effect waves-light btn button"><?php the_field('button_copy'); ?><i class="material-icons right">play_arrow</i></a>
   			</div>
   		</div>
   	</section>
@@ -91,7 +91,7 @@ function my_custom_loop () {
 	<section id="fpPromo">
 		<div class="row">
 			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
-				<div>
+				<div class="valign">
 				<?php $video_url = get_field('video_modal_link', false, false); 
 						$re = '/[^=]+$/';
 						preg_match($re, $video_url, $video_id); ?>

@@ -28,7 +28,8 @@ header.site-header {
             .site-title {
                 a {
                     img {
-                        width: 360px;
+                        width: 100%;
+                        max-width: 460px;
                         height: auto;
                         position: relative;
                         z-index: 101;

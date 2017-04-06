@@ -27,6 +27,8 @@
         margin: 0 auto;
     }
     #mill-focus {
+        max-width: 100%;
+        width: 100%;
         article.focus-item {
             padding: 5rem;
             h3 {
@@ -61,6 +63,9 @@
             text-align: center;
             color: $red;
             font-size: 3rem;
+            @media screen and (max-width: 800px) {
+                font-size: 2rem;
+            }
         }
     }
 }
@@ -94,6 +99,6 @@
 }
 
 div.col.mill-content {
-    background: rgba(255,255,255,.8);
+    background: rgba(255, 255, 255, .8);
     padding: 3rem;
 }

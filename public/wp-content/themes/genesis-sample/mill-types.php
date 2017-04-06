@@ -22,8 +22,8 @@ function my_custom_loop () {
     </article>
 
     <article id="focus-1220" class="row hidden focus-item product-focus-item" style="background: url(<?php the_field('focus1220_image'); ?>); background-size: cover; background-position: center;">
-        <div class="col m6 s12"></div>
-        <div class="col m6 s12 mill-content">
+        <div class="col m8 s12"></div>
+        <div class="col m4 s12 mill-content">
             <h3><?php the_field('focus1220_headline'); ?></h3>
             <p><?php the_field('focus1220_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus1220_link'); ?>">Learn More</a></p>
@@ -31,40 +31,40 @@ function my_custom_loop () {
     </article>
     
     <article id="focus-1400" class="row hidden focus-item product-focus-item" style="background: url(<?php the_field('focus1400_image'); ?>); background-size: cover; background-position: center;">
-        <div class="col m6 s12"></div>
-        <div class="col m6 s12 mill-content">
+        <div class="col m8 s12"></div>
+        <div class="col m4 s12 mill-content">
             <h3><?php the_field('focus1400_headline'); ?></h3>
             <p><?php the_field('focus1400_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus1400_link'); ?>">Learn More</a></p>
         </div>
     </article>
     <article id="focus-1600" class="row hidden focus-item product-focus-item" style="background: url(<?php the_field('focus1600_image'); ?>); background-size: cover; background-position: center;">
-        <div class="col m6 s12"></div>
-        <div class="col m6 s12 mill-content">
+        <div class="col m8 s12"></div>
+        <div class="col m4 s12 mill-content">
             <h3><?php the_field('focus1600_headline'); ?></h3>
             <p><?php the_field('focus1600_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus1600_link'); ?>">Learn More</a></p>
         </div>
     </article>
     <article id="focus-2000" class="row hidden focus-item product-focus-item" style="background: url(<?php the_field('focus2000_image'); ?>); background-size: cover; background-position: center;">
-        <div class="col m6 s12"></div>
-        <div class="col m6 s12 mill-content">
+        <div class="col m8 s12"></div>
+        <div class="col m4 s12 mill-content">
             <h3><?php the_field('focus2000_headline'); ?></h3>
             <p><?php the_field('focus2000_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus2000_link'); ?>">Learn More</a></p>
         </div>
     </article>
     <article id="focus-2200" class="row hidden focus-item product-focus-item" style="background: url(<?php the_field('focus2200_image'); ?>); background-size: cover; background-position: center;">
-        <div class="col m6 s12"></div>
-        <div class="col m6 s12 mill-content">
+        <div class="col m8 s12"></div>
+        <div class="col m4 s12 mill-content">
             <h3><?php the_field('focus2200_headline'); ?></h3>
             <p><?php the_field('focus2200_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus2200_link'); ?>">Learn More</a></p>
         </div>
     </article>
     <article id="focus-2500" class="row hidden focus-item product-focus-item" style="background: url(<?php the_field('focus2500_image'); ?>); background-size: cover; background-position: center;">
-        <div class="col m6 s12"></div>
-        <div class="col m6 s12 mill-content">
+        <div class="col m8 s12"></div>
+        <div class="col m4 s12 mill-content">
             <h3><?php the_field('focus2500_headline'); ?></h3>
             <p><?php the_field('focus2500_content'); ?></p>
             <p style="text-align: center;"><a class="btn btn-default" href="<?php the_field('focus2500_link'); ?>">Learn More</a></p>
@@ -159,37 +159,37 @@ function my_custom_loop () {
 
     t1220.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:200},400);
+        jQuery('html,body').animate({scrollTop:50},400);
         f1220.show(400);
         console.log('1220');
     });
     t1400.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:200},400);
+        jQuery('html,body').animate({scrollTop:50},400);
         f1400.show(400);
         console.log('1400');
     });
     t1600.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:200},400);
+        jQuery('html,body').animate({scrollTop:50},400);
         f1600.show(400);
         console.log('1600');
     });
     t2000.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:200},400);
+        jQuery('html,body').animate({scrollTop:50},400);
         f2000.show(400);
         console.log('2000');
     });
     t2200.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:200},400);
+        jQuery('html,body').animate({scrollTop:50},400);
         f2200.show(400);
         console.log('2200');
     });
     t2500.click(function() {
         focus.hide(200);
-        jQuery('html,body').animate({scrollTop:200},400);
+        jQuery('html,body').animate({scrollTop:50},400);
         f2500.show(400);
         console.log('2500');
     });
