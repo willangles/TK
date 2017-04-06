@@ -9959,10 +9959,31 @@ li.comment {
   #front-page-stacks #fpFeatured a:first-child div.col article h3 {
     color: #000000; }
 
-.feature-box {
-  margin: 2rem auto; }
-  .feature-box:first-child {
+div.col.feature-box {
+  margin: 2rem auto;
+  height: 400px; }
+  div.col.feature-box:first-child {
     margin-bottom: 0; }
+  @media (min-width: 50em) {
+    div.col.feature-box:hover p {
+      opacity: 1;
+      transition: .5s ease opacity;
+      z-index: 100;
+      color: #000 !important; }
+    div.col.feature-box:hover article {
+      height: 100%;
+      transition: .5s ease all; }
+    div.col.feature-box p {
+      opacity: 0;
+      position: absolute !important;
+      top: 8rem;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      transition: .5s ease opacity; }
+    div.col.feature-box article {
+      height: 20%;
+      transition: .5s ease all; } }
 
 .button {
   display: block !important;
@@ -10842,7 +10863,8 @@ div.col.mill-content {
 .utility-bar-left .textwidget,
 .utility-bar-right p {
   margin-bottom: 0;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #fff; }
 
 .utility-bar-left {
   float: left; }
