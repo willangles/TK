@@ -101,6 +101,14 @@ add_action( 'genesis_before_header', 'utility_bar' );
 * @copyright Copyright (c) 2013, Carrie Dils
 * @license GPL-2.0+
 */
+// Enable shortcodes in text widgets
+add_filter('widget_text','do_shortcode');
+
+function custom_cart_shortcode() {
+    return '&nbsp;&nbsp;&nbsp; |<a href="/cart"><i class="nav-cart-icon material-icons dp48">shopping_cart</i> (' . WC()->cart->get_cart_contents_count()  . ')</a>';
+}
+add_shortcode('cartCount', 'custom_cart_shortcode');
+
 function utility_bar() {
 	echo '<div class="header-container">';
     echo '<div class="utility-bar"><div class="wrap">';
@@ -157,14 +165,13 @@ function sp_custom_footer() {
                 </div>
     		</ul>
     	</div>
-    	<div class="col l4 m2 s6">
+    	<div class="col l6 m2 s6">
     		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
 			<?php wp_nav_menu( array( 'theme_location' => 'footer-resources-menu', 'container_class' => 'footer-resources-menu' ) ); ?>
     	</div>
     	<div class="col l2 m2 s6">
     		<h5 class="tk-footer-link"><a href="/contact">Contact</a></h5>
     	</div>
-		<div class="col l2 m4 s12 hide-on-small"></div>
     </div>
     <div class="row site-credits">
     	<div class="col s12 m6">

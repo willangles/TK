@@ -145,3 +145,7 @@ a[id^="tk-product-"] {
     font-size: 1.7rem;
     line-height: 4rem;
 }
+.archive .archive-title,
+.archive .woocommerce-message  {
+    display: none;
+}
