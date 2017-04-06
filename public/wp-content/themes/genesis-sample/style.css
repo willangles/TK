@@ -9813,12 +9813,16 @@ li.comment {
   #front-page-stacks #fpSplash h2 {
     color: #FFFFFF;
     margin-top: 1.5em;
-    font-size: 5em; }
+    text-transform: capitalize;
+    font-size: 5em;
+    margin-bottom: 0; }
     @media screen and (max-width: 960px) {
       #front-page-stacks #fpSplash h2 {
         margin-top: 0; } }
   #front-page-stacks #fpSplash p {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 400; }
   #front-page-stacks #fpSplash a.button {
     display: block;
     max-width: 271px;
@@ -9873,7 +9877,7 @@ li.comment {
       margin-bottom: 0.5rem;
       display: block; }
 #front-page-stacks #fpHistory {
-  background: url("http://timberking.msaavedra.com/wp-content/uploads/history.jpg") no-repeat center center fixed;
+  background: url("images/history-noedit.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9888,9 +9892,15 @@ li.comment {
     right: 0;
     left: 0;
     bottom: 0;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%);
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.65) 99%, rgba(0, 0, 0, 0.65) 100%); }
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.27+0,0.85+74,0.98+99 */
+    background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.85) 74%, rgba(0, 0, 0, 0.98) 99%, rgba(0, 0, 0, 0.98) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.85) 74%, rgba(0, 0, 0, 0.98) 99%, rgba(0, 0, 0, 0.98) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.85) 74%, rgba(0, 0, 0, 0.98) 99%, rgba(0, 0, 0, 0.98) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45000000', endColorstr='#fa000000',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
   #front-page-stacks #fpHistory .row {
     padding: 1em; }
     #front-page-stacks #fpHistory .row .col p {
@@ -11877,7 +11887,10 @@ body.stop-scrolling {
 .woocommerce {
   padding-top: 2em; }
   .woocommerce .sawmill-product-image {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom; }
     .woocommerce .sawmill-product-image .wc-description-wrapper {
       background: rgba(255, 255, 255, 0.7);
       padding: 2rem; }
