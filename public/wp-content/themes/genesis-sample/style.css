@@ -10844,6 +10844,7 @@ div.col.mill-content {
     float: right; }
   .utility-bar-right .widget_product_search {
     margin-right: 10px;
+    padding-top: 0px !important;
     width: 50%;
     font-size: 1em; }
     .utility-bar-right .widget_product_search input[type="search"],
@@ -11965,5 +11966,3 @@ p {
 
 #mill-types-header {
   display: none !important; }
-
-/*# sourceMappingURL=style.css.map */
