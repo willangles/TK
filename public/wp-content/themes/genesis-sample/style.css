@@ -9982,7 +9982,8 @@ div.col.feature-box {
       left: 0;
       transition: .5s ease opacity; }
     div.col.feature-box article {
-      height: 20%; } }
+      height: 20%;
+      transition: .5s ease all; } }
 
 .button {
   display: block !important;
