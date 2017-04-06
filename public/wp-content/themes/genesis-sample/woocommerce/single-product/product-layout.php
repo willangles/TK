@@ -31,9 +31,3 @@
         <?php wc_get_template( 'single-product/product-thumbnails.php' ); ?>
     </div>
 </div>
-</div>
-<div class="row">
-    <div class="wc-thumbnail-wrapper">
-        <?php wc_get_template( 'single-product/product-thumbnails.php' ); ?>
-    </div>
-</div>
