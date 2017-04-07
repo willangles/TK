@@ -106,8 +106,8 @@ function my_custom_loop () {
 			</div>
 			<div class="col m5 s12 hide-on-small-only" style="min-height: 100%;">
 				<div class="">
-					<h2>Promo Title</h2>
-					<p>Lorem Ipsum</p>
+					<h2><?php the_field('promo_title'); ?></h2>
+					<p><?php the_field('promo_copy'); ?></p>
 				</div>
 			</div>
 		</div>
