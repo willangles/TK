@@ -58,6 +58,7 @@ function genesiswooc_archive_layout( $layout ) {
 	return $layout;
 }
 
+remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20 );
 add_action( 'genesis_before_loop', 'genesiswooc_archive_product_loop' );
 /**
  * Display shop items (product custom post archive)
