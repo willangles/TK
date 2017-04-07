@@ -191,3 +191,10 @@ a[id^="tk-product-"] {
 .archive .woocommerce-message {
     display: none;
 }
+
+.woocommerce .sawmill-product-image {
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: 100% 60%;
+}
+    
