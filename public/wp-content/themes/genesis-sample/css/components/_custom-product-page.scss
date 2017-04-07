@@ -195,10 +195,21 @@ a[id^="tk-product-"] {
     position: relative;
 }
 .woocommerce .wc-product-bg {
-    position: absolute;
-    height: 100vh;
+    position: relative;
+    height: 300px;
     width: 100vw;
     z-index: -1;
-    top: 16rem;
+    top: 0;
     left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include bp(md){
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        top: 16rem;
+        left: 0;
+    }
 }
