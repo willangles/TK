@@ -21,22 +21,22 @@ function my_custom_loop () {
 	<section id="fpIconRow">
 		<div class="row">
 			<div id="icon-one" class="col l3 m6 s12 icon-row-icon">
-				<img src="<?php the_field('icon_1_icon'); ?>">
+				<img src="wp-content/themes/genesis-sample/images/asset1.svg">
 				<h3><?php the_field('icon_1_title'); ?></h3>
 				<p><?php the_field('icon_1_copy'); ?></p>
 			</div>
 			<div id="icon-two" class="col l3 m6 s12 icon-row-icon">
-				<img src="<?php the_field('icon_2_icon'); ?>">
+				<img src="wp-content/themes/genesis-sample/images/asset2.svg">
 				<h3><?php the_field('icon_2_title'); ?></h3>
 				<p><?php the_field('icon_2_copy'); ?></p>
 			</div>
 			<div id="icon-three" class="col l3 m6 s12 icon-row-icon">
-				<img src="<?php the_field('icon_3_icon'); ?>">
+				<img src="wp-content/themes/genesis-sample/images/asset3.svg">
 				<h3><?php the_field('icon_3_title'); ?></h3>
 				<p><?php the_field('icon_3_copy'); ?></p>
 			</div>
 			<div id="icon-four" class="col l3 m6 s12 icon-row-icon">
-				<img src="<?php the_field('icon_4_icon'); ?>">
+				<img src="wp-content/themes/genesis-sample/images/asset4.svg">
 				<h3><?php the_field('icon_4_title'); ?></h3>
 				<p><?php the_field('icon_4_copy'); ?></p>
 			</div>
@@ -45,7 +45,7 @@ function my_custom_loop () {
 			<div id="icon-one-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="<?php the_field('icon_1_icon'); ?>">
+						<img src="wp-content/themes/genesis-sample/images/asset1.svg">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3><?php the_field('icon_1_title'); ?></h3>
@@ -56,7 +56,7 @@ function my_custom_loop () {
 			<div id="icon-two-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="<?php the_field('icon_2_icon'); ?>">
+						<img src="wp-content/themes/genesis-sample/images/asset2.svg">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3><?php the_field('icon_2_title'); ?></h3>
@@ -67,7 +67,7 @@ function my_custom_loop () {
 			<div id="icon-three-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="<?php the_field('icon_3_icon'); ?>">
+						<img src="wp-content/themes/genesis-sample/images/asset3.svg">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3><?php the_field('icon_3_title'); ?></h3>
@@ -78,7 +78,7 @@ function my_custom_loop () {
 			<div id="icon-four-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
 					<div class="col s12 m3 valign">
-						<img src="<?php the_field('icon_4_icon'); ?>">
+						<img src="wp-content/themes/genesis-sample/images/asset4.svg">
 					</div>
 					<div class="col s12 m9 valign">
 						<h3><?php the_field('icon_4_title'); ?></h3>
