@@ -1,7 +1,6 @@
 .wc-custom-wrapper {
     margin: 0 auto;
     max-width: 1200px;
-    position: relative;
     &.extended {
         margin: 0 auto;
         max-width: 100%;
@@ -192,10 +191,14 @@ a[id^="tk-product-"] {
 .archive .woocommerce-message {
     display: none;
 }
-
-.woocommerce .bg-container {
-    background-size: contain !important;
-    background-position: topcenter !important;
-    background-repeat: no-repeat !important;
+.woocommerce .content {
+    position: relative;
 }
-    
+.woocommerce .wc-product-bg {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    top: 12rem;
+    left: 0;
+}
