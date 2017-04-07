@@ -31,6 +31,15 @@ function form_template() { ?>
 			</div>
 		</div>
 	</div>
+	<script>
+		if(window.location.href.indexOf("get-quote/?") > -1) {
+			var url = window.location.href;
+			var productTitle = url.substring(url.indexOf("?") + 1);
+			productTitle = decodeURIComponent(productTitle);
+			console.log(productTitle);
+			jQuery( "h1.alt-title" ).html("Get Quote For " + productTitle);
+		}
+	</script>
 <?php }
 
 genesis();
