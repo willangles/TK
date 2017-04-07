@@ -90,7 +90,7 @@ function my_custom_loop () {
 	</section>
 	<section id="fpPromo">
 		<div class="row">
-			<div class="col m6 s12 valign-wrapper" style="overflow:hidden;">
+			<div class="col m7 s12 valign-wrapper" style="overflow:hidden;">
 				<div class="valign">
 				<?php $video_url = get_field('video_modal_link', false, false); 
 						$re = '/[^=]+$/';
@@ -98,10 +98,16 @@ function my_custom_loop () {
 					<iframe width="853" height="480" src="https://www.youtube.com/embed/<?php echo $video_id[0]; ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
-			<div class="col m6 s12 valign-wrapper">
+			<div class="col m5 s12 valign-wrapper hide-on-med-and-up">
 				<div class="valign">
 					<h2><?php the_field('promo_title'); ?></h2>
 					<p><?php the_field('promo_copy'); ?></p>
+				</div>
+			</div>
+			<div class="col m5 s12 hide-on-small-only" style="min-height: 100%;">
+				<div class="">
+					<h2>Promo Title</h2>
+					<p>Lorem Ipsum</p>
 				</div>
 			</div>
 		</div>

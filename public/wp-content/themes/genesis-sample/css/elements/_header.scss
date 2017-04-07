@@ -42,7 +42,10 @@ header.site-header {
                 display: none;
             }
         }
-        .textwidget {
+        .widget-area {
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
             text-align: center !important;
         }
     }
@@ -72,6 +75,7 @@ header.site-header {
         @include t(0.2s);
     }
 }
+
 .nav-cart-icon {
     font-size: 2rem;
     vertical-align: middle;

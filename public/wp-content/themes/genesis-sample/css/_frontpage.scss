@@ -85,7 +85,7 @@ $white: #FFFFFF;
         }
         p {
             color: $white;
-            font-size: $em/1.7;
+            font-size: $em/1.5;
         }
         .row {
             .hidden {
@@ -101,11 +101,11 @@ $white: #FFFFFF;
                         h3,
                         p {
                             text-align: left;
+                            font-size: 2rem;
                         }
                         h3 {
-                            font-size: 2em;
+                            font-size: 3rem;
                         }
-                        p {}
                     }
                 }
             }
@@ -147,16 +147,15 @@ $white: #FFFFFF;
             right: 0;
             left: 0;
             bottom: 0;
-            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.27+0,0.85+74,0.98+99 */
-            background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.27) 0%, rgba(0,0,0,0.85) 74%, rgba(0,0,0,0.98) 99%, rgba(0,0,0,0.98) 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.27) 0%,rgba(0,0,0,0.85) 74%,rgba(0,0,0,0.98) 99%,rgba(0,0,0,0.98) 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(135deg,  rgba(0,0,0,0.27) 0%,rgba(0,0,0,0.85) 74%,rgba(0,0,0,0.98) 99%,rgba(0,0,0,0.98) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45000000', endColorstr='#fa000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+            background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.85) 74%, rgba(0, 0, 0, 0.98) 99%, rgba(0, 0, 0, 0.98) 100%);
+            background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.85) 74%, rgba(0, 0, 0, 0.98) 99%, rgba(0, 0, 0, 0.98) 100%);
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.27) 0%, rgba(0, 0, 0, 0.85) 74%, rgba(0, 0, 0, 0.98) 99%, rgba(0, 0, 0, 0.98) 100%);
         }
         .row {
             padding: 1em;
             .col {
+                position: relative !important;
+                z-index: 50 !important;
                 p {
                     color: $white;
                     @include history-font;
@@ -236,7 +235,7 @@ div.col.feature-box {
     &:first-child {
         margin-bottom: 0;
     }
-    @include bp(md){
+    @include bp(md) {
         &:hover {
             p {
                 opacity: 1;
@@ -261,6 +260,16 @@ div.col.feature-box {
         article {
             height: 20%;
             transition: .5s ease all;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #front-page-stacks {
+        #fpSplash {
+            h2 {
+                font-size: 4em;
+            }
         }
     }
 }

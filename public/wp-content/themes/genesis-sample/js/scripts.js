@@ -14,7 +14,6 @@ jQuery(document).ready(function() {
 });
 
 jQuery(document).ready(function() {
-    jQuery('#tk-product-features').addClass('active');
     jQuery('#icon-one').click(function() {
         jQuery('.icon-row-icon').hide(200);
         jQuery('#icon-one-trigger').removeClass('hidden');
@@ -49,14 +48,13 @@ jQuery(document).ready(function() {
 });
 
 jQuery(document).ready(function() {
+    jQuery('#tk-product-features').addClass('active');
     jQuery('.materialboxed').materialbox();
     jQuery(".button-collapse").sideNav();
     jQuery('.collapsible').collapsible();
     jQuery('#tk-modal').on('click', function() {
         jQuery('.modal').modal({
             complete: function() {
-                //jQuery('.video-container').get(0).stopVideo();
-                //callPlayer('yt-player', 'stopVideo');
                 jQuery("#tkPlayer iframe").attr("src", jQuery("#tkPlayer iframe").attr("src"));
 
             }
@@ -111,6 +109,7 @@ jQuery(document).ready(function() {
 
 // Add Class to Navigation
 jQuery(document).ready(function() {
+
     jQuery('.nav-primary').addClass('hide-on-med-and-down');
 
     var mn = jQuery(".header-container");

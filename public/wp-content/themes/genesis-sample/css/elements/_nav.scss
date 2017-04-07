@@ -157,6 +157,9 @@ $sub-nav-height: 125px;
     background-size: cover;
     z-index: 9999;
     @include t(0.2s);
+    .widget_product_search {
+        display: block !important;
+    }
     .menu,
     .genesis-nav-menu {
         @include t(0.2s);

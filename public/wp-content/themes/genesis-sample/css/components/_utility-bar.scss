@@ -1,5 +1,5 @@
 @import '../colors';
-$utility-height: 30px;
+$utility-height: 25px;
 .utility-bar {
     color: $black;
     font-size: 15px;
@@ -26,15 +26,15 @@ $utility-height: 30px;
     height: $utility-height;
 }
 
-.utility-bar-left .textwidget,
+.utility-bar-left {
+    float: left;
+}
+
+.utility-bar-left p,
 .utility-bar-right p {
     margin-bottom: 0;
     font-weight: bold;
     color: #fff;
-}
-
-.utility-bar-left {
-    float: left;
 }
 
 .utility-bar-right {
@@ -45,59 +45,97 @@ $utility-height: 30px;
     }
     .widget_product_search {
         margin-right: 10px;
-        padding-top: 0px !important;
-        width: 50%;
-        font-size: 1em;
-        display: none;
-        input[type="search"],
-        input[type="submit"] {
-            height: 30px;
-        }
-        input[type="search"] {
-            width: 30%;
-            border-radius: $utility-height;
-            color: $black;
-            font-size: 1.2em;
-            font-weight: bold;
-            padding-left: 0.6em;
-            background: rgba(0, 0, 0, 0.2);
-            border: 0px solid transparent;
-            @include placeholder(transparent);
-            &:focus {
-                width: 100%;
-                border: 0px solid transparent;
+        padding: 0px;
+        width: auto;
+        font-size: 15px;
+        font-size: 1.5rem;
+        border-radius: $utility-height;
+        background: rgba(0, 0, 0, 0.2);
+        form {
+            height: $utility-height;
+            input[type="search"],
+            input[type="submit"] {
+                height: $utility-height;
             }
-        }
-        input[type="submit"] {
-            float: right;
-            display: none;
-        }
-        i.material-icons {
-            float: right;
-            position: absolute;
-            top: 8px;
-            margin-left: -33px;
-        }
-        input::-webkit-input-placeholder {
-            color: transparent !important;
-        }
-        input:-moz-placeholder {
-            color: transparent !important;
-        }
-        input::-moz-placeholder {
-            color: transparent !important;
-        }
-        input:-ms-input-placeholder {
-            color: transparent !important;
+            input[type="search"] {
+                width: 80%;
+                color: $black;
+                font-size: 1.2em;
+                font-weight: bold;
+                padding: 0;
+                //padding-left: 0.6em;
+                background: transparent;
+                border: 0px solid transparent;
+                @include placeholder(transparent);
+                &:focus {
+                    border: 0px solid transparent;
+                }
+            }
+            input[type="submit"] {
+                display: none !important;
+            }
+            i.material-icons {
+                float: none;
+                position: relative;
+                font-size: 2rem;
+                line-height: 2.5rem;
+                margin-right: 1rem;
+            }
+            input::-webkit-input-placeholder {
+                color: transparent !important;
+            }
+            input:-moz-placeholder {
+                color: transparent !important;
+            }
+            input::-moz-placeholder {
+                color: transparent !important;
+            }
+            input:-ms-input-placeholder {
+                color: transparent !important;
+            }
         }
     }
 }
 
-@media screen and (max-width: 768px) {
-    .utility-bar-left {
+@media screen and (max-width: 1201px) {
+    .widget_product_search {
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .widget_product_search {
         display: none;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .utility-bar-left,
     .utility-bar-right {
-        width: 100%;
+        font-size: 11px;
+        font-size: 1.1rem;
+    }
+    .utility-bar-left {}
+    .utility-bar-right {
+        width: 50%;
+        .widget_text {}
+        .widget_product_search {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-contact {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .utility-bar-left {
+        p {
+            font-size: 8px;
+            line-height: 2rem;
+        }
     }
 }

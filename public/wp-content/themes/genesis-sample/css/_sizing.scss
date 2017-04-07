@@ -4,26 +4,16 @@ $fp-section-max-height: 400px;
     min-height: $h;
 }
 
-.masthead {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99999;
-}
-
+// .masthead {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     z-index: 99999;
+// }
 .site-inner {
     max-width: 100%;
     padding-top: 7em;
-    @media screen and (max-width: 800px) {
-        padding: 0;
-        padding-top: 7em;
-        #front-page-stacks {
-            section {
-                padding: 0em 1em;
-            }
-        }
-    }
 }
 
 @mixin background-cover($f) {
@@ -66,7 +56,7 @@ $fp-section-max-height: 400px;
         .row {
             @include max;
         }
-        @include section-sizing(250px);
+        @include section-sizing(200px);
     }
     #fpPromo,
     #fpPromo .col {
@@ -125,5 +115,29 @@ $fp-section-max-height: 400px;
 @media screen and (max-width: 800px) {
     #front-page-stacks #fpHistory .col {
         min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .site-inner {
+        padding: 0;
+        padding-top: 7em;
+        #front-page-stacks {
+            section {
+                padding: 0em 1em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .site-inner {
+        padding-top: 5em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .site-inner {
+        padding-top: 4.5em;
     }
 }

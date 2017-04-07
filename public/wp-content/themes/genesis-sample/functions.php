@@ -105,7 +105,7 @@ add_action( 'genesis_before_header', 'utility_bar' );
 add_filter('widget_text','do_shortcode');
 
 function custom_cart_shortcode() {
-    return '&nbsp;&nbsp;&nbsp; |<a href="/cart"><i class="nav-cart-icon material-icons dp48">shopping_cart</i> (' . WC()->cart->get_cart_contents_count()  . ')</a>';
+    return '<a href="/cart"><i class="nav-cart-icon material-icons dp48">shopping_cart</i> (' . WC()->cart->get_cart_contents_count()  . ')</a>';
 }
 add_shortcode('cartCount', 'custom_cart_shortcode');
 
@@ -139,25 +139,25 @@ function sp_custom_footer() {
 	?>
 
     <div class="row top-footer">
-    	<div class="col l2 m4 s12 footer-logo top-footer">
+    	<div class="col l2 m6 s12 footer-logo top-footer">
     		<img src="http://timberking.msaavedra.com/wp-content/uploads/footer-logo.png">
     	</div>
-    	<div class="col l2 m4 s12 offset-l8 top-footer">
+    	<div class="col l2 m6 s12 offset-l8 top-footer">
     		<h5 style="line-height: 75px;"><a href="tel:8009424406">800-942-4406</a></h5>
     	</div>
     </div>
     <div class="row">
-    	<div class="col l2 m4 s12 hide-on-small"></div>
-    	<div class="col l2 m2 s6">
+    	<div class="col l2 m4 s12 hide-on-med-and-down"></div>
+    	<div class="col l2 m4 s12">
     		<h5><a href="http://timberking.msaavedra.com/timberking-portable-saw-mills/">Portable Sawmills</a></h5>
     		<ul>
                 <div class="row">
-                    <div class="col l4 m6">
+                    <div class="col l4 m6 s12">
                         <li><a href="http://timberking.msaavedra.com/product/timberking-2500/">2500</a></li>
                         <li><a href="http://timberking.msaavedra.com/product/timberking-2200/">2200</a></li>
 						<li><a href="http://timberking.msaavedra.com/product/timberking-2000/">2000</a></li>
                     </div>
-                    <div class="col l4 m6">
+                    <div class="col l4 m6 s12">
                         <li><a href="http://timberking.msaavedra.com/product/timberking-1600/">1600</a></li>
                         <li><a href="http://timberking.msaavedra.com/product/timberking-1400/">1400</a></li>
                         <li><a href="http://timberking.msaavedra.com/product/timberking-1220/">1220</a></li>
@@ -165,11 +165,11 @@ function sp_custom_footer() {
                 </div>
     		</ul>
     	</div>
-    	<div class="col l4 m2 s6">
+    	<div class="col l4 m4 s12">
     		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
 			<?php wp_nav_menu( array( 'theme_location' => 'footer-resources-menu', 'container_class' => 'footer-resources-menu' ) ); ?>
     	</div>
-    	<div class="col l2 m2 s6">
+    	<div class="col l2 m4 s12">
     		<h5 class="tk-footer-link"><a href="/contact">Contact</a></h5>
 			<p><a href="https://goo.gl/maps/JpacJvcU4eu" target="_blank">1431 North Topping Avenue Kansas City, Missouri 64120</a></p>
 			<p><a href="/contact">info@timberking.com</a></p>
@@ -206,6 +206,14 @@ add_action( 'genesis_after_header', 'add_third_nav_genesis' );
 
 function add_third_nav_genesis() { 
 	echo '<div class="side-nav" id="mobile-demo">';
+	echo '<section id="woocommerce_product_search-2" class="widget woocommerce widget_product_search"><div class="widget-wrap">';
+	echo	'<form role="search" method="get" class="woocommerce-product-search" action="http://dev/">';
+	echo    	'<label class="screen-reader-text active" for="woocommerce-product-search-field">Search for:</label>';
+	echo		'<input type="search" id="woocommerce-product-search-field" class="search-field" placeholder="Search Products…" value="" name="s" title="Search for:">';
+	echo		'<input type="submit" value="Search">';
+	echo		'<input type="hidden" name="post_type" value="product">';
+	echo 		'<i class="material-icons">search</i></form>';
+	echo		'</div></section>';
 	wp_nav_menu( array( 'theme_location' => 'third-menu', 'container_class' => 'genesis-nav-menu' ) );
 	echo '</div>';
 }
