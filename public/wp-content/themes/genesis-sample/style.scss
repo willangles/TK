@@ -161,3 +161,13 @@ p {
 #wpadminbar {
     display: none;
 }
+
+.red {
+    background: $red !important;
+    color: $yellow !important;
+}
+
+.yellow {
+    background: $yellow !important;
+    color: $black !important;
+}

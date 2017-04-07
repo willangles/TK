@@ -233,3 +233,11 @@ function custom_site_title() {
 	echo '<a href="/"><img src="http://timberking.msaavedra.com/wp-content/uploads/2017/02/logo.png"></a>';
 	echo '</div>';
 }
+
+// Custom Button shortcode
+function sButton($atts, $content = null) {
+   extract(shortcode_atts(array('link' => '#'), $atts));
+   extract(shortcode_atts(array('class' => '#'), $atts));
+   return '<button class="waves-effect waves-light btn button '.$class.'" href="'.$link.'"><span>' . do_shortcode($content) . '</span></button>';
+}
+add_shortcode('button', 'sButton');
