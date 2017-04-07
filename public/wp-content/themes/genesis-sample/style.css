@@ -1035,7 +1035,7 @@ img.alignright,
   color: #333;
   text-decoration: none;
   display: block;
-  padding: 30px 24px; }
+  padding: .5rem 2rem; }
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu a:focus,
@@ -9020,7 +9020,7 @@ img.alignright,
   color: #333;
   text-decoration: none;
   display: block;
-  padding: 30px 24px; }
+  padding: .5rem 2rem; }
 
 .genesis-nav-menu a:hover,
 .genesis-nav-menu a:focus,
