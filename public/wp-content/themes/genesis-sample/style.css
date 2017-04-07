@@ -10856,6 +10856,19 @@ td.actions {
     width: 80%;
     float: left; } }
 
+.category-image-row .col {
+  min-height: 250px; }
+
+.taxonomy-archive-description {
+  display: none; }
+
+.category-image {
+  background-size: 100% 100%;
+  background-position: cover; }
+
+.term-description {
+  display: none; }
+
 .page-template-mill-types {
   background: #fff; }
   .page-template-mill-types section {
@@ -10897,6 +10910,8 @@ td.actions {
           color: #FFFFFF;
           background-color: #dc2c00;
           box-shadow: 3px 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .page-template-mill-types #mill-types div.mill-type:hover {
+    cursor: pointer; }
   .page-template-mill-types #mill-types div.mill-type img {
     max-height: 200px;
     margin: 0 auto;
@@ -10909,6 +10924,8 @@ td.actions {
     @media screen and (max-width: 800px) {
       .page-template-mill-types #mill-types h3.mill-type {
         font-size: 2rem; } }
+    .page-template-mill-types #mill-types h3.mill-type:hover {
+      cursor: pointer; }
 
 @media screen and (max-width: 1140px) {
   #mill-focus,
@@ -12117,5 +12134,3 @@ p {
 .yellow {
   background: #f7b827 !important;
   color: #000000 !important; }
-
-/*# sourceMappingURL=style.css.map */

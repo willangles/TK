@@ -253,13 +253,13 @@ function woocommerce_category_image() {
 		$description = wc_format_content( term_description() );
 		
 	    if ( $image ) {
-		    echo '<div class="row">';
-				echo '<div class="col s12 m6">';
-					echo '<img src="' . $image . '" alt="" />';
-				echo '</div>';
+		    echo '<div class="row category-image-row">';
 				echo '<div class="col s12 m6">';
 				echo '<p>'. $description .'</p>';
 				echo '</div>';
+				echo '<div class="col s12 m6 category-image" style="background-image: url(' . $image . ');">';
+				echo '</div>';
+				
 			echo '</div>';
 		}
 	}
