@@ -1,4 +1,4 @@
-<div class="row">
+<div class="wc-custom-wrapper">
 	<div class="product-info-wrapper">
 		<div class="row wrap">
 			<div class="col s12 m12 l8">

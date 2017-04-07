@@ -7811,8 +7811,7 @@ button.picker__close:focus {
     margin-bottom: 5em; } }
 .wc-custom-wrapper {
   margin: 0 auto;
-  max-width: 1200px;
-  position: relative; }
+  max-width: 1200px; }
   .wc-custom-wrapper.extended {
     margin: 0 auto;
     max-width: 100%; }
@@ -7963,10 +7962,27 @@ a[id^="tk-product-"] {
 .archive .woocommerce-message {
   display: none; }
 
-.woocommerce .bg-container {
-  background-size: contain !important;
-  background-position: topcenter !important;
-  background-repeat: no-repeat !important; }
+.woocommerce .content {
+  position: relative; }
+
+.woocommerce .wc-product-bg {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media (min-width: 50em) {
+    .woocommerce .wc-product-bg {
+      position: absolute;
+      height: 100vh;
+      width: 100vw;
+      z-index: -1;
+      top: 16rem;
+      left: 0; } }
 
 .woocommerce main.content {
   padding: 1em 2em; }
@@ -9886,8 +9902,8 @@ li.comment {
   #front-page-stacks #fpIconRow .row .hidden {
     display: none; }
   #front-page-stacks #fpIconRow .row .icon-row-icon img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     margin-bottom: 1rem; }
   #front-page-stacks #fpIconRow .row .icon-trigger .row {
     min-height: 200px; }
@@ -12093,5 +12109,13 @@ p {
 
 #wpadminbar {
   display: none; }
+
+.red {
+  background: #dc2c00 !important;
+  color: #f7b827 !important; }
+
+.yellow {
+  background: #f7b827 !important;
+  color: #000000 !important; }
 
 /*# sourceMappingURL=style.css.map */

@@ -13,7 +13,8 @@
         <?php wc_get_template( 'single-product/short-description.php' ); ?>
     </div>
 <?php else: ?>
-<div class="row sawmill-product-image" style="background:url(<?php the_post_thumbnail_url( 'full' ); ?>);">
+<div class="row">
+    <div class="wc-product-bg" style="background:url(<?php the_post_thumbnail_url( 'full' ); ?>); background-size: cover; background-repeat: no-repeat; background-position: 80%;"></div>
     <div class="wc-product-img col s12 m12 l7"></div>
     <div class="wc-description-wrapper col s12 m12 l5">
         <!-- Product Title -->
