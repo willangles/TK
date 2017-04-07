@@ -95,7 +95,7 @@ function my_custom_loop () {
 				<?php $video_url = get_field('video_modal_link', false, false); 
 						$re = '/[^=]+$/';
 						preg_match($re, $video_url, $video_id); ?>
-					<iframe width="853" height="480" src="https://www.youtube.com/embed/<?php echo $video_id[0]; ?>?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/<?php echo $video_id[0]; ?>?enablejsapi=1&amp;rel=0‘" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="col m5 s12 valign-wrapper hide-on-med-and-up">
