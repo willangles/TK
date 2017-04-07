@@ -7964,8 +7964,8 @@ a[id^="tk-product-"] {
 
 .woocommerce .sawmill-product-image {
   background-repeat: no-repeat !important;
-  background-size: cover;
-  background-position: 100% 60%; }
+  background-size: cover !important;
+  background-position: 100% 60% !important; }
 
 .woocommerce main.content {
   padding: 1em 2em; }
