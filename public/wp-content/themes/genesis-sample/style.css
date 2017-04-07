@@ -9879,10 +9879,16 @@ li.comment {
     font-size: 0.8em; }
   #front-page-stacks #fpIconRow .row .hidden {
     display: none; }
+  #front-page-stacks #fpIconRow .row .icon-row-icon img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem; }
   #front-page-stacks #fpIconRow .row .icon-trigger .row {
     min-height: 200px; }
     #front-page-stacks #fpIconRow .row .icon-trigger .row .col img {
-      width: 100%; }
+      width: 100%;
+      max-width: 150px;
+      margin: 1rem auto 2rem auto; }
     #front-page-stacks #fpIconRow .row .icon-trigger .row .col h3,
     #front-page-stacks #fpIconRow .row .icon-trigger .row .col p {
       text-align: left;
@@ -10818,6 +10824,15 @@ input#coupon_code {
 td.actions {
   padding-top: 4rem !important; }
 
+.post-type-archive-product .sidebar-primary,
+.archive.tax-product_cat .sidebar-primary {
+  float: right;
+  width: 20%; }
+.post-type-archive-product main#genesis-content,
+.archive.tax-product_cat main#genesis-content {
+  width: 80%;
+  float: left; }
+
 .page-template-mill-types {
   background: #fff; }
   .page-template-mill-types section {
@@ -10893,7 +10908,7 @@ div.col.mill-content {
   padding: 3rem; }
 
 .utility-bar {
-  color: #000000;
+  color: #fff;
   font-size: 15px;
   font-size: 1.5rem;
   padding: 5px 0px 0px 0px;
@@ -12071,3 +12086,5 @@ p {
 
 #wpadminbar {
   display: none; }
+
+/*# sourceMappingURL=style.css.map */

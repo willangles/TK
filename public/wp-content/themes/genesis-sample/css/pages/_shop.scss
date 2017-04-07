@@ -74,3 +74,15 @@ input#coupon_code {
 td.actions {
     padding-top: 4rem !important;
 }
+
+.post-type-archive-product,
+.archive.tax-product_cat {
+    .sidebar-primary {
+        float: right;
+        width: 20%;
+    }
+    main#genesis-content {
+        width: 80%;
+        float: left;
+    }
+}
