@@ -241,3 +241,26 @@ function sButton($atts, $content = null) {
    return '<button class="waves-effect waves-light btn button '.$class.'" href="'.$link.'"><span>' . do_shortcode($content) . '</span></button>';
 }
 add_shortcode('button', 'sButton');
+
+
+add_action( 'woocommerce_archive_description', 'woocommerce_category_image', 2 );
+function woocommerce_category_image() {
+    if ( is_product_category() ){
+	    global $wp_query;
+	    $cat = $wp_query->get_queried_object();
+	    $thumbnail_id = get_woocommerce_term_meta( $cat->term_id, 'thumbnail_id', true );
+	    $image = wp_get_attachment_url( $thumbnail_id );
+		$description = wc_format_content( term_description() );
+		
+	    if ( $image ) {
+		    echo '<div class="row">';
+				echo '<div class="col s12 m6">';
+					echo '<img src="' . $image . '" alt="" />';
+				echo '</div>';
+				echo '<div class="col s12 m6">';
+				echo '<p>'. $description .'</p>';
+				echo '</div>';
+			echo '</div>';
+		}
+	}
+}
