@@ -41,10 +41,11 @@ get_header( 'shop' ); ?>
 	?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
-			<div class="wc-custom-wrapper">
-				<?php wc_get_template( 'single-product/product-layout.php' ); ?>
+			<div class="bg-container" style="background:url(<?php the_post_thumbnail_url( 'full' ); ?>);">
+				<div class="wc-custom-wrapper">
+					<?php wc_get_template( 'single-product/product-layout.php' ); ?>
+				</div>
 			</div>
-
 			<?php if($type == 'Product'): ?>
 				<div class="wc-custom-wrapper extended">
 					<?php wc_get_template( 'single-product/product-info-nav.php' ); ?>

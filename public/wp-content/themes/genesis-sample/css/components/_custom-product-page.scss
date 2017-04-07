@@ -1,6 +1,7 @@
 .wc-custom-wrapper {
     margin: 0 auto;
     max-width: 1200px;
+    position: relative;
     &.extended {
         margin: 0 auto;
         max-width: 100%;
@@ -192,9 +193,9 @@ a[id^="tk-product-"] {
     display: none;
 }
 
-.woocommerce .sawmill-product-image {
+.woocommerce .bg-container {
+    background-size: contain !important;
+    background-position: topcenter !important;
     background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: 100% 60% !important;
 }
     

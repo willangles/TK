@@ -7811,7 +7811,8 @@ button.picker__close:focus {
     margin-bottom: 5em; } }
 .wc-custom-wrapper {
   margin: 0 auto;
-  max-width: 1200px; }
+  max-width: 1200px;
+  position: relative; }
   .wc-custom-wrapper.extended {
     margin: 0 auto;
     max-width: 100%; }
@@ -7962,10 +7963,10 @@ a[id^="tk-product-"] {
 .archive .woocommerce-message {
   display: none; }
 
-.woocommerce .sawmill-product-image {
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: 100% 60% !important; }
+.woocommerce .bg-container {
+  background-size: contain !important;
+  background-position: topcenter !important;
+  background-repeat: no-repeat !important; }
 
 .woocommerce main.content {
   padding: 1em 2em; }
