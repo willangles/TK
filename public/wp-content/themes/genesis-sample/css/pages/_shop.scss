@@ -77,12 +77,14 @@ td.actions {
 
 .post-type-archive-product,
 .archive.tax-product_cat {
-    .sidebar-primary {
-        float: right;
-        width: 20%;
-    }
-    main#genesis-content {
-        width: 80%;
-        float: left;
+    @include bp(md){
+        .sidebar-primary {
+            float: right;
+            width: 20%;
+        }
+        main#genesis-content {
+            width: 80%;
+            float: left;
+        }
     }
 }

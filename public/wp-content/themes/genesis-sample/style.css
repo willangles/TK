@@ -10824,14 +10824,15 @@ input#coupon_code {
 td.actions {
   padding-top: 4rem !important; }
 
-.post-type-archive-product .sidebar-primary,
-.archive.tax-product_cat .sidebar-primary {
-  float: right;
-  width: 20%; }
-.post-type-archive-product main#genesis-content,
-.archive.tax-product_cat main#genesis-content {
-  width: 80%;
-  float: left; }
+@media (min-width: 50em) {
+  .post-type-archive-product .sidebar-primary,
+  .archive.tax-product_cat .sidebar-primary {
+    float: right;
+    width: 20%; }
+  .post-type-archive-product main#genesis-content,
+  .archive.tax-product_cat main#genesis-content {
+    width: 80%;
+    float: left; } }
 
 .page-template-mill-types {
   background: #fff; }
