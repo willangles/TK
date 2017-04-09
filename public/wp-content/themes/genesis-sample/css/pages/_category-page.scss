@@ -35,3 +35,8 @@
 .woocommerce table.shop_table {
     font-size: 1.5rem;
 }
+.sidebar-primary {
+    @include bp(xs){
+        padding: 2.5rem;
+    }
+}
