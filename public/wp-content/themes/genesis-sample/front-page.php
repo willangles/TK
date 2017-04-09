@@ -102,7 +102,7 @@ function my_custom_loop () {
 				<div class="valign">
 					<h2><?php the_field('promo_title'); ?></h2>
 					<p><?php the_field('promo_copy'); ?></p>
-					<a href="<?php the_field('promo_button_link')?>" class="waves-effect waves-light btn button"><?php the_field('promo_button_copy'); ?><i class="material-icons right">play_arrow</i></a>
+					<a style="max-width: 250px;" href="<?php the_field('promo_button_link')?>" class="waves-effect waves-light btn button"><?php the_field('promo_button_copy'); ?><i class="material-icons right">play_arrow</i></a>
 					<p></p>
 				</div>
 			</div>
@@ -110,7 +110,7 @@ function my_custom_loop () {
 				<div class="">
 					<h2><?php the_field('promo_title'); ?></h2>
 					<p><?php the_field('promo_copy'); ?></p>
-					<a href="<?php the_field('promo_button_link')?>" class="waves-effect waves-light btn button"><?php the_field('promo_button_copy'); ?><i class="material-icons right">play_arrow</i></a>
+					<a style="max-width: 250px;" href="<?php the_field('promo_button_link')?>" class="waves-effect waves-light btn button"><?php the_field('promo_button_copy'); ?><i class="material-icons right">play_arrow</i></a>
 				</div>
 			</div>
 		</div>
