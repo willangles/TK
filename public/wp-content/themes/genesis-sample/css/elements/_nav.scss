@@ -230,3 +230,9 @@ $sub-nav-height: 125px;
         }
     }
 }
+.nav-primary .wrap ul.genesis-nav-menu {
+    li.current-menu-item ul.sub-menu li.menu-item a,
+    li.current-menu-item ul.sub-menu li.menu-item a span {
+        color: #fff !important;
+    }
+}

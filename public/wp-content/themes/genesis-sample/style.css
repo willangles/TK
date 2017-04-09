@@ -10334,6 +10334,10 @@ header.site-header {
     content: "";
     display: none; }
 
+.nav-primary .wrap ul.genesis-nav-menu li.current-menu-item ul.sub-menu li.menu-item a,
+.nav-primary .wrap ul.genesis-nav-menu li.current-menu-item ul.sub-menu li.menu-item a span {
+  color: #fff !important; }
+
 .site-inner {
   max-width: 100%;
   padding-top: 7em; }
