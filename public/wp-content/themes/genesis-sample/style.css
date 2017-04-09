@@ -10946,6 +10946,10 @@ td.actions {
 .woocommerce table.shop_table {
   font-size: 1.5rem; }
 
+@media (max-width: 37.5em) {
+  .sidebar-primary {
+    padding: 2.5rem; } }
+
 .page-template-mill-types {
   background: #fff; }
   .page-template-mill-types section {
