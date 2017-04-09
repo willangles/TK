@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
     jQuery('#menu-item-616 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Professional Grade Sharpener & Setter</p>');
     jQuery('#menu-item-617 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>4-in-1 Power for Tree-to-Trim Profits</p>');
     jQuery('#menu-item-618 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Blades, Logging Tools and Apparel</p>');
-    jQuery('form.woocommerce-product-search').append('<i class="material-icons">search</i>');
+    jQuery('.utility-bar-right form.woocommerce-product-search').append('<i class="material-icons">search</i>');
 });
 
 jQuery(document).ready(function() {
