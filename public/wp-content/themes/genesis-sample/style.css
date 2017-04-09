@@ -10137,7 +10137,7 @@ header.site-header {
 
 .header-container-scrolled {
   width: 100%;
-  z-index: 100;
+  z-index: 9999;
   transition: 0.2s ease-in-out all; }
   .header-container-scrolled .site-header .wrap .title-area .site-title a img {
     width: 220px;

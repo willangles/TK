@@ -63,7 +63,7 @@ header.site-header {
 
 .header-container-scrolled {
     width: 100%;
-    z-index: 100;
+    z-index: 9999;
     @include t(0.2s);
     .site-header .wrap .title-area .site-title a img {
         width: 220px;
