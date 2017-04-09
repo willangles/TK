@@ -10935,8 +10935,25 @@ td.actions {
   padding-top: 4rem; }
 
 .page-template-front-page .breadcrumb,
-.woocommerce-page .breadcrumb {
+.woocommerce-page .breadcrumb,
+.search-no-results .woocommerce-breadcrumb,
+.search-no-results .page-title {
   display: none; }
+
+.search-no-results .woocommerce-info {
+  margin-top: 2rem; }
+
+@media (max-width: 37.5em) {
+  .woocommerce-cart,
+  .woocommerce-checkout {
+    padding-top: 8rem; } }
+
+.woocommerce table.shop_table {
+  font-size: 1.5rem; }
+
+@media (max-width: 37.5em) {
+  .sidebar-primary {
+    padding: 2.5rem; } }
 
 .page-template-mill-types {
   background: #fff; }

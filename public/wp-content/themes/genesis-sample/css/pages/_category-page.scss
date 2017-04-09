@@ -23,6 +23,25 @@
 }
 
 .page-template-front-page .breadcrumb,
-.woocommerce-page .breadcrumb {
+.woocommerce-page .breadcrumb,
+.search-no-results .woocommerce-breadcrumb,
+.search-no-results .page-title {
     display: none;
+}
+.search-no-results .woocommerce-info {
+    margin-top: 2rem;
+}
+.woocommerce-cart,
+.woocommerce-checkout {
+    @include bp(xs){
+        padding-top: 8rem;
+    }
+}
+.woocommerce table.shop_table {
+    font-size: 1.5rem;
+}
+.sidebar-primary {
+    @include bp(xs){
+        padding: 2.5rem;
+    }
 }
