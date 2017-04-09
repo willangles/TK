@@ -10837,6 +10837,7 @@ header.site-header {
     background: transparent;
     box-shadow: none;
     margin: 1rem;
+    margin-bottom: 2rem;
     max-width: 200px;
     text-align: center; }
     @media (max-width: 37.5em) {
