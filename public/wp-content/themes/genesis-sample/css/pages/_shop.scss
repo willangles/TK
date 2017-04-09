@@ -1,11 +1,39 @@
+.woocommerce-error {
+    &:before {
+        display: none;
+    }
+}
+
+.wc_payment_methods {
+    li {
+        list-style: none !important;
+    }
+}
+
+.onsale {
+    line-height: 2.75 !important;
+}
+
+.product {
+    span.price {
+        del {
+            text-decoration: $yellow solid line-through !important;
+        }
+        ins {
+            text-decoration: none !important;
+        }
+    }
+}
+
 .post-type-archive-product .site-inner,
 .archive.tax-product_cat .site-inner {
     position: relative;
-    @include bp(lg){
+    @include bp(lg) {
         max-width: 85vw;
         margin: 0 auto;
     }
-    .archive-description, .author-box {
+    .archive-description,
+    .author-box {
         background-color: transparent;
     }
     .woocommerce-breadcrumb {
@@ -26,7 +54,7 @@
         max-width: 200px;
         text-align: center;
         @extend .col.m3;
-        @include bp(xs){
+        @include bp(xs) {
             display: block !important;
             width: 100% !important;
             float: none !important;
@@ -43,38 +71,46 @@
         margin-bottom: 12rem;
     }
 }
+
 .woo-product-img {
     height: 150px;
     width: 150px;
     margin: 0 auto;
 }
+
 a.checkout-button.button.alt.wc-forward {
     line-height: 4rem;
 }
+
 .shop_table.shop_table_responsive.cart {
     border: 0;
 }
+
 .woocommerce .quantity .qty {
     font-size: 1.5rem;
 }
+
 .woocommerce table.shop_table td {
     border-top: 0 !important;
 }
+
 .woocommerce-page table.cart td.actions .coupon {
     margin-right: 1rem;
 }
+
 input#coupon_code {
     font-size: 2rem;
     height: 4.5rem;
     width: 18rem;
 }
+
 td.actions {
     padding-top: 4rem !important;
 }
 
 .post-type-archive-product,
 .archive.tax-product_cat {
-    @include bp(md){
+    @include bp(md) {
         .sidebar-primary {
             float: right;
             width: 20%;

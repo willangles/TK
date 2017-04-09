@@ -88,27 +88,27 @@ jQuery(document).ready(function() {
         t2500 = jQuery('#type-2500');
 
     t1220.click(function() {
-        focus.hide(200).then(f1220.show(400).then(scrollTo('#genesis-content')));
+        focus.hide(200).then(f1220.show(400).then(scrollTo('.page-template-mill-types')));
 
     });
     t1400.click(function() {
-        focus.hide(200).then(f1400.show(400).then(scrollTo('#genesis-content')));
+        focus.hide(200).then(f1400.show(400).then(scrollTo('.page-template-mill-types')));
 
     });
     t1600.click(function() {
-        focus.hide(200).then(f1600.show(400).then(scrollTo('#genesis-content')));
+        focus.hide(200).then(f1600.show(400).then(scrollTo('.page-template-mill-types')));
 
     });
     t2000.click(function() {
-        focus.hide(200).then(f2000.show(400).then(scrollTo('#genesis-content')));
+        focus.hide(200).then(f2000.show(400).then(scrollTo('.page-template-mill-types')));
 
     });
     t2200.click(function() {
-        focus.hide(200).then(f2200.show(400).then(scrollTo('#genesis-content')));
+        focus.hide(200).then(f2200.show(400).then(scrollTo('.page-template-mill-types')));
 
     });
     t2500.click(function() {
-        focus.hide(200).then(f2500.show(400).then(scrollTo('#genesis-content')));
+        focus.hide(200).then(f2500.show(400).then(scrollTo('.page-template-mill-types')));
 
     });
 });
