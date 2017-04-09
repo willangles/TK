@@ -113,11 +113,11 @@ function my_custom_loop () {
 		</div>
 	</section>
 	<section id="fpHistory">
-		<div class="row">
-			<div class="col s12 m6 valign-wrapper">
+		<div class="row" style="max-width: 100% !important;">
+			<div class="col s12 m8 valign-wrapper">
 				<div class="valign"><img src="http://timberking.msaavedra.com/wp-content/uploads/history-img.png"></div>
 			</div>
-			<div class="col s12 m6 valign-wrapper" style="position: relative; z-index: 50;">
+			<div class="col s12 m4 valign-wrapper" style="position: relative; z-index: 50;">
 				<p class="valign"><?php the_field('history_copy'); ?></p>
 			</div>
 		</div>
