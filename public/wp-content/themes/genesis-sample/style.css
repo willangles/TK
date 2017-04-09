@@ -10938,6 +10938,14 @@ td.actions {
 .woocommerce-page .breadcrumb {
   display: none; }
 
+@media (max-width: 37.5em) {
+  .woocommerce-cart,
+  .woocommerce-checkout {
+    padding-top: 8rem; } }
+
+.woocommerce table.shop_table {
+  font-size: 1.5rem; }
+
 .page-template-mill-types {
   background: #fff; }
   .page-template-mill-types section {

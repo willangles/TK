@@ -26,3 +26,12 @@
 .woocommerce-page .breadcrumb {
     display: none;
 }
+.woocommerce-cart,
+.woocommerce-checkout {
+    @include bp(xs){
+        padding-top: 8rem;
+    }
+}
+.woocommerce table.shop_table {
+    font-size: 1.5rem;
+}
