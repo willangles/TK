@@ -9935,6 +9935,13 @@ li.comment {
     #front-page-stacks #fpPromo p strong {
       margin-bottom: 0.5rem;
       display: block; }
+  @media (max-width: 37.5em) {
+    #front-page-stacks #fpPromo {
+      min-height: 0 !important; }
+      #front-page-stacks #fpPromo .col {
+        min-height: 0 !important; }
+      #front-page-stacks #fpPromo iframe {
+        height: 300px; } }
 #front-page-stacks #fpHistory {
   background: url("images/history-noedit.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -9986,6 +9993,9 @@ li.comment {
   color: #FFFFFF;
   z-index: 5;
   position: relative; }
+  @media (max-width: 37.5em) {
+    #front-page-stacks #fpFeatured p {
+      font-size: 1.5rem; } }
 #front-page-stacks #fpFeatured div.col {
   z-index: 2;
   min-height: 400px;
@@ -10016,10 +10026,8 @@ li.comment {
     color: #000000; }
 
 div.col.feature-box {
-  margin: 2rem auto;
+  margin: 1rem auto;
   height: 400px; }
-  div.col.feature-box:first-child {
-    margin-bottom: 0; }
   @media (min-width: 50em) {
     div.col.feature-box:hover p {
       opacity: 1;
@@ -10041,9 +10049,24 @@ div.col.feature-box {
       height: 17%;
       transition: .5s ease all; } }
 
-@media screen and (max-width: 600px) {
-  #front-page-stacks #fpSplash h2 {
-    font-size: 4em; } }
+#fpSplash {
+  position: relative; }
+  #fpSplash:after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); }
+  #fpSplash .valign {
+    position: relative;
+    z-index: 100; }
+  @media (max-width: 37.5em) {
+    #fpSplash h2 {
+      font-size: 5rem !important; } }
+
 .button {
   display: block !important;
   background: #dc2c00 !important;
@@ -10986,6 +11009,9 @@ div.col.mill-content {
 
 .utility-bar-left {
   float: left; }
+  @media (max-width: 37.5em) {
+    .utility-bar-left {
+      display: none; } }
 
 .utility-bar-left p,
 .utility-bar-right p {
@@ -10996,6 +11022,10 @@ div.col.mill-content {
 .utility-bar-right {
   float: right;
   text-align: right; }
+  @media (max-width: 37.5em) {
+    .utility-bar-right {
+      float: none !important;
+      width: 100% !important; } }
   .utility-bar-right section {
     float: right; }
   .utility-bar-right .widget_product_search {

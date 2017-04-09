@@ -139,6 +139,15 @@ $white: #FFFFFF;
                 display: block;
             }
         }
+        @include bp(xs){
+            min-height: 0 !important;
+            .col {
+                min-height: 0 !important;
+            }
+            iframe {
+                height: 300px;
+            }
+        }
     }
     #fpHistory {
         background: url('images/history-noedit.jpg') no-repeat center center fixed;
@@ -199,6 +208,9 @@ $white: #FFFFFF;
             color: $white;
             z-index: 5;
             position: relative;
+            @include bp(xs){
+                font-size: 1.5rem;
+            }
         }
         div.col {
             z-index: 2;
@@ -239,11 +251,8 @@ $white: #FFFFFF;
 }
 
 div.col.feature-box {
-    margin: 2rem auto;
+    margin: 1rem auto;
     height: 400px;
-    &:first-child {
-        margin-bottom: 0;
-    }
     @include bp(md) {
         &:hover {
             p {
@@ -272,13 +281,25 @@ div.col.feature-box {
         }
     }
 }
-
-@media screen and (max-width: 600px) {
-    #front-page-stacks {
-        #fpSplash {
-            h2 {
-                font-size: 4em;
-            }
+#fpSplash {
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0,0,0,.5);
+    }
+    .valign {
+        position: relative;
+        z-index: 100;
+    }
+    @include bp(xs){
+        h2 {
+            font-size: 5rem !important;
         }
     }
 }

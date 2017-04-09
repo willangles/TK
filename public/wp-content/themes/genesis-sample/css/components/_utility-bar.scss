@@ -28,6 +28,9 @@ $utility-height: 25px;
 
 .utility-bar-left {
     float: left;
+    @include bp(xs){
+        display: none;
+    }
 }
 
 .utility-bar-left p,
@@ -38,6 +41,10 @@ $utility-height: 25px;
 }
 
 .utility-bar-right {
+    @include bp(xs){
+        float: none !important;
+        width: 100% !important;
+    }
     float: right;
     text-align: right;
     section {
