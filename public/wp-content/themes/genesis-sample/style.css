@@ -10907,6 +10907,11 @@ td.actions {
 .term-description {
   display: none; }
 
+.page-template-mill-types,
+.tax-product_cat,
+.woocommerce-cart {
+  padding-top: 4rem; }
+
 .page-template-mill-types {
   background: #fff; }
   .page-template-mill-types section {
