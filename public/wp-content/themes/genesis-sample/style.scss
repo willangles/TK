@@ -21,6 +21,7 @@
 @import 'css/pages/mill-types';
 @import 'css/components/utility-bar';
 @import 'css/vendor/sweetalert';
+@import 'css/vendor/prettyphoto';
 %clearfix {
     &:after {
         content: "";
@@ -160,7 +161,7 @@ p {
 
 // REMOVE
 #wpadminbar {
-    display: none;
+   // display: none;
 }
 
 .red {
@@ -172,3 +173,4 @@ p {
     background: $yellow !important;
     color: $black !important;
 }
+

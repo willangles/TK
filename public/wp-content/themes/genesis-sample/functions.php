@@ -20,6 +20,8 @@ function genesis_sample_google_fonts() {
 //* Custom Scripts
 function theme_js() {
     wp_enqueue_script( 'sweetalert', get_stylesheet_directory_uri() . '/vendor/sweetalert/dist/sweetalert.min.js', true);
+	wp_enqueue_script( 'prettyinit', get_stylesheet_directory_uri() . '/vendor/prettyPhoto/jquery.prettyPhoto.js', true);
+	wp_enqueue_script( 'prettyphoto', get_stylesheet_directory_uri() . '/vendor/prettyPhoto/jquery.prettyPhoto.init.js', true);
 	wp_enqueue_script( 'materialize', get_stylesheet_directory_uri() . '/js/materialize.min.js', true);
 	wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', true);
 }
