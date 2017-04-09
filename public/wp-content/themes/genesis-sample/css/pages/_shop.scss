@@ -21,26 +21,21 @@
     ul.products li.product {
         background: transparent;
         box-shadow: none;
-        flex: 1;
-        -webkit-box-flex:1; 
-        -webkit-flex:1;
-        position: relative;
-        float: none;
         margin: 1rem;
         max-width: 200px;
         text-align: center;
+        @extend .col.m3;
+        @include bp(xs){
+            display: block !important;
+            width: 100% !important;
+            float: none !important;
+        }
         h3 {
             font-family: 'Roboto', sans-serif;
             text-transform: capitalize;
         }
     }
     ul.products {
-        display: flex;
-        display: -webkit-flex;
-        -webkit-flex: 1;
-        flex: 1;
-        flex-wrap: wrap;
-        -webkit-flex-wrap: wrap;
         padding-left: 0 !important;
         padding-right: 0 !important;
         margin-bottom: 12rem;

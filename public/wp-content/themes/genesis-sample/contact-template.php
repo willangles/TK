@@ -22,10 +22,22 @@ function form_template() { ?>
 			</div>
 			<?php endwhile; endif; ?>
 			<div class="col s12 m6 form-wrapper">
-				<?php echo the_field('sf-info-kit') ?>
+				<?php $post_object = get_field('sf_info_kit');
+					if( $post_object ): $post = $post_object; setup_postdata( $post ); 
+						echo do_shortcode($post_object); 
+						wp_reset_postdata(); endif; ?>
 			</div>
 		</div>
 	</div>
+	<script>
+		if(window.location.href.indexOf("get-quote/?") > -1) {
+			var url = window.location.href;
+			var productTitle = url.substring(url.indexOf("?") + 1);
+			productTitle = decodeURIComponent(productTitle);
+			console.log(productTitle);
+			jQuery( "h1.alt-title" ).html("Get Quote For " + productTitle);
+		}
+	</script>
 <?php }
 
 genesis();
