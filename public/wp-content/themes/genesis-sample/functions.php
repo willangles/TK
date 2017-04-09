@@ -171,7 +171,7 @@ function sp_custom_footer() {
     		<h5 class="tk-footer-link"><a href="/resources">Resources</a></h5>
 			<?php wp_nav_menu( array( 'theme_location' => 'footer-resources-menu', 'container_class' => 'footer-resources-menu' ) ); ?>
     	</div>
-    	<div class="col l2 m4 s12">
+    	<div class="col l2 m4 s12 contact-col">
     		<h5 class="tk-footer-link"><a href="/contact">Contact</a></h5>
 			<p><a href="https://goo.gl/maps/JpacJvcU4eu" target="_blank">1431 North Topping Avenue Kansas City, Missouri 64120</a></p>
 			<p><a href="/contact">info@timberking.com</a></p>

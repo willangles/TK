@@ -60,6 +60,11 @@ $top-footer-height: 75px;
                 }
             }
         }
+        .contact-col {
+            @media screen and (max-width: 600px) {
+                margin-top: 1rem;
+            }
+        }
     }
     .row.site-credits {
         p {
