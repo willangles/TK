@@ -10934,6 +10934,7 @@ td.actions {
 .woocommerce-cart {
   padding-top: 4rem; }
 
+.page-template-front-page .breadcrumb,
 .woocommerce-page .breadcrumb {
   display: none; }
 
