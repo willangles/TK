@@ -206,3 +206,27 @@ $sub-nav-height: 125px;
         }
     }
 }
+
+.side-nav {
+    padding: 2rem;
+    .menu ul {
+        padding-top: 2rem;
+    }
+    .menu li {
+        padding: 1.5rem;
+    }
+    .menu li a {
+        padding: 0 !important;
+        height: auto !important;
+    }
+}
+.mobile-search {
+    max-width: 250px;
+    margin: 0 auto;
+    input {
+        &:after {
+            content: "";
+            display: none;
+        }
+    }
+}

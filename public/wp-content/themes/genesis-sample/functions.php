@@ -179,7 +179,7 @@ function sp_custom_footer() {
     </div>
     <div class="row site-credits">
     	<div class="col s12 m6">
-    		<p>&copy;  <?php echo do_shortcode('[year]'); ?>  TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="#">Terms and Conditions</a>.  <a href="#">Privacy Policy</a>.</p>
+    		<p>&copy;  <?php echo do_shortcode('[year]'); ?>  TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="/terms">Terms and Conditions</a>.  <a href="/privacy-policy">Privacy Policy</a>.</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
 			<a href="https://www.facebook.com/TimberKingSawmills" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/2.png"></a>
@@ -209,12 +209,10 @@ add_action( 'genesis_after_header', 'add_third_nav_genesis' );
 function add_third_nav_genesis() { 
 	echo '<div class="side-nav" id="mobile-demo">';
 	echo '<section id="woocommerce_product_search-2" class="widget woocommerce widget_product_search"><div class="widget-wrap">';
-	echo	'<form role="search" method="get" class="woocommerce-product-search" action="http://dev/">';
+	echo	'<form role="search" method="get" class="mobile-search woocommerce-product-search" action="/">';
 	echo    	'<label class="screen-reader-text active" for="woocommerce-product-search-field">Search for:</label>';
 	echo		'<input type="search" id="woocommerce-product-search-field" class="search-field" placeholder="Search Products…" value="" name="s" title="Search for:">';
-	echo		'<input type="submit" value="Search">';
-	echo		'<input type="hidden" name="post_type" value="product">';
-	echo 		'<i class="material-icons">search</i></form>';
+	echo		'<input type="hidden" name="post_type" value="product"></form>';
 	echo		'</div></section>';
 	wp_nav_menu( array( 'theme_location' => 'third-menu', 'container_class' => 'genesis-nav-menu' ) );
 	echo '</div>';

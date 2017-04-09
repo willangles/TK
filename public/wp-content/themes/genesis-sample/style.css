@@ -10294,6 +10294,23 @@ header.site-header {
           outline-color: transparent !important;
           transition: 0.2s ease-in-out all; }
 
+.side-nav {
+  padding: 2rem; }
+  .side-nav .menu ul {
+    padding-top: 2rem; }
+  .side-nav .menu li {
+    padding: 1.5rem; }
+  .side-nav .menu li a {
+    padding: 0 !important;
+    height: auto !important; }
+
+.mobile-search {
+  max-width: 250px;
+  margin: 0 auto; }
+  .mobile-search input:after {
+    content: "";
+    display: none; }
+
 .site-inner {
   max-width: 100%;
   padding-top: 7em; }
@@ -10804,7 +10821,8 @@ header.site-header {
       .archive.tax-product_cat .site-inner ul.products li.product {
         display: block !important;
         width: 100% !important;
-        float: none !important; } }
+        float: none !important;
+        margin: 0 auto !important; } }
     .post-type-archive-product .site-inner ul.products li.product h3,
     .archive.tax-product_cat .site-inner ul.products li.product h3 {
       font-family: 'Roboto', sans-serif;
