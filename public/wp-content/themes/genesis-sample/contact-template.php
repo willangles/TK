@@ -22,11 +22,9 @@ function form_template() { ?>
 			</div>
 			<?php endwhile; endif; ?>
 			<div class="col s12 m6 form-wrapper">
-				<?php $post_object = get_field('contact_form');
+				<?php $post_object = get_field('sf_info_kit');
 					if( $post_object ): $post = $post_object; setup_postdata( $post ); 
-						$post_id = get_the_ID($post_object->ID);
-						$post_title = get_the_title($post_object->ID);
-						echo do_shortcode('[contact-form-7 id="' . $post_id .'" title="' . $post_title . '"]'); 
+						echo do_shortcode($post_object); 
 						wp_reset_postdata(); endif; ?>
 			</div>
 		</div>
