@@ -10912,6 +10912,9 @@ td.actions {
 .woocommerce-cart {
   padding-top: 4rem; }
 
+.woocommerce-page .breadcrumb {
+  display: none; }
+
 .page-template-mill-types {
   background: #fff; }
   .page-template-mill-types section {
