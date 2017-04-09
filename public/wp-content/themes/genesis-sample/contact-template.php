@@ -35,7 +35,8 @@ function form_template() { ?>
 			var productTitle = url.substring(url.indexOf("?") + 1);
 			productTitle = decodeURIComponent(productTitle);
 			console.log(productTitle);
-			jQuery( "h1.alt-title" ).html("Get Quote For " + productTitle);
+			// jQuery( "form.w2llead .sf_field_sawmill_type #sf_sawmill_type" ).val("productTitle");
+			jQuery( "form.w2llead .sf_field_sawmill_type #sf_sawmill_type option[value='productTitle'" ).prop('selected', true);
 		}
 	</script>
 <?php }
