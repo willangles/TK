@@ -44,10 +44,7 @@ function my_custom_loop () {
  			<!-- Triggered Icon Boxes -->
 			<div id="icon-one-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
-					<div class="col s12 m3 valign">
-						<img src="wp-content/themes/genesis-sample/images/asset1.svg">
-					</div>
-					<div class="col s12 m9 valign">
+					<div class="col s12 valign">
 						<h3><?php the_field('icon_1_title'); ?></h3>
 						<p><?php the_field('icon_1_copy_expanded'); ?></p>
 					</div>
@@ -55,10 +52,7 @@ function my_custom_loop () {
 			</div>
 			<div id="icon-two-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
-					<div class="col s12 m3 valign">
-						<img src="wp-content/themes/genesis-sample/images/asset2.svg">
-					</div>
-					<div class="col s12 m9 valign">
+					<div class="col s12 valign">
 						<h3><?php the_field('icon_2_title'); ?></h3>
 						<p><?php the_field('icon_2_copy_expanded'); ?></p>
 					</div>
@@ -66,10 +60,7 @@ function my_custom_loop () {
 			</div>
 			<div id="icon-three-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
-					<div class="col s12 m3 valign">
-						<img src="wp-content/themes/genesis-sample/images/asset3.svg">
-					</div>
-					<div class="col s12 m9 valign">
+					<div class="col s12 valign">
 						<h3><?php the_field('icon_3_title'); ?></h3>
 						<p><?php the_field('icon_3_copy_expanded'); ?></p>
 					</div>
@@ -77,10 +68,7 @@ function my_custom_loop () {
 			</div>
 			<div id="icon-four-trigger" class="s12 hidden icon-trigger">
 				<div class="row valign-wrapper">
-					<div class="col s12 m3 valign">
-						<img src="wp-content/themes/genesis-sample/images/asset4.svg">
-					</div>
-					<div class="col s12 m9 valign">
+					<div class="col s12 valign">
 						<h3><?php the_field('icon_4_title'); ?></h3>
 						<p><?php the_field('icon_4_copy_expanded'); ?></p>
 					</div>
