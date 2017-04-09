@@ -38,6 +38,9 @@
     }
     .info-panel-to-show.info-panel-show {
         display: block;
+        h2 {
+            margin-top: 1.5rem !important;
+        }
     }
     .overview-item,
     .spec-item {
@@ -191,9 +194,11 @@ a[id^="tk-product-"] {
 .archive .woocommerce-message {
     display: none;
 }
+
 .woocommerce .content {
     position: relative;
 }
+
 .woocommerce .wc-product-bg {
     position: relative;
     height: 300px;
@@ -204,7 +209,7 @@ a[id^="tk-product-"] {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    @include bp(md){
+    @include bp(md) {
         position: absolute;
         height: 100vh;
         width: 100vw;

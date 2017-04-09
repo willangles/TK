@@ -106,6 +106,7 @@ serif;
                     .info-panel-to-show {
                         display: none;
                         //padding-top:30px;
+                        padding-top: 1.5rem;
                         p {
                             font-size: 14px;
                             margin: 3px;
@@ -124,6 +125,9 @@ serif;
                     }
                     .info-panel-show {
                         display: block;
+                        h2 {
+                            margin-top: 1.5rem !important;
+                        }
                     }
                     .notice {
                         font-size: 14px;
