@@ -238,7 +238,7 @@ function custom_site_title() {
 function sButton($atts, $content = null) {
    extract(shortcode_atts(array('link' => '#'), $atts));
    extract(shortcode_atts(array('class' => '#'), $atts));
-   return '<button class="waves-effect waves-light btn button '.$class.'" href="'.$link.'"><span>' . do_shortcode($content) . '</span></button>';
+   return '<a class="waves-effect waves-light btn button '.$class.'" href="'.$link.'"><span>' . do_shortcode($content) . '</span></a>';
 }
 add_shortcode('button', 'sButton');
 
