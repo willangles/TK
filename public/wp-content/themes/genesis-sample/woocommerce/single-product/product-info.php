@@ -20,6 +20,8 @@
 					<p class="spec-item"><strong>Machine Width</strong><span><?php the_field('machine_width'); ?></span></p>
 					<p class="spec-item"><strong>Machine Length</strong><span><?php the_field('machine_length'); ?></span></p>
 					<p class="spec-item"><strong>Blade Clutch</strong><span><?php the_field('blade_clutch'); ?></span></p>
+					<p class="spec-item"><strong>Power Core</strong><span><?php the_field('power_core'); ?></span></p>
+					<p class="spec-item"><strong>Control Height from Ground</strong><span><?php the_field('control_height'); ?></span></p>
 					<p class="spec-item"><strong>Moveable Guide Roller</strong><span><?php the_field('moveable_guide_roller'); ?></span></p>
 					<p class="spec-item"><strong>Command Post</strong><span><?php the_field('command_post'); ?></span></p>
 					<p class="spec-item"><strong>Direct-Action Hydraulic System</strong><span><?php the_field('direct-action_hydraulics'); ?></span></p>
