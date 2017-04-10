@@ -7933,8 +7933,8 @@ button.picker__close:focus {
         border-bottom: 0px solid transparent; }
         .wc-custom-wrapper .wc-product-description li .collapsible-header p {
           text-align: center;
-          color: #666;
-          font-size: 1.3rem; }
+          color: #000;
+          font-weight: 300; }
       .wc-custom-wrapper .wc-product-description li .collapsible-body {
         background: transparent;
         border-bottom: 0px solid transparent; }
@@ -12719,5 +12719,3 @@ p {
   display: block; }
 .wc-product-description li.active .collapsible-header.active .trimmed {
   display: none; }
-
-/*# sourceMappingURL=style.css.map */
