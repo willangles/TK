@@ -102,7 +102,7 @@ $sub-nav-height: 125px;
                             span {
                                 color: white;
                                 font-family: $slab;
-                                font-size: 1.6em;
+                                font-size: 1.3em;
                                 font-weight: 900;
                                 letter-spacing: 0;
                                 @include t(0.2s);
@@ -230,6 +230,7 @@ $sub-nav-height: 125px;
         }
     }
 }
+
 .nav-primary .wrap ul.genesis-nav-menu {
     li.current-menu-item ul.sub-menu li.menu-item a,
     li.current-menu-item ul.sub-menu li.menu-item a span {
