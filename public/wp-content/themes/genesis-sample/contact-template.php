@@ -30,6 +30,26 @@ function form_template() { ?>
 		</div>
 	</div>
 	<script>
+		if(window.location.href.indexOf("get-financed") > -1) {
+			jQuery('input.submit').submit(){
+				openDialog();
+			}
+			function openDialog(){
+				swal({
+					title: "Success!",
+					text: "Your form has been submitted, download an application below!",
+					type: "success",
+					showCancelButton: true,
+					cancelButtonText: "No Thanks",
+					confirmButtonText: "Download Application",
+					confirmButtonColor: "#dc2c00"
+				},
+				function(isConfirm){
+					if (isConfirm) {
+						window.location = "/wp-content/uploads/credit_app_TK.pdf";
+				});
+			}
+		}
 		if(window.location.href.indexOf("get-quote/?") > -1) {
 			var url = window.location.href;
 			var productTitle = url.substring(url.indexOf("?") + 1);
