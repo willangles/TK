@@ -161,7 +161,7 @@ p {
 
 // REMOVE
 #wpadminbar {
-   // display: none;
+    // display: none;
 }
 
 .red {
@@ -174,3 +174,15 @@ p {
     color: $black !important;
 }
 
+.wc-product-description {
+    li {
+        .trimmed {
+            display: block;
+        }
+        &:active {
+            .trimmed {
+                display: none;
+            }
+        }
+    }
+}

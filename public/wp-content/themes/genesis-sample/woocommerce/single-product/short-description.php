@@ -33,7 +33,7 @@ $content = apply_filters( 'woocommerce_short_description', $post->post_excerpt )
 	<div class="collapsible-header">
 		<?php the_title( '<h1 itemprop="name" class="wc-product-title product_title entry-title">', ' Info</h1>' ); ?>
 		<?php $content = wp_trim_words( $content, 50 ); ?>
-		<p><?php echo $content ?></p>
+		<p class="trimmed"><?php echo $content ?></p>
 		<p>Click to Learn More</p>
 	</div>
 	<div class="collapsible-body">

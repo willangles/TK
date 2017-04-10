@@ -10240,7 +10240,7 @@ header.site-header {
               .nav-primary .wrap ul.genesis-nav-menu li ul.sub-menu li.menu-item a span {
                 color: white;
                 font-family: "Roboto Slab", serif;
-                font-size: 1.6em;
+                font-size: 1.3em;
                 font-weight: 900;
                 letter-spacing: 0;
                 transition: 0.2s ease-in-out all; }
@@ -12715,4 +12715,7 @@ p {
   background: #f7b827 !important;
   color: #000000 !important; }
 
-/*# sourceMappingURL=style.css.map */
+.wc-product-description li .trimmed {
+  display: block; }
+.wc-product-description li:active .trimmed {
+  display: none; }
