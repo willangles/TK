@@ -12717,5 +12717,5 @@ p {
 
 .wc-product-description li .trimmed {
   display: block; }
-.wc-product-description li:active .trimmed {
+.wc-product-description li.active .trimmed {
   display: none; }

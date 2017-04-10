@@ -179,7 +179,7 @@ p {
         .trimmed {
             display: block;
         }
-        &:active {
+        &.active {
             .trimmed {
                 display: none;
             }
