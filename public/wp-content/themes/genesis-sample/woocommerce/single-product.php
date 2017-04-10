@@ -27,6 +27,19 @@ global $post;
 
 $type = get_field('product_type');
 
+function woo_custom_taxonomy_in_body_class( $classes ){
+  if( is_singular( 'product' ) )
+  {
+    $custom_terms = get_the_terms(0, 'product_cat');
+    if ($custom_terms) {
+      foreach ($custom_terms as $custom_term) {
+        $classes[] = 'product_cat_' . $custom_term->slug;
+      }
+    }
+  }
+  return $classes;
+}
+add_filter( 'body_class', 'woo_custom_taxonomy_in_body_class' );
 
 get_header( 'shop' ); ?>
 
@@ -113,4 +126,7 @@ get_header( 'shop' ); ?>
 			jQuery(this).addClass('active');
 		});
 	});
+	if( jQuery("body").hasClass("product_cat_portable-sawmills")){
+		jQuery(".woocommerce-breadcrumb a")[1].href="/timberking-portable-saw-mills/"; 
+	}
 	</script>
