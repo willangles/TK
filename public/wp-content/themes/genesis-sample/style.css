@@ -7826,7 +7826,8 @@ button.picker__close:focus {
     display: inline;
     margin-left: 8px;
     font-size: 14px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    cursor: pointer; }
     .wc-custom-wrapper .info-panel a {
       color: #FFFFFF;
       text-decoration: none;
@@ -10061,7 +10062,7 @@ div.col.feature-box {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.2); }
   #fpSplash .valign {
     position: relative;
     z-index: 100; }
@@ -10615,7 +10616,8 @@ header.site-header {
     display: inline;
     margin-left: 8px;
     font-size: 14px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    cursor: pointer; }
     .tk-product .product-master-wrapper .product-info-wrapper ul.product-info-nav li.info-panel a {
       color: #FFFFFF;
       text-decoration: none;
@@ -10826,6 +10828,9 @@ header.site-header {
 
 .wc_payment_methods li {
   list-style: none !important; }
+
+p.return-to-shop .wc-backward {
+  line-height: 2.5 !important; }
 
 .onsale {
   line-height: 2.75 !important; }
