@@ -179,7 +179,9 @@ p {
         .trimmed {
             display: block;
         }
-        &.active {
+    }
+    li.active {
+        .collapsible-header.active {
             .trimmed {
                 display: none;
             }

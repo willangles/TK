@@ -34,7 +34,7 @@ $content = apply_filters( 'woocommerce_short_description', $post->post_excerpt )
 		<?php the_title( '<h1 itemprop="name" class="wc-product-title product_title entry-title">', ' Info</h1>' ); ?>
 		<?php $content = wp_trim_words( $content, 50 ); ?>
 		<p class="trimmed"><?php echo $content ?></p>
-		<p>Click to Learn More</p>
+		<p class="trimmed">Click to Learn More</p>
 	</div>
 	<div class="collapsible-body">
 		<?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ) ?>
