@@ -155,14 +155,14 @@ function sp_custom_footer() {
     		<ul>
                 <div class="row">
                     <div class="col l4 m6 s12">
-                        <li><a href="http://timberking.msaavedra.com/product/timberking-2500/">2500</a></li>
-                        <li><a href="http://timberking.msaavedra.com/product/timberking-2200/">2200</a></li>
-						<li><a href="http://timberking.msaavedra.com/product/timberking-2000/">2000</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-1220/">1220</a></li>
+						<li><a href="http://timberking.msaavedra.com/product/timberking-1400/">1400</a></li>
+						<li><a href="http://timberking.msaavedra.com/product/timberking-1600/">1600</a></li>
                     </div>
                     <div class="col l4 m6 s12">
-                        <li><a href="http://timberking.msaavedra.com/product/timberking-1600/">1600</a></li>
-                        <li><a href="http://timberking.msaavedra.com/product/timberking-1400/">1400</a></li>
-                        <li><a href="http://timberking.msaavedra.com/product/timberking-1220/">1220</a></li>
+                        <li><a href="http://timberking.msaavedra.com/product/timberking-2000/">2000</a></li>
+						<li><a href="http://timberking.msaavedra.com/product/timberking-2200/">2200</a></li>
+						<li><a href="http://timberking.msaavedra.com/product/timberking-2500/">2500</a></li>
                     </div>
                 </div>
     		</ul>
@@ -179,7 +179,7 @@ function sp_custom_footer() {
     </div>
     <div class="row site-credits">
     	<div class="col s12 m6">
-    		<p>&copy;  <?php echo do_shortcode('[year]'); ?>  TimberKing Co. All Rights Reserved.  Use of the TimberKing websites and our Company Information constitutes acceptance of our <a href="/terms">Terms and Conditions</a>.  <a href="/privacy-policy">Privacy Policy</a>.</p>
+    		<p>&copy;  <?php echo do_shortcode('[year]'); ?></p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
 			<a href="https://www.facebook.com/TimberKingSawmills" target="_blank"><img src="http://timberking.msaavedra.com/wp-content/uploads/2.png"></a>
