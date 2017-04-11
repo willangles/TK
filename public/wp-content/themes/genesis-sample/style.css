@@ -10024,7 +10024,7 @@ li.comment {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.2); }
+    background-color: rgba(0, 0, 0, 0.5); }
 #front-page-stacks #fpFeatured a div.col article {
   background: rgba(255, 255, 255, 0.8); }
   #front-page-stacks #fpFeatured a div.col article h3 {
@@ -10068,7 +10068,7 @@ div.col.feature-box {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.2); }
   #fpSplash .valign {
     position: relative;
     z-index: 100; }
