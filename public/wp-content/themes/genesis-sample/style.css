@@ -9929,15 +9929,21 @@ li.comment {
     margin-left: 1rem;
     margin-bottom: 0;
     color: #dc2c00;
-    font-size: 2.5em; }
+    font-size: 4rem; }
   #front-page-stacks #fpPromo p {
     margin-left: 1rem;
     margin-bottom: 0;
     font-weight: 400;
-    font-size: 1.2em; }
+    font-size: 1.6rem; }
     #front-page-stacks #fpPromo p strong {
       margin-bottom: 0.5rem;
       display: block; }
+  #front-page-stacks #fpPromo .btn {
+    line-height: 4.5rem;
+    margin-top: 2rem; }
+  @media (min-width: 50em) {
+    #front-page-stacks #fpPromo .col {
+      padding: 4rem 2rem; } }
   @media (max-width: 37.5em) {
     #front-page-stacks #fpPromo {
       min-height: 0 !important; }
@@ -10062,7 +10068,7 @@ div.col.feature-box {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.2); }
+    background: rgba(0, 0, 0, 0.5); }
   #fpSplash .valign {
     position: relative;
     z-index: 100; }
@@ -10147,10 +10153,6 @@ header.site-header {
   .header-container-scrolled header.site-header {
     min-height: 0;
     transition: 0.2s ease-in-out all; }
-
-.nav-cart-icon {
-  font-size: 2rem;
-  vertical-align: middle; }
 
 .nav-primary {
   background: #dc2c00;
@@ -11056,6 +11058,9 @@ div.col.mill-content {
   color: #FFFFFF;
   text-decoration: none;
   padding-left: 1rem; }
+  @media (max-width: 37.5em) {
+    .utility-bar a {
+      padding-left: 0; } }
 
 .utility-bar a:hover {
   text-decoration: underline; }
@@ -11069,7 +11074,7 @@ div.col.mill-content {
   float: left; }
   @media (max-width: 37.5em) {
     .utility-bar-left {
-      display: none; } }
+      width: 45% !important; } }
 
 .utility-bar-left p,
 .utility-bar-right p {
@@ -11082,8 +11087,7 @@ div.col.mill-content {
   text-align: right; }
   @media (max-width: 37.5em) {
     .utility-bar-right {
-      float: none !important;
-      width: 100% !important; } }
+      width: 55% !important; } }
   .utility-bar-right section {
     float: right; }
   .utility-bar-right .widget_product_search {
@@ -11133,6 +11137,13 @@ div.col.mill-content {
         color: transparent !important; }
       .utility-bar-right .widget_product_search form input:-ms-input-placeholder {
         color: transparent !important; }
+
+.nav-cart-icon {
+  font-size: 2rem;
+  vertical-align: middle; }
+  @media (max-width: 37.5em) {
+    .nav-cart-icon {
+      font-size: 1rem; } }
 
 @media screen and (max-width: 1201px) {
   .widget_product_search {
@@ -12719,3 +12730,5 @@ p {
   display: block; }
 .wc-product-description li.active .collapsible-header.active .trimmed {
   display: none; }
+
+/*# sourceMappingURL=style.css.map */
