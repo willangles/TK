@@ -12,9 +12,6 @@
 					<p class="spec-item"><strong>Cutting Head</strong><span><?php the_field('cutting_head'); ?></span></p>
 					<p class="spec-item"><strong>Cutting Deck</strong><span><?php the_field('cutting_deck'); ?></span></p>
 					<p class="spec-item"><strong>Power Core</strong><span><?php the_field('power_core'); ?></span></p>
-					<p class="spec-item"><strong>Blade Clutch</strong><span><?php the_field('blade_clutch'); ?></span></p>
-					<p class="spec-item"><strong>Control Height</strong><span><?php the_field('control_height'); ?></span></p>
-					<p class="spec-item"><strong>Moveable Guide Roller</strong><span><?php the_field('moveable_guide'); ?></span></p>
 					<p class="spec-item"><strong>Standard Motor</strong><span><?php the_field('standard_motor'); ?></span></p>
 					<p class="spec-item"><strong>Machine Weight</strong><span><?php the_field('machine_weight'); ?></span></p>
 					<p class="spec-item"><strong>Max Log Diameter</strong><span><?php the_field('max_log_diameter'); ?></span></p>
