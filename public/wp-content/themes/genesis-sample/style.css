@@ -7989,6 +7989,9 @@ a[id^="tk-product-"] {
       top: 16rem;
       left: 0; } }
 
+.single-product.postid-168 .hide-1220 {
+  display: none; }
+
 .woocommerce main.content {
   padding: 1em 2em; }
 .woocommerce ul.products {
@@ -10024,7 +10027,7 @@ li.comment {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.2); }
 #front-page-stacks #fpFeatured a div.col article {
   background: rgba(255, 255, 255, 0.8); }
   #front-page-stacks #fpFeatured a div.col article h3 {
@@ -12730,3 +12733,5 @@ p {
   display: block; }
 .wc-product-description li.active .collapsible-header.active .trimmed {
   display: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -12,6 +12,9 @@
 					<p class="spec-item"><strong>Cutting Head</strong><span><?php the_field('cutting_head'); ?></span></p>
 					<p class="spec-item"><strong>Cutting Deck</strong><span><?php the_field('cutting_deck'); ?></span></p>
 					<p class="spec-item"><strong>Power Core</strong><span><?php the_field('power_core'); ?></span></p>
+					<p class="spec-item"><strong>Blade Clutch</strong><span><?php the_field('blade_clutch'); ?></span></p>
+					<p class="spec-item"><strong>Control Height</strong><span><?php the_field('control_height'); ?></span></p>
+					<p class="spec-item"><strong>Moveable Guide Roller</strong><span><?php the_field('moveable_guide'); ?></span></p>
 					<p class="spec-item"><strong>Standard Motor</strong><span><?php the_field('standard_motor'); ?></span></p>
 					<p class="spec-item"><strong>Machine Weight</strong><span><?php the_field('machine_weight'); ?></span></p>
 					<p class="spec-item"><strong>Max Log Diameter</strong><span><?php the_field('max_log_diameter'); ?></span></p>
@@ -26,14 +29,14 @@
 					<p class="spec-item"><strong>Control Height from Ground</strong><span><?php the_field('control_height'); ?></span></p>
 					<p class="spec-item"><strong>Moveable Guide Roller</strong><span><?php the_field('moveable_guide_roller'); ?></span></p>
 					<p class="spec-item"><strong>Command Post</strong><span><?php the_field('command_post'); ?></span></p>
-					<p class="spec-item"><strong>Direct-Action Hydraulic System</strong><span><?php the_field('direct-action_hydraulics'); ?></span></p>
+					<p class="spec-item hide-1220"><strong>Direct-Action Hydraulic System</strong><span><?php the_field('direct-action_hydraulics'); ?></span></p>
 					<p class="spec-item"><strong>Feed System</strong><span><?php the_field('feed_system'); ?></span></p>
 					<p class="spec-item"><strong>Blade Up/Down</strong><span><?php the_field('blade_up/down'); ?></span></p>
-					<p class="spec-item"><strong>Bi-Directional Chain Log Turner</strong><span><?php the_field('chain_log'); ?></span></p>
+					<p class="spec-item hide-1220"><strong>Bi-Directional Chain Log Turner</strong><span><?php the_field('chain_log'); ?></span></p>
 					<p class="spec-item"><strong>Log Stops</strong><span><?php the_field('log_stops'); ?> </span></p>
 					<p class="spec-item"><strong>Log Clamp</strong><span><?php the_field('log_clamp'); ?></span></p>
 					<p class="spec-item"><strong>Highway Transport</strong><span><?php the_field('highway_transport'); ?></span></p>
-					<p class="spec-item"><strong>Fine Adjust Outriggers</strong><span><?php the_field('fine_adjust_outriggers'); ?></span></p>
+					<p class="spec-item hide-1220"><strong>Fine Adjust Outriggers</strong><span><?php the_field('fine_adjust_outriggers'); ?></span></p>
 					<p class="spec-item"><strong>Money-Back Guarantee</strong><span><?php the_field('money-back_guarantee'); ?></span></p>
 					<p class="spec-item"><strong>Warranty</strong><span><?php the_field('warranty'); ?></span></p>
 					<p class="spec-item"><strong>Cutting Deck Warranty</strong><span><?php the_field('cutting_deck_warranty'); ?></p>
