@@ -142,7 +142,7 @@ function sp_custom_footer() {
 
     <div class="row top-footer">
     	<div class="col l2 m6 s12 footer-logo top-footer">
-    		<img src="http://timberking.com/wp-content/uploads/footer-logo.png">
+    		<img src="https://timberking.com/wp-content/uploads/footer-logo.png">
     	</div>
     	<div class="col l2 m6 s12 offset-l8 top-footer">
     		<h5 style="line-height: 75px;"><a href="tel:8009424406">800-942-4406</a></h5>
@@ -151,18 +151,18 @@ function sp_custom_footer() {
     <div class="row">
     	<div class="col l2 m4 s12 hide-on-med-and-down"></div>
     	<div class="col l2 m4 s12">
-    		<h5><a href="http://timberking.com/timberking-portable-saw-mills/">Portable Sawmills</a></h5>
+    		<h5><a href="https://timberking.com/timberking-portable-saw-mills/">Portable Sawmills</a></h5>
     		<ul>
                 <div class="row">
                     <div class="col l4 m6 s12">
-                        <li><a href="http://timberking.com/product/timberking-1220/">1220</a></li>
-						<li><a href="http://timberking.com/product/timberking-1400/">1400</a></li>
-						<li><a href="http://timberking.com/product/timberking-1600/">1600</a></li>
+                        <li><a href="https://timberking.com/product/timberking-1220/">1220</a></li>
+						<li><a href="https://timberking.com/product/timberking-1400/">1400</a></li>
+						<li><a href="https://timberking.com/product/timberking-1600/">1600</a></li>
                     </div>
                     <div class="col l4 m6 s12">
-                        <li><a href="http://timberking.com/product/timberking-2000/">2000</a></li>
-						<li><a href="http://timberking.com/product/timberking-2200/">2200</a></li>
-						<li><a href="http://timberking.com/product/timberking-2500/">2500</a></li>
+                        <li><a href="https://timberking.com/product/timberking-2000/">2000</a></li>
+						<li><a href="https://timberking.com/product/timberking-2200/">2200</a></li>
+						<li><a href="https://timberking.com/product/timberking-2500/">2500</a></li>
                     </div>
                 </div>
     		</ul>
@@ -182,7 +182,7 @@ function sp_custom_footer() {
     		<p>&copy;  <?php echo do_shortcode('[year]'); ?>TimberKing Portable Sawmills</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
-			<a href="https://www.facebook.com/TimberKingSawmills" target="_blank"><img src="http://timberking.com/wp-content/uploads/2.png"></a>
+			<a href="https://www.facebook.com/TimberKingSawmills" target="_blank"><img src="https://timberking.com/wp-content/uploads/2.png"></a>
     	</div>
     </div>
 
@@ -230,7 +230,7 @@ remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
 add_action('genesis_site_title','custom_site_title');
 function custom_site_title() {
 	echo '<div class="site-title">';
-	echo '<a href="/"><img src="http://timberking.com/wp-content/uploads/2017/02/logo.png"></a>';
+	echo '<a href="/"><img src="https://timberking.com/wp-content/uploads/2017/02/logo.png"></a>';
 	echo '</div>';
 }
 
