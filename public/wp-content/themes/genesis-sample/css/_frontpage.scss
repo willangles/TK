@@ -30,7 +30,7 @@ $white: #FFFFFF;
     }
     section {}
     #fpSplash {
-        background: url('http://timberking.msaavedra.com/wp-content/uploads/header-img-1-e1488998272992.jpg') no-repeat center center;
+        background: url('https://timberking.msaavedra.com/wp-content/uploads/header-img-1-e1488998272992.jpg') no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -143,12 +143,12 @@ $white: #FFFFFF;
             line-height: 4.5rem;
             margin-top: 2rem;
         }
-        @include bp(md){
+        @include bp(md) {
             .col {
                 padding: 4rem 2rem;
             }
         }
-        @include bp(xs){
+        @include bp(xs) {
             min-height: 0 !important;
             .col {
                 min-height: 0 !important;
@@ -217,7 +217,7 @@ $white: #FFFFFF;
             color: $white;
             z-index: 5;
             position: relative;
-            @include bp(xs){
+            @include bp(xs) {
                 font-size: 1.5rem;
             }
         }
@@ -290,6 +290,7 @@ div.col.feature-box {
         }
     }
 }
+
 #fpSplash {
     position: relative;
     &:after {
@@ -300,13 +301,13 @@ div.col.feature-box {
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(0,0,0,.2);
+        background: rgba(0, 0, 0, .2);
     }
     .valign {
         position: relative;
         z-index: 100;
     }
-    @include bp(xs){
+    @include bp(xs) {
         h2 {
             font-size: 5rem !important;
         }
