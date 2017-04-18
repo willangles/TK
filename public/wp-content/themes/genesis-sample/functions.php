@@ -264,3 +264,46 @@ function woocommerce_category_image() {
 		}
 	}
 }
+
+add_action('wp_head', 'wpse_43672_wp_head');
+function wpse_43672_wp_head(){
+    ?>
+	<script type="text/javascript">
+		(function(a,e,c,f,g,h,b,d){var k={ak:"1072544920",cl:"oHGACNHFrHAQmPm2_wM",autoreplace:"800-942-4406"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[g]||(a[g]=k.ak);b=e.createElement(h);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(h)[0];d.parentNode.insertBefore(b,d);a[f]=function(b,d,e){a[c](2,b,k,d,null,new Date,e)};a[f]()})(window,document,"_googWcmImpl","_googWcmGet","_googWcmAk","script");
+	</script>
+    <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-34946466-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+    <?php
+}
+
+add_action('genesis_after','genessee_tracking_info');
+function genessee_tracking_info(){
+	?>
+		<!-- Google Code for Signup Conversion Page -->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 1072544920;
+		var google_conversion_language = "en";
+		var google_conversion_format = "1";
+		var google_conversion_color = "ffffff";
+		var google_conversion_label = "ZE0ECOLNUhCY-bb_Aw";
+		var google_conversion_value = 1.00;
+		var google_conversion_currency = "USD";
+		var google_remarketing_only = false;
+		/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+			<div style="display:inline;">
+				<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1072544920/?value=1.00&amp;currency_code=USD&amp;label=ZE0ECOLNUhCY-bb_Aw&amp;guid=ON&amp;script=0"/>
+			</div>
+		</noscript>
+	<?php
+}
+
