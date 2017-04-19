@@ -154,7 +154,7 @@ $sub-nav-height: 125px;
     background-image: url(https://timberking.com/wp-content/uploads/woodbg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 9999;
+    z-index: 9998;
     @include t(0.2s);
     .widget_product_search {
         display: block !important;
