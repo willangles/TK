@@ -182,6 +182,7 @@ function sp_custom_footer() {
     		<p>&copy;  <?php echo do_shortcode('[year]'); ?> TimberKing Portable Sawmills</p>
     	</div>
     	<div class="col s12 m6 offset-m6 social-media-icons ">
+			<a href="https://www.youtube.com/user/timberkingsawmills" target="_blank"><img src="https://timberking.com/wp-content/uploads/yt.png"></a>
 			<a href="https://www.facebook.com/TimberKingSawmills" target="_blank"><img src="https://timberking.com/wp-content/uploads/2.png"></a>
     	</div>
     </div>
