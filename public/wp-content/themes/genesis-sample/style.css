@@ -10275,7 +10275,7 @@ header.site-header {
   background-image: url(https://timberking.com/wp-content/uploads/woodbg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 9999;
+  z-index: 9998;
   transition: 0.2s ease-in-out all; }
   .side-nav .widget_product_search {
     display: block !important; }
