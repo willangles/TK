@@ -47,10 +47,10 @@ function product_highlight() { ?>
 			</div>
 			
 			<div class="row featured-extra-images">
-				<div class="col s3"><img src="http://timberking.msaavedra.com/wp-content/uploads/icon1.jpg"></div>
-				<div class="col s3"><img src="http://timberking.msaavedra.com/wp-content/uploads/icon2.jpg"></div>
-				<div class="col s3"><img src="http://timberking.msaavedra.com/wp-content/uploads/icon3.jpg"></div>
-				<div class="col s3"><img src="http://timberking.msaavedra.com/wp-content/uploads/icon4.jpg"></div>
+				<div class="col s3"><img src="http://timberking.com/wp-content/uploads/icon1.jpg"></div>
+				<div class="col s3"><img src="http://timberking.com/wp-content/uploads/icon2.jpg"></div>
+				<div class="col s3"><img src="http://timberking.com/wp-content/uploads/icon3.jpg"></div>
+				<div class="col s3"><img src="http://timberking.com/wp-content/uploads/icon4.jpg"></div>
 			</div>
 		</div><!-- Product Main Wrapper -->
 		<div class="product-info-wrapper">
@@ -91,7 +91,7 @@ function product_highlight() { ?>
 						<p><strong>Cutting Deck Warranty</strong><span> 5 Year Limited</span></p><hr>
 					</div>
 					<div id="features" class="info-panel-to-show">
-						<img src="http://timberking.msaavedra.com/wp-content/uploads/head.gif" class="responsive-img">
+						<img src="http://timberking.com/wp-content/uploads/head.gif" class="responsive-img">
 					</div>
 					<div id="specs" class="info-panel-to-show">
 						<h2>Specifications</h2>
@@ -157,10 +157,10 @@ function product_highlight() { ?>
 				<div class="col s12 m12 l4">
 					<div class="product-video-wrap">
 						<div>
-							<img src="http://timberking.msaavedra.com/wp-content/uploads/Screen-Shot-2017-02-23-at-10.47.51-PM.png">
+							<img src="http://timberking.com/wp-content/uploads/Screen-Shot-2017-02-23-at-10.47.51-PM.png">
 						</div>
 						<div>
-							<img src="http://timberking.msaavedra.com/wp-content/uploads/Screen-Shot-2017-02-23-at-10.48.04-PM.png">
+							<img src="http://timberking.com/wp-content/uploads/Screen-Shot-2017-02-23-at-10.48.04-PM.png">
 						</div>
 					</div>
 				</div>
