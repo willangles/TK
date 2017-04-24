@@ -266,7 +266,7 @@ function woocommerce_category_image() {
 	}
 }
 
-add_action('wp_head', 'wpse_43672_wp_head');
+/*add_action('wp_head', 'wpse_43672_wp_head');
 function wpse_43672_wp_head(){
     ?>
 	<script type="text/javascript">
@@ -281,7 +281,7 @@ function wpse_43672_wp_head(){
 		ga('send', 'pageview');
 	</script>
     <?php
-}
+}*/
 
 if(is_page_template('contact-template.php')){
 	add_action('genesis_after','genessee_tracking_info');
