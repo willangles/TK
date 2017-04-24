@@ -14,9 +14,9 @@
 					<p class="spec-item"><strong>Feed Speed</strong><span><?php the_field('t9_feed_speed'); ?></span></p>
 					<p class="spec-item"><strong>Horsepower</strong><span><?php the_field('t9_horsepower'); ?></span></p>
 					<p class="spec-item"><strong>Table Height</strong><span><?php the_field('t9_table_height'); ?></span></p>
-					<p class="spec-item"><strong>Edger Height</strong><span><?php the_field('t9_edger_length'); ?></span></p>
-					<p class="spec-item"><strong>Conveyor Length (infeed)</strong><span><?php the_field('t9_conveyor_length_in'); ?></span></p>
-					<p class="spec-item"><strong>Conveyor Length (outfeed)</strong><span><?php the_field('t9_conveyor_length_out'); ?></span></p>
+					<p class="spec-item"><strong>Edger Length</strong><span><?php the_field('t9_edger_length'); ?></span></p>
+					<p class="spec-item"><strong>Conveyor Length (Infeed)</strong><span><?php the_field('t9_conveyor_length_in'); ?></span></p>
+					<p class="spec-item"><strong>Conveyor Length (Outfeed)</strong><span><?php the_field('t9_conveyor_length_out'); ?></span></p>
 					<p class="spec-item"><strong>Weight</strong><span><?php the_field('t9_weight'); ?></span></p>
 					<?php endif; ?>
 				<?php if(get_field('product_type') == 'Talon-R'): ?>
