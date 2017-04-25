@@ -1,4 +1,4 @@
-<?php if(get_field('product_type') != 'Product'): ?>
+<?php if(get_field('product_type') != ('Product' || 'Talon900' )): ?>
 <div class="row">
     <div class="wc-product-img col s12 m12 l6">
         <?php the_post_thumbnail( 'full' ); ?>
