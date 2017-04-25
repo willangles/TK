@@ -12721,6 +12721,10 @@ p {
 #mill-types-header {
   display: none !important; }
 
+body.product_cat_edgers .wc-product-bg {
+  background-size: 88% !important;
+  background-position: 0 100% !important; }
+
 .red {
   background: #dc2c00 !important;
   color: #f7b827 !important; }
