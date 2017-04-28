@@ -79,7 +79,7 @@ function my_custom_loop () {
                   <div class="mill-type type-1220"><img src="<?php the_field('focus1220_image'); ?>"></div>
               </div>
               <div class="col s12">
-                  <h3 class="mill-type type-1400"><?php the_field('focus1220_headline'); ?></h3>
+                  <h3 class="mill-type type-1220"><?php the_field('focus1220_headline'); ?></h3>
               </div>
           </div>
       </div>
@@ -100,7 +100,7 @@ function my_custom_loop () {
                   <div class="mill-type type-1600"><img src="<?php the_field('focus1600_image'); ?>"></div>
               </div>
               <div class="col s12">
-                  <h3 class="mill-type type-1400"><?php the_field('focus1600_headline'); ?></h3>
+                  <h3 class="mill-type type-1600"><?php the_field('focus1600_headline'); ?></h3>
               </div>
           </div>
       </div>
@@ -110,7 +110,7 @@ function my_custom_loop () {
                   <div class="mill-type type-2000"><img src="<?php the_field('focus2000_image'); ?>"></div>
               </div>
               <div class="col s12">
-                  <h3 class="mill-type type-1400"><?php the_field('focus2000_headline'); ?></h3>
+                  <h3 class="mill-type type-2000"><?php the_field('focus2000_headline'); ?></h3>
               </div>
           </div>
       </div>
@@ -121,7 +121,7 @@ function my_custom_loop () {
                   <div class="mill-type type-2200"><img src="<?php the_field('focus2200_image'); ?>"></div>
               </div>
               <div class="col s12">
-                  <h3 class="mill-type type-1400"><?php the_field('focus2200_headline'); ?></h3>
+                  <h3 class="mill-type type-2200"><?php the_field('focus2200_headline'); ?></h3>
               </div>
           </div>
       </div>
@@ -131,7 +131,7 @@ function my_custom_loop () {
                   <div class="mill-type type-2500"><img src="<?php the_field('focus2500_image'); ?>"></div>
               </div>
               <div class="col s12">
-                  <h3 class="mill-type type-1400"><?php the_field('focus2500_headline'); ?></h3>
+                  <h3 class="mill-type type-2500"><?php the_field('focus2500_headline'); ?></h3>
               </div>
           </div>
       </div>
