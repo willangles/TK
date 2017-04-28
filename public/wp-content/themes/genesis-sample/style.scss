@@ -164,6 +164,13 @@ p {
     // display: none;
 }
 
+body.product_cat_edgers {
+    .wc-product-bg {
+        background-size: 88% !important;
+        background-position: 0 100% !important;
+    }
+}
+
 .red {
     background: $red !important;
     color: $yellow !important;
