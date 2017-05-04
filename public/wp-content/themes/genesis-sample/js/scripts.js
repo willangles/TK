@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
     jQuery('#menu-item-451 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>World\'s toughest personal mill</p>');
     // Submenu 
     jQuery('#menu-item-614 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>23.5HP Industrial-Duty Resaw with Conveyor-Feed Grip</p>');
-    jQuery('#menu-item-615 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>27HP Industrial Duty Edger with Conveyor-Feed Grip</p>');
+    jQuery('#menu-item-615 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>23.5HP Industrial Duty Edger with Conveyor-Feed Grip</p>');
     jQuery('#menu-item-616 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Professional Grade Sharpener & Setter</p>');
     jQuery('#menu-item-617 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>4-in-1 Power for Tree-to-Trim Profits</p>');
     jQuery('#menu-item-618 a').append('<br class="clearfix"><br class="clearfix"><br class="clearfix"><p>Blades, Logging Tools and Apparel</p>');
