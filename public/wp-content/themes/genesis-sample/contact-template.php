@@ -39,25 +39,6 @@ function form_template() { ?>
 			jQuery( "form.w2llead .sf_field_Quote_Requested_for #sf_Quote_Requested_for option[value='" + productTitle +"'").prop('selected', true);
 		}
 	</script>
-	<!-- Google Code for Signup Conversion Page -->
-		<script type="text/javascript">
-			/* <![CDATA[ */
-			var google_conversion_id = 1072544920;
-			var google_conversion_language = "en";
-			var google_conversion_format = "1";
-			var google_conversion_color = "ffffff";
-			var google_conversion_label = "ZE0ECOLNUhCY-bb_Aw";
-			var google_conversion_value = 1.00;
-			var google_conversion_currency = "USD";
-			var google_remarketing_only = false;
-			/* ]]> */
-		</script>
-		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-		<noscript>
-			<div style="display:inline;">
-				<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1072544920/?value=1.00&amp;currency_code=USD&amp;label=ZE0ECOLNUhCY-bb_Aw&amp;guid=ON&amp;script=0"/>
-			</div>
-		</noscript>
 <?php }
 
 genesis();
